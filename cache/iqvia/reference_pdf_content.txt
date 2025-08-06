@@ -1,0 +1,1703 @@
+2024
+
+Sustainability
+
+Report
+
+Table of contents
+
+IQVIA 2024 Sustainability Report
+
+Introduction People Planet
+
+04 Letter from our CEO 29 Talent and learning 70 Emissions reduction
+
+07 About IQVIA 33 Connecting with our people 74 Implementing more sustainable
+
+research practices
+
+11 Our commitment to sustainability 35 Building community
+
+77 Operational waste
+
+37 Well-being and benefits
+
+Foundations 79 Water
+
+39 Supporting our communities
+
+79 Biodiversity
+
+42 Health and safety
+
+16 Governance
+
+18 Ethics and compliance
+
+Public Annex
+
+21 Data and data privacy
+
+24 Cybersecurity
+
+45 Smarter healthcare for everyone, 81 About this report
+
+26 Human rights everywhere
+
+82 GRI index
+
+26 Responsible procurement 48 Clinical trial quality, innovation,
+
+96 SASB index
+
+and access
+
+99 Appendix A
+
+52 Empowering patients
+
+54 Global public health
+
+62 Innovation and research
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Accelerating
+
+innovation for a
+
+healthier world.
+
+Introduction
+
+04 Letter from our CEO
+
+07 About IQVIA
+
+11 Our commitment to sustainability
+
+IQVIA Laboratories,
+
+Durham, U.S.
+
+IQVIA office, Tokyo, Japan
+
+3
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Investments in our employees important cause. Our employees also participated in
+
+our annual IQVIA Day, investing their time to provide
+
+IQVIA invests heavily in employee learning and
+
+support in their local communities, which included
+
+development so our employees can deliver on
+
+volunteering at orphanages, participating in waste
+
+our mission. Last year, we continued our focus on
+
+cleanup initiatives, providing support to local
+
+strengthening the skills of our employees so they
+
+residents dealing with food and resource insecurity
+
+may find additional opportunities for growth within
+
+and homelessness, and supporting veterans’
+
+IQVIA. We issued new learning and development
+
+activities.
+
+materials aligned to business needs, including topics
+
+We continue to measure our progress in employee
+
+such as AI, evolving leadership and data insights.
+
+engagement through our semi-annual Employee
+
+We also encourage mobility within our company to
+
+Pulse Survey. We exceeded Fortune 500 benchmarks
+
+support individual career progression. In fact, we
+
+for key metrics in our employee surveys, confirming
+
+use technology to match employees to open internal
+
+employees feel energized by their work and
+
+positions based on their skill sets and interests.
+
+supported by their managers. Notably, 83% of
+
+In addition, every year over 1,000 employees
+
+Letter from our CEO
+
+employees see a clear link between their work and
+
+participate in one of our leadership development
+
+IQVIA’s vision to power smarter healthcare for
+
+Dear Stakeholders, programs.
+
+everyone, everywhere (two points above the Fortune
+
+Welcome to IQVIA’s 2024 Sustainability Report. We are committed to hiring the best talent to
+
+500 benchmark) and 94.5% of employees were
+
+explore innovative ideas and develop solutions
+
+At IQVIA, our mission is to accelerate innovation aware of how to report ethical concerns or observed
+
+to support patients’ needs. We bring together an
+
+for a healthier world. Our 88,000 employees are misconduct (three points above the Fortune 500
+
+expansive range of experiences and knowledge
+
+dedicated to solving the most complex healthcare industry benchmark).
+
+across our teams to build a connected community
+
+challenges for more than 10,000 life sciences and
+
+within IQVIA. Our global workforce now represents
+
+healthcare customers in more than 100 countries.
+
+90 different ethnicities, with women comprising 62%
+
+Every day, we collaborate with customers and
+
+of the workforce and minorities comprising 39% of
+
+partners around the world to improve health
+
+the U.S. workforce.
+
+outcomes and increase our positive impact.
+
+IQVIANs continued to make a positive impact in their
+
+I am proud of the significant progress IQVIA has
+
+local communities. In 2024, they contributed their
+
+made in our sustainability efforts. Our commitment
+
+time to various local community activities, including
+
+to global health and our key 2024 sustainability
+
+the annual Light the Night Walk for The Leukemia
+
+achievements are detailed throughout this report.
+
+& Lymphoma Society, where employees walked
+
+I invite you to explore the positive impact IQVIANs
+
+together in solidarity and raised funds for this
+
+have made over the last year.
+
+4
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Access to healthcare • Introduced IQVIA AI Assistant, a generative AI tool • Supported the Oswaldo Cruz Foundation and
+
+for life sciences customers, which provides quick ACESSA — the Brazilian Association of the Industry
+
+Patients’ needs continue to be the central focus of
+
+and powerful insights to reduce decision-making of Products for Self-Care in Health — to map viral
+
+the research we support. This drives our mission
+
+time and speed-up drug commercialization efforts respiratory disease outbreaks in Brazil. Using
+
+and supports access to trials and treatments across
+
+through a user-friendly, conversational interface in treatment information across Brazil, we can track
+
+a range of patient populations. Our evidence-based
+
+near real time. In addition, we established a Center outbreaks and identify those with endemic or
+
+approach helps us to deliver insights that improve
+
+for Defensible AI and an AI Governance Council to pandemic potential.
+
+patient outcomes. Selected highlights include:
+
+set clear guidelines for the industry in the ethical
+
+Environmental impact
+
+• Continued our work in enhancing the and responsible use of AI in healthcare.
+
+representation of diverse clinical trial participants In line with our commitment to reducing our impact
+
+Global health
+
+to improve the provision of critical healthcare, the on the environment, we made progress in emissions
+
+effectiveness of treatments and the identification IQVIA is uniquely positioned to tackle some of reduction, achieving a 27% reduction in scope 1 and
+
+of adverse effects for underrepresented the world’s most complex public health problems 2 emissions against our 2019 baseline. In addition,
+
+populations. Using our global scale and in collaboration with governments, healthcare we achieved 71% progress toward our 2027 scope
+
+therapeutic expertise, we have expanded our providers, NGOs and the biopharmaceutical 3 target, with 50% of our suppliers having set or
+
+geographic network of trial sites, including in industry. We utilize our differentiated capabilities committed to set emission reduction goals.
+
+Africa and Latin America, strengthening research and global scale to develop tailored responses for all
+
+In our laboratories, we removed almost 3 metric
+
+capabilities, data access and the representation of healthcare research needs. For example, we:
+
+tons of single-use plastic in our clinical trial test kits
+
+patient populations in clinical trial datasets.
+
+• Supported the Rwandan government, Coalition and partnered with Kits4Life, an initiative developed
+
+• Supported the shift to locate more clinical trials for Epidemic Preparedness Innovations, the Sabin by the life sciences community to donate and
+
+in primary care practices by expanding our U.S.- Vaccine Institute and other partners to thwart repurpose surplus medical supplies from clinical
+
+based Community Health Initiative, which aims to Marburg virus disease progression after an trials and labs. We also avoided 384 metric tons of
+
+broaden patient access to trials and expand care outbreak was declared in Rwanda. COe in lab freezer waste. Over the past year, five
+
+2
+
+options for patients. more IQVIA laboratories achieved My Green Lab™
+
+• Established vaccine effectiveness clinical trials in
+
+• Launched Health Research Space, a direct- Kinshasa and Goma, the Democratic Republic of certification, leading to 100% of our laboratories
+
+to-patient engagement platform that offers the Congo, enabling rapid development of a new certified, with 47% certified to the highest level.
+
+participants a convenient way to share information mpox vaccine during the outbreak. Across our business, we increased the number of
+
+about their health. This complements clinician recycled electronic devices by 63% from 2023.
+
+• Participated in the World Health Organization’s
+
+intervention and supports ongoing engagement
+
+Global Clinical Trial Forum to assist in improving
+
+for multi-year decentralized studies.
+
+access to therapies in historically underserved
+
+populations.
+
+5
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Strengthening governance • MedTech Breakthrough Awards. IQVIA’s SmartSolve®
+
+eQMS platform won the “Best Use of Artificial Intelligence in
+
+Our governance program plays a critical role in supporting our
+
+Healthcare” award.
+
+sustainability efforts by promoting accountability, which enhances
+
+• My Green Lab. IQVIA received the “Race to Zero Leadership
+
+long-term shareholder value. We have focused on strengthening
+
+Award” by My Green Lab, in recognition of over 95% of our
+
+various governance aspects that are crucial for our sustainability
+
+laboratories achieving the highest level of My Green Lab
+
+and responsible business practices. For example, we have a robust
+
+certification.
+
+framework of information governance and privacy policies to assist
+
+us in responsibly handling sensitive data. We are also leading in the
+
+I am proud of these incredible achievements and of IQVIA’s role
+
+responsible use of AI. IQVIA is committed to using AI responsibly,
+
+in supporting patients, caregivers, and underserved communities
+
+with AI-powered capabilities built on best-in-class approaches to
+
+globally. I would like to thank our employees for their dedication
+
+privacy, regulatory compliance and patient safety, and delivering AI
+
+and passion for advancing our mission, our customers for their
+
+to the high standards of trust, scalability and precision demanded
+
+partnership, and our stockholders and partners for their continued
+
+by the healthcare industry. IQVIA’s Healthcare-grade AI™ represents
+
+support.
+
+our commitment to these principles.
+
+By using our unique capabilities to innovate, accelerate trial
+
+External recognition
+
+delivery, and facilitate industry-wide collaboration, I am confident
+
+we will continue to make a significant and meaningful impact on
+
+We achieved significant industry recognition for our efforts
+
+global health and improve patient outcomes. I look forward to
+
+throughout the year, including:
+
+sharing our additional achievements with you in 2025.
+
+• FORTUNE®. IQVIA was named the No. 1 most admired
+
+company in its category on the 2025 Fortune® World’s Most
+
+Kind regards,
+
+Admired Companies™ list. This is the fourth year in a row
+
+IQVIA has earned first place in the Health Care: Pharmacy
+
+and Other Services category, and the eighth consecutive year
+
+it has appeared on the list. Notably, IQVIA earned first place
+
+in its category on four key attributes — innovation, global
+
+competitiveness, people management and use of corporate
+
+assets.
+
+Ari Bousbib,
+
+• Brandon Hall Group. IQVIA received four Human Capital
+
+Chairman and Chief Executive Officer
+
+Management Excellence Awards® from Brandon Hall Group,
+
+recognizing our commitment to developing and investing in our
+
+employees and creating a supportive environment.
+
+6
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Using our unique breadth of
+
+capabilities and global reach to
+
+support a healthier world
+
+We combine our strength in insights drawn from
+
+IQVIA headquarters, Durham, information assets with deep understanding of
+
+North Carolina, U.S.
+
+patient needs and experiences to enable better
+
+healthcare. With our global reach, we have the
+
+About IQVIA footprint and capabilities to develop innovative
+
+solutions and bring them quickly to market. Combined
+
+IQVIA is a leading global provider of clinical research services, commercial insights and with highly experienced teams, local operations and
+
+healthcare intelligence to the life sciences and healthcare industries. strategic partnerships, we tailor our offerings to
+
+patient and market needs.
+
+IQVIA’s portfolio of solutions is powered by IQVIA Connected Intelligence™ to deliver actionable
+
+insights and services built on high-quality health information assets, Healthcare-grade AI™, advanced We continually seek to expand our capabilities.
+
+analytics, the latest technologies and extensive domain expertise. With approximately 88,000 Strategic acquisitions in 2024 served to strengthen our
+
+employees in over 100 countries, including experts in healthcare, life sciences, data science, position in MedTech and medical education. Through
+
+technology and operational excellence, IQVIA is dedicated to accelerating the development and geographic expansion and new partnerships, we have
+
+commercialization of innovative medical treatments to help improve patient outcomes and population further extended our reach in Africa and in Central and
+
+health worldwide. Eastern Europe.
+
+One of our key strengths is the depth and breadth of our information assets. IQVIA is a global leader Our market-leading Healthcare-grade AI™ is key to
+
+in protecting individual patient privacy. We hold and continue to expand one of the largest powering smarter healthcare globally. Our technology
+
+collections of healthcare information in the world, including 1.2 billion longitudinal, non-identified investments focus on combining, connecting, and
+
+unique patient records. We have more than 64 petabytes of proprietary data from 150,000+ suppliers mining datasets to derive new insights and accelerate
+
+and over one million feeds. IQVIA employs privacy, security and other information governance controls innovation for a healthier world.
+
+and safeguards to help people and organizations handle content responsibly — protecting individual
+
+privacy and sensitive information while generating and analyzing insights at scale.
+
+7
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Our business segments
+
+Research & Development Solutions Technology & Analytics Solutions Contract Sales & Medical Solutions
+
+(R&DS) (TAS) (CSMS)
+
+• By connecting data, technology, and analytics, we • We help life sciences organizations maximize • We provide our customers with outsourcing
+
+enable our customers to identify unmet medical commercial effectiveness. By connecting the latest support at all stages of the product lifecycle, from
+
+needs, develop innovative therapies, optimize data, analytics, domain expertise, and technology, development through commercialization.
+
+clinical trials, and improve care. Patients benefit we reveal new insights and improve decision-
+
+• Our sales representatives, nurse educators, and
+
+from improved treatment outcomes and faster making on pricing and market access, brand, and
+
+medical science liaisons help customers ensure
+
+access to life-changing therapies. promotional strategies.
+
+that the right products are prescribed for the
+
+• Our services span the full development cycle, • We inform healthcare decision-making and right patients. They provide patient services to
+
+from initial planning through to phase III trials, improve patient outcomes through the provision encourage adherence and achieve optimal health
+
+regulatory submission, and post-marketing of protected and secure patient data, and outcomes.
+
+studies. generation and communication of real-world
+
+evidence.
+
+8
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+2024 in numbers
+
+88,000 64+
+
+employees serving customers in petabytes of unique data
+
+100+ countries
+
+~5,000 1.2B+
+
+physicians and PhDs non-identified patient records
+
+20,000+ 4,000+
+
+clinical operations and advanced analytics / data
+
+monitoring specialists scientists / statisticians
+
+2,000+
+
+12,000+
+
+hospital partners
+
+technology experts
+
+9,000+ 4,400+
+
+Real World specialists scientific publications over five years
+
+$15.4B $3.7B1 $2.1B1
+
+Annual revenue Adjusted EBITDA Free cash flow
+
+1. See Appendix A on page 99 for a reconciliation of non-Generally Accepted Accounting Principles (GAAP) financial measures to the most directly comparable GAAP financial measure.
+
+9
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+2024 awards and recognition
+
+• FORTUNE. IQVIA was included on the Fortune the healthcare industry, specifically for our
+
+list of World’s Most Admired Companies™ for Enterprise Quality Management System (eQMS),
+
+the eighth year in a row and ranked No. 1 in the SmartSolve®.
+
+sector for the fourth year in a row.
+
+• IDC Award. IQVIA was named a Leader in the
+
+• Brandon Hall Group. IQVIA achieved four IDC MarketScape: Worldwide Life Science R&D
+
+Human Capital Management Excellence awards. Technology Solutions and Consulting Services
+
+Read more on page 33. 2024 Vendor Assessment.
+
+• Forbes’ World’s Best Management Consulting • ISR Reports. In its 2024 CRO Leadership Awards,
+
+Firm. IQVIA was recognized as a top Healthcare & ISR Reports listed IQVIA as the number one
+
+Life Sciences consulting firm on Forbes' list. electronic Clinical Outcomes Assessment leader.
+
+• MedTech Breakthrough Awards. Our • KLAS Award. We were recognized for our
+
+SmartSolve® eQMS platform was recognized excellence as a software and service company
+
+for the Best Use of Artificial Intelligence in two years in a row. Rankings are a direct result of
+
+Healthcare. feedback from IQVIA’s customers.
+
+• Everest Group. IQVIA was named a Leader in • My Green Lab (MGL) Race to Zero Leadership
+
+both the Everest Group Regulatory and Medical Award. IQVIA Laboratories was awarded the
+
+Affairs Operations PEAK Matrix® Assessment Race to Zero Leadership Award at the 2024
+
+2024 and the Everest Group Life Sciences Next- MGL Summit. This achievement recognizes
+
+Generation Customer Engagement Platforms the organization’s efforts to meet the UN
+
+PEAK Matrix® Assessment 2024. Breakthrough Outcome Goal, making IQVIA
+
+Laboratories the first to certify 95% of its
+
+• Frost & Sullivan. IQVIA was awarded the 2024
+
+laboratories through the MGL Certification
+
+Global Customer Value Leadership Award for
+
+program. Read more on page 75.
+
+excellence in the global artificial intelligence
+
+quality and regulatory solutions space for
+
+©2025 Fortune Media IP Limited. All rights reserved. Used under license. Fortune® is a registered trademark and Fortune World’s Most Admired Companies™ is a trademark of
+
+Fortune Media IP Limited and are used under license. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse the products or services of, IQVIA.
+
+10
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+contribute to innovations for patients and
+
+Our commitment
+
+Mission
+
+populations globally. We seek out innovative
+
+Accelerate innovation for a healthier world
+
+solutions, while ensuring that AI and new
+
+to sustainability
+
+technologies are deployed responsibly.
+
+This applies within our business, through
+
+Vision
+
+Sustainability strategy
+
+the support we offer to customers, and by
+
+Power smarter healthcare for everyone, everywhere
+
+advising on the development of new standards
+
+Sustainability is central to our mission of
+
+and regulations. Through our efforts to
+
+accelerating innovation for a healthier world.
+
+increase participation in clinical trials, we Sustainability pillars and ambitions
+
+Every day, we collaborate with customers and
+
+support discovery of effective treatments
+
+partners to improve health outcomes and
+
+for underserved patient populations. Our People Public Planet
+
+People Public Planet
+
+increase our positive impact.
+
+understanding of patient needs informs
+
+We refer to sustainability in its broadest sense — everything we do, from designing and
+
+Harness the power
+
+our core mission of improving patient outcomes executing clinical trials to enhancing market Inspire our of Connected Support our
+
+customers and the
+
+and human health as well as ensuring our access to innovative therapies. Read more in employees to Intelligence™ healthcare industry
+
+continuously and innovation
+
+to implement
+
+employees' well-being and minimizing our impact the Public chapter on page 44. learn, grow, and to accelerate more sustainable
+
+collaborate transformation in
+
+on the environment. healthcare research practices
+
+• Within our planet pillar, IQVIA’s
+
+We have identified the sustainability issues most environmental program seeks to reduce
+
+Build an engaged
+
+relevant to our business and stakeholders. These our impact, with a focus on our laboratories community of
+
+employees that
+
+are encompassed in our three sustainability and supply chain. We are working to reduce treat each other Drive access to Reduce our waste,
+
+focusing on
+
+pillars: People, Public, and Planet. our emissions, and continue to explore waste with mutual healthcare for all laboratory waste
+
+respect and have a
+
+• Our people are fundamental to the success reduction initiatives across our labs and offices passion to advance
+
+healthcare
+
+of our business and our sustainability and support our customers to minimize waste
+
+progress. An extensive suite of talent in clinical trials. Read more in the Planet
+
+Leverage our
+
+development, well-being and engagement chapter on page 69. emp C l h o a y m ee p h io e n a lth n s e t t a w k o e r h k o t ld o e c r o s n a n n e d c t i M m i p n a im ct i z o e n o t u h r e
+
+initiatives positions us as an employer • Our sustainability strategy is built on strong and well-being improve public environment
+
+health outcomes
+
+of choice, helping to attract and retain foundations of robust governance across our
+
+exceptionally talented employees. Read more value chain, data stewardship, and compliance
+
+in the People chapter on page 28. with relevant sustainability legislation globally. Foundations
+
+• As part of our commitment to the Read more in the Foundations chapter on Governance • Ethics and compliance • Data and data privacy
+
+advancement of public health, we page 15. • Cybersecurity • Human rights • Responsible procurement
+
+11
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Materiality assessment
+
+In 2024, we re-assessed the sustainability topics most material to
+
+Results of our 2024 materiality assessment
+
+our business and our stakeholders. Through a double materiality
+
+assessment, we considered the financial risks and opportunities
+
+from sustainability topics on IQVIA, as well as IQVIA’s potential
+
+Highly
+
+or actual impacts on people and the planet. Aligning our
+
+significant
+
+methodology with the requirements of the European Union's Cybersecurity
+
+Innovation, research
+
+Corporate Sustainability Reporting Directive (CSRD), we engaged and collaboration to
+
+Patient and population advance healthcare
+
+stakeholders representing IQVIA’s full value chain, including health and safety Broad access to
+
+products and services
+
+IQVIA employees across our labs and services businesses, leaders
+
+Privacy Quality products
+
+across key functions such as Finance, Environmental Health & Safety,
+
+and services
+
+HR, Legal, Procurement, Risk, Sales, and Sustainability to provide Bioethics
+
+Impact Use of AI to improve
+
+their perspective and evaluation on the topics they believe are most
+
+materiality services and support
+
+material to IQVIA. Positive or Ethics and compliance efficiency
+
+negative impacts
+
+The engagement process began with group sessions focused on
+
+on people and Attracting, developing
+
+assessing the full range of sustainability topics from the CSRD and planet Employee and retaining talent
+
+well-being
+
+industry-specific topics identified based on the results of our previous
+
+materiality assessment, alongside industry sustainability reports. We
+
+validated the results through in-depth interviews with internal
+
+Stakeholder requirements
+
+and external stakeholders, giving them the opportunity to comment
+
+on climate approach
+
+on and challenge the assessment of each topic. Interviewees included
+
+Low
+
+suppliers, customers, investor representatives, and employees with
+
+Financial materiality Highly
+
+deep insights into IQVIA’s core business areas, including those from significant
+
+Risks and opportunities to IQVIA
+
+our labs, real estate, and services. In a final session, we gathered
+
+input from our Sustainability Executive Steering Committee to
+
+complete the assessment and produce our updated matrix. Our
+
+Governance Customers and patients
+
+results confirm that the topics material to us today are largely similar
+
+to those identified in our 2022 assessment. This is aligned with our Workforce and productivity Climate
+
+expectations, as the nature of our business and stakeholder interests
+
+have not changed materially in this time.
+
+12
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Open stakeholder engagement
+
+Through regular and transparent engagement with our stakeholders, we seek to understand their views and incorporate them into
+
+our strategy and approach. This strengthens our business, drives us to improve our sustainability performance, and helps us
+
+track progress while maximizing value for all those connected with the organization.
+
+Stakeholder group Examples of how we communicate
+
+• Company mobile app, Go IQ • Digital workplace • Employee hotline
+
+EMPLOYEES
+
+• Company surveys • Email communications • Frequent townhalls
+
+• Formal governance,
+
+• Direct outreach • Formal engagement processes
+
+including Executive
+
+CUSTOMERS • Sustainability forums and (RFPs and questionnaires) Steering Committees
+
+working groups • IQVIA-led conferences
+
+• Satisfaction surveys
+
+• Annual shareholders meeting • In-person and virtual meetings
+
+INVESTORS • IQVIA Investor Day
+
+• Industry conferences • Targeted outreach
+
+• Direct engagement • Research contributions
+
+• Industry associations
+
+PUBLIC • Thought leadership articles and through The IQVIA
+
+• Conferences and roundtables
+
+publications Institute for Data Science
+
+GOVERNMENT
+
+• Formal information
+
+• Conferences and roundtables • Direct engagement
+
+(AS REGULATORS AND requests and engagement
+
+CUSTOMERS)
+
+13
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+External frameworks SDG Our statement of commitment and 2024 highlights
+
+Our sustainability strategy and reporting are informed
+
+by gold-standard frameworks, including the:
+
+We use our data insights and clinical expertise to help our partners
+
+accelerate access to more advanced and affordable healthcare
+
+• Global Reporting Initiative (GRI). See page 82 for our
+
+treatments around the world. Read more on page 44.
+
+2024 GRI index.
+
+• Sustainability Accounting Standards Board (SASB).
+
+See page 96 for our 2024 SASB index.
+
+• Science Based Targets initiative (SBTi). Our near- and We are committed to maintaining a culture of belonging in which
+
+all employees can fully contribute to the growth and success of our
+
+long-term greenhouse gas emissions reduction targets
+
+business. Approximately 62% of our global employees are women,
+
+are validated by the SBTi. Read more on page 70.
+
+with 53% of women at the manager level. Read more on page 36.
+
+• Sustainable Development Goals (SDGs). The SDGs we
+
+believe are most relevant to our work and therefore
+
+where IQVIA can make the most significant contribution
+
+We are committed to reducing waste. In 2024, we expanded our
+
+are listed to the right.
+
+efforts to reduce single-use plastics in clinical trial testing kits and
+
+• United Nations Global Compact (UNGC). IQVIA has strengthened our electronic waste (e-waste) management processes.
+
+been a signatory to this compact since 2020 and reports See more on pages 75 and 78.
+
+an annual Communication on Progress.¹
+
+In 2024, we continued to reduce our impact on the environment.
+
+50% of our suppliers by emissions have now set or committed to set
+
+science-based targets, achieving 71% of our 2027 scope 3 supply
+
+chain engagement target. See more on page 71.
+
+1. https://www.iqvia.com/-/media/iqvia/pdfs/about-us/esg/united-nations-global-compact-communication-2023-2024
+
+14
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+How we do
+
+business matters.
+
+Our guiding principles of passion, innovation,
+
+collaboration and growth are underpinned
+
+by a culture of ethical conduct and robust
+
+governance across our value chain and
+
+encompassing all stakeholders.
+
+Foundations
+
+16 Governance
+
+18 Ethics and compliance
+
+21 Data and data privacy
+
+24 Cybersecurity
+
+26 Human rights
+
+26 Responsible procurement
+
+Real World Solutions leadership held a townhall in
+
+Sofia, Bulgaria to present an overview of ongoing
+
+strategic initiatives around AI and the transformation
+
+of our clinical technology capabilities.
+
+15
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Governance
+
+Board of Directors
+
+Corporate governance Oversees IQVIA’s overall sustainability strategy, including ethical business
+
+conduct, talent retention and development, employee health and safety, and
+
+Our corporate governance framework defines how we operate and monitors adherence to our Code of Conduct.
+
+allocate responsibilities across IQVIA, including our governance of
+
+sustainability matters. Our corporate governance framework guides our
+
+decision-making, helping to ensure our accountability to all stakeholders
+
+Lead Independent Director, Chair of the Nominating and Chairman and Chief Executive
+
+and transparency in our operations. All employees must demonstrate a John Leonard, M.D. Governance Committee, Officer, Ari Bousbib
+
+Colleen Goggins
+
+commitment to compliance as part of their performance goals.
+
+Our Board oversees IQVIA’s strategy, operations, and performance, • Champions our • Leads oversight of • Integrates sustainability
+
+sustainability efforts. sustainability matters into the broader
+
+and our senior management leads the day-to-day management of the
+
+including overall organization.
+
+organization. For more details on IQVIA’s corporate governance, read • Engages with strategy and reporting.
+
+• Engages with senior
+
+our latest Annual Report1 and Proxy Statement.² Sustainability-related stockholders, our CEO
+
+• Considers key management,
+
+and management team.
+
+matters are being discussed more deeply and frequently within and sustainability-related stockholders and other
+
+risk topics. key external stakeholders
+
+between our various governance functions and channels.
+
+on these topics.
+
+Sustainability Executive Steering Committee
+
+Guides and governs our overall sustainability objectives and initiatives.
+
+Ari Bousbib Colleen Goggins John Leonard, M.D.
+
+Chairman and Chair of the Nominating and Lead Independent Director and
+
+Chief Executive Officer Governance Committee Nominating and Governance
+
+Committee Member
+
+Sustainability Working Group
+
+• Drives performance of our sustainability initiatives, including operationalizing
+
+our science-based targets and coordinating stakeholder engagement across
+
+the organization.
+
+• Regularly updates the Sustainability Executive Steering Committee.
+
+Trudy Stein Ron Bruehlman Eric Sherbet
+
+Executive Vice President, Executive Vice President, Executive Vice President,
+
+1. https://s201.q4cdn.com/580005511/files/doc_financials/2024/q4/IQV-2024-12-31-10K_Filed-with-exhibits.pdf
+
+Chief Human Resources Chief Financial Officer General Counsel and
+
+2. https://d18rn0p25nwr6d.cloudfront.net/CIK-0001478242/d357f6ec-d32c-4a6d-bf91-5a507da403c8.pdf
+
+Officer Secretary
+
+16
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Risk management
+
+The following groups are responsible for managing
+
+IQVIA’s enterprise risks:
+
+Leadership Development and
+
+Compensation Committee
+
+• Oversees risks associated with
+
+compensation policies and practices, Enterprise Risk Council
+
+succession planning, and human capital
+
+management policies and strategies.
+
+• Made up of leaders from our principal
+
+functional areas and business units.
+
+Board
+
+• Meets quarterly to identify and manage
+
+our key risks, including sustainability-
+
+Audit Committee
+
+• Actively oversees our enterprise related risks, and is responsible for
+
+risk management program through implementing and updating our
+
+independent monitoring of strategic risks • Oversees financial statements and controls, enterprise risk framework.
+
+and regularly scheduled meetings with policies relating to risk assessment and
+
+management.
+
+management, internal and external
+
+• Delegates to its committees certain audit, cybersecurity, legal and regulatory
+
+elements of its oversight function. Business Continuity and Disaster
+
+compliance, and the effectiveness of our
+
+Recovery team
+
+• Receives regular updates from its ethics program.
+
+committees on individual categories of
+
+risk, and on oversight efforts, coordination • Creates strategies and processes to
+
+and input from external advisors, as strengthen IQVIA’s organizational
+
+Nominating and
+
+appropriate.
+
+resilience.
+
+Governance Committee
+
+• Determines our approach to managing
+
+• Oversees governance structures, disruptive events and protecting and
+
+practices and policies, sustainability recovering our critical systems and data
+
+matters, director nominee processes, assets. Read more on page 43.
+
+Board evaluation, and stockholder
+
+priorities and engagement.
+
+For information about our key business risks, see our Annual Report.¹
+
+1. https://s201.q4cdn.com/580005511/files/doc_financials/2024/q4/IQV-2024-12-31-10K_Filed-with-exhibits.pdf
+
+17
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Our Code of Conduct
+
+Our Code of Conduct, Doing the Right Thing,¹ outlines our guiding principles,
+
+values, and expectations for employee behavior. It is a tool for ethical
+
+decision-making — presenting realistic scenarios and resources to assist
+
+employees with ethical choices.
+
+The Code covers topics such as anti-bribery and anti-corruption,
+
+interactions with healthcare professionals, patient safety and medical
+
+ethics, sustainability and citizenship, business ethics, and data protection.
+
+It is accessible on our website and digital workplace. Other key policies and
+
+statements that outline expectations of ethical conduct include:
+
+• Anti-Bribery and Anti-Corruption Policy.² Outlines our commitment to
+
+ethical conduct and compliance with anti-bribery and anti-corruption laws
+
+IQVIA office, Bangalore, India
+
+and regulations — covering directors, officers, employees, contractors, and
+
+temporary staff.
+
+Ethics and compliance
+
+• Online Privacy Policy.³ Explains our online data collection practices and
+
+the options users have about how their information is collected and used.
+
+Our culture and approach
+
+• Privacy Policy.⁴ Describes our commitment to privacy protection, outlining
+
+how we collect, hold, use and disclose personal information.
+
+Our commitment to ethical behavior and compliance is fundamental to our culture.
+
+We hold our employees and suppliers to high standards, providing them • Statement on Anti-Slavery and Human Trafficking.5 Explains our zero-
+
+with guidance and tools to make ethical choices. We monitor and prepare tolerance approach to modern slavery and human trafficking and unethical
+
+for applicable laws, regulations, and industry codes and standards, to support practices that may enable it. Read more on page 26.
+
+compliance and adapt to evolving external expectations.
+
+• Supplier Code of Conduct.⁶ Details our expectation for our suppliers to
+
+In 2024, we continued our increased global focus on effective compliance programs act sustainably and ethically within their operations and throughout their
+
+and anti-bribery and anti-corruption efforts. IQVIA’s ethics and compliance program supply chains. Read more on page 26.
+
+is tailored to applicable guidance across our regions, and specifically designed
+
+1. https://www.iqvia.com/about-us/code-of-conduct
+
+to incentivize integrity. We strongly support the ability of all our employees
+
+2. https://www.iqvia.com/about-us/anti-bribery-and-anti-corruption-policy
+
+3. https://www.iqvia.com/about-us/privacy/online-privacy-policy
+
+to seek guidance and to speak up as a vital means of maintaining corporate 4. https://www.iqvia.com/about-us/privacy/privacy-policy
+
+5. https://www.iqvia.com/about-us/code-of-conduct/anti-slavery-and-human-trafficking-statement
+
+transparency and a culture of compliance. 6. https://www.iqvia.com/-/media/iqvia/pdfs/about-us/suppliers/2023/iqvia-the-supplier-code-of-conduct-2023.pdf
+
+18
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+A shared commitment to compliance
+
+Maintaining a culture of compliance is a shared
+
+responsibility. All employees and contractors must
+
+adhere to our Code of Conduct and policies, and
+
+IQVIA Ethics Day
+
+Third-party complete all mandatory training on time. We assess
+
+employees’ commitment to compliance in performance
+
+relationships Our 2024 annual Ethics Day included
+
+reviews, which inform annual incentive plan payments.
+
+an all-employee webinar focusing
+
+All IQVIA employees and contractors participate
+
+IQVIA is committed to conducting
+
+in a global mandatory training curriculum. This on behavior-based ethical decision-
+
+business with integrity when we
+
+engage third-parties on our behalf, develops their understanding of ethical behavior, making, designed to help people
+
+outlines our expectations regarding key topics, and
+
+as their behavior can directly impact speak up and change course. We
+
+upholds our culture of compliance. It explains the
+
+our ability to achieve our goals and
+
+discussed how to spot ethical
+
+consequences of non-compliance, both for individuals
+
+those of the customers we serve. We
+
+and for IQVIA. dilemmas and offered practical
+
+conduct third-party due diligence to
+
+ensure our suppliers operate ethically The curriculum, reinforced through infographics, live guidance. We shared details about
+
+and legally. It is important to manage presentations, and messages from management, how reports to IQVIA’s Ethics Line
+
+our relationships with suppliers includes mandatory courses such as Anti-Bribery &
+
+are handled, the types of reports we
+
+responsibly, including the way we Anti-Corruption, Code of Conduct with certification,
+
+receive, and the types of behavior
+
+choose, contract, and monitor them. Data Privacy, Global Security Awareness, Preventing
+
+Harassment in the Workplace, and Social Media. We that can lead to employment
+
+tailor our training curriculum by region to respect
+
+corrective action.
+
+Read more about our approach to local requirements and include reminders on various
+
+supplier relationships on page 26. internal media channels such as our employee news
+
+platform.
+
+19
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+IQVIA has a strict policy of non-retaliation. In our 88,000-employee company, it is essential that everyone
+
+Ethics governance
+
+feels comfortable and capable of raising concerns to help us quickly identify issues and maintain a culture
+
+The Ethics and Compliance Office (ECO) develops of ethics and compliance. Employees can contact managers, the ECO, the Legal department, Human Resources,
+
+and implements our ethics and compliance or the Internal Audit department to raise concerns. Alternatively, anyone within or outside IQVIA can submit a
+
+program. As a key function in our enterprise risk concern through our 24/7 global Ethics Line. This is operated by an independent third-party and allows reports to
+
+management program, the ECO takes a scalable be anonymous to the extent permitted by law. We investigate all reports received and take action accordingly.
+
+approach focused on instilling a culture of ethical
+
+behavior, good business practices, and mitigating The types of matters received by the ECO vary.
+
+risks. To achieve this, the ECO collaborates with
+
+2023 and 2024 combined: Concerned
+
+functions and business leaders across IQVIA,
+
+third-party matters (1%)
+
+including Finance, Legal, Human Resources,
+
+Concerned
+
+Internal Audit, the Chief Medical and Scientific
+
+business matters (27%)
+
+Office, and Enterprise Quality Assurance. The
+
+ECO is led by our Chief Compliance Officer (CCO), Inquiries seeking guidance
+
+a member of IQVIA’s Enterprise Risk Council. The on ethical conduct (38%)
+
+CCO updates the Audit Committee of the Board of
+
+Directors quarterly.
+
+We conduct an annual risk assessment, using
+
+feedback from relevant stakeholders and other
+
+program inputs, to identify and mitigate emerging
+
+Concerned
+
+risks and drive our risk-based activities. In 2024, we
+
+employee matters (34%)
+
+enhanced the process by:
+
+• Incorporating learnings from our audits, The high proportion of inquiries by
+
+monitoring, and broader ECO efforts as part of employees seeking guidance testifies
+
+to their efforts to do the right thing
+
+the ECO’s dynamic, closed-loop, and targeted
+
+before they act.
+
+approach.
+
+Employee awareness of channels to raise concerns
+
+• Reviewing and updating our list of risk
+
+assessment survey participants to ensure
+
+3 points above the
+
+Fortune 500 benchmark
+
+comprehensive coverage.
+
+94.5 % of employees say they are aware
+
+of how to report ethical concerns
+
+or observed misconduct.¹
+
+1. Survey results from the second of our two 2024 global employees surveys.
+
+20
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Data and data privacy
+
+Championing compliance
+
+We oversee one of the largest healthcare datasets globally, with more than 64
+
+IQVIA’s global network of Compliance Champions acts as a conduit petabytes of proprietary data from 150,000+ suppliers, including 1.2 billion non-
+
+between the ECO and the countries where we operate. They offer vital identified patient records.
+
+local insights and guidance to bring our global compliance programs
+
+IQVIA is a global leader in protecting individual patient privacy. We use a wide variety
+
+to life, serve as points of contact for program initiatives, and amplify
+
+of privacy-enhancing technologies and safeguards to protect individual privacy while
+
+compliance messages and awareness.
+
+generating and analyzing information on a scale that helps healthcare stakeholders
+
+identify disease patterns and correlate with the precise treatment path and therapy
+
+needed for better outcomes.
+
+NEARLY Compliance
+
+100 The use of non-identified patient data for population health and other research
+
+Champions globally
+
+preserves privacy without sacrificing potential medical insights and includes a range
+
+of transformations to remove or alter direct and indirect identifiers without impacting
+
+the value of the data. Data used for these purposes are rendered non-identified before
+
+Strengthening bonds we receive them. Our standards and practices regarding the use of non-identified
+
+data for research purposes have been shared across our industry.
+
+The ECO Compliance Champions support streamlining communication
+
+and fostering deeper collaboration between teams. The ECO began IQVIA’s Global Privacy team, led by our Chief Privacy Officer, identifies potential
+
+regular case sharing sessions to further enhance this effect, enabling privacy risks and opportunities and evolves our data protection strategy accordingly.
+
+teams to share their perspectives and learn from each other. The team works closely with leading researchers, policy makers, thought leaders and
+
+These positive outcomes reinforce the value of cross departmental others in a variety of fields relevant to the application of effective privacy and security
+
+collaboration. practices, including statistical, epidemiological and cryptographic sciences, legal,
+
+information security, compliance, and privacy. Our Global Privacy Policy1 provides
+
+Tackling root causes further insights into our approach to data privacy.
+
+Whenever we uncover potential issues during compliance audits, tackling
+
+the root cause is as important as addressing the matter at hand. For
+
+Healthcare-grade AI™
+
+example, in 2024, a Compliance Champion from the Quality Management
+
+IQVIA’s breadth and depth of data, combined with our AI models and
+
+team partnered with the ECO to respond to audit findings and assist with
+
+multidisciplinary expertise, enable us to offer AI solutions that truly meet
+
+training programs and workshops.
+
+the needs of healthcare within standards of privacy and trust in our industry.
+
+The training delves deep into the nuances of compliance, ensuring
+
+Read about IQVIA’s Healthcare-grade AI™ on page 65.
+
+participants are well-equipped to excel.
+
+1. https://www.iqvia.com/about-us/privacy/privacy-policy
+
+21
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+Collective advancement of privacy practices
+
+High standards of data privacy must be universal to be effective. Together with peers and
+
+stakeholders within and beyond our industry, we work to determine best practices, inform
+
+policies, and create solutions. We support a shared, systematic approach to data privacy
+
+practices, advancing medical research while preserving patients’ privacy.
+
+Our collaborations include:
+
+• Health Information Trust Alliance (HITRUST). Our Global Chief Privacy officer sits on the
+
+board of this non-profit, offering a data protection and privacy point of view when setting
+
+standards related to information security and cybersecurity protections. HITRUST assesses
+
+and certifies organizations’ information security and cybersecurity approaches, reassuring
+
+their stakeholders and supporting a common global approach.
+
+A shared responsibility for privacy
+
+• Future of Privacy Forum (FPF). Through this non-profit, we collaborate with a wide range
+
+of stakeholders to define privacy protections, ethical norms, and leading business practices.
+
+All our employees play a role in data privacy, and it is vital
+
+Our Global Chief Privacy Officer sits on the advisory board. We have representatives in
+
+they understand its importance. Our employees are trained
+
+several working groups.
+
+to follow the guidelines we create, raise any concerns,
+
+and manage data according to best practices. Internal • Centre for Information Policy Leadership (CIPL). We work with the staff and members
+
+engagement activities include: of the CIPL, a global privacy and data policy think tank, to create global solutions for
+
+responsible data use and privacy.
+
+• Annual data privacy course. To educate our entire
+
+workforce about the latest developments and best • Healthcare Leadership Council’s Confidentiality Coalition. We collaborate with a broad
+
+practices. range of stakeholders to identify and support policies and practices that best advance
+
+information exchange without risking patient privacy or personal data.
+
+• Onboarding training. Including a data privacy module
+
+for all new employees, and training in privacy and data • Healthcare Trust Institute. Joining a wide range of stakeholders in the healthcare industry,
+
+protection for all new Board members. we collaborate by advancing policies that will improve healthcare while protecting patient
+
+privacy.
+
+• Regular updates. To all Board members, covering data-
+
+related legal developments. • Association of Clinical Research Organizations (ACRO). We collaborate to present realistic
+
+solutions and new approaches to policy makers, helping them create regulations that
+
+• Targeted trainings. For different categories of
+
+encourage safe, ethical, high-quality research.
+
+employees.
+
+22
+
+IQVIA 2024 Sustainability Report | iqvia.com/about-us/sustainability
+
+INTRODUCTION FOUNDATIONS PEOPLE PUBLIC PLANET ANNEX
+
+AI governance
+
+IQVIA employs a wide variety of policies,
+
+Information governance
+
+procedures, guidelines, training, communications
+
+and other materials to support the responsible
+
+At IQVIA, information governance (IG)
+
+use of AI technologies, including generative AI, to
+
+refers to the management of compliance
+
+comply with legislation such as the EU AI Act:
+
+requirements associated with the
+
+• For higher risk AI activities, we have established
+
+responsible use of data — including the
+
+procedures and methodologies to evaluate or
+
+receipt, processing, access, use, distribution
+
+governance policies and practices relating to
+
+test input, AI models, output and other aspects
+
+and deletion of data. IG requirements come
+
+data privacy, information security, intellectual
+
+of AI use for error, bias, hallucinations and
+
+from various sources, including contracts,
+
+property management, contract compliance,
+
+results that are not otherwise fit for the intended
+
+data privacy, data localization, information
+
+vendor management and related domains. IQVIA
+
+purpose.
+
+security, intellectual property, legal
+
+has extensive policies and practices addressing
+
+• For lower risk activities, a variety of policies, compliance, commercial requirements, and
+
+these topics, and substantial resources and
+
+standard operating procedures, guidance and stakeholder sensitivities. Our IG program
+
+experience in each of these domains.
+
+training support our employees in the use of AI brings these requirements together
+
+• Effective, responsible use of AI also depends
+
+models — for example, the use of AI assistants holistically to make it
+
+[Content truncated due to length...]

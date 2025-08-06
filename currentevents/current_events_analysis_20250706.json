@@ -1,0 +1,394 @@
+{
+  "analysis": {
+    "summary": "Headlines cover a mix of technology and business topics, including AI ethics (defence, hoax), social media controversies (Facebook bans), financial products (Lifetime ISAs, Prime Day deals), archaeology discoveries, venture capital success stories, space exploration, and niche tech product reviews.",
+    "keywords": [
+      "ai",
+      "defence",
+      "hoax",
+      "account",
+      "ban",
+      "isas",
+      "spending",
+      "summer",
+      "job",
+      "city",
+      "peru",
+      "capital",
+      "bluesky",
+      "louvre",
+      "antitrust",
+      "complaint",
+      "overviews",
+      "nap",
+      "perspective",
+      "tablets",
+      "wheels",
+      "japan",
+      "booster",
+      "investment",
+      "spacex",
+      "chromebook",
+      "cyberpunk",
+      "edgerunners",
+      "cameras",
+      "kindle",
+      "lightning"
+    ],
+    "trending_topics": [
+      "AI ethics",
+      "Social media controversies",
+      "Financial products",
+      "Archaeology",
+      "Venture capital"
+    ],
+    "search_keywords": [
+      "ai",
+      "defence",
+      "hoax",
+      "account",
+      "ban",
+      "isas",
+      "spending",
+      "summer",
+      "job",
+      "city",
+      "peru",
+      "capital",
+      "bluesky",
+      "louvre",
+      "antitrust",
+      "complaint",
+      "overviews",
+      "nap",
+      "perspective",
+      "tablets",
+      "wheels",
+      "japan",
+      "booster",
+      "investment",
+      "spacex",
+      "chromebook",
+      "cyberpunk",
+      "edgerunners",
+      "cameras",
+      "kindle",
+      "lightning"
+    ],
+    "analysis_timestamp": "2025-07-06T10:06:55.161802"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 37,
+  "sources_analyzed": [
+    "BBC World",
+    "Hacker News",
+    "BBC Business",
+    "BBC Technology",
+    "TechCrunch",
+    "MIT Technology Review",
+    "The Verge",
+    "Engadget",
+    "Wired",
+    "Fast Company",
+    "VentureBeat",
+    "Slashdot",
+    "Ars Technica"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Minister tells Turing AI institute to focus on defence",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cy7nppe5gkgo",
+      "published": "Fri, 04 Jul 2025 13:59:56 GMT",
+      "summary": "Peter Kyle says the Alan Turing Institute should prioritise boosting the UK's AI capabilities."
+    },
+    {
+      "title": "AI claims and a hoax spokesman: Viral band confuses the world of music",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cp8mjnn7eqno",
+      "published": "Thu, 03 Jul 2025 23:07:54 GMT",
+      "summary": "The Velvet Sundown has racked up hundreds of thousands of streams on Spotify - without anyone even being sure if it's real."
+    },
+    {
+      "title": "'There is a problem': Facebook and Instagram users complain of account bans",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvgnp9ykm3xo",
+      "published": "Thu, 03 Jul 2025 07:59:08 GMT",
+      "summary": "After Meta said some Facebook Groups were wrongly suspended, users tell the BBC the impact it is having - and say it's a wider problem."
+    },
+    {
+      "title": "Excellent or awful - why Lifetime ISAs divide opinion",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cy0w8x2zxzko",
+      "published": "Sat, 05 Jul 2025 23:09:05 GMT",
+      "summary": "A report by MPs says the product needs to be reformed and many savers who have been in touch tend to agree."
+    },
+    {
+      "title": "Welfare U-turn makes spending decisions harder, minister says",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cq8z34x914jo",
+      "published": "Sun, 06 Jul 2025 10:39:18 GMT",
+      "summary": "Bridget Phillipson does not commit to scrapping the two-child benefit cap, saying it will \"come at a cost\"."
+    },
+    {
+      "title": "Not getting a summer job? Here are eight ways to change that",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/crl0j9jkez1o",
+      "published": "Sat, 05 Jul 2025 23:09:39 GMT",
+      "summary": "Grace Pickett, 18, says it's \"frustrating\" so many part-time jobs require previous experience."
+    },
+    {
+      "title": "Archaeologists unveil 3,500-year-old city in Peru",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c07dmx38kyeo",
+      "published": "Sun, 06 Jul 2025 13:31:40 GMT",
+      "summary": "Researchers believe Peñico served as a trading hub linking ancient Pacific coast communities with those living in the Andes and Amazon."
+    },
+    {
+      "title": "Drive Capital’s second act –  how the Columbus venture firm found success after a split",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/05/drive-capitals-second-act-how-the-columbus-venture-firm-found-success-after-a-split/",
+      "published": "Sat, 05 Jul 2025 20:25:59 +0000",
+      "summary": "The venture capital world has always had a hot-and-cold relationship with the Midwest. Investors rush in during boom times, then retreat to the coasts when markets turn sour. For Columbus, Ohio-based Drive Capital, this cycle of attention and disinterest played out against the backdrop of its own in"
+    },
+    {
+      "title": "Ask not for whom the Louvre of Bluesky tolls, it tolls for thee",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/05/ask-not-for-whom-the-louvre-of-bluesky-tolls-it-tolls-for-thee/",
+      "published": "Sat, 05 Jul 2025 20:11:39 +0000",
+      "summary": "It’s a sad weekend over at Bluesky, where one of the best accounts has disappeared — though we can still hope for its resurrection."
+    },
+    {
+      "title": "Google faces EU antitrust complaint over AI Overviews",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/05/google-faces-eu-antitrust-complaint-over-ai-overviews/",
+      "published": "Sat, 05 Jul 2025 17:36:54 +0000",
+      "summary": "A group known as the Independent Publishers Alliance has filed an antitrust complaint with the European Commission over Google’s AI Overviews, according to Reuters. The complaint accuses Google of “misusing web content for Google&#8217;s AI Overviews in Google Search, which have caused, and continue"
+    },
+    {
+      "title": "Figuring out why a nap might help people see things in new ways",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/07/figuring-out-why-a-nap-might-help-people-see-things-in-new-ways/",
+      "published": "Sun, 06 Jul 2025 11:06:38 +0000",
+      "summary": "An EEG signal of sleep is associated with better performance on a mental task."
+    },
+    {
+      "title": "The curious rise of giant tablets on wheels",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/the-curious-rise-of-giant-tablets-on-wheels/",
+      "published": "Sat, 05 Jul 2025 11:00:23 +0000",
+      "summary": "Hands-on with KTC's 32-inch Android tablet on a rolling pedestal, the A32Q7 Pro."
+    },
+    {
+      "title": "Rocket Report: Japan’s workhorse booster takes a bow; you can invest in SpaceX now",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/07/rocket-report-japans-workhorse-booster-takes-a-bow-you-can-invest-in-spacex-now/",
+      "published": "Fri, 04 Jul 2025 11:00:22 +0000",
+      "summary": "\"We will be able to industrialize Zephyr production up to 50 units per year.\""
+    },
+    {
+      "title": "The Verge’s summer ‘in’ and ‘out’ list",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/695286/the-verge-2025-summer-in-out-list",
+      "published": "2025-07-06T09:00:00-04:00",
+      "summary": "Here at this website, my colleagues and I follow our beats closely, from wearable tech and laptops to influencer culture and federal policy. Last year, I asked a bunch of staff at The Verge to pretend to be trend forecasters for a lighthearted collection of what's hot and what's not. Some of the pre"
+    },
+    {
+      "title": "Lenovo Chromebook Plus 14 review: the new king of Chromebooks",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/reviews/697878/lenovo-chromebook-plus-14-laptop-google-chromeos-review",
+      "published": "2025-07-06T08:00:00-04:00",
+      "summary": "The world of Chromebooks has its MacBook Air. Lenovo's latest Chromebook Plus 14 is an Arm-based thin-and-light with good specs, excellent battery life, a great keyboard, all-around solid build, and a fantastic OLED screen. But the best part is that its bright and punchy 14-inch panel comes standard"
+    },
+    {
+      "title": "Cyberpunk: Edgerunners 2 will be even sadder and bloodier",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/698579/cyberpunk-edgerunners-2-anime-netflix-cd-projekt-red",
+      "published": "2025-07-05T15:51:30-04:00",
+      "summary": "In May, we learned that the development of a sequel to the Cyberpunk 2077 game is moving forward at CD Projekt Red, and today, at the Anime Expo 2025 event, it officially announced a new season of the anime spinoff for Netflix. Cyberpunk: Edgerunners 2 will have “…an entirely new story, fresh charac"
+    },
+    {
+      "title": "A bundle of two Blink Mini 2 security cameras is only $35 for Prime Day",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/a-bundle-of-two-blink-mini-2-security-cameras-is-only-35-for-prime-day-201819580.html?src=rss",
+      "published": "Sun, 06 Jul 2025 13:51:26 +0000",
+      "summary": "<p>Blink sales are pretty reliable during <a href=\"https://www.engadget.com/amazon-prime-day/\">Amazon Prime Day</a>, and this year is no different. The security camera company owned by the retail giant has <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4"
+    },
+    {
+      "title": "The latest Kindle Scribe drops to a record-low price for Prime Day",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/the-latest-kindle-scribe-drops-to-a-record-low-price-for-prime-day-131544672.html?src=rss",
+      "published": "Sun, 06 Jul 2025 13:26:26 +0000",
+      "summary": "<p>The latest Amazon Kindle Scribe ereader <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-02904efde6ea&amp;itemId=amazon_B0CZ9VFQ2P&amp;siteId=us-engadget&amp;pageId=1p-autolink&amp;contentUuid=de2dc6c0-6289-4883-a281-8c428c1031af&amp;featureId"
+    },
+    {
+      "title": "The best Prime Day Apple deals on iPads, MacBooks, AirPods and more",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/the-best-prime-day-apple-deals-on-ipads-macbooks-airpods-and-more-150005724.html?src=rss",
+      "published": "Sun, 06 Jul 2025 13:05:37 +0000",
+      "summary": "<p>You won’t find many discounts on Apple’s own website — but that doesn’t mean you have to pay full price for a new iPad or pair of AirPods. Amazon’s July sale is nearly here and we’re already tracking down the best Prime Day Apple deals from across the site. We found deals on a long list of the Ap"
+    },
+    {
+      "title": "The most otherworldly, mysterious forms of lightning on Earth",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.nationalgeographic.com/science/article/lightning-sprites-transient-luminous-events-thunderstorms",
+      "published": "Sun, 06 Jul 2025 12:49:31 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.nationalgeographic.com/science/article/lightning-sprites-transient-luminous-events-thunderstorms\">https://www.nationalgeographic.com/science/article/lightning-sprites-transient-luminous-events-thunderstorms</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+    },
+    {
+      "title": "Six months into congestion pricing, more cars are off the road",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://ny1.com/nyc/all-boroughs/traffic_and_transit/2025/07/05/six-months-into-congestion-pricing--more-cars-are-off-the-road--report-says",
+      "published": "Sun, 06 Jul 2025 12:35:14 +0000",
+      "summary": "<p>Article URL: <a href=\"https://ny1.com/nyc/all-boroughs/traffic_and_transit/2025/07/05/six-months-into-congestion-pricing--more-cars-are-off-the-road--report-says\">https://ny1.com/nyc/all-boroughs/traffic_and_transit/2025/07/05/six-months-into-congestion-pricing--more-cars-are-off-the-road--report"
+    },
+    {
+      "title": "Get the location of the ISS using DNS",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://shkspr.mobi/blog/2025/07/get-the-location-of-the-iss-using-dns/",
+      "published": "Sun, 06 Jul 2025 12:32:46 +0000",
+      "summary": "<p>Article URL: <a href=\"https://shkspr.mobi/blog/2025/07/get-the-location-of-the-iss-using-dns/\">https://shkspr.mobi/blog/2025/07/get-the-location-of-the-iss-using-dns/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44480223\">https://news.ycombinator.com/item?id=44480223</a>"
+    },
+    {
+      "title": "'Vibe Coder' Who Doesn't Know How to Code Keeps Winning Hackathons in San Francisco",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://developers.slashdot.org/story/25/07/06/0357235/vibe-coder-who-doesnt-know-how-to-code-keeps-winning-hackathons-in-san-francisco?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shared this report from the San Francisco Standard:\n\nAbout an hour into my meeting with the undisputed hackathon king of San Francisco, Rene Turcios asked if I wanted to smoke a joint with him. I politely declined, but his offer hardly surprised me. Turcios has built a reputation"
+    },
+    {
+      "title": "Tesla Launches Solar-Powered 'Oasis' Supercharger Station: 30-Acre Solar Farm, 39 MWh of Off-Grid Batteries",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://hardware.slashdot.org/story/25/07/06/0440235/tesla-launches-solar-powered-oasis-supercharger-station-30-acre-solar-farm-39-mwh-of-off-grid-batteries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Tesla has launched its new Oasis Supercharger,\" reports Electrek, \"the long-promised EV charging station of the future, with a solar farm and off-grid batteries.\"\n\n\nEarly in the deployment of the Supercharger network, Tesla promised to add solar arrays and batteries to the Supercharger stations, an"
+    },
+    {
+      "title": "How Do You Teach Computer Science in the Age of AI?",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://developers.slashdot.org/story/25/07/06/0237251/how-do-you-teach-computer-science-in-the-age-of-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"A computer science degree used to be a golden ticket to the promised land of jobs,\" a college senior tells the New York Times. But \"That's no longer the case.\" \n\nThe article notes that in the last three years there's been a 65% drop from companies seeking workers with two years of experience or les"
+    },
+    {
+      "title": "Best Indoor TV Antenna (2025): Mohu, Clearstream, One for All",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-tv-antennas/",
+      "published": "Sun, 06 Jul 2025 13:03:00 +0000",
+      "summary": "Plug into free HD TV with these convenient and affordable indoor antennas."
+    },
+    {
+      "title": "12 Best Kids Headphones (2025), Hearing Protection and More",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/the-best-kids-headphones/",
+      "published": "Sun, 06 Jul 2025 12:02:00 +0000",
+      "summary": "If you use screens for work and play, your child probably does too. These are the best pairs we’ve bought and tested for our own kids."
+    },
+    {
+      "title": "How to Use Voice Typing on Your Phone",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/how-to-use-voice-typing-on-your-phone/",
+      "published": "Sun, 06 Jul 2025 10:00:00 +0000",
+      "summary": "When it’s easier to talk than type, Android and iOS have you covered."
+    },
+    {
+      "title": "Should you try a no-meeting week?",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91350290/should-you-try-a-no-meeting-week-no-meetings-at-work",
+      "published": "2025-07-06T11:43:00",
+      "summary": "<p>Knowledge‑workers spend roughly one working day every week, or <a href=\"https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work\">23% of their time</a>, in a meeting. The weight of the workday often prevents employees from having uninterrupted time to concentrate, causing them to"
+    },
+    {
+      "title": "Plane yoga is going viral on EasyJet and Spirit Airlines",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91363420/plane-yoga-explained",
+      "published": "2025-07-06T11:00:00",
+      "summary": "<p>The last place you’d think of doing a downward dog? An airplane.</p>\n\n\n\n<p>That might soon change, as plane yoga is apparently now a thing. <a href=\"https://www.fastcompany.com/section/tiktok\" title=\"TikTok\">TikTok</a> creators are sharing in-flight videos of attendants guiding passengers through"
+    },
+    {
+      "title": "Real estate investors throw in the towel on hopes for lower 2025 mortgage rates",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91363154/mortgage-rate-housing-market-lower-2025-rates-real-estate-investors-abandon-hope",
+      "published": "2025-07-06T10:00:00",
+      "summary": "<p><em>Want more housing market stories from Lance Lambert’s </em><a href=\"https://www.resiclubanalytics.com/\">ResiClub</a><em> in your inbox? <a href=\"https://www.resiclubanalytics.com/subscribe\">Subscribe</a> to the </em>ResiClub<em> <a href=\"https://www.resiclubanalytics.com/subscribe\">newsletter"
+    },
+    {
+      "title": "Data everywhere, alignment nowhere: What dashboards are getting wrong, and why you need a data product manager",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/enterprise-analytics/data-everywhere-alignment-nowhere-what-dashboards-are-getting-wrong-and-why-you-need-a-data-product-manager/",
+      "published": "Sat, 05 Jul 2025 19:15:00 +0000",
+      "summary": "In an enterprise world drowning in dashboards, one truth keeps surfacing: Data isn’t the problem—product thinking is."
+    },
+    {
+      "title": "Sakana AI’s TreeQuest: Deploy multi-model teams that outperform individual LLMs by 30%",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/",
+      "published": "Thu, 03 Jul 2025 22:00:19 +0000",
+      "summary": "Sakana AI's new inference-time scaling technique uses Monte-Carlo Tree Search to orchestrate multiple LLMs to collaborate on complex tasks."
+    },
+    {
+      "title": "Dust hits $6M ARR helping enterprises build AI agents that actually do stuff instead of just talking",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/dust-hits-6m-arr-helping-enterprises-build-ai-agents-that-actually-do-stuff-instead-of-just-talking/",
+      "published": "Thu, 03 Jul 2025 17:00:00 +0000",
+      "summary": "Dust AI startup hits $6M revenue building enterprise agents that automate workflows and take real actions across business systems using Anthropic's Claude models and MCP protocol."
+    },
+    {
+      "title": "The Download: India’s AI independence, and predicting future epidemics",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/04/1119711/the-download-indias-ai-independence-and-predicting-future-epidemics/",
+      "published": "Fri, 04 Jul 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside India’s scramble for AI independence Despite its status as a global tech hub, India lags far behind the likes of the US and China when it comes"
+    },
+    {
+      "title": "Inside India’s scramble for AI independence",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/04/1119705/inside-indias-scramble-for-ai-independence/",
+      "published": "Fri, 04 Jul 2025 08:15:07 +0000",
+      "summary": "In Bengaluru, India, Adithya Kolavi felt a mix of excitement and validation as he watched DeepSeek unleash its disruptive language model on the world earlier this year. The Chinese technology rivaled the best of the West in terms of benchmarks, but it had been built with far less capital in far less"
+    },
+    {
+      "title": "The Download: AI agents hype, and Google’s electricity plans",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/03/1119682/the-download-ai-agents-hype-and-googles-electricity-plans/",
+      "published": "Thu, 03 Jul 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t let hype about AI agents get ahead of reality —Yoav Shoham is a professor emeritus at Stanford University and cofounder of AI21 Labs. At Google’"
+    }
+  ]
+}

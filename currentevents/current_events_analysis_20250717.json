@@ -1,0 +1,381 @@
+{
+  "analysis": {
+    "summary": "The headlines reflect a mix of technology and business news, with topics including corporate scandals, job cuts, data breaches, tech innovations, and entertainment updates. The tech sector is dominated by stories about Roblox introducing new safeguards for teens, TikTok's promotional features for songwriters, and security concerns related to SonicWall devices.",
+    "keywords": [
+      "video",
+      "games",
+      "fraud",
+      "data",
+      "jobs",
+      "costs",
+      "fire",
+      "festival",
+      "safeguards",
+      "promotional",
+      "backdoor",
+      "facial",
+      "scan",
+      "id",
+      "lures",
+      "lawsuit",
+      "breach",
+      "chairman"
+    ],
+    "trending_topics": [
+      "Roblox teen safeguards",
+      "TikTok songwriter promotion"
+    ],
+    "search_keywords": [
+      "video",
+      "games",
+      "fraud",
+      "data",
+      "jobs",
+      "costs",
+      "fire",
+      "festival",
+      "safeguards",
+      "promotional",
+      "backdoor",
+      "facial",
+      "scan",
+      "id",
+      "lures",
+      "lawsuit",
+      "breach",
+      "chairman"
+    ],
+    "analysis_timestamp": "2025-07-17T07:56:10.069023"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "The Verge",
+    "BBC World",
+    "Slashdot",
+    "BBC Business",
+    "Fast Company",
+    "MIT Technology Review",
+    "Engadget",
+    "VentureBeat",
+    "BBC Technology",
+    "Hacker News",
+    "TechCrunch",
+    "Wired",
+    "Ars Technica"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Does the UK video games industry have a class problem?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvg9jeg2nxgo",
+      "published": "Wed, 16 Jul 2025 23:08:25 GMT",
+      "summary": "A non-profit organisation is trying to create more pathways into the sector for working-class people."
+    },
+    {
+      "title": "Samsung boss cleared of fraud by South Korea's top court",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/ckgj04nw19zo",
+      "published": "Thu, 17 Jul 2025 06:13:59 GMT",
+      "summary": "The ruling comes after Lee Jae-yong was acquitted of all charges in two earlier trials."
+    },
+    {
+      "title": "Co-op boss confirms all 6.5m members had data stolen",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cql0ple066po",
+      "published": "Wed, 16 Jul 2025 13:10:12 GMT",
+      "summary": "In her first interview since the attack, Co-op's chief executive said she was \"incredibly sorry\" to customers."
+    },
+    {
+      "title": "UK jobs market weakens as unemployment rate rises",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cg754negn75o",
+      "published": "Thu, 17 Jul 2025 10:22:17 GMT",
+      "summary": "The official data shows wage growth has slowed while the number of vacancies continues to fall."
+    },
+    {
+      "title": "Summer holiday club costs: 'It's the amount you'd spend going away'",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cx231jx70evo",
+      "published": "Thu, 17 Jul 2025 11:01:23 GMT",
+      "summary": "Some areas have seen prices rise by as much as 13%, research by children's charity Corum finds."
+    },
+    {
+      "title": "Jaguar Land Rover to cut up to 500 jobs",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c86g2d7e4pwo",
+      "published": "Thu, 17 Jul 2025 11:42:06 GMT",
+      "summary": "The carmaker says the cuts are part of \"normal business practice\", but one expert blames US tariffs."
+    },
+    {
+      "title": "60 dead after fire tears through Iraqi shopping centre, officials say",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ceq7d45v5v3o",
+      "published": "Thu, 17 Jul 2025 10:04:53 GMT",
+      "summary": "Clips circulating on social media appear to show a number of people on the roof during the fire."
+    },
+    {
+      "title": "Several injured after Gaza church struck, patriarchate says",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c8xvnlpx2dxo",
+      "published": "Thu, 17 Jul 2025 10:43:19 GMT",
+      "summary": "The Israeli military said it was aware of the reports that the Church of the Holy Family was hit by Israeli artillery shells."
+    },
+    {
+      "title": "Tomorrowland organisers say festival will go ahead after fire destroys main stage",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cpwqewyrw57o",
+      "published": "Thu, 17 Jul 2025 09:24:24 GMT",
+      "summary": "Tens of thousands of campers arrive at the Belgium site as festival managers focus on \"finding solutions\"."
+    },
+    {
+      "title": "Roblox introduces new safeguards for teens, including age estimation tech",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/17/roblox-introduces-new-safeguards-for-teens-including-age-estimation-tech/",
+      "published": "Thu, 17 Jul 2025 11:00:00 +0000",
+      "summary": "The move comes as Roblox has come under fire in recent years over child safety concerns."
+    },
+    {
+      "title": "TikTok lures songwriters with new promotional features",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/17/tiktok-is-adding-features-for-songwriters-to-its-app/",
+      "published": "Thu, 17 Jul 2025 07:00:00 +0000",
+      "summary": "TikTok is adding a new label to its app, allowing songwriters to highlight their profiles"
+    },
+    {
+      "title": "Jack Dorsey pumps $10 million into a nonprofit focused on open-source social media",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/16/jack-dorsey-backs-nonprofit-and-other-stuff-experimenting-with-open-social-tools-like-nostr/",
+      "published": "Thu, 17 Jul 2025 04:01:00 +0000",
+      "summary": "Jack Dorsey backs nonprofit 'and Other Stuff' with $10M to build open social technology."
+    },
+    {
+      "title": "More VMware cloud partners axed as Broadcom launches new invite-only program",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/",
+      "published": "Wed, 16 Jul 2025 22:20:33 +0000",
+      "summary": "Smaller businesses most likely to be affected as white-label cloud program is also ending."
+    },
+    {
+      "title": "2026 Mercedes-Benz CLA feels like a real car, not a science experiment",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/cars/2025/07/2026-mercedes-benz-cla-feels-like-a-real-car-not-a-science-experiment/",
+      "published": "Wed, 16 Jul 2025 22:01:37 +0000",
+      "summary": "Mercedes' new 800 V electric powertrain is ready for the public, and we've driven it."
+    },
+    {
+      "title": "Google finds custom backdoor being installed on SonicWall network devices",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/07/google-finds-custom-backdoor-being-installed-on-sonicwall-network-devices/",
+      "published": "Wed, 16 Jul 2025 20:29:38 +0000",
+      "summary": "Overstep backdoor nukes key log entries, making detection hard."
+    },
+    {
+      "title": "Roblox will require a facial scan or government ID to have unfiltered chats",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/708670/roblox-trusted-connections-age-estimation-privacy",
+      "published": "2025-07-17T07:00:00-04:00",
+      "summary": "Roblox is introducing a way to let trusted friends chat more freely among themselves, but it will require that they use a new age estimation tool to verify that they’re over 13. The platform is renaming Friends to Connections, and people can only use unfiltered text chat and the Party social feature"
+    },
+    {
+      "title": "TikTok is putting the spotlight on songwriters",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/708611/tiktok-songwriter-features-music-tab",
+      "published": "2025-07-17T03:00:00-04:00",
+      "summary": "TikTok will now let songwriters highlight tracks they’ve written or co-written directly on their profiles. The list of songs will live within the “Music” tab on their profile, similar to the one TikTok already offers for artists on the platform. Users who register as songwriters will also get a “Son"
+    },
+    {
+      "title": "Subnautica 2&#8217;s creators sue their publisher for ‘severely’ damaging the game’s release",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/entertainment/708676/subnautica-2-former-ceo-lawsuit-krafton-sabotage",
+      "published": "2025-07-16T19:26:13-04:00",
+      "summary": "The battle between Subnautica 2 publisher Krafton and the three former executives at its developer Unknown Worlds continues. Ted Gill, Charlie Cleveland, and Max McGuire — the three executives who Krafton terminated earlier this year — have filed a lawsuit detailing the alleged attempts by Krafton t"
+    },
+    {
+      "title": "Samsung chairman cleared of fraud by South Korea's top court",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/big-tech/samsung-chairman-cleared-of-fraud-by-south-koreas-top-court-113043402.html?src=rss",
+      "published": "Thu, 17 Jul 2025 11:30:43 +0000",
+      "summary": "<p>South Korea's top court has <a href=\"https://www.engadget.com/big-tech/samsung-leader-cleared-of-fraud-charges-after-winning-appeal-130056498.html\"><ins>upheld an appeals court ruling</ins></a> to dismiss all charges in a long-running fraud case against <a href=\"https://www.engadget.com/mobile/sm"
+    },
+    {
+      "title": "Roblox is adding an 'age estimation' feature for teens",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/roblox-is-adding-an-age-estimation-feature-for-teens-110047092.html?src=rss",
+      "published": "Thu, 17 Jul 2025 11:00:47 +0000",
+      "summary": "<p>Roblox is joining the growing ranks of online platforms that are trying to better understand the ages of their teen users. The company is rolling out a new \"<a class=\"no-affiliate-link\" href=\"https://corp.roblox.com/newsroom/2025/07/advancing-safety-on-roblox-with-age-based-communication\"><ins>ag"
+    },
+    {
+      "title": "The best VR accessories for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ar-vr/best-vr-accessories-150021126.html?src=rss",
+      "published": "Thu, 17 Jul 2025 09:00:37 +0000",
+      "summary": "<p>Whether you’re playing games, exploring virtual worlds or working out in mixed reality, the right gear can make all the difference. The best VR accessories enhance comfort, improve tracking and keep your headset powered up and protected between sessions. From upgraded straps and charging docks to"
+    },
+    {
+      "title": "YouTuber faces jail time for showing off Android-based gaming handhelds",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/youtuber-faces-jail-time-for-showing-off-android-based-gaming-handhelds/",
+      "published": "Thu, 17 Jul 2025 11:17:08 +0000",
+      "summary": "<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2025/07/youtuber-faces-jail-time-for-showing-off-android-based-gaming-handhelds/\">https://arstechnica.com/gadgets/2025/07/youtuber-faces-jail-time-for-showing-off-android-based-gaming-handhelds/</a></p>\n<p>Comments URL: <a href=\"https://news.y"
+    },
+    {
+      "title": "Upcoming coordinated security fix for all Matrix server implementations",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://matrix.org/blog/2025/07/security-predisclosure/",
+      "published": "Thu, 17 Jul 2025 10:49:58 +0000",
+      "summary": "<p>Article URL: <a href=\"https://matrix.org/blog/2025/07/security-predisclosure/\">https://matrix.org/blog/2025/07/security-predisclosure/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44591820\">https://news.ycombinator.com/item?id=44591820</a></p>\n<p>Points: 8</p>\n<p># Comme"
+    },
+    {
+      "title": "Gmail/Google starts disabling features unless you agree to data processing",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://bsky.app/profile/victor.earth/post/3lu5ovm2oy22g",
+      "published": "Thu, 17 Jul 2025 10:40:04 +0000",
+      "summary": "<p>Article URL: <a href=\"https://bsky.app/profile/victor.earth/post/3lu5ovm2oy22g\">https://bsky.app/profile/victor.earth/post/3lu5ovm2oy22g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44591752\">https://news.ycombinator.com/item?id=44591752</a></p>\n<p>Points: 22</p>\n<p># Co"
+    },
+    {
+      "title": "VMware Reboots Its Partner Program Again With New Invite-Only Program",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/07/16/236216/vmware-reboots-its-partner-program-again-with-new-invite-only-program?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "VMware is overhauling its partner program again under Broadcom's direction, drastically reducing the number of authorized partners -- especially small and mid-size ones -- while ending the white label program by October 31, 2025. The Register reports: Australian IT service provider Interactive outli"
+    },
+    {
+      "title": "360 Million Indians Just Got Premium AI Chatbots For Free For a Year",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/07/17/0742246/360-million-indians-just-got-premium-ai-chatbots-for-free-for-a-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Perplexity has partnered with Indian telecoms giant Bharti Airtel to provide its premium Pro service to 360 million customers for free for an entire year, representing the largest distribution deal of its kind globally. \n\nThe service normally costs $200 annually and provides access to advanced model"
+    },
+    {
+      "title": "Transatlantic Communications Cable Doubles As Ocean Sensor",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/07/16/2246201/transatlantic-communications-cable-doubles-as-ocean-sensor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "alternative_right shares a report from Phys.org: Monitoring changes in water temperature and pressure at the seafloor can improve understanding of ocean circulation, climate, and natural hazards such as tsunamis. In recent years, scientists have begun gathering submarine measurements via an existing"
+    },
+    {
+      "title": "9 Best MagSafe Wallets, Tested and Reviewed (2025)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-magsafe-wallets/",
+      "published": "Thu, 17 Jul 2025 11:37:00 +0000",
+      "summary": "These convenient and slim magnetic wallets are the ones you’ll want to stick to the back of your smartphone."
+    },
+    {
+      "title": "Hackers Are Finding New Ways to Hide Malware in DNS Records",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/dns-records-hidden-malicious-code/",
+      "published": "Thu, 17 Jul 2025 11:30:00 +0000",
+      "summary": "Newly published research shows that the domain name system—a fundamental part of the web—can be exploited to hide malicious code and prompt injection attacks against chatbots."
+    },
+    {
+      "title": "DOGE Put Free Tax Filing Tool on Chopping Block After One Meeting With Lobbyists",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/doge-direct-file-chopping-block/",
+      "published": "Thu, 17 Jul 2025 11:00:00 +0000",
+      "summary": "A key operative from DOGE initiated plans to potentially kill Direct File, the free tax filing tool developed by the IRS, after offering assurances it would be spared from cuts."
+    },
+    {
+      "title": "How Newgrounds accidentally became one of online culture’s defining sites",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91356472/newsgrounds-fark-i-mockery",
+      "published": "2025-07-17T11:00:00",
+      "summary": "<p>In 1995, a familiar experience sat at the center of many people’s first experiences with the dial-up internet: the chance to create something for themselves.</p>\n<p>Along with the access to the World Wide Web, Telnet, and Usenet newsgroups, many users were given a few megabytes on their ISP’s FTP"
+    },
+    {
+      "title": "Philanthropy cannot be the global aid plan B",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91369160/philanthropy-cannot-be-the-global-aid-plan-b",
+      "published": "2025-07-17T11:00:00",
+      "summary": "<p>Bill Gates recently <a href=\"https://www.gatesfoundation.org/ideas/media-center/press-releases/2025/06/renewed-gavi-commitment-lifesaving-vaccine-access\">sounded the alarm</a>: with massive cuts to foreign aid, global child mortality is set to rise—for the first time in decades. Since the Trump e"
+    },
+    {
+      "title": "Roblox adds features for teens to talk less restrictedly to real-life friends",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91369342/roblox-adds-features-for-teens-to-talk-less-restrictedly-to-real-life-friends",
+      "published": "2025-07-17T11:00:00",
+      "summary": "<p>Roblox, the popular <a href=\"https://www.fastcompany.com/91357216/how-roblox-handles-millions-of-players-on-viral-games-like-grow-a-garden\">online gaming and social platform</a> among kids and teens, is introducing new chat features for users ages 13 and up, allowing them to connect more directly"
+    },
+    {
+      "title": "Claude Code revenue jumps 5.5x as Anthropic launches analytics dashboard",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/anthropic-adds-usage-tracking-to-claude-code-as-enterprise-ai-spending-surges/",
+      "published": "Wed, 16 Jul 2025 17:00:00 +0000",
+      "summary": "Anthropic has launched a powerful analytics dashboard for its Claude Code AI assistant, giving engineering leaders real-time insights into developer productivity, tool usage, and ROI on AI coding investments."
+    },
+    {
+      "title": "AWS unveils Bedrock AgentCore, a new platform for building enterprise AI agents with open source frameworks and tools",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/aws-unveils-bedrock-agentcore-a-new-platform-for-building-enterprise-ai-agents-with-open-source-frameworks-and-tools/",
+      "published": "Wed, 16 Jul 2025 16:31:56 +0000",
+      "summary": "AWS beleives AI agents will change how enterprises work and with its new Amazon Bedrock AgentCore, it hopes to make it easier to build and deploy agents in one go."
+    },
+    {
+      "title": "Google study shows LLMs abandon correct answers under pressure, threatening multi-turn AI systems",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/google-study-shows-llms-abandon-correct-answers-under-pressure-threatening-multi-turn-ai-systems/",
+      "published": "Wed, 16 Jul 2025 00:28:03 +0000",
+      "summary": "A DeepMind study finds LLMs are both stubborn and easily swayed. This confidence paradox has key implications for building AI applications."
+    },
+    {
+      "title": "In defense of air-conditioning",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/17/1120293/air-conditioning-safety-europe/",
+      "published": "Thu, 17 Jul 2025 10:00:00 +0000",
+      "summary": "I’ll admit that I’ve rarely hesitated to point an accusing finger at air-conditioning. I’ve outlined in many stories and newsletters that AC is a significant contributor to global electricity demand, and it’s only going to suck up more power as temperatures rise. But I’ll also be the first to admit "
+    },
+    {
+      "title": "Researchers announce babies born from a trial of three-person IVF",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/16/1120285/babies-born-trial-of-three-person-ivf/",
+      "published": "Wed, 16 Jul 2025 21:00:00 +0000",
+      "summary": "Eight babies have been born in the UK thanks to a technology that uses DNA from three people: the two biological parents plus a third person who supplies healthy mitochondrial DNA. The babies were born to mothers who carry genes for mitochondrial diseases and risked passing on severe disorders. The "
+    },
+    {
+      "title": "These four charts show where AI companies could go next in the US",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/16/1120233/these-four-charts-show-where-ai-companies-could-go-next-in-the-us/",
+      "published": "Wed, 16 Jul 2025 14:00:44 +0000",
+      "summary": "No one knows exactly how AI will transform our communities, workplaces, and society as a whole. Because it’s hard to predict the impact AI will have on jobs, many workers and local governments are left trying to read the tea leaves to understand how to prepare and adapt. A new interactive report rel"
+    }
+  ]
+}

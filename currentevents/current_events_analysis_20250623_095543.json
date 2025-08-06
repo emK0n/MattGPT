@@ -1,0 +1,31 @@
+{
+  "analysis": {
+    "summary": "Unable to collect current headlines due to connectivity issues. This may be temporary - please try again later.",
+    "keywords": [
+      "technology",
+      "business",
+      "market",
+      "innovation",
+      "startup"
+    ],
+    "trending_topics": [
+      "Technology trends",
+      "Business developments"
+    ],
+    "search_keywords": [
+      "technology",
+      "business",
+      "market",
+      "innovation",
+      "startup"
+    ],
+    "analysis_timestamp": "2025-06-23T09:55:43.040217",
+    "fallback": true
+  },
+  "focus": "technology_and_business",
+  "headline_count": 0,
+  "sources_analyzed": [],
+  "categories": [],
+  "tech_business_filter": true,
+  "raw_headlines": []
+}

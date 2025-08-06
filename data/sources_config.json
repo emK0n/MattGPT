@@ -1,0 +1,144 @@
+{
+  "model_settings": {
+    "ollama_model": "granite3.2:8b",
+    "temperature": 0.1,
+    "max_tokens": 2000
+    },
+  "rss_feeds": [
+    {
+      "url": "https://news.ycombinator.com/rss",
+      "name": "Hacker News",
+      "category": "technology"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/.rss",
+      "name": "Reddit Technology",
+      "category": "technology"
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/.rss",
+      "name": "Reddit Machine Learning",
+      "category": "research"
+    },
+    {
+      "url": "https://feeds.feedburner.com/TechCrunch",
+      "name": "TechCrunch",
+      "category": "technology"
+    },
+    {
+      "url": "https://www.wired.com/feed",
+      "name": "Wired",
+      "category": "technology"
+    },
+    {
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "name": "Ars Technica",
+      "category": "technology"
+    },
+    {
+      "url": "https://www.theverge.com/rss/index.xml",
+      "name": "The Verge",
+      "category": "technology"
+    },
+    {
+      "url": "https://venturebeat.com/feed/",
+      "name": "VentureBeat",
+      "category": "business"
+    },
+    {
+      "url": "https://www.technologyreview.com/feed/",
+      "name": "MIT Technology Review",
+      "category": "research"
+    },
+    {
+      "url": "https://www.fastcompany.com/rss",
+      "name": "Fast Company",
+      "category": "business"
+    },
+    {
+      "url": "https://www.forbes.com/innovation/feed2/",
+      "name": "Forbes Innovation",
+      "category": "business"
+    },
+    {
+      "url": "https://openai.com/blog/rss.xml",
+      "name": "OpenAI Blog",
+      "category": "research"
+    },
+    {
+      "url": "https://blog.research.google/feeds/posts/default",
+      "name": "Google Research Blog",
+      "category": "research"
+    },
+    {
+      "url": "https://towardsdatascience.com/feed",
+      "name": "Towards Data Science",
+      "category": "research"
+    },
+    {
+      "url": "https://machinelearningmastery.com/feed/",
+      "name": "Machine Learning Mastery",
+      "category": "research"
+    },
+    {
+      "url": "https://dev.to/feed",
+      "name": "Dev.to",
+      "category": "development"
+    },
+    {
+      "url": "https://github.blog/feed/",
+      "name": "GitHub Blog",
+      "category": "development"
+    },
+    {
+      "url": "https://stackoverflow.blog/feed/",
+      "name": "Stack Overflow Blog",
+      "category": "development"
+    },
+    {
+      "url": "https://stratechery.com/feed/",
+      "name": "Stratechery",
+      "category": "business"
+    }
+  ],
+  "reddit_subreddits": [
+    {
+      "name": "technology",
+      "description": "General technology discussions"
+    },
+    {
+      "name": "programming",
+      "description": "Programming and software development"
+    },
+    {
+      "name": "MachineLearning",
+      "description": "Machine learning research and applications"
+    },
+    {
+      "name": "artificial",
+      "description": "Artificial intelligence discussions"
+    },
+    {
+      "name": "science",
+      "description": "General science topics"
+    },
+    {
+      "name": "datascience",
+      "description": "Data science and analytics"
+    },
+    {
+      "name": "compsci",
+      "description": "Computer science topics"
+    }
+  ],
+  "arxiv_categories": ["cs.AI", "cs.LG", "cs.MA", "cs.SI", "stat.ML", "eess.IV"],
+  "arxiv_queries": [
+    {"query": "machine learning", "max_results": 50}
+  ],
+  "collection_settings": {
+    "rss_max_entries_per_feed": 20,
+    "reddit_max_posts_per_subreddit": 3,
+    "rate_limit_delay_seconds": 2,
+    "default_max_results_per_source": 5
+  }
+}

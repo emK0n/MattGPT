@@ -1,0 +1,1051 @@
+10-K
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 10-K
+
+(Mark One)
+
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the fiscal year ended December 31, 2024
+
+OR
+
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the transition period from __ to __
+
+Commission file number: 814-01175
+
+BAIN CAPITAL SPECIALTY FINANCE, INC.
+
+(Exact Name of Registrant as Specified in its Charter)
+
+Delaware 81-2878769
+
+(State or Other Jurisdiction of (I.R.S. Employer
+
+Incorporation or Organization) Identification No.)
+
+200 Clarendon Street, 37th Floor
+
+Boston, MA 02116
+
+(Address of Principal Executive Office) (Zip Code)
+
+(617) 516‑2000
+
+(Registrant’s Telephone Number, Including Area Code)
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Title of each class Trading Symbol(s) Name of each exchange on which registered
+
+Common Stock, par value $0.001 per share BCSF New York Stock Exchange
+
+Securities registered pursuant to Section 12(g) of the Act: None
+
+Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. Yes No
+
+Indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes No
+
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the
+
+preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.
+
+Yes No
+
+Indicate by check mark whether the registrant has submitted electronically, and every Interactive Data File required to be submitted pursuant to Rule 405 of
+
+Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes No
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging
+
+growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b‑2 of the
+
+Exchange Act.
+
+Large accelerated filer Accelerated filer
+
+Non-accelerated filer Smaller reporting company
+
+Emerging growth company
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or
+
+revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+
+Indicate by check mark whether the registrant has filed a report on and attestation to its management’s assessment of the effectiveness of its internal control over
+
+financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report.
+
+If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing
+
+reflect the correction of an error to previously issued financial statements.
+
+Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any
+
+of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b).
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b‑2 of the Act). Yes No
+
+The aggregate market value of the voting and non-voting common equity held by non-affiliates of the registrant, was $902.6 million based on the number of shares
+
+held by non-affiliates of the registrant as of December 31, 2024. Shares of the registrant’s common stock held by each executive officer, director and holder of 5% or more of
+
+the outstanding common stock have been excluded in that such persons may be deemed to be affiliates. This calculation does not reflect a determination that certain persons
+
+are affiliates of the registrant for any other purpose. As of February 27, 2025, 64,614,594.23 shares of common stock were outstanding.
+
+Documents Incorporated by Reference
+
+Portions of the registrant’s definitive proxy statement to be filed with the Securities and Exchange Commission pursuant to Regulation 14A in connection with the
+
+registrant’s 2025 Annual Meeting of Stockholders, which will be filed subsequent to the date hereof, are incorporated by reference into Part III of this Form 10-K where
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+indicated. Such definitive proxy statement will be filed with the Securities and Exchange Commission not later than 120 days following the end of the registrant’s fiscal year
+
+ended December 31, 2024.
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+TABLE OF CONTENTS
+
+Page
+
+PART I 1
+
+Item 1. Business 28
+
+Item 1A. Risk Factors 62
+
+Item 1B. Unresolved Staff Comments 62
+
+Item 1C. Cybersecurity 62
+
+Item 2. Properties 63
+
+Item 3. Legal Proceedings 63
+
+Item 4. Mine Safety Disclosures 63
+
+PART II 64
+
+Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 64
+
+Item 6. Selected Consolidated Financial Data 68
+
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations 69
+
+Item 7A. Quantitative and Qualitative Disclosures About Market Risk 97
+
+Item 8. Consolidated Financial Statements and Supplementary Data 98
+
+Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 219
+
+Item 9A. Controls and Procedures 219
+
+Item 9B. Other Information 220
+
+Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 220
+
+PART III 220
+
+Item 10. Directors, Executive Officers and Corporate Governance 220
+
+Item 11. Executive Compensation 221
+
+Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 221
+
+Item 13. Certain Relationships and Related Transactions, and Director Independence 221
+
+Item 14. Principal Accountant Fees and Services 221
+
+PART IV 222
+
+Item 15. Exhibits, Consolidated Financial Statement Schedules 222
+
+Item 16. Form 10-K Summary 226
+
+Signatures 227
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+CERTAIN DEFINITIONS
+
+Except as otherwise specified in this Annual Report on Form 10-K (“Annual Report”), the terms “we,” “us,” “our”, and the “Company”
+
+refer to Bain Capital Specialty Finance, Inc.
+
+FORWARD-LOOKING STATEMENTS
+
+Statements contained in this Annual Report (including those relating to current and future market conditions and trends in respect thereof)
+
+that are not historical facts are based on current expectations, estimates, projections, opinions and/or beliefs of the Company, BCSF Advisors, LP
+
+(the “Advisor”) and/or Bain Capital Credit, LP and its affiliated advisers (collectively, “Bain Capital Credit”). Such statements involve known and
+
+unknown risks, uncertainties and other factors and undue reliance should not be placed thereon. Certain information contained in this Annual Report
+
+constitutes “forward-looking statements,” which can be identified by the use of forward-looking terminology such as “may,” “will,” “should,”
+
+“seek,” “expect,” “anticipate,” “project,” “estimate,” “intend,” “continue,” “target,” or “believe” or the negatives thereof or other variations thereon
+
+or comparable terminology. Due to various risks and uncertainties, actual events or results or the actual performance of the Company may differ
+
+materially from those reflected or contemplated in such forward-looking statements. These statements are not guarantees of future performance and
+
+are subject to risks, uncertainties, and other factors, some of which are beyond our control and are difficult to predict, that could cause actual results
+
+to differ materially from those expressed or forecasted in the forward-looking statements including, without limitation, the risks, uncertainties and
+
+other factors we identify in the section entitled “Item 1A. Risk Factors” and elsewhere in this Annual Report and in our filings with the Securities
+
+and Exchange Commission (the “SEC”).
+
+Although we believe that the assumptions on which these forward-looking statements are based are reasonable, some of those assumptions
+
+may be based on the work of third parties and any of those assumptions could prove to be inaccurate; as a result, the forward-looking statements
+
+based on those assumptions also could prove to be inaccurate. In light of these and other uncertainties, the inclusion of a projection or forward-
+
+looking statement in this Annual Report should not be regarded as a representation by us that our plans and objectives will be achieved. These risks
+
+and uncertainties include those described or identified in the section entitled “Item 1A. Risk Factors” and elsewhere in this Annual Report. Investors
+
+should not place undue reliance on these forward-looking statements, which apply only as of the date of this Annual Report. We do not undertake
+
+any obligation to update or revise any forward-looking statements or any other information contained herein, except as required by applicable law.
+
+The safe harbor provisions of Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which preclude civil liability
+
+for certain forward-looking statements, do not apply to the forward-looking statements in this Annual Report because we are an investment
+
+company.
+
+Summary of Risk Factors
+
+Investing in our common stock involves a high degree of risk. Some, but not all, of the risks and uncertainties that we face are related to:
+
+•Global capital markets could enter a period of severe disruption and instability.
+
+•Price declines and illiquidity in the corporate debt markets may adversely affect the fair value of our portfolio investments, reducing our
+
+net asset value ("NAV") through increased net unrealized depreciation.
+
+•We are dependent upon key personnel of Bain Capital Credit and our Advisor.
+
+•Our executive officers and directors, our Advisor, Bain Capital Credit and their affiliates, officers, directors and employees may face
+
+certain conflicts of interest;
+
+•We may need to raise additional capital and existing stockholders may be diluted by any such capital raise.
+
+•Our strategy involves a high degree of leverage. We intend to continue to finance our investments with borrowed money, which will
+
+magnify the potential for gain or loss on amounts invested and may increase the risk of investing in us. The risks of investment in a highly
+
+leveraged fund include volatility and possible distribution restrictions.
+
+•We operate in an increasingly competitive market for investment opportunities, which could reduce returns and result in losses.
+
+•Our board of directors (the "Board") may change our investment objective, operating policies and strategies without prior notice or
+
+stockholder approval.
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+ii
+
+iii
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+•Our Advisor and Administrator each have the ability to resign on 60s' notice and we may not be able to find a suitable replacement within
+
+that time, resulting in a disruption in our operations that could adversely affect our financial condition, business and results of operations.
+
+•We and our Advisor are subject to regulations and SEC oversight, including limits on issuance of debt. If we or they fail to comply with
+
+applicable requirements, it may adversely impact our results relative to companies that are not subject to such regulations.
+
+•The lack of liquidity in our investments may adversely affect our business.
+
+•We may invest in high yield debt, or junk bonds, which has greater credit and liquidity risk than more highly rated debt obligations.
+
+•Our portfolio companies may default or may need to restructure their obligations to us.
+
+•We are a non-diversified investment company within the meaning of the 1940 Act, and therefore we are not limited by the 1940 Act with
+
+respect to the proportion of our assets that may be invested in securities of a single issuer or industry.
+
+•We will be subject to corporate-level income tax if we are unable to qualify as a regulated investment company ("RIC") or do not
+
+distribute all of our taxable income.
+
+•Investing in our common stock involves an above average degree of risk.
+
+•The market price of our common stock may fluctuate significantly.
+
+•We cannot assure you that a market for shares of our common stock will be maintained or the market price of our shares will trade close
+
+to NAV.
+
+•Geopolitical events, including international sanctions, may have material adverse impact on us and our portfolio companies.
+
+•Inflation and actions by central banks or monetary authorities, including the U.S. Federal Reserve, to address inflation may adversely
+
+affect the business, results of operations and financial condition of our portfolio companies.
+
+•We may be the target of litigation.
+
+iii
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+PART I
+
+Item 1. Business
+
+General
+
+Bain Capital Specialty Finance, Inc. (the “Company”) was formed on October 5, 2015 (“Inception”) as a Delaware corporation structured
+
+as an externally managed, closed-end, non-diversified management investment company. The Company commenced investment operations on
+
+October 13, 2016 (“Commencement”). The Company has elected to be treated as a business development company (“BDC”) under the Investment
+
+Company Act of 1940, as amended (the “1940 Act”). In addition, the Company has elected to be treated for U.S. federal income tax purposes as a
+
+regulated investment company (a “RIC”) under Subchapter M of the Internal Revenue Code of 1986, as amended (the “Code”). As a RIC, the
+
+Company will not be taxed on its income to the extent that it distributes such income each year and satisfies other applicable income tax
+
+requirements.
+
+On October 6, 2016, the Company completed its initial closing of capital commitments (the “Initial Closing”) and subsequently
+
+commenced substantial investment operations. On November 19, 2018, the Company closed its initial public offering (the “IPO”) issuing 7,500,000
+
+shares of its common stock at a public offering price of $20.25 per share. Shares of common stock of the Company began trading on the New York
+
+Stock Exchange under the symbol “BCSF” on November 15, 2018.
+
+The Company is managed by the Advisor, an investment adviser that is registered with the SEC under the Investment Advisers Act of
+
+1940, as amended (the “Advisers Act”). The Advisor also provides the administrative services necessary for the Company to operate (in such
+
+capacity, the “Administrator”). Company management consists of investment and administrative professionals from the Advisor and Administrator
+
+along with the Board of Directors (the “Board”). The Advisor directs and executes the investment operations and capital raising activities of the
+
+Company subject to oversight from the Board, which sets the broad policies of the Company. The Board has delegated investment management of
+
+the Company’s investment assets to the Advisor. The Board consists of eight directors, five of whom are independent.
+
+Our primary focus is capitalizing on opportunities within Bain Capital Credit’s Senior Direct Lending Strategy, as defined below, which
+
+seeks to provide risk-adjusted returns and current income to investors by investing primarily in middle-market direct lending opportunities across
+
+North America, Europe and Australia and also in other geographic markets. We use the term "middle market" to refer to companies with between
+
+$10.0 million and $150.0 million in annual earnings before interest, taxes, depreciation and amortization (“EBITDA”). However, we may, from
+
+time to time, invest in larger or smaller companies. We focus on senior investments with a first or second lien on collateral and strong structures and
+
+documentation intended to protect the lender (including “unitranche” loans, which are loans that combine both senior and mezzanine debt). We
+
+generally seek to retain effective voting control in respect of the loans or particular class of securities in which we invest through maintaining
+
+affirmative voting positions or negotiating consent rights that allow us to retain a blocking position. We may also invest in mezzanine debt and
+
+other junior securities, including common and preferred equity and in secondary purchases of assets or portfolios, on an opportunistic basis, but
+
+such investments are not the principal focus of our investment strategy. We may also invest, from time to time, in distressed debt, debtor-in-
+
+possession loans, structured products, structurally subordinate loans, investments with deferred interest features, zero-coupon securities and
+
+defaulted securities. Our debt investments may be at fixed or floating interest rates, and our floating rate investments may utilize one or more
+
+reference rates, such as the Secured Overnight Financing Rate (“SOFR”). Our investments are subject to a number of risks. See “Risk Factors—
+
+Relating to Our Investments.”
+
+We generate revenues primarily through receipt of interest income from the investments we hold. In addition, we generate income from
+
+various loan origination and other fees, dividends on direct equity investments and capital gains on the sales of investments. The companies in
+
+which we invest use our capital for a variety of reasons, including to support organic growth, to fund changes of control, to fund acquisitions, to
+
+make capital investments and for refinancing and recapitalizations.
+
+Leverage may be utilized to help the Company meet its investment objective. Any such leverage would be expected to increase the total
+
+capital available for investment by the Company.
+
+We may invest in debt securities which are either rated below investment grade or not rated by any rating agency but, if they were rated,
+
+would be rated below investment grade. Below investment grade securities, which are often referred to as “junk,” have predominantly speculative
+
+characteristics with respect to the issuer’s capacity to pay interest and repay principal. They may also be illiquid and difficult to value.
+
+1
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+The Investment Advisor
+
+The Company’s investment activities are managed by the Advisor, an investment adviser that is registered with the SEC under the
+
+Advisers Act pursuant to an investment advisory agreement, as amended from time to time (the “Amended Advisory Agreement”). The Advisor is
+
+responsible for originating prospective investments, conducting research and due diligence investigations on potential investments, analyzing
+
+investment opportunities, negotiating and structuring our investments and monitoring our investments and portfolio companies on an ongoing basis.
+
+More information regarding the Advisor and its business activities can be found on its registration under Form ADV located on the Investment
+
+Adviser Registration Depository website of the SEC.
+
+The Advisor has entered into a Resource Sharing Agreement (the “Resource Sharing Agreement”) with Bain Capital Credit, LP (“Bain
+
+Capital Credit”), pursuant to which Bain Capital Credit provides the Advisor with experienced investment professionals (including the members of
+
+the Advisor’s Credit Committee) and access to the resources of Bain Capital Credit so as to enable the Advisor to fulfill its obligations under the
+
+Amended Advisory Agreement. Through the Resource Sharing Agreement, the Advisor intends to capitalize on the significant deal origination,
+
+credit underwriting, due diligence, investment structuring, execution, portfolio management and monitoring experience of Bain Capital Credit’s
+
+investment professionals. There can be no assurance that Bain Capital Credit will perform its obligations under the Resource Sharing Agreement.
+
+The Resource Sharing Agreement may be terminated by either party on 60 days’ notice, which if terminated may have a material adverse
+
+consequence on the Company’s operations. See “Item 13. Certain Relationships and Related Transactions, and Director Independence.”
+
+About Bain Capital Credit
+
+Bain Capital Credit was established in 1998. Bain Capital Credit and its subsidiaries (including the credit vehicles managed by its
+
+Alternative Investment Fund Manager affiliate except for vehicles managed by the Special Situations team) had approximately $51.0 billion in
+
+assets under management as of December 31, 2024. To date, Bain Capital Credit has invested across the credit products and fixed income universe,
+
+including performing and distressed bank loans, high yield bonds, debtor-in-possession loans, senior direct lending, mezzanine debt and other junior
+
+securities, structured products, credit-based equities and other investments. Bain Capital Credit has invested over $24.0 billion in the Senior Direct
+
+Lending Strategy since 1999 (of which approximately $3.1 billion has been invested within the 12‑month period ended September 30, 2024) and
+
+has an extensive track record as a non-traditional lender in the middle market. The Senior Direct Lending Strategy is defined as primarily consisting
+
+of investments in secured debt in companies with EBITDA of $10.0 million to $150.0 million.
+
+Bain Capital Credit is a wholly-owned subsidiary of Bain Capital, LP (“Bain Capital”) and the Advisor is a majority-owned subsidiary of
+
+Bain Capital Credit. As a diversified private investment firm, Bain Capital and its affiliates, including Bain Capital Credit and the Advisor, engage
+
+in a broad range of activities, including investment activities for their own account and for the account of other investment funds or accounts, and
+
+provide investment banking, advisory, management and other services to funds and operating companies.
+
+The Board of Directors
+
+Our business and affairs are managed under the direction of the Board. The Board consists of eight members, five of whom are not
+
+“interested persons” of the Company, the Advisor or their respective affiliates as defined in Section 2(a)(19) of the 1940 Act. We refer to these
+
+individuals as our “Independent Directors.” The Independent Directors compose a majority of the Board. The Board elects our officers, who serve
+
+at the discretion of the Board. The responsibilities of the Board include corporate governance activities, oversight of our financing arrangements and
+
+investment activities and fair valuation of our assets.
+
+Investment Decision Process
+
+The Advisor’s investment process can be broken into five processes: (1) Sourcing and Idea Generation, (2) Investment Diligence &
+
+Recommendation, (3) Credit Committee Approval, (4) Portfolio Construction and (5) Portfolio & Risk Management.
+
+Sourcing and Idea Generation
+
+The investment decision-making process begins with sourcing ideas. Bain Capital Credit’s Private Credit Group interacts with a broad and
+
+deep set of global sourcing contacts, enabling the group to generate a large set of middle-market investment opportunities. Further enhancing the
+
+sourcing capability of the core Private Credit Group are Bain Capital Credit’s industry groups, Trading Desk, and the Bain Capital Special
+
+Situations team. The team has extensive contacts with private equity firms, relationships with banks, a variety of advisors and intermediaries and a
+
+handful of unique independent sponsors compose the remainder of the relationships. Through these sourcing efforts the Private Credit Group has
+
+built a sustainable deal funnel, which has generated hundreds of opportunities to review annually.
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+2
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+Investment Diligence & Recommendation
+
+Our Advisor utilizes Bain Capital Credit’s bottom-up approach to investing, and it starts with due diligence. The Private Credit Group
+
+works with the close support of Bain Capital Credit’s industry groups on performing due diligence. This process typically begins with a detailed
+
+review of the offering memorandum as well as Bain Capital Credit’s own independent diligence efforts, including in-house materials and expertise,
+
+third-party independent research and interviews, and hands-on field checks where appropriate. For deals that progress beyond an initial stage, the
+
+team will schedule one or more meetings with company management, facilities visits and also meetings with the sponsor in order to ask more
+
+detailed questions and to better understand the sponsor’s view of the business and plans for it going forward. The team’s diligence work is
+
+summarized in investment memorandums and accompanying credit packs. Work product also includes full models and covenant analysis. The
+
+approval process itself is iterative, involving multiple levels of discussion and approval.
+
+Credit Committee Approval
+
+Given Bain Capital Credit’s broad and diverse range of investment strategies, we tailor our investment decision-making process by
+
+strategy to provide a robust and comprehensive discussion of both individual investments and the applicable portfolio(s) under consideration. We
+
+believe that this flexible approach provides a rigorous investment decision-making process that allows us to be nimble across a variety of market
+
+environments while still maintaining high credit underwriting standards.
+
+Our investments require approval from at least the Private Credit Investment Committee, which includes three Partners in the Private
+
+Credit Group as standing members: Michael Ewald, Mike Boyle, and Carolyn Hastings. Ad hoc members may also be included in the Private Credit
+
+Investment Committee for certain types of investments.
+
+Portfolio Construction
+
+Portfolio construction is largely the responsibility of the portfolio managers. The portfolio managers will construct the portfolio using a
+
+set of approved investments. While the decision to buy generally requires approval from at least the Private Credit Investment Committee, the
+
+decision to sell securities is at the sole discretion of the portfolio managers. For middle-market holdings, the path to exit an investment is discussed
+
+at credit committee meetings, including restructurings, acquisitions and sale to strategic buyers. Since most middle-market investments are illiquid,
+
+exits are driven primarily by a sale of the portfolio company or a refinancing of the portfolio company’s debt.
+
+Portfolio & Risk Management
+
+Our Advisor utilizes Bain Capital Credit’s Private Credit Group for the daily monitoring of its respective credits after an investment has
+
+been made. Our Advisor believes that the ongoing monitoring of financial performance and market developments of portfolio investments is critical
+
+to successful investment management. Accordingly, our Advisor is actively involved in an on-going portfolio review process and attends board
+
+meetings. To the extent a portfolio investment is not meeting our Advisor’s expectations, our Advisor takes corrective action when it deems
+
+appropriate, which may include raising interest rates, gaining a more influential role on its board, taking warrants and, where appropriate,
+
+restructuring the balance sheet to take control of the company. Our Advisor will utilize the Bain Capital Credit Risk and Oversight Committee. The
+
+Risk and Oversight Committee is responsible for monitoring and reviewing risk management, including portfolio risk, counterparty risk and firm-
+
+wide risk issues. In addition to the methods noted above, there are a number of proprietary methods and tools used through all levels of Bain Capital
+
+Credit to manage portfolio risk.
+
+Investment Strategy
+
+The Advisor, through the resources and personnel provided by Bain Capital Credit through the Resource Sharing Agreement, uses
+
+detailed business, industry and competitive analyses to make investments. In evaluating potential opportunities, Bain Capital Credit’s investment
+
+professionals typically complete market analyses to assess the attractiveness of a given industry and a specific investment and monitor, on an
+
+ongoing basis, financial performance and market developments. The Advisor’s approach to making investments generally involves evaluating the
+
+following business characteristics: market definition, market size and growth prospects, competitive analysis, historical financial performance,
+
+margin analysis and cost structure, quality of earnings, capital structure, access to capital markets and regulatory, risk analysis, tax and legal
+
+matters. Additionally, the Advisor places significant emphasis on the quality and track record of the controlling stockholders and management team
+
+as well as careful consideration to the underlying deal structure and documentation. When considering an investment that meets the Company’s
+
+return objectives, the Advisor seeks to mitigate downside risk.
+
+We seek to create a broad and varied portfolio of investments across various industries as a method to manage risk and capitalize on
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+specific sector trends, all concentrated in a small number of industries.
+
+3
+
+(1)
+
+(1)
+
+(1)
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+Investment Focus
+
+Our primary focus is capitalizing on senior middle market lending opportunities. We seek to provide risk adjusted returns and current
+
+income to investors by investing primarily in middle-market direct lending opportunities across North America, Europe and Australia and also in
+
+other geographic markets. We use the term “middle market” to refer to companies with between $10.0 million and $150.0 million in EBITDA.
+
+However, we may, from time to time, invest in larger or smaller companies. We focus on (i) senior secured investments with a first or second lien
+
+on collateral and strong structures and documentation intended to protect the lender (including “unitranche” loans, which are loans that combine
+
+both senior and mezzanine debt) and (ii) mezzanine debt and other junior securities with a focus on downside protection. We generally seek to
+
+retain effective voting control in respect of the loans or particular class of securities in which we invest through maintaining affirmative voting
+
+positions or negotiating consent rights that allow us to retain a blocking position. We may also invest in mezzanine debt and other junior securities,
+
+including common and preferred equity, and in secondary purchases of assets or portfolios, on an opportunistic basis, but such investments are not
+
+the principal focus of our investment strategy. We may also invest, from time to time, in equity securities, distressed debt, debtor-in-possession
+
+loans, structured products, structurally subordinate loans, investments with deferred interest features, zero-coupon securities and defaulted
+
+securities. Leverage is expected to be utilized to help the Company meet its investment objective. Any such leverage, if incurred, is expected to
+
+increase the total capital available for investment by the Company. As a BDC, we may also invest up to 30% of our portfolio opportunistically in
+
+“non-qualifying” portfolio investments, such as investments in non-U.S. companies.
+
+We may invest in securities that are rated below investment grade by rating agencies or that would be rated below investment grade if they
+
+were rated (i.e. junk bonds). See “Item 1A. Risk Factors—Risks Related to Our Investments—The lack of liquidity in our investments may adversely
+
+affect our business.” Our investments also may include non-cash income features, including PIK interest and OID. See “Item 1A. Risk Factors—
+
+Risks Related to Our Investments—Our investments in OID and PIK interest income may expose us to risks associated with such income being
+
+required to be included in accounting income and taxable income prior to receipt of cash.”
+
+As of December 31, 2024, our portfolio consisted of the following (dollars in thousands):
+
+As of December 31, 2024
+
+Percentage of Percentage of
+
+Amortized Cost Total Portfolio Fair Value Total Portfolio
+
+First Lien Senior Secured Loan $ 1,579,288 64.5 %$ 1,557,823 64.1 %
+
+Second Lien Senior Secured Loan 48,720 2.0 30,104 1.2
+
+Subordinated Debt 54,443 2.2 53,350 2.2
+
+Preferred Equity 142,046 5.8 170,876 7.0
+
+Equity Interest 219,052 9.0 230,615 9.5
+
+Warrants - 0.0 628 0.0
+
+Subordinated Notes in Investment Vehicles (1) 337,224 13.8 337,224 13.9
+
+Preferred Equity Interest in Investment Vehicles (1) 10 0.0 10 0.0
+
+Equity Interests in Investment Vehicles (1) 66,207 2.7 50,559 2.1
+
+Total $ 2,446,990 100.0 %$ 2,431,189 100.0 %
+
+(1)
+
+Represents debt and equity in the International Senior Loan Program, LLC (“ISLP”) and Bain Capital Senior Loan Program, LLC (“SLP”) joint
+
+ventures.
+
+As of December 31, 2023, our portfolio consisted of the following (dollars in thousands):
+
+As of December 31, 2023
+
+Percentage of Percentage of
+
+Amortized Cost Total Portfolio Fair Value Total Portfolio
+
+First Lien Senior Secured Loans $ 1,495,237 65.0 % $ 1,464,423 63.8 %
+
+Second Lien Senior Secured Loans 69,749 3.0 68,439 3.0
+
+Subordinated Debt 45,400 2.0 45,877 2.0
+
+Structured Products 24,050 1.0 22,618 1.0
+
+Preferred Equity 86,766 3.8 104,428 4.5
+
+Equity Interests 207,209 9.0 221,355 9.6
+
+Warrants 480 0.0 511 0.0
+
+Subordinated Notes in Investment Vehicles (1) 306,724 13.3 306,724 13.3
+
+(1)
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+Preferred Equity Interest in Investment Vehicles 10 0.0 (1,793) (0.1)
+
+Equity Interests in Investment Vehicles (1) 66,209 2.9 65,761 2.9
+
+Total $ 2,301,834 100.0 % $ 2,298,343 100.0 %
+
+4
+
+(1)
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+(1)
+
+Represents debt and equity in ISLP and SLP.
+
+The Advisor monitors our portfolio companies on an ongoing basis. It monitors the financial trends of each portfolio company to
+
+determine if they are meeting their respective business plans and to assess the appropriate course of action for each company. The Advisor has
+
+several methods of evaluating and monitoring the performance and fair value of our investments, which may include the following:
+
+•assessment of success in adhering to the portfolio company’s business plan and compliance with covenants;
+
+•periodic or regular contact with portfolio company management and, if appropriate, the financial or strategic sponsor to discuss financial
+
+position, requirements and accomplishments;
+
+•comparisons to our other portfolio companies in the industry, if any;
+
+•attendance at and participation in board meetings or presentations by portfolio companies; and
+
+•review of monthly and quarterly consolidated financial statements and financial projections of portfolio companies.
+
+The Advisor rates the investments in our portfolio at least quarterly and it is possible that the rating of a portfolio investment may be
+
+reduced or increased over time. For investments rated 3 or 4, the Advisor enhances its level of scrutiny over the monitoring of such portfolio
+
+company. Our internal performance ratings do not constitute any rating of investments by a nationally recognized statistical rating organization or
+
+represent or reflect any third-party assessment of any of our investments.
+
+•An investment is rated 1 if, in the opinion of the Advisor, it is performing above underwriting expectations, and the business trends and risk
+
+factors are generally favorable, which may include the performance of the portfolio company or the likelihood of a potential exit.
+
+•An investment is rated 2 if, in the opinion of the Advisor, it is performing as expected at the time of our underwriting and there are generally
+
+no concerns about the portfolio company’s performance or ability to meet covenant requirements, interest payments or principal amortization,
+
+if applicable. All new investments or acquired investments in new portfolio companies are initially given a rating of 2.
+
+•An investment is rated 3 if, in the opinion of the Advisor, the investment is performing below underwriting expectations and there may be
+
+concerns about the portfolio company’s performance or trends in the industry, including as a result of factors such as declining performance,
+
+non-compliance with debt covenants or delinquency in loan payments (but generally not more than 180 days past due).
+
+•An investment is rated 4 if, in the opinion of the Advisor, the investment is performing materially below underwriting expectations. For debt
+
+investments, most of or all of the debt covenants are out of compliance and payments are substantially delinquent. Investments rated 4 are not
+
+anticipated to be repaid in full, if applicable, and there is significant risk that we may realize a substantial loss on our investment.
+
+The following table shows the composition of our portfolio on the 1 to 4 rating scale as of December 31, 2024 (dollars in thousands):
+
+As of December 31, 2024
+
+Percentage Number of Percentage
+
+Investment Performance Rating Fair Value of Total Companies (1) of Total
+
+1 $ 2,491 0.1 % 1 0.6 %
+
+2 2,344,745 96.4 156 92.8
+
+3 62,149 2.6 6 3.6
+
+4 21,804 0.9 5 3.0
+
+Total $ 2,431,189 100.0 % 168 100.0 %
+
+(1)
+
+Number of investment rated companies may not agree to total portfolio companies due to investments across investment types and structures.
+
+5
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+(1)
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+The following table shows the composition of our portfolio on the 1 to 4 rating scale as of December 31, 2023 (dollars in thousands):
+
+As of December 31, 2023
+
+Percentage of Number of Percentage of
+
+Investment Performance Rating Fair Value Total Companies(1) Total
+
+1 $ 2,465 0.1 % 2 1.5 %
+
+2 2,186,211 95.1 125 91.2
+
+3 80,530 3.5 7 5.1
+
+4 29,137 1.3 3 2.2
+
+Total $ 2,298,343 100.0 % 137 100.0 %
+
+(1)
+
+Number of investment rated companies may not agree to total portfolio companies due to investments across investment types and structures.
+
+Competition
+
+Our primary competitors in providing financing to middle-market companies include public and private funds, other business
+
+development companies, commercial and investment banks, commercial financing companies and, to the extent they provide an alternative form of
+
+financing, private equity and hedge funds. Some of our competitors are substantially larger and have considerably greater financial, technical and
+
+marketing resources than we do. For example, we believe some competitors may have access to funding sources that are not available to us. In
+
+addition, some of our competitors may have higher risk tolerances or different risk assessments, which could allow them to consider a wider variety
+
+of investments and establish more relationships than us. Furthermore, many of our competitors are not subject to the regulatory restrictions that the
+
+1940 Act imposes on us as a BDC or to the distribution and other requirements we must satisfy to maintain our qualification as a RIC.
+
+We use the expertise of the investment professionals of Bain Capital Credit to which we have access to assess investment risks and
+
+determine appropriate pricing for our investments in portfolio companies. In addition, we expect that the relationships of Bain Capital Credit will
+
+enable us to learn about, and compete effectively for, financing opportunities with attractive middle-market companies in the industries in which we
+
+seek to invest. For additional information concerning the competitive risks we face, see “Item 1A. Risk Factors—Risks Relating to Our Business and
+
+Structure—We operate in an increasingly competitive market for investment opportunities, which could reduce returns and result in losses.”
+
+Investment Advisory Agreement; Administration Agreement
+
+Our investment activities are managed by the Advisor, which is responsible for originating prospective investments, conducting research
+
+and due diligence investigations on potential investments, analyzing investment opportunities, negotiating and structuring our investments and
+
+monitoring our investments and portfolio companies on an ongoing basis. We have entered into an Amended Advisory Agreement with the
+
+Advisor, pursuant to which we have agreed to pay the Advisor a base management fee and an incentive fee for its services. The cost of both the base
+
+management fee and the incentive fee will ultimately be borne by our stockholders.
+
+The base management fee is calculated at an annual rate of 1.5% of our gross assets, including assets purchased with borrowed funds or
+
+other forms of leverage but excluding cash and cash equivalents. For services rendered under the Amended Advisory Agreement, the base
+
+management fee is payable quarterly in arrears. The base management fee is calculated based on the average value of our gross assets at the end of
+
+the two most recently completed calendar quarters, and appropriately adjusted for any share issuances or repurchases during the current calendar
+
+quarter. Base management fee for any partial month or quarter will be appropriately pro-rated. For purposes of the Amended Advisory Agreement,
+
+cash equivalents means U.S. government securities and commercial paper instruments maturing within one year of purchase. Effective February 1,
+
+2019, the base management fee has been revised to a tiered management fee structure so that the base management fee of 1.5% (0.375% per
+
+quarter) of the average value of the Company’s gross assets (excluding cash and cash equivalents, but including assets purchased with borrowed
+
+amounts) will continue to apply to assets held at an asset coverage ratio down to 200%, but a lower base management fee of 1.0% (0.25% per
+
+quarter) of the average value of the Company’s gross assets (excluding cash and cash equivalents, but including assets purchased with borrowed
+
+amounts) will apply to any amount of assets attributable to leverage decreasing the Company’s asset coverage ratio below 200%.
+
+We will pay the Advisor an incentive fee. The incentive fee consists of two parts—an incentive fee based on income and an incentive fee
+
+based on capital gains—which are described in more detail below.
+
+6
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+Pre-incentive fee net investment income means interest income, dividend income and any other income (including any other fees such as
+
+commitment, origination, structuring, diligence and consulting fees or other fees that the Company receives from portfolio companies but excluding
+
+fees for providing managerial assistance) accrued during the calendar quarter, minus operating expenses for the quarter (including the Base
+
+Management Fee, any expenses payable under the Administration Agreement, and any interest expense and dividends paid on any outstanding
+
+preferred stock, but excluding the incentive fee). Pre-incentive fee net investment income includes, in the case of investments with a deferred
+
+interest feature such as market discount, original issue discount (“OID”), debt instruments with PIK interest, preferred stock with PIK dividends and
+
+zero-coupon securities, accrued income that the Company has not yet received in cash.
+
+Pre-incentive fee net investment income does not include any realized or unrealized capital gains or losses or unrealized capital
+
+appreciation or depreciation. Because of the structure of the incentive fee, it is possible that the Company may pay an incentive fee in a quarter
+
+where the Company incurs a loss. For example, if the Company receives pre-incentive fee net investment income in excess of the Hurdle rate for a
+
+quarter, the Company will pay the applicable incentive fee even if the Company has incurred a loss in that quarter due to realized and unrealized
+
+capital losses.
+
+The incentive fee based on income is calculated and payable quarterly in arrears based on the aggregate pre-incentive fee net investment
+
+income in respect of the current calendar quarter and the eleven preceding calendar quarters (the “Trailing Twelve Quarters”). This calculation is
+
+referred to as the “Three-Year Lookback.”
+
+With respect to any calendar quarter that commences on or after January 1, 2019, pre-incentive fee net investment income in respect of the
+
+relevant Trailing Twelve Quarters is compared to a “Hurdle Amount” equal to the product of (i) the hurdle rate of 1.5% per quarter (6% annualized)
+
+and (ii) the sum of our net assets (defined as total assets less indebtedness and before taking into account any incentive fees payable during the
+
+period) at the beginning of each applicable calendar quarter comprising the relevant Trailing Twelve Quarters. The Hurdle Amount will be
+
+calculated after making appropriate adjustments to our NAV at the beginning of each applicable calendar quarter for our subscriptions (which shall
+
+include all issuances by us of shares of our common stock, including issuances pursuant to the Company’s dividend reinvestment plan) and
+
+distributions during the applicable calendar quarter.
+
+Commencing on January 1, 2019, the quarterly incentive fee based on income is calculated, subject to the Incentive Fee Cap (as defined
+
+below), based on the amount by which (A) aggregate pre-incentive fee net investment income in respect of the relevant Trailing Twelve Quarters
+
+exceeds (B) the Hurdle Amount for such Trailing Twelve Quarters. The amount of the excess of (A) over (B) described in this paragraph for such
+
+Trailing Twelve Quarters is referred to as the “Excess Income Amount.” The incentive fee based on income that is paid to the Advisor in respect of
+
+a particular calendar quarter will equal the Excess Income Amount less the aggregate incentive fees based on income that were paid to the Advisor
+
+in the preceding eleven calendar quarters (or portion thereof) comprising the relevant Trailing Twelve Quarters.
+
+The incentive fee based on income for each calendar quarter is determined as follows:
+
+(i)No incentive fee based on income is payable to the Advisor for any calendar quarter for which there is no Excess Income Amount;
+
+(ii)100% of the aggregate pre-incentive fee net investment income in respect of the Trailing Twelve Quarters with respect to that portion
+
+of such pre-incentive fee net investment income, if any, that exceeds the Hurdle Amount, but is less than or equal to an amount, which the
+
+Company refers to as the “Catch-up Amount,” determined as the sum of 1.8182% multiplied by our NAV at the beginning of each
+
+applicable calendar quarter comprising the relevant Trailing Twelve Quarters; and
+
+(iii)17.5% of the aggregate pre-incentive fee net investment income in respect of the Trailing Twelve Quarters that exceeds the Catch-up
+
+Amount.
+
+Incentive Fee Cap
+
+With respect to any calendar quarter that commences on or after January 1, 2019, the incentive fee based on income is subject to a cap (the
+
+“Incentive Fee Cap”). The Incentive Fee Cap in respect of any calendar quarter is an amount equal to 17.5% of the Cumulative Net Return (as
+
+defined below) during the relevant Trailing Twelve Quarters less the aggregate incentive fees based on income that were paid to the Advisor in the
+
+preceding eleven calendar quarters (or portion thereof) comprising the relevant Trailing Twelve Quarters.
+
+“Cumulative Net Return” during the relevant Trailing Twelve Quarters means (x) the pre-incentive fee net investment income in respect
+
+of the relevant Trailing Twelve Quarters less (y) any Net Capital Loss, if any, in respect of the relevant Trailing Twelve Quarters. If, in any quarter,
+
+the Incentive Fee Cap is zero or a negative value, the Company will pay no incentive fee based on income to the Advisor in respect of that quarter.
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+If, in any quarter, the Incentive Fee Cap for such quarter is a positive value but is less than the incentive fee based on income that is payable to the
+
+Advisor for such quarter calculated as described above, the Company will pay an incentive fee based on income
+
+7
+
+file:///D/shaya/Downloads/10-K.html[2/27/2025 5:21:34 PM]
+
+10-K
+
+to the Advisor equal to the Incentive Fee Cap in respect of such quarter. If, in any quarter, the Incentive Fee Cap for such quarter is equal to or
+
+greater than the incentive fee based on income that is payable to the Advisor for such quarter calculated as described above, the Company will pay
+
+an incentive fee based on income to the Advisor equal to the incentive fee calculated as described above for such quarter without regard to the
+
+Incentive Fee Cap.
+
+“Net Capital Loss” in respect of a particular period means the difference, if positive, between (i) aggregate capital losses, whether realized
+
+or unrealized, in respect of such period and (ii) aggregate capital gains, whether realized or unrealized, in respect of such period.
+
+Annual Incentive Fee Based on Capital Gains
+
+The second part of the incentive fee is a capital gains incentive fee that is determined and payable in arrears in cash as of the end of each
+
+fiscal year (or upon termination of the Amended Advisory Agreement, as of the termination date), and equals 17.5% of our realized capital gains as
+
+of the end of the fiscal year. In determining the capital gains incentive fee payable to the Advisor, we calculate the cumulative aggregate realized
+
+capital gains and cumulative aggregate realized capital losses since our inception, and the aggregate unrealized capital depreciation as of the date of
+
+the calculation, as applicable, with respect 
+
+[Content truncated due to length...]

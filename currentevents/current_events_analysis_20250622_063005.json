@@ -1,0 +1,396 @@
+{
+  "analysis": {
+    "summary": "The technology and business news focus on geopolitical events surrounding Iran, with the US conducting strikes against nuclear sites and Iran responding with counterattacks. These events impact global markets, particularly Israeli stocks which rise amid anticipations of conflict resolution. In the tech sector, JBL launches updated Bluetooth speakers. Other business topics include discussions on hiring practices and housing market forecasts.",
+    "keywords": [
+      "ai",
+      "tools",
+      "data",
+      "samsung",
+      "gaming",
+      "quantum",
+      "borderlands",
+      "deepseek",
+      "calorierestriction",
+      "iran",
+      "us",
+      "strike",
+      "nuclear",
+      "trump",
+      "conflict",
+      "israel",
+      "stock",
+      "jbl",
+      "bluetooth",
+      "speakers",
+      "housing",
+      "market"
+    ],
+    "trending_topics": [
+      "Tech Tools",
+      "Data Center",
+      "Samsung Watch",
+      "Gaming",
+      "Quantum Computing",
+      "Borderlands 4",
+      "DeepSeek",
+      "Calorie Restriction",
+      "Iran-US Conflict",
+      "Global Market Volatility"
+    ],
+    "analysis_timestamp": "2025-06-22T06:34:19.783294",
+    "search_keywords": [
+      "ai",
+      "tools",
+      "data",
+      "samsung",
+      "gaming",
+      "quantum",
+      "borderlands",
+      "deepseek",
+      "calorierestriction",
+      "iran",
+      "us",
+      "strike",
+      "nuclear",
+      "trump",
+      "conflict",
+      "israel",
+      "stock",
+      "jbl",
+      "bluetooth",
+      "speakers",
+      "housing",
+      "market"
+    ]
+  },
+  "focus": "technology_and_business",
+  "headline_count": 38,
+  "sources_analyzed": [
+    "CNBC",
+    "Bloomberg",
+    "Fast Company",
+    "VentureBeat",
+    "BBC News",
+    "TechCrunch",
+    "Wired",
+    "Financial Times",
+    "MIT Technology Review",
+    "Ars Technica",
+    "Forbes Technology",
+    "The Verge",
+    "Wall Street Journal"
+  ],
+  "categories": [
+    "world",
+    "business",
+    "technology",
+    "tech-business"
+  ],
+  "tech_business_filter": true,
+  "raw_headlines": [
+    {
+      "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techncruncher.blogspot.com/2025/01/top-10-ai-tools-that-will-transform.html",
+      "published": "Thu, 02 Jan 2025 09:26:00 +0000",
+      "summary": "<div style=\"text-align: left;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge5QgwLKWbavTUhIedQLI79z5BGD4h0ZoH4YMK6bGBL6fY4Je8R3GZurMZaJmtYirFS6pS-GgZD3xFAqfln8w8faEY2iDehndQNeez57DoiDsgYFJrIwMOLBjzcZiOJrqYDktm6pmRkwtprJChag0yQoeEZx1Pa_eKnt3kKzz69f-FSPWu_JXQxFq5Z8WZ/s1920/Blue"
+    },
+    {
+      "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techncruncher.blogspot.com/2023/12/limewire-ai-studio-review-2023-details.html",
+      "published": "Tue, 12 Dec 2023 16:10:00 +0000",
+      "summary": "<p style=\"text-align: left;\"><span style=\"font-family: Oxygen;\">&nbsp;</span></p><p style=\"text-align: left;\"><span style=\"font-family: Oxygen;\">In the rapidly advancing landscape of AI technology and innovation, LimeWire emerges as a unique platform in the realm of generative AI tools. This platfor"
+    },
+    {
+      "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techncruncher.blogspot.com/2023/01/top-10-ai-tools-in-2023-that-will-make.html",
+      "published": "Wed, 25 Jan 2023 19:52:00 +0000",
+      "summary": "<p><span style=\"font-family: Montserrat;\"><br /></span></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu91xnR3LQV62WoiA0scuFOTa-Xx9vIwouaceeyosFtZrJB0UivYIWtbcF3TCWEjKhRQVBiSeB00RQI0-cO_eBG6d05_6UV7zYw9qzyHMJ6u2"
+    },
+    {
+      "title": "Psyche keeps its date with an asteroid, but now it’s running in backup mode",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/06/psyche-keeps-its-date-with-an-asteroid-but-now-its-running-in-backup-mode/",
+      "published": "Sat, 21 Jun 2025 18:10:03 +0000",
+      "summary": "Engineers switched to a backup fuel line less than a quarter of the way through Psyche's mission."
+    },
+    {
+      "title": "New body size database for marine animals is a “library of life”",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/06/new-body-size-database-for-marine-animals-is-a-library-of-life/",
+      "published": "Sat, 21 Jun 2025 17:03:52 +0000",
+      "summary": "Marine Organizational Body Size (MOBS) database fills a crucial gap in understanding ocean biodiversity."
+    },
+    {
+      "title": "How a data center company uses stranded renewable energy",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/06/how-a-data-center-company-uses-stranded-renewable-energy/",
+      "published": "Sat, 21 Jun 2025 11:18:54 +0000",
+      "summary": "Some companies are paying low rates for renewable energy that would otherwise go unused."
+    },
+    {
+      "title": "Samsung&#8217;s entry-level Galaxy Watch 7 has returned to its best price to date",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/690614/samsung-galaxy-watch-7-anker-magsafe-charger-deal-sale",
+      "published": "2025-06-21T12:02:03-04:00",
+      "summary": "I jumped on the smartwatch bandwagon a bit late, but now I can’t go a day without mine. Beyond delivering helpful notifications, it’s perfect for setting timers, tracking workouts, and monitoring my sleeping habits (which are terrible). If you haven’t yet joined the smartwatch party or you’re lookin"
+    },
+    {
+      "title": "Final Fantasy fans, now is the time to get into Magic: The Gathering",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/games/690509/how-to-play-final-fantasy-magic-the-gathering-set",
+      "published": "2025-06-21T11:00:00-04:00",
+      "summary": "The Final Fantasy Magic: The Gathering set is here, and there's never been a more perfect assemblage of Magic cards. The set features cards taken from every mainline Final Fantasy title, including the two MMOs, so there's something for every generation of Final Fantasy lovers. And while Magic has fe"
+    },
+    {
+      "title": "The Verge’s guide to Amazon Prime Day 2025",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/689359/amazon-prime-day-tech-deals-guide-2025",
+      "published": "2025-06-21T10:30:00-04:00",
+      "summary": "Amazon’s mega sale is nearly upon us. This year, Prime Day will kick off on July 8th and run through July 11th, which, for those counting, is twice as long as previous years. Most everything else will likely be the same — well, aside from Amazon’s so-called “Today&#8217;s Big Deals&#8221; feature — "
+    },
+    {
+      "title": "Poppin Sticky Memo Ball Review: Color-Code in Style",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/poppin-sticky-memo-ball/",
+      "published": "Sun, 22 Jun 2025 10:08:00 +0000",
+      "summary": "This sticky-note dodecahedron for your desk lets you color-code in style."
+    },
+    {
+      "title": "HP Coupon Codes: 5% Off | June 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/hp-coupon-code/",
+      "published": "Sun, 22 Jun 2025 05:00:00 +0000",
+      "summary": "Enjoy discounts of up to 40% off with HP promo codes and coupons for gaming laptops, printers, PCs, and more tech."
+    },
+    {
+      "title": "Truth Social Crashes as Trump Live-Posts Iran Bombing",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/truth-social-crashes-as-trump-live-posts-bombing-iran/",
+      "published": "Sun, 22 Jun 2025 01:10:32 +0000",
+      "summary": "The social network started experiencing global outages within minutes of Donald Trump posting details of a US military strike on Iran."
+    },
+    {
+      "title": "Borderlands 4: Jump into the endless fight in the Vault",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/games/borderlands-4-jump-into-the-endless-fight-in-the-vault/",
+      "published": "Sat, 21 Jun 2025 20:00:00 +0000",
+      "summary": "Borderlands 4 has a new challenge mode where you can battle high-level enemies in the Vault."
+    },
+    {
+      "title": "Cloud quantum computing: A trillion-dollar opportunity with dangerous hidden risks",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/cloud-quantum-computing-a-trillion-dollar-opportunity-with-dangerous-hidden-risks/",
+      "published": "Sat, 21 Jun 2025 20:00:00 +0000",
+      "summary": "<p><span class=\"ARTICLELISTING__LABEL\"><span class=\"ARTICLE-TYPE\">GUEST:</span></span> Quantum computing (QC) brings with it a mix of groundbreaking possibilities and significant risks. Major tech players like IBM, Google, Microsoft and Amazon have already rolled out commercial QC cloud services, wh"
+    },
+    {
+      "title": "How Borderlands 4 mixes the action up with Fadefields and The Vault | Graeme Timmins interview — The DeanBeat",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/latest-games-reviews/how-borderlands-4-mixes-the-action-up-with-fadefields-and-the-vault-graeme-timmins-interview/",
+      "published": "Sat, 21 Jun 2025 17:00:00 +0000",
+      "summary": "Borderlands 4 has some clear runway now that Grand Theft Auto VI is coming next year instead of this year."
+    },
+    {
+      "title": "The Download: talking dirty with DeepSeek, and the risks and rewards of calorie restriction",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/06/20/1119102/the-download-talking-dirty-with-deepseek-and-the-risks-and-rewards-of-calorie-restriction/",
+      "published": "Fri, 20 Jun 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. It’s pretty easy to get DeepSeek to talk dirty AI companions like Replika are designed to engage in intimate exchanges, but people use general-purpose"
+    },
+    {
+      "title": "How a 30-year-old techno-thriller predicted our digital isolation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/06/20/1118379/the-net-cyber-thriller-digital-isolation/",
+      "published": "Fri, 20 Jun 2025 10:00:00 +0000",
+      "summary": "In April, Mark Zuckerberg, as tech billionaires are so fond of doing these days, pontificated at punishing length on a podcast. In the interview, he addressed America’s loneliness epidemic: “The average American has—I think it’s fewer than three friends. And the average person has demand for meaning"
+    },
+    {
+      "title": "Calorie restriction can help animals live longer. What about humans?",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/06/20/1119073/calorie-restriction-live-longer/",
+      "published": "Fri, 20 Jun 2025 09:00:00 +0000",
+      "summary": "Living comes with a side effect: aging. Despite what you might hear on social media or in advertisements, there are no drugs that are known to slow or reverse human aging. But there’s some evidence to support another approach: cutting back on calories. Caloric restriction (reducing your intake of ca"
+    },
+    {
+      "title": "Palestinians Stream Back to Northern Gaza on Foot",
+      "source": "Wall Street Journal",
+      "category": "business",
+      "url": "https://www.wsj.com/articles/palestinians-flock-back-to-northern-gaza-on-foot-after-hostage-release-breakthrough-3f60e2db",
+      "published": "Mon, 27 Jan 2025 14:23:00 -0500",
+      "summary": "Israel allowed displaced Gazans to begin crossing a military zone that bisects the enclave after a deadlock over hostage releases was broken."
+    },
+    {
+      "title": "Leading China Property Developer Reports Huge loss, in Sign of Widening Real-Estate Woes",
+      "source": "Wall Street Journal",
+      "category": "business",
+      "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+      "published": "Mon, 27 Jan 2025 12:32:00 -0500",
+      "summary": "Troubles at Vanke raise questions about the continued spread of the property crisis and whether the Chinese state will step in."
+    },
+    {
+      "title": "Freed Israeli Hostages Still Had Shrapnel in Their Bodies From Oct. 7 Attack",
+      "source": "Wall Street Journal",
+      "category": "business",
+      "url": "https://www.wsj.com/articles/freed-israeli-hostages-still-had-shrapnel-in-their-bodies-from-oct-7-attack-3de8cd1e",
+      "published": "Mon, 27 Jan 2025 12:12:00 -0500",
+      "summary": "Some of the women were held alone for extended periods and spent eight months in tunnels, an Israeli medical official said."
+    },
+    {
+      "title": "US bombs nuclear sites in Iran",
+      "source": "Financial Times",
+      "category": "business",
+      "url": "https://www.ft.com/content/cc5f3407-22ef-4fd4-9825-7810bcea3c5e",
+      "published": "Sun, 22 Jun 2025 08:39:10 GMT",
+      "summary": "Trump tells Tehran to seek peace or face further attacks after bombers hit Fordow, Natanz and Isfahan"
+    },
+    {
+      "title": "Trump warns Iran of further attacks if Tehran does not ‘make peace’",
+      "source": "Financial Times",
+      "category": "business",
+      "url": "https://www.ft.com/content/72d898ac-c18b-4884-ab94-0c21742d18e3",
+      "published": "Sun, 22 Jun 2025 05:16:19 GMT",
+      "summary": "US president says Fordow, Natanz and Isfahan nuclear facilities hit during American air strikes"
+    },
+    {
+      "title": "Trump gambles his presidency as US enters war with Iran",
+      "source": "Financial Times",
+      "category": "business",
+      "url": "https://www.ft.com/content/8f6d3c9c-9d1f-4f17-98e6-3e75d077df6b",
+      "published": "Sun, 22 Jun 2025 05:09:46 GMT",
+      "summary": "US president joins Israel’s attacks on Tehran months after vowing to keep America out of new conflicts"
+    },
+    {
+      "title": "Mild US Inflation Is Backdrop for Fed’s Powell on the Hill",
+      "source": "Bloomberg",
+      "category": "business",
+      "url": "https://www.bloomberg.com/news/articles/2025-06-21/fed-interest-rates-mild-us-inflation-is-backdrop-for-powell-on-the-hill",
+      "published": "Sat, 21 Jun 2025 20:00:00 GMT",
+      "summary": "US inflation probably inched higher in May, offering scant evidence of extensive tariff-related repercussions that the Federal Reserve expects to become more apparent later in the year."
+    },
+    {
+      "title": "Israeli Stocks Rise as Traders See US Hastening End to Conflict",
+      "source": "Bloomberg",
+      "category": "business",
+      "url": "https://www.bloomberg.com/news/articles/2025-06-22/kuwait-oman-slip-as-mideast-stock-markets-react-to-us-attacks",
+      "published": "Sun, 22 Jun 2025 06:10:43 GMT",
+      "summary": "Middle Eastern stocks rose, led by Israel and Egypt, as the region’s traders bet the US intervention in the Iran conflict will accelerate its end."
+    },
+    {
+      "title": "British Airways Halts Dubai, Qatar Flights After US Strikes Iran",
+      "source": "Bloomberg",
+      "category": "business",
+      "url": "https://www.bloomberg.com/news/articles/2025-06-22/british-airways-halts-dubai-qatar-flights-after-us-strikes-iran",
+      "published": "Sun, 22 Jun 2025 08:44:54 GMT",
+      "summary": "British Airways paused flights to Dubai and Doha, increasing aviation disruptions in the Persian Gulf after the US struck three nuclear sites in Iran and Tehran vowed to retaliate."
+    },
+    {
+      "title": "Iran says it reserves all options after ‘outrageous’ U.S. strikes, launches fresh attacks on Israel",
+      "source": "CNBC",
+      "category": "business",
+      "url": "https://www.cnbc.com/2025/06/22/iran-says-it-reserves-all-options-after-us-strikes-on-nuclear-sites.html",
+      "published": "Sun, 22 Jun 2025 09:09:54 GMT",
+      "summary": "Iran launched its 20th wave of missile and drone strikes against Israeli military targets, according to Iran state-owned media Fars."
+    },
+    {
+      "title": "World leaders react after Trump says U.S. has bombed 3 nuclear sites in Iran, including Fordo",
+      "source": "CNBC",
+      "category": "business",
+      "url": "https://www.cnbc.com/2025/06/21/world-leaders-react-after-trump-says-us-has-bombed-3-nuclear-sites-in-iran-including-fordo.html",
+      "published": "Sun, 22 Jun 2025 09:51:17 GMT",
+      "summary": "World leaders reacted to President Donald Trump's announcement Saturday that the U.S. had carried out a \"very successful attack\" on three nuclear sites in Iran, including Fordo."
+    },
+    {
+      "title": "Satellite images show activity at Iran's Fordo nuclear facility before U.S. air strikes",
+      "source": "CNBC",
+      "category": "business",
+      "url": "https://www.cnbc.com/2025/06/22/satellite-images-show-activity-at-irans-fordo-before-us-air-strikes.html",
+      "published": "Sun, 22 Jun 2025 10:10:18 GMT",
+      "summary": "Maxar Technologies released satellite imagery on Sunday showing activity at Iran's Fordo nuclear facility prior to U.S. air strikes."
+    },
+    {
+      "title": "JBL Begins Shipping New Flip 7 And Charge 6 Bluetooth Speaker Updates",
+      "source": "Forbes Technology",
+      "category": "business",
+      "url": "https://www.forbes.com/sites/marksparrow/2025/06/22/jbl-begins-shipping-new-flip-7-and-charge-6-bluetooth-speaker-updates/",
+      "published": "Sun, 22 Jun 2025 06:00:00 -0400",
+      "summary": "These two new portable Bluetooth speakers from JBL have been upgraded. The Flip 7 and Charge 6 have a bigger and bolder sound, longer battery life and Auracast support."
+    },
+    {
+      "title": "Ocean Acidification Crossed A Critical Boundary, Threatening Marine Ecosystems",
+      "source": "Forbes Technology",
+      "category": "business",
+      "url": "https://www.forbes.com/sites/grrlscientist/2025/06/22/ocean-acidification-crossed-a-critical-boundary-threatening-marine-ecosystems/",
+      "published": "Sun, 22 Jun 2025 05:04:37 -0400",
+      "summary": "How quickly can we change ocean chemistry without damaging marine ecosystems and its associated ecosystem services?"
+    },
+    {
+      "title": "When And Where To See June’s Stargazing Highlight On Monday",
+      "source": "Forbes Technology",
+      "category": "business",
+      "url": "https://www.forbes.com/sites/jamiecartereurope/2025/06/22/when-and-where-to-see-junes-stargazing-highlight-on-monday/",
+      "published": "Sun, 22 Jun 2025 05:00:00 -0400",
+      "summary": "Set your alarm early for Monday to catch a stunning dawn sky show: a delicate crescent moon glowing just beneath the sparkling Pleiades and bright Venus."
+    },
+    {
+      "title": "Perplexity’s new AI features are a game changer. Here’s how to make the most of them",
+      "source": "Fast Company",
+      "category": "tech-business",
+      "url": "https://www.fastcompany.com/91355910/perplexitys-new-ai-features-are-a-game-changer-heres-how-to-make-the-most-of-them",
+      "published": "2025-06-22T10:00:00",
+      "summary": "<p><em>This article is republished with permission from </em>Wonder Tools<em>, a newsletter that helps you discover the most useful sites and apps. <a href=\"https://wondertools.substack.com/subscribe\" rel=\"noreferrer noopener\" target=\"_blank\">Subscribe here</a>.</em></p>\n\n\n\n<p><a href=\"http://perple"
+    },
+    {
+      "title": "Housing market map: Zillow just released its updated home price forecast for 400-plus housing markets",
+      "source": "Fast Company",
+      "category": "tech-business",
+      "url": "https://www.fastcompany.com/91355943/housing-market-map-zillow-updated-home-price-forecast-for-400-cities-markets",
+      "published": "2025-06-22T10:00:00",
+      "summary": "<p><em>Want more housing market stories from Lance Lambert’s </em><a href=\"https://www.resiclubanalytics.com/\">ResiClub</a><em> in your inbox? <a href=\"https://www.resiclubanalytics.com/subscribe\">Subscribe</a> to the </em>ResiClub<em> <a href=\"https://www.resiclubanalytics.com/subscribe\">newsletter"
+    },
+    {
+      "title": "How ‘try before you buy’ can help you make better hiring decisions",
+      "source": "Fast Company",
+      "category": "tech-business",
+      "url": "https://www.fastcompany.com/91351354/how-try-before-you-buy-can-help-you-make-better-hiring-decisions",
+      "published": "2025-06-22T09:00:00",
+      "summary": "<p>Getting the hiring process right is one of the most critical and challenging aspects of building a startup. Early hires shape your company’s culture, operational efficiency, and future growth, yet many founders face this task without prior hiring experience or a clear sense of what their evolving"
+    },
+    {
+      "title": "Starmer calls for Iran to return to negotiating table",
+      "source": "BBC News",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cq53l41gl8jo",
+      "published": "Sun, 22 Jun 2025 09:32:57 GMT",
+      "summary": "The prime minister says in a statement that Iran can never be allowed to develop a nuclear weapon."
+    },
+    {
+      "title": "Trump takes huge gamble putting US at heart of Iran-Israel conflict",
+      "source": "BBC News",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cvg86pd63j8o",
+      "published": "Sun, 22 Jun 2025 03:36:18 GMT",
+      "summary": "As well as retaliation against US troops, a president who styled himself as \"peacemaker\" could face party dissent."
+    }
+  ]
+}

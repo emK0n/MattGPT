@@ -1,0 +1,283 @@
+{
+  "analysis": {
+    "summary": "Key tech/business trends include complaints about account bans on Facebook and Instagram, job cuts at Microsoft with investment in AI, Tesla's declining deliveries, falling borrowing costs in the UK, airbag safety issues affecting Citroen owners, Ryanair flight cancellations due to a French strike, corporate competition over AI job predictions, French neobank Qonto reaching 600,000 customers, OpenAI's criticism of Robinhood, racist AI-generated content on TikTok, Google's customizable chatbots in Docs, Sheets, and Gmail, upcoming Prime Day deals at Apple, viral racist videos on TikTok created by Google's Veo 3, best fast chargers for 2025, and top budget wireless earbuds for 2025.",
+    "keywords": [
+      "problem",
+      "cuts",
+      "fall",
+      "borrowing",
+      "stranded",
+      "cancellations",
+      "denied",
+      "secret",
+      "predictions",
+      "reaches",
+      "condemns",
+      "flooded",
+      "generated",
+      "evidence",
+      "customizable"
+    ],
+    "trending_topics": [
+      "Facebook/Instagram account bans",
+      "Microsoft job cuts and AI investment",
+      "Tesla deliveries decline",
+      "UK borrowing costs fall",
+      "Citroen airbag safety issue",
+      "Ryanair French strike cancellations",
+      "AI job prediction competition",
+      "Qonto neobank growth",
+      "OpenAI-Robinhood conflict",
+      "TikTok racist AI videos"
+    ],
+    "search_keywords": [
+      "problem",
+      "cuts",
+      "fall",
+      "borrowing",
+      "stranded",
+      "cancellations",
+      "denied",
+      "secret",
+      "predictions",
+      "reaches",
+      "condemns",
+      "flooded",
+      "generated",
+      "evidence",
+      "customizable"
+    ],
+    "analysis_timestamp": "2025-07-03T05:32:40.973867"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 27,
+  "sources_analyzed": [
+    "TechCrunch",
+    "Ars Technica",
+    "Slashdot",
+    "BBC Business",
+    "The Verge",
+    "Engadget",
+    "Hacker News",
+    "BBC World",
+    "BBC Technology"
+  ],
+  "raw_headlines": [
+    {
+      "title": "'There is a problem': Facebook and Instagram users complain of account bans",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvgnp9ykm3xo",
+      "published": "Thu, 03 Jul 2025 07:59:08 GMT",
+      "summary": "After Meta said some Facebook Groups were wrongly suspended, users tell the BBC the impact it is having - and say it's a wider problem."
+    },
+    {
+      "title": "Microsoft to cut up to 9,000 jobs as it invests in AI",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cdxl0w1w394o",
+      "published": "Thu, 03 Jul 2025 03:09:37 GMT",
+      "summary": "The US tech giant will axe 4% of its global workforce and plough money into artificial intelligence."
+    },
+    {
+      "title": "Tesla deliveries fall for second quarter in a row",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/ckgdydzxe6go",
+      "published": "Wed, 02 Jul 2025 14:30:49 GMT",
+      "summary": "Elon Musk's controversial role in the Trump administration has been blamed for the collapse in sales."
+    },
+    {
+      "title": "UK borrowing costs fall as investors' nerves ease",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/ce3nj7yw2wvo",
+      "published": "Thu, 03 Jul 2025 09:15:55 GMT",
+      "summary": "The cost of UK government borrowing falls and the pound rallies as the PM says he works \"in lockstep\" with Rachel Reeves."
+    },
+    {
+      "title": "Citroen owners left stranded over airbag safety risk",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c0m8872n9gxo",
+      "published": "Wed, 02 Jul 2025 23:03:19 GMT",
+      "summary": "An estimated 120,000 drivers have been told not to use their vehicles following a fatal accident in France."
+    },
+    {
+      "title": "Ryanair cancels flights for 30,000 passengers due to French strike",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cz9k37xxdkxo",
+      "published": "Thu, 03 Jul 2025 08:44:57 GMT",
+      "summary": "Airlines and France's transport minister has condemned the strikes as unacceptable, at the start of summer holidays."
+    },
+    {
+      "title": "Diddy denied bail after being cleared of most serious charges",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cjd2e310k25o",
+      "published": "Wed, 02 Jul 2025 22:31:14 GMT",
+      "summary": "Combs will remain behind bars because of his history of violence, the judge said, setting sentencing for October."
+    },
+    {
+      "title": "Diddy's secret world revealed in videos and his voice notes",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c628r6q0n4vo",
+      "published": "Wed, 02 Jul 2025 21:08:28 GMT",
+      "summary": "Former staff expose details of \"freak-offs\" - drug-fuelled orgies held in luxurious international venues."
+    },
+    {
+      "title": "Ryanair cancels flights for 30,000 passengers due to French strike",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cz9k37xxdkxo",
+      "published": "Thu, 03 Jul 2025 08:44:57 GMT",
+      "summary": "Airlines and France's transport minister has condemned the strikes as unacceptable, at the start of summer holidays."
+    },
+    {
+      "title": "AI job predictions become corporate America’s newest competitive sport",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/02/ai-job-predictions-become-corporate-americas-newest-competitive-sport/",
+      "published": "Thu, 03 Jul 2025 05:30:18 +0000",
+      "summary": "In late May, Anthropic CEO Dario Amodei appeared to kick open the door on a sensitive topic, warning that half of entry-level jobs could vanish within five years because of AI and push U.S. unemployment up to 20%. But Amodei is far from alone in sharing aloud that he foresees a workforce bloodbath. "
+    },
+    {
+      "title": "French B2B neobank Qonto reaches 600,000 customers, files for banking license",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/02/french-b2b-neobank-qonto-reaches-600000-customers-files-for-banking-license/",
+      "published": "Thu, 03 Jul 2025 04:00:00 +0000",
+      "summary": "Qonto, which targets European freelancers and SMBs, currently operates with a payment institution license it obtained in 2018."
+    },
+    {
+      "title": "OpenAI condemns Robinhood’s ‘OpenAI tokens’",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/02/openai-condemns-robinhoods-openai-tokens/",
+      "published": "Wed, 02 Jul 2025 23:43:27 +0000",
+      "summary": "OpenAI wants to make clear that Robinhood's sale of \"OpenAI tokens\" will not give everyday consumers equity — or stock — in OpenAI."
+    },
+    {
+      "title": "TikTok is being flooded with racist AI videos generated by Google’s Veo 3",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2025/07/racist-ai-videos-created-with-google-veo-3-are-proliferating-on-tiktok/",
+      "published": "Wed, 02 Jul 2025 21:18:08 +0000",
+      "summary": "Google and TikTok have rules against this sort of thing, but it doesn't seem to matter."
+    },
+    {
+      "title": "Everything that could go wrong with X’s new AI-written community notes",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/tech-policy/2025/07/everything-that-could-go-wrong-with-xs-new-ai-written-community-notes/",
+      "published": "Wed, 02 Jul 2025 21:00:39 +0000",
+      "summary": "X says AI can supercharge community notes, but that comes with obvious risks."
+    },
+    {
+      "title": "New evidence that some supernovae may be a “double detonation”",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/07/new-evidence-that-some-supernovae-may-be-a-double-detonation/",
+      "published": "Wed, 02 Jul 2025 20:39:23 +0000",
+      "summary": "It may be possible to blow up a white dwarf before it reaches a critical mass."
+    },
+    {
+      "title": "Google’s customizable Gemini chatbots are now in Docs, Sheets, and Gmail",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/697352/google-gemini-gems-workspace-apps-docs-gmail",
+      "published": "2025-07-03T05:30:41-04:00",
+      "summary": "Google is giving Workspace users a way to access “Gems” — customizable versions of its Gemini AI assistant that specialize in specific tasks — without opening the Gemini app. Gems are now available directly in the side panel of Google Docs, Slides, Sheets, Drive, and Gmail, allowing users to access "
+    },
+    {
+      "title": "The best Apple deals you can shop ahead of Amazon Prime Day",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/689813/best-amazon-prime-day-apple-deals",
+      "published": "2025-07-02T18:57:35-04:00",
+      "summary": "If you want to get a head start on back-to-school shopping — or upgrade your Apple gear — there are already some great deals worth exploring ahead of Amazon Prime Day. From tablets to smartwatches, the early deals are already starting to trickle in. Prices might drop even further during Amazon’s fou"
+    },
+    {
+      "title": "Racist videos made with AI are going viral on TikTok",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/697188/racist-ai-generated-videos-google-veo-3-tiktok",
+      "published": "2025-07-02T18:01:44-04:00",
+      "summary": "Racist videos that appear to be created with Google’s AI video generation tool Veo 3 have raked in millions of views across TikTok, according to findings from the nonprofit media watchdog Media Matters. The AI-generated videos uncovered by the organization are filled with racist tropes, many of whic"
+    },
+    {
+      "title": "The best fast chargers for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/accessories/best-fast-chargers-140011033.html?src=rss",
+      "published": "Thu, 03 Jul 2025 09:00:37 +0000",
+      "summary": "<p>A good fast charger can make a world of difference when you're low on battery and short on time. With more devices — from smartphones to laptops — supporting quick-charging tech, having an accessory that can deliver serious power in minutes is almost essential. Many newer phones no longer come wi"
+    },
+    {
+      "title": "The best budget wireless earbuds for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/audio/headphones/best-budget-wireless-earbuds-130028735.html?src=rss",
+      "published": "Thu, 03 Jul 2025 07:00:36 +0000",
+      "summary": "<p>The newest <a href=\"https://www.engadget.com/best-wireless-earbuds-120058222.html\">wireless earbuds</a> from <a href=\"https://www.engadget.com/audio/headphones/apple-airpods-4-review-pro-features-for-everyone-120032046.html\">Apple</a>, <a href=\"https://www.engadget.com/sony-wf-1000xm5-earbuds-rev"
+    },
+    {
+      "title": "Even before the Xbox layoffs, there was 'tension' at Halo Studios",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/xbox/even-before-the-xbox-layoffs-there-was-tension-at-halo-studios-002031995.html?src=rss",
+      "published": "Thu, 03 Jul 2025 00:20:33 +0000",
+      "summary": "<p>At least five employees at Halo Studios have been fired as part of <a href=\"https://www.engadget.com/gaming/xbox/microsoft-gaming-division-suffers-further-layoffs-142430386.html\">company-wide layoffs at Microsoft</a> on Wednesday, according to a developer with knowledge of the situation. An estim"
+    },
+    {
+      "title": "I scanned all of GitHub's \"oops commits\" for leaked secrets",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://trufflesecurity.com/blog/guest-post-how-i-scanned-all-of-github-s-oops-commits-for-leaked-secrets",
+      "published": "Thu, 03 Jul 2025 06:44:19 +0000",
+      "summary": "<p>Article URL: <a href=\"https://trufflesecurity.com/blog/guest-post-how-i-scanned-all-of-github-s-oops-commits-for-leaked-secrets\">https://trufflesecurity.com/blog/guest-post-how-i-scanned-all-of-github-s-oops-commits-for-leaked-secrets</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com"
+    },
+    {
+      "title": "Demonstration of Algorithmic Quantum Speedup for an Abelian Hidden Subgroup",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.021082",
+      "published": "Thu, 03 Jul 2025 04:21:58 +0000",
+      "summary": "<p>Article URL: <a href=\"https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.021082\">https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.021082</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44451602\">https://news.ycombinator.com/item?id=44451602</a></p>\n<p>Points"
+    },
+    {
+      "title": "Astronomers discover 3I/ATLAS – Third interstellar object to visit Solar System",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.abc.net.au/news/science/2025-07-03/3i-atlas-a11pl3z-interstellar-object-in-our-solar-system/105489180",
+      "published": "Thu, 03 Jul 2025 03:19:24 +0000",
+      "summary": "<p>Minor Planet Electronic Circular: <a href=\"https://minorplanetcenter.net/mpec/K25/K25N12.html\" rel=\"nofollow\">https://minorplanetcenter.net/mpec/K25/K25N12.html</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44451329\">https://news.ycombinator.com/item?id=44451329</a"
+    },
+    {
+      "title": "A New 'Interstellar Visitor' Has Entered the Solar System",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/07/03/0041226/a-new-interstellar-visitor-has-entered-the-solar-system?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Astronomers have detected a mysterious \"interstellar object,\" dubbed A11pl3Z, speeding through the solar system at 152,000 mph. If confirmed, it would be just the third known interstellar visitor, following 'Oumuamua and Comet Borisov. The visiting space object will pass near Mars and the Sun later "
+    },
+    {
+      "title": "Data Breach Reveals Catwatchful 'Stalkerware' Is Spying On Thousands of Phones",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/07/03/0023253/data-breach-reveals-catwatchful-stalkerware-is-spying-on-thousands-of-phones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from TechCrunch: A security vulnerability in a stealthy Android spyware operation called Catwatchful has exposed thousands of its customers, including its administrator. The bug, which was discovered by security researcher Eric Daigle, spilled the spyware app's fu"
+    },
+    {
+      "title": "Proposed Budget Seeks To Close Mauna Loa Observatory's Climate CO2 Study",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/07/03/0031226/proposed-budget-seeks-to-close-mauna-loa-observatorys-climate-co2-study?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Slashdot regularly posts milestones on CO2 levels reported by the Mauna Loa Observatory,\" writes longtime Slashdot reader symbolset, pointing to a new article highlighting how the Trump administration's proposed budget would eliminate funding for the lab's carbon dioxide monitoring. \"Continuous obs"
+    }
+  ]
+}

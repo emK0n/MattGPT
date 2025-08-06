@@ -1,0 +1,37 @@
+https://www.python.org/downloads/release/python-3120/
+
+mkdir myproject
+cd myproject
+python3.12 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+
+
+pip3 install Flask
+pip3 install feedparser requests python-dateutil certifi urllib3
+pip3 install beautifulsoup4 lxml newspaper3k
+/Applications/Python\ 3.x/Install\ Certificates.command
+
+Install wordmap visualizations (into static/js directory)
+curl -o d3.min.js https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js
+curl -o d3.layout.cloud.min.js https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.7/d3.layout.cloud.min.js
+
+TTS:
+FIRST:
+. .venv/bin/activate
+THEN:
+pip3 install edge-tts
+pip3 install pydub
+
+
+https://ffmpeg.org/download.html#build-mac
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo >> /Users/mattkonwiser/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/mattkonwiser/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew install ffmpeg
+
+for PDF parsing:
+pip install pdfplumber PyPDF2 pymupdf
+

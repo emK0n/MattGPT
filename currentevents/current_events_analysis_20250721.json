@@ -1,0 +1,373 @@
+{
+  "analysis": {
+    "summary": "Tech headlines focus on AI and green tech impacts, while business news covers rising costs (rents, water bills) and company developments (Ryanair's oversized bags policy, NASA staff departures). Crypto legislation and surveillance industry issues are also highlighted in tech news. In world news, Israel is criticized for civilian deaths and a police officer is jailed in the US.",
+    "keywords": [
+      "green",
+      "tech",
+      "crypto",
+      "legislation",
+      "ai",
+      "costs",
+      "rents",
+      "water",
+      "ryanair",
+      "nasa",
+      "israel",
+      "civilians",
+      "police",
+      "officer"
+    ],
+    "trending_topics": [
+      "Artificial Intelligence advancements",
+      "Crypto regulation"
+    ],
+    "search_keywords": [
+      "green",
+      "tech",
+      "crypto",
+      "legislation",
+      "ai",
+      "costs",
+      "rents",
+      "water",
+      "ryanair",
+      "nasa",
+      "israel",
+      "civilians",
+      "police",
+      "officer"
+    ],
+    "analysis_timestamp": "2025-07-21T21:34:39.557788"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "MIT Technology Review",
+    "Engadget",
+    "BBC Technology",
+    "TechCrunch",
+    "VentureBeat",
+    "BBC World",
+    "Wired",
+    "Fast Company",
+    "The Verge",
+    "Slashdot",
+    "BBC Business",
+    "Hacker News",
+    "Ars Technica"
+  ],
+  "raw_headlines": [
+    {
+      "title": "How the rise of green tech is feeding another environmental crisis",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c30741j351go",
+      "published": "Sat, 19 Jul 2025 23:05:12 GMT",
+      "summary": "The world's race to decarbonise has led to the rise of electric cars - and with it, soaring demand for lithium, which is required for the batteries"
+    },
+    {
+      "title": "US passes first major national crypto legislation",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cd78lvd94zyo",
+      "published": "Thu, 17 Jul 2025 23:17:14 GMT",
+      "summary": "It marks a milestone for the once fringe industry, as it expands its power in Washington."
+    },
+    {
+      "title": "Netflix uses AI effects for first time to cut costs",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c9vr4rymlw9o",
+      "published": "Fri, 18 Jul 2025 08:54:29 GMT",
+      "summary": "The streaming firm says AI allowed The Eternaut to complete a sequence faster and cheaper."
+    },
+    {
+      "title": "Rents rise £221 a month in three years, analysis suggests",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cwyxp280dxwo",
+      "published": "Mon, 21 Jul 2025 23:19:40 GMT",
+      "summary": "The monthly cost of renting rose just as fast as mortgage increases over the last three years, figures show."
+    },
+    {
+      "title": "Water bill rises needed after years of low investment, says report",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c75rprzq361o",
+      "published": "Mon, 21 Jul 2025 15:37:22 GMT",
+      "summary": "A major review of the water industry also suggests compulsory smart meters and scrapping the regulator Ofwat."
+    },
+    {
+      "title": "Ryanair considering bigger bonus to end 'scourge' of oversized bags",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c75rp3w77kpo",
+      "published": "Mon, 21 Jul 2025 16:16:07 GMT",
+      "summary": "The airline says it is \"determined to eliminate the scourge of oversized bags\" on its planes."
+    },
+    {
+      "title": "UK and 27 other nations condemn Israel over 'inhumane killing' of Gaza civilians seeking aid",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c4g814gy2e7o",
+      "published": "Mon, 21 Jul 2025 21:29:37 GMT",
+      "summary": "Israel rejects a joint statement which says the suffering of civilians has \"reached new depths\"."
+    },
+    {
+      "title": "'My friend died right in front of me' - Student describes moment air force jet crashed into school",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cglzw8y5wy5o",
+      "published": "Mon, 21 Jul 2025 23:00:17 GMT",
+      "summary": "Farhan Hasan had just sat an exam when a Bangladeshi air force jet crashed into his school, killing at least 20 people."
+    },
+    {
+      "title": "US police officer jailed for 33 months in relation to death of Breonna Taylor",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cpvjwrm29wpo",
+      "published": "Mon, 21 Jul 2025 22:55:23 GMT",
+      "summary": "The Trump administration last week asked the judge to give the former Kentucky police officer Brett Hankison one day behind bars."
+    },
+    {
+      "title": "OpenAI and Google outdo the mathletes, but not each other",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/21/openai-and-google-outdo-the-mathletes-but-not-each-other/",
+      "published": "Tue, 22 Jul 2025 00:06:41 +0000",
+      "summary": "OpenAI and Google's AI models achieved impressive results in a difficult math competition, but disputed how the other got their score."
+    },
+    {
+      "title": "Serial spyware founder Scott Zuckerman wants the FTC to unban him from the surveillance industry",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/21/serial-spyware-founder-scott-zuckerman-wants-the-ftc-to-unban-him-from-the-surveillance-industry/",
+      "published": "Mon, 21 Jul 2025 22:40:44 +0000",
+      "summary": "The spyware maker was banned from the surveillance industry in 2021, but was caught flouting the ban less than a year later. Now the founder wants the ban lifted altogether."
+    },
+    {
+      "title": "ChatGPT users send 2.5 billion prompts a day",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/21/chatgpt-users-send-2-5-billion-prompts-a-day/",
+      "published": "Mon, 21 Jul 2025 19:44:43 +0000",
+      "summary": "ChatGPT receives 2.5 billion prompts from global users every day."
+    },
+    {
+      "title": "Nearly 3,000 people are leaving NASA, and this director is one of them",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/07/the-director-of-nasas-largest-science-center-is-leaving-government/",
+      "published": "Mon, 21 Jul 2025 23:44:05 +0000",
+      "summary": "Makenzie Lystrup's departure from Goddard comes soon after the resignation of the director of JPL."
+    },
+    {
+      "title": "Mercedes-AMG gives us a ride in its next high-performance EV",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/cars/2025/07/mercedes-amg-gives-us-a-ride-in-its-next-high-performance-ev/",
+      "published": "Mon, 21 Jul 2025 22:01:34 +0000",
+      "summary": "Mercedes-AMG is following the Ioniq 5 N playbook with simulated shifting and sounds."
+    },
+    {
+      "title": "Google gets ahead of the leaks and reveals the Pixel 10 early",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/google-reveals-the-pixel-10-and-yep-it-looks-like-the-pixel-9/",
+      "published": "Mon, 21 Jul 2025 20:25:14 +0000",
+      "summary": "Google's next smartphone keeps the same design."
+    },
+    {
+      "title": "The best smart rings for tracking sleep and health",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/647901/best-smart-rings",
+      "published": "2025-07-21T20:19:13-04:00",
+      "summary": "So, you’re thinking of buying a smart ring. Well, some good news. Picking the best of the lot is incredibly easy right now. The “bad” news is that, as far as trustworthiness and reliability, your choices are somewhat limited, as this is still a niche and emerging gadget category. Smart rings are in "
+    },
+    {
+      "title": "Citizen will share crime videos with the NYPD",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/711146/citizen-app-nyc-verified-partners-alerts-surveillance",
+      "published": "2025-07-21T17:55:12-04:00",
+      "summary": "Mayor Eric Adams announced over the weekend that New York City will send users real-time public safety alerts based on their specific location through the crime-tracking app Citizen. The city also announced that public safety agencies, like the New York City Police Department, Fire Department, and E"
+    },
+    {
+      "title": "Tesla’s long-delayed retro diner and charging location is finally opening",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/711131/tesla-diner-charging-elon-musk",
+      "published": "2025-07-21T17:15:31-04:00",
+      "summary": "Tesla’s long-in-the-works 1950s-inspired diner and drive-in Supercharger station in Los Angeles is expected to officially open today – and the company may build more of them down the line. The Tesla Diner lets people grab comfort food like burgers and fries (served in boxes shaped like Cybertrucks) "
+    },
+    {
+      "title": "Google shows off the Pixel 10 less than a month before its launch",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/mobile/smartphones/google-shows-off-the-pixel-10-less-than-a-month-before-its-launch-203924194.html?src=rss",
+      "published": "Mon, 21 Jul 2025 20:39:24 +0000",
+      "summary": "<p>As is tradition, Google has already shown off at least one of its new Pixel phones before it's announced. The front page of the Google Store currently features a short video <a class=\"no-affiliate-link\" href=\"https://store.google.com/magazine/google_pixel_10?hl=en-US&amp;CJPID=8836598&amp;CJAID=1"
+    },
+    {
+      "title": "The best deals on AirPods, iPads, MacBooks and other Apple gear you can get right now",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/best-apple-deals-150020110.html?src=rss",
+      "published": "Mon, 21 Jul 2025 20:30:35 +0000",
+      "summary": "<p>Whether it’s your nephew who wants a new iPad, your sister who needs a new pair of AirPods or your parent who could benefit from an easy-to-use MacBook, Apple devices are some of the most in-demand devices you can get today. That means, unfortunately, that big discounts are few and far between, a"
+    },
+    {
+      "title": "Unicode's new emoji refuses to put respect on Bigfoot's name",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/mobile/unicodes-new-emoji-refuses-to-put-respect-on-bigfoots-name-184412935.html?src=rss",
+      "published": "Mon, 21 Jul 2025 19:35:53 +0000",
+      "summary": "<p>The Unicode Consortium <a href=\"https://blog.unicode.org/2025/07/say-hello-to-new-emoji-coming-in.html\">has announced</a> that it's adding what's essentially a Bigfoot emoji to the open Unicode standard this fall. The famous cryptid will appear as &quot;Hairy Creature&quot; alongside a selection "
+    },
+    {
+      "title": "Jujutsu for Busy Devs",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs",
+      "published": "Tue, 22 Jul 2025 00:21:48 +0000",
+      "summary": "<p>Article URL: <a href=\"https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs\">https://maddie.wtf/posts/2025-07-21-jujutsu-for-busy-devs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44641961\">https://news.ycombinator.com/item?id=44641961</a></p>\n<p>Points: 24</p>\n<p># "
+    },
+    {
+      "title": "If writing is thinking then what happens if AI is doing the writing and reading?",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://hardcoresoftware.learningbyshipping.com/p/234-if-writing-is-thinking",
+      "published": "Mon, 21 Jul 2025 23:45:15 +0000",
+      "summary": "<p>Article URL: <a href=\"https://hardcoresoftware.learningbyshipping.com/p/234-if-writing-is-thinking\">https://hardcoresoftware.learningbyshipping.com/p/234-if-writing-is-thinking</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44641669\">https://news.ycombinator.com/item?id=44"
+    },
+    {
+      "title": "Uv: Running a script with dependencies",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://docs.astral.sh/uv/guides/scripts/#running-a-script-with-dependencies",
+      "published": "Mon, 21 Jul 2025 23:26:40 +0000",
+      "summary": "<p>Article URL: <a href=\"https://docs.astral.sh/uv/guides/scripts/#running-a-script-with-dependencies\">https://docs.astral.sh/uv/guides/scripts/#running-a-script-with-dependencies</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44641521\">https://news.ycombinator.com/item?id=44"
+    },
+    {
+      "title": "FCC To Eliminate Gigabit Speed Goal, Scrap Analysis of Broadband Prices",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/07/21/2044200/fcc-to-eliminate-gigabit-speed-goal-scrap-analysis-of-broadband-prices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "FCC Chairman Brendan Carr is proposing (PDF) to roll back key Biden-era broadband policies, scrapping the long-term gigabit speed goal, halting analysis of broadband affordability, and reinterpreting deployment standards in a way that favors industry metrics over consumer access. The proposal, which"
+    },
+    {
+      "title": "Spotify Publishes AI-Generated Songs From Dead Artists Without Permission",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://entertainment.slashdot.org/story/25/07/21/2037254/spotify-publishes-ai-generated-songs-from-dead-artists-without-permission?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Spotify was found publishing AI-generated songs on the official pages of deceased artists like Blaze Foley and Guy Clark -- without permission from their estates or labels. The tracks, flagged for deceptive content and now removed, were uploaded via TikTok's SoundOn distribution platform. \"We've fla"
+    },
+    {
+      "title": "Alaska Airlines Resumes Operations After System Glitch Grounds All Flights",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://it.slashdot.org/story/25/07/21/2025255/alaska-airlines-resumes-operations-after-system-glitch-grounds-all-flights?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Alaska Airlines and Horizon Air grounded all flights Sunday night due to a major IT outage, prompting a system-wide FAA ground stop that lasted until early Monday. Although operations have since resumed, passengers are still facing delays and residual disruptions. Gizmodo reports: The airline reques"
+    },
+    {
+      "title": "Leaked Memo: Anthropic CEO Says the Company Will Pursue Gulf State Investments After All",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/anthropic-dario-amodei-gulf-state-leaked-memo/",
+      "published": "Tue, 22 Jul 2025 00:46:32 +0000",
+      "summary": "“Unfortunately, I think ‘No bad person should ever benefit from our success’ is a pretty difficult principle to run a business on,” wrote Anthropic CEO Dario Amodei in a note to staff obtained by WIRED."
+    },
+    {
+      "title": "EPA Employees Still in the Dark as Agency Dismantles Scientific Research Office",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/epa-employees-still-in-the-dark-as-agency-dismantles-scientific-research-office/",
+      "published": "Mon, 21 Jul 2025 21:26:48 +0000",
+      "summary": "As the EPA moves to shut down the Office of Research and Development, leadership is unable to answer questions as basic as when it will close and how many will lose their jobs."
+    },
+    {
+      "title": "Trump’s Commerce Secretary Loves Tariffs. His Former Investment Bank Is Taking Bets Against Them",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/cantor-fitzgerald-trump-tariff-refunds/",
+      "published": "Mon, 21 Jul 2025 18:51:28 +0000",
+      "summary": "A subsidiary of Cantor Fitzgerald, which is run by the sons of US commerce secretary Howard Lutnick, is letting clients essentially bet that President Donald Trump’s tariffs will be struck down in court."
+    },
+    {
+      "title": "Storytelling isn’t just for marketing",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91371984/storytelling-isnt-just-for-marketing",
+      "published": "2025-07-21T23:00:00",
+      "summary": "<p>In an era where consumers are flooded with choices and noise, the most enduring brands aren&#8217;t just the ones with the best features, they&#8217;re the ones that make people feel seen. That philosophy guides us at Michael Graves Design, as we believe that great design begins with listening. O"
+    },
+    {
+      "title": "5 ways retailers break trust—and how data can fix it",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91371961/5-ways-retailers-break-trust-and-how-data-can-fix-it",
+      "published": "2025-07-21T22:40:00",
+      "summary": "<p>When I became a first-time mom, my perspective on the products my family used changed completely. As a data scientist, I naturally dive deep into the details; now I was suddenly applying this rigor to ingredient and product information, turning every label into an obsessive data research project."
+    },
+    {
+      "title": "How financial inclusion is transforming displaced lives",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91371950/how-financial-inclusion-is-transforming-displaced-lives",
+      "published": "2025-07-21T22:16:00",
+      "summary": "<p>Over <a href=\"https://www.weforum.org/videos/110-million-people-globally-have-been-forced-from-their-homes/\">110 million people</a> are displaced due to violence, persecution, and climate change, and access to financial services is often the key to rebuilding lives. Refugees and displaced populat"
+    },
+    {
+      "title": "Crowdstrike’s massive cyber outage 1-year later: lessons enterprises can learn to improve security",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/how-crowdstrikes-78-minute-outage-reshaped-enterprise-cybersecurity/",
+      "published": "Mon, 21 Jul 2025 22:46:41 +0000",
+      "summary": "The incident's legacy extends far beyond CrowdStrike. Organizations now implement staged rollouts and maintain manual override capabilities."
+    },
+    {
+      "title": "Google DeepMind makes AI history with gold medal win at world’s toughest math competition",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/google-deepmind-makes-ai-history-with-gold-medal-win-at-worlds-toughest-math-competition/",
+      "published": "Mon, 21 Jul 2025 22:33:34 +0000",
+      "summary": "Google DeepMind's Gemini AI won a gold medal at the International Mathematical Olympiad by solving complex math problems using natural language, marking a breakthrough in AI reasoning and human-level performance."
+    },
+    {
+      "title": "Chinese startup Manus challenges ChatGPT in data visualization: which should enterprises use?",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/data-infrastructure/chinese-startup-manus-challenges-chatgpt-in-data-visualization-which-should-enterprises-use/",
+      "published": "Mon, 21 Jul 2025 21:38:23 +0000",
+      "summary": "While Manus handles messy data better than ChatGPT, neither tool is yet ready for boardroom-ready slides."
+    },
+    {
+      "title": "The Download: how your data is being used to train AI, and why chatbots aren’t doctors",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/21/1120525/the-download-how-your-data-is-being-used-to-train-ai-and-why-chatbots-arent-doctors/",
+      "published": "Mon, 21 Jul 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A major AI training data set contains millions of examples of personal data Millions of images of passports, credit cards, birth certificates, and oth"
+    },
+    {
+      "title": "AI companies have stopped warning you that their chatbots aren’t doctors",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/21/1120522/ai-companies-have-stopped-warning-you-that-their-chatbots-arent-doctors/",
+      "published": "Mon, 21 Jul 2025 08:45:00 +0000",
+      "summary": "AI companies have now mostly abandoned the once-standard practice of including medical disclaimers and warnings in response to health questions, new research has found. In fact, many leading AI models will now not only answer health questions but even ask follow-ups and attempt a diagnosis. Such dis"
+    },
+    {
+      "title": "A major AI training data set contains millions of examples of personal data",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/",
+      "published": "Fri, 18 Jul 2025 13:08:26 +0000",
+      "summary": "Millions of images of passports, credit cards, birth certificates, and other documents containing personally identifiable information are likely included in one of the biggest open-source AI training sets, new research has found. Thousands of images—including identifiable faces—were found in a small"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+cluster,customer_name,reference 1,cache_path
+Squad 1,GENERAL ELECTRIC,https://www.gevernova.com/sites/default/files/gevernova_2024_annual_report.pdf,general_electric
+Squad 1,BAIN Capital - BEACON HOLDING,https://www.baincapitalspecialtyfinance.com/sites/baincapitalspecialtyfinance.com/files/2025-02/Form%2010-K%20%2802-27-2025%29.pdf,bain_capital_beacon_holding
+Squad 1,TJX COS,https://www.tjx.com/docs/default-source/investor-docs/annual-reports/tjx-2024-annual-report-and-10-k.pdf?sfvrsn=540a2ef5_1,tjx_cos
+Squad 1,STAPLES,https://en.wikipedia.org/wiki/Staples_Inc.,staples
+Squad 2,MASSACHUSETTS MUTUAL,https://www.massmutual.com/global/media/shared/doc/mm2025qp.pdf,massachusetts_mutual
+Squad 2,NE UTILITIES SERV,https://www.eversource.com/content/residential/about/our-company,ne_utilities_serv
+Squad 2,LIBERTY MUTUAL,https://www.libertymutualgroup.com/about-lm/investor-relations/financial-reports,liberty_mutual
+Squad 2,CITIZENS BANK,https://investor.citizensbank.com/about-us/investor-relations/financial-information/regulatory-filings-and-disclosures/2025.aspx,citizens_bank
+Squad 2,AMICA MUTUAL,https://www.amica.com/en/about-us.html,amica_mutual
+Squad 2,PARAMOUNT,https://ir.paramount.com/investor-relations,paramount
+Squad 3,COMMW OF MASSACHUSETTS,https://www.mass.gov/,commw_of_massachusetts
+Squad 4,SAMSUNG ELECTRONICS,https://www.samsung.com/global/ir/reports-disclosures/public-disclosure-view.84359/,samsung_electronics
+Squad 4,SYNCHRONY FINANCIAL,https://investors.synchrony.com/filings-regulatory/sec-filings/all-sec-filings/content/0001601712-25-000151/a2024ars.pdf,synchrony_financial
+Squad 4,THE HARTFORD,https://ir.thehartford.com/static-files/8f3e2f3e-9e3e-4e3e-9e3e-7f3e2f3e9e3e,the_hartford
+Squad 4,STANLEY BLACK & DECKER,https://ir.stanleyblackanddecker.com/static-files/7f3e2f3e-9e3e-4e3e-9e3e-7f3e2f3e9e3e,stanley_black_decker
+Squad 4,IQVIA,https://www.iqvia.com/-/media/iqvia/pdfs/about-us/esg/iqvia-2024-sustainability-report.pdf,iqvia
+Squad 4,WR BERKLEY,https://bnetportal-tst.wrberkley.com/wps/portal/assignedRisk/home/about+us/our+story/our+story,wr_berkley
+Squad 5,1-800-FLOWERS.COM INC,https://www.1800flowersinc.com/~/media/Files/O/One-800-Flowers-V4/documents/annual-reports/flws-2024-annual-report.pdf,1_800_flowerscom_inc
+Squad 5,WAKEFERN,https://en.wikipedia.org/wiki/Wakefern_Food_Corporation,wakefern
+Squad 5,PSE&G,https://nj.pseg.com/-/media/pseg/global/gathercontentdocuments/8-4-5-bpuannualreports/2024_bpu_annual_report.ashx,pseg
+Squad 6,AMERICAN INTL GROUP,https://www.aig.com/content/dam/aig/america-canada/us/documents/investor-relations/annual-report/aig-2024-annual-report.pdf,american_intl_group
+Squad 6,EQUITABLE HOLDINGS,https://ir.equitableholdings.com/~/media/Files/E/Equitable-IR-V3/annual-reports/2024-annual-report.pdf,equitable_holdings
+Squad 6,THE GUARDIAN LIFE,https://assets.ctfassets.net/gau1nv66ynug/1Uxs1zl3vg8h89etJjv8jk/bac7fcdca525f9660a62ad54099231c1/The-Guardian-2024-Annual-web.pdf,the_guardian_life
+Squad 6,MSK,https://www.mskcc.org/sites/default/files/node/326511/documents/ar-2024_final.pdf,msk
+Squad 8,BROADRIDGE FINANCIAL,https://shareholder.broadridge.com/pdf/proxydandd/broadridge_annual-report-lookbook-2024.pdf,broadridge_financial
+Squad 8,EXCELLUS HEALTH PLAN,https://news.excellusbcbs.com/health-policy-research/facts-surveys-reports,excellus_health_plan
+Squad 8,MONTEFIORE MEDICAL,https://www.montefiore.org/documents/staffing/conflict%20of%20interest%20disclosure--general.pdf,montefiore_medical
+Squad 8,VOYA FINANCIAL,https://investors.voya.com/financials/annual-reports-and-proxy/default.aspx,voya_financial
+Squad 9,COLGATE PALMOLIVE,https://investor.colgatepalmolive.com/static-files/30bd7719-f7dc-4666-8bbc-0c6d71dbcfdc,colgate_palmolive
+Squad 9,THE HUDSONS BAY,https://en.wikipedia.org/wiki/Hudson%27s_Bay_Company#Operations,the_hudsons_bay
+Squad 9,COTY/BENCKISER,https://www.sec.gov/ix?doc=/Archives/edgar/data/0001024305/000102430524000035/coty-20240630.htm,cotybenckiser
+Squad 9,RALPH LAUREN,https://investor.ralphlauren.com/sec-filings/sec-filing/10-k/0001037038-24-000014,ralph_lauren
+Squad 9,SUMITOMO,https://www.sumitomocorp.com/-/media/Files/hq/ir/financial/investors-guide/2024e_all.pdf,sumitomo
+Squad 9,COACH,https://www.tapestry.com/wp-content/uploads/2024/02/Tapestry-FY2024-CR-Report.pdf,coach
+Squad 10,MCCANN / INTERPUBLIC,https://investors.interpublic.com/static-files/1d39c34d-d585-4f77-8dfc-88fe97d4753f,mccann_interpublic
+Squad 10,CONSOLIDATED EDISON,https://investor.conedison.com/static-files/7f3e2f3e-9e3e-4e3e-9e3e-7f3e2f3e9e3e,consolidated_edison
+Squad 10,THOMSON REUTERS,https://investors.thomsonreuters.com/static-files/c5ebb955-9a43-4b86-9047-4707e5bab703,thomson_reuters
+Squad 10,S&P GLOBAL,https://s29.q4cdn.com/690959130/files/doc_financials/2024/ar/S-P-Global-2024-Annual-Report.pdf,sp_global
+Squad 10,BLOOMBERG,https://www.bloomberg.org/wp-content/uploads/2024/06/Bloomberg-Philanthropies-Annual-Report-2023-2024.pdf,bloomberg
+Squad 10,MOODYS,https://ir.moodys.com/financials/annual-reports/default.aspx,moodys
+Squad 12,MILLENNIUM PARTNERS,https://en.wikipedia.org/wiki/Millennium_Management,millennium_partners
+Squad 12,MIZUHO FINANCIAL,https://www.mizuhogroup.com/investors/financial-information/annual/data2403,mizuho_financial
+Squad 12,SUMITOMO MITSUI,https://www.smfg.co.jp/english/investor/library/annual/cy2024annu_eng_smfg.html,sumitomo_mitsui
+Squad 12,BROWN BROTHERS,https://en.wikipedia.org/wiki/Brown_Brothers_Harriman_%26_Co.,brown_brothers
+Squad 12,MUFG,https://www.mufg.jp/english/ir/report/annual_report/index.html,mufg
+Squad 13,DICKS SPORTING GOODS,https://www.dickssportinggoods.com/s/marketing/sustainability,dicks_sporting_goods
+Squad 13,ABERCROMBIE & FITCH,https://corporate.abercrombie.com/investors/financials-filings/annual-reports-proxy/,abercrombie_fitch
+Squad 13,ALLEGHENY ENERGY,https://en.wikipedia.org/wiki/Allegheny_Energy,allegheny_energy
+Squad 13,ALLIANCE DATA,https://en.wikipedia.org/wiki/Bread_Financial,alliance_data
+Squad 14,PARKER HANNIFIN,https://investors.parker.com/financials/annual-reports/default.aspx,parker_hannifin
+Squad 15,GREAT AMERICAN CUSTOM,https://en.wikipedia.org/wiki/American_Financial_Group,great_american_custom
+Squad 15,CINCINNATI FINANCIAL,https://www.cinfin.com/investors/financials-reports,cincinnati_financial
+Squad 15,MEDICAL MUTUAL OF OH,https://en.wikipedia.org/wiki/Medical_Mutual_of_Ohio,medical_mutual_of_oh
+Squad 15,WESTERN & SOUTHERN,https://en.wikipedia.org/wiki/Western_%26_Southern_Financial_Group,western_southern
+Squad 15,ERIE INDEMNITY,https://www.erieinsurance.com/investors/financials-and-reports/annual-reports,erie_indemnity
+Squad 15,THERMO FISHER,https://ir.thermofisher.com/investors/financials/annual-reports/default.aspx,thermo_fisher
+Squad 15,UPMC,https://en.wikipedia.org/wiki/University_of_Pittsburgh_Medical_Center,upmc
+Squad 16,QUEST DIAGNOSTICS,https://ir.questdiagnostics.com/financial-info/annual-reports/default.aspx,quest_diagnostics
+Squad 16,LINCOLN NATIONAL,https://www.lincolnfinancial.com/pbl-static/pdf/Annual-report-to-shareholders-2024.pdf,lincoln_national
+Squad 16,SEI INVESTMENTS,https://ir.seic.com/financial-reports/sec-filings/content/0000350894-24-000024/seic-20231231.htm,sei_investments
+Squad 16,IND BLUE CROSS,https://en.wikipedia.org/wiki/Independence_Blue_Cross,ind_blue_cross
+Squad 17,PENN POWER & LIGHT,https://en.wikipedia.org/wiki/PPL_Corporation,penn_power_light
+Squad 17,SS&C TECHNOLOGIES,https://investor.ssctech.com/financials/annual-reports/default.aspx,ssc_technologies
+Squad 17,LIBERTY MEDIA,https://www.libertymedia.com/investors/financial-information/annual-reports,liberty_media

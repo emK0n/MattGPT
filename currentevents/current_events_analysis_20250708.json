@@ -1,0 +1,372 @@
+{
+  "analysis": {
+    "summary": "Key themes include advancements in technology such as AI, hydrogen tech, and Liquid Glass design. There are also issues surrounding trust in technology within sports, workplace misconduct, and legal disputes between tech companies. Maternity brands, postmasters, and gaming (Xbox, Epic Games) are also highlighted.",
+    "keywords": [
+      "trust",
+      "sport",
+      "technology",
+      "alert",
+      "job",
+      "compensation",
+      "discrimination",
+      "brand",
+      "maternity",
+      "administration",
+      "ai",
+      "hydrogen",
+      "liquid",
+      "glass",
+      "misconduct",
+      "nda",
+      "postmasters",
+      "xbox",
+      "epic",
+      "legal",
+      "dispute",
+      "samsung",
+      "pricing",
+      "gemini",
+      "android"
+    ],
+    "trending_topics": [
+      "AI advancements",
+      "Sports technology trust issues",
+      "Workplace misconduct NDAs",
+      "Tech company disputes"
+    ],
+    "search_keywords": [
+      "trust",
+      "sport",
+      "technology",
+      "alert",
+      "job",
+      "compensation",
+      "discrimination",
+      "brand",
+      "maternity",
+      "administration",
+      "ai",
+      "hydrogen",
+      "liquid",
+      "glass",
+      "misconduct",
+      "nda",
+      "postmasters",
+      "xbox",
+      "epic",
+      "legal",
+      "dispute",
+      "samsung",
+      "pricing",
+      "gemini",
+      "android"
+    ],
+    "analysis_timestamp": "2025-07-08T00:03:54.418972"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 36,
+  "sources_analyzed": [
+    "Engadget",
+    "Hacker News",
+    "BBC Technology",
+    "Ars Technica",
+    "Slashdot",
+    "VentureBeat",
+    "MIT Technology Review",
+    "The Verge",
+    "Fast Company",
+    "TechCrunch",
+    "Wired",
+    "BBC Business"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Why don't we trust technology in sport?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/sport/tennis/articles/cdr3nk7vd28o",
+      "published": "Mon, 07 Jul 2025 21:15:57 GMT",
+      "summary": "Technology editor Zoe Kleinman explores the tensions between between humans and machines that were encapsulated at Wimbledon."
+    },
+    {
+      "title": "Emergency alerts to be sent to UK smartphones",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c4ge9xk8wj0o",
+      "published": "Mon, 07 Jul 2025 21:30:45 GMT",
+      "summary": "A test message will be sent to smartphones on 7 September, after a previous test revealed technical issues."
+    },
+    {
+      "title": "Xbox producer tells staff to use AI to ease job loss pain",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/ckglzxy389zo",
+      "published": "Mon, 07 Jul 2025 14:29:43 GMT",
+      "summary": "An Xbox producer faces a backlash after suggesting AI tools can help to deal wih the emotions that follow job loss."
+    },
+    {
+      "title": "Postmasters await compensation report, but findings on blame months away",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c4g267xe3y6o",
+      "published": "Mon, 07 Jul 2025 23:01:11 GMT",
+      "summary": "The first part of the final report into the Post Office IT scandal is due to be published at midday."
+    },
+    {
+      "title": "Workplace misconduct and discrimination NDAs to be banned",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c93kwgzz88qo",
+      "published": "Mon, 07 Jul 2025 21:44:24 GMT",
+      "summary": "There has been concern that non-disclosure agreements have been used to silence those in workplaces suffering harassment."
+    },
+    {
+      "title": "Maternity brand worn by Kate enters administration",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c5y9qez8ze3o",
+      "published": "Mon, 07 Jul 2025 23:12:22 GMT",
+      "summary": "Consultancy firm Interpath confirmed that it had been appointed as administrators by maternity brand Seraphine."
+    },
+    {
+      "title": "Meta reportedly recruits Apple’s head of AI models",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/07/meta-reportedly-recruits-apples-head-of-ai-models/",
+      "published": "Mon, 07 Jul 2025 23:39:02 +0000",
+      "summary": "Ruoming Pang previously ran Apple's in-house team that trained the AI foundation models that underpin Apple Intelligence and other on-device AI features."
+    },
+    {
+      "title": "Tulum Energy rediscovered a forgotten hydrogen tech and used it to raise $27M",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/07/tulum-energy-rediscovered-a-forgotten-hydrogen-tech-and-used-it-to-raise-27m/",
+      "published": "Mon, 07 Jul 2025 23:00:00 +0000",
+      "summary": "Results of a 20-year-old curiosity now form the basis of Tulum, a startup that has attracted significant investor attention."
+    },
+    {
+      "title": "Cursor apologizes for unclear pricing changes that upset users",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/07/cursor-apologizes-for-unclear-pricing-changes-that-upset-users/",
+      "published": "Mon, 07 Jul 2025 22:57:09 +0000",
+      "summary": "Cursor's CEO issued an apology this weekend over an unclear change to its pricing model that resulted in some users being charged more."
+    },
+    {
+      "title": "Unless users take action, Android will let Gemini access third-party apps",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/07/unless-users-take-action-android-will-let-gemini-access-third-party-apps/",
+      "published": "Mon, 07 Jul 2025 23:46:14 +0000",
+      "summary": "Important changes to Android devices took effect starting Monday."
+    },
+    {
+      "title": "What would a cheap, Apple A18-powered MacBook actually be good at?",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/apple/2025/07/what-would-a-cheap-apple-a18-powered-macbook-actually-be-good-at/",
+      "published": "Mon, 07 Jul 2025 21:08:05 +0000",
+      "summary": "Op-ed: A Mac with an iPhone chip inside could be great—for the right audience."
+    },
+    {
+      "title": "Samsung and Epic Games call a truce in app store lawsuit",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/samsung-and-epic-games-call-a-truce-in-app-store-lawsuit/",
+      "published": "Mon, 07 Jul 2025 20:10:14 +0000",
+      "summary": "Epic's Tim Sweeney says Samsung will make changes, but no one has specifics."
+    },
+    {
+      "title": "The best Fitbits for your fitness and health",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/22982833/best-fitbit-watch-fitness-tracker",
+      "published": "2025-07-07T18:38:43-04:00",
+      "summary": "Editor’s note: Amazon Prime Day kicks off on July 8th; however, if you want to get a head start on your online shopping, we’ve rounded up the best early Prime Day deals you can already get. In 2025, you might wonder if Fitbit is still relevant. Despite getting acquired by Google, Fitbit remains one "
+    },
+    {
+      "title": "Apple just added more frost to its Liquid Glass design",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/700066/apple-liquid-glass-frosted-ios-26-developer-beta",
+      "published": "2025-07-07T18:31:21-04:00",
+      "summary": "Apple’s new Liquid Glass design language just got a little more… frosted. In the third iOS 26 developer beta, Apple dialed back the transparency of navigation bars, buttons, and tabs that once allowed you to clearly see the content beneath them. Apple already toned down the glassiness of Liquid Glas"
+    },
+    {
+      "title": "xAI updated Grok to be more &#8216;politically incorrect&#8217;",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/699788/xai-updated-grok-to-be-more-politically-incorrect",
+      "published": "2025-07-07T18:29:55-04:00",
+      "summary": "Grok, the chatbot developed by Elon Musk's xAI, was updated over the weekend with instructions to \"assume subjective viewpoints sourced from the media are biased\" and \"not shy away from making claims which are politically incorrect\" - part of Musk's ongoing attempt to shape the bot's point of view. "
+    },
+    {
+      "title": "Walmart Deals 2025 are live with a bunch of anti-Prime Day sales to shop now",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/walmart-deals-2025-are-live-with-a-bunch-of-anti-prime-day-sales-to-shop-now-230146548.html?src=rss",
+      "published": "Mon, 07 Jul 2025 23:01:47 +0000",
+      "summary": "<p><a href=\"https://www.engadget.com/amazon-prime-day/\">Amazon Prime Day</a> is usually met with competing sales from other retailers, and this year is no different. <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=3719d8d4-5edd-4817-998a-91f3229e7323&amp;siteId=us-enga"
+    },
+    {
+      "title": "Epic Games ends its antitrust lawsuit against Samsung",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/epic-games-ends-its-antitrust-lawsuit-against-samsung-215806962.html?src=rss",
+      "published": "Mon, 07 Jul 2025 21:58:07 +0000",
+      "summary": "<p>Epic Games has dropped its suit against Samsung. &quot;We’re dismissing our court case against Samsung following the parties’ discussions,&quot; Epic CEO and founder Tim Sweeney <a href=\"https://x.com/TimSweeneyEpic/status/1942259929865420855\"><ins>posted</ins></a> on X. &quot;We are grateful tha"
+    },
+    {
+      "title": "Romero Games says reports of its death are greatly exaggerated",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/romero-games-says-reports-of-its-death-are-greatly-exaggerated-210905833.html?src=rss",
+      "published": "Mon, 07 Jul 2025 21:09:06 +0000",
+      "summary": "<p>It appeared that Romero Games might have shuttered as a consequence of the <a class=\"no-affiliate-link\" href=\"https://www.engadget.com/gaming/xbox/microsoft-gaming-division-suffers-further-layoffs-142430386.html\"><ins>sweeping job cuts at Microsoft</ins></a> last week, but the studio is still ali"
+    },
+    {
+      "title": "Trying to find meaning in owning an old Mac",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://blog.decryption.net.au/posts/macse30.html",
+      "published": "Tue, 08 Jul 2025 02:45:57 +0000",
+      "summary": "<p>Article URL: <a href=\"https://blog.decryption.net.au/posts/macse30.html\">https://blog.decryption.net.au/posts/macse30.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44496502\">https://news.ycombinator.com/item?id=44496502</a></p>\n<p>Points: 38</p>\n<p># Comments: 17</p>"
+    },
+    {
+      "title": "BBC staff: we're forced to do pro-Israel PR",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.owenjones.news/p/bbc-staff-were-forced-to-do-pro-israel",
+      "published": "Tue, 08 Jul 2025 02:18:01 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.owenjones.news/p/bbc-staff-were-forced-to-do-pro-israel\">https://www.owenjones.news/p/bbc-staff-were-forced-to-do-pro-israel</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44496391\">https://news.ycombinator.com/item?id=44496391</a></p>\n<p>"
+    },
+    {
+      "title": "LookingGlass: Generative Anamorphoses via Laplacian Pyramid Warping",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://studios.disneyresearch.com/2025/06/09/lookingglass-generative-anamorphoses-via-laplacian-pyramid-warping/",
+      "published": "Mon, 07 Jul 2025 22:11:58 +0000",
+      "summary": "<p><a href=\"https://www.youtube.com/watch?v=B3AZay43688\" rel=\"nofollow\">https://www.youtube.com/watch?v=B3AZay43688</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44495154\">https://news.ycombinator.com/item?id=44495154</a></p>\n<p>Points: 56</p>\n<p># Comments: 8</p>"
+    },
+    {
+      "title": "People Are Using AI Chatbots To Guide Their Psychedelic Trips",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/07/07/2232250/people-are-using-ai-chatbots-to-guide-their-psychedelic-trips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from Wired: Trey had struggled with alcoholism for 15 years, eventually drinking heavily each night before quitting in December. But staying sober was a struggle for the 36-year-old first responder from Atlanta, who did not wish to use his real name due to profess"
+    },
+    {
+      "title": "Tennis Players Criticize AI Technology Used By Wimbledon",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/07/07/2254236/tennis-players-criticize-ai-technology-used-by-wimbledon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Wimbledon's use of AI-powered electronic line-calling has sparked backlash from players who say the system made several incorrect calls, affecting match outcomes and creating accessibility issues. \"This is the first year the prestigious tennis tournament, which is still ongoing, replaced human line "
+    },
+    {
+      "title": "Fubo Pays $3.4 Million To Settle Claims It Illegally Shared User Data With Advertisers",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/07/07/2250222/fubo-pays-34-million-to-settle-claims-it-illegally-shared-user-data-with-advertisers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Fubo has agreed to pay $3.4 million to settle a class-action lawsuit (PDF) accusing it of illegally sharing users&#226;(TM) personally identifiable information and video viewing history with advertisers without consent, allegedly violating the Video Privacy Protection Act (VPPA). Ars Technica report"
+    },
+    {
+      "title": "‘Anthem’ Is the Latest Video Game Casualty. What Should End-of-Life Care Look Like for Games?",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/bioware-anthem-shuttered-stop-killing-games/",
+      "published": "Mon, 07 Jul 2025 22:43:16 +0000",
+      "summary": "Anthem will disappear in early 2026. The move comes as consumer group Stop Killing Video Games fights to preserve similar online service games."
+    },
+    {
+      "title": "9 Best Robot Vacuums (2025): Tested and Reviewed in Real Homes",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-robot-vacuums/",
+      "published": "Mon, 07 Jul 2025 21:15:24 +0000",
+      "summary": "Whether you’re up against pet hair or you want to splurge on a high-end laser-guided robot vacuum, we have the perfect pick for you."
+    },
+    {
+      "title": "The 8 Best Travel Pillows (2025), Tested on Planes",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-travel-pillows/",
+      "published": "Mon, 07 Jul 2025 18:32:41 +0000",
+      "summary": "It can be hard to catch a nap while traveling, but these pillows can help."
+    },
+    {
+      "title": "How AI can help restaurants provide better hospitality",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91364171/how-ai-can-help-restaurants-provide-better-hospitality",
+      "published": "2025-07-08T00:10:00",
+      "summary": "<p>At first glance, the idea of integrating <a href=\"https://www.fastcompany.com/section/artificial-intelligence\" title=\"AI\">artificial intelligence</a> (AI) into the restaurant experience seems counterintuitive. After all, sitting down for a meal is one of the most fundamentally human experiences t"
+    },
+    {
+      "title": "How leaders can future-proof their business",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91364093/how-leaders-can-future-proof-their-business",
+      "published": "2025-07-07T23:30:00",
+      "summary": "<p>In the midst of economic volatility driven by inflation, tariffs, and global geopolitical tensions, how do businesses keep up without a crystal ball? As the CEO of Sollis Health, my deep background in scaling mission-driven brands has taught me that thriving businesses don’t predict the future—th"
+    },
+    {
+      "title": "AI could be science’s strongest ally",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91364061/ai-could-be-sciences-strongest-ally",
+      "published": "2025-07-07T23:04:00",
+      "summary": "<p>Across the U.S. and parts of Europe, science funding is in crisis. In the U.S., a planned <a href=\"https://www.nbcnews.com/health/health-news/trump-administration-cut-18-billion-nih-grants-rcna205568\">$18 billion</a> worth of cuts to federal research have already halted trials, triggered mass lay"
+    },
+    {
+      "title": "New 1.5B router model achieves 93% accuracy without costly retraining",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/new-1-5b-router-model-achieves-93-accuracy-without-costly-retraining/",
+      "published": "Mon, 07 Jul 2025 23:25:31 +0000",
+      "summary": "Katanemo Labs' new LLM routing framework aligns with human preferences and adapts to new models without retraining."
+    },
+    {
+      "title": "Why CISOs are making the SASE switch: Fewer vendors, smarter security, better AI guardrails",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/facing-ai-powered-threats-cisos-consolidate-around-single-vendor-sase/",
+      "published": "Mon, 07 Jul 2025 23:13:03 +0000",
+      "summary": "AI attacks are exposing gaps in multivendor stacks. CISOs are shifting to single-vendor SASE to consolidate, reduce risk and regain control."
+    },
+    {
+      "title": "Elon Musk’s ‘truth-seeking’ Grok AI peddles conspiracy theories about Jewish control of media",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/elon-musks-truth-seeking-grok-ai-peddles-conspiracy-theories-about-jewish-control-of-media/",
+      "published": "Mon, 07 Jul 2025 18:52:46 +0000",
+      "summary": "The chatbot is giving antisemitic responses and bizarre first-person replies, raising concerns about bias and safety ahead of Grok 4 launch."
+    },
+    {
+      "title": "Producing tangible business benefits from modern iPaaS solutions",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/07/1119383/producing-tangible-business-benefits-from-modern-ipaas-solutions/",
+      "published": "Mon, 07 Jul 2025 14:01:39 +0000",
+      "summary": "When a historic UK-based retailer set out to modernize its IT environment, it was wrestling with systems that had grown organically for more than 175 years. Prior digital transformation efforts had resulted in a patchwork of hundreds of integration flows spanning cloud, on-premises systems, and thir"
+    },
+    {
+      "title": "The digital future of industrial and operational work",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/07/1119714/the-digital-future-of-industrial-and-operational-work/",
+      "published": "Mon, 07 Jul 2025 14:00:00 +0000",
+      "summary": "Digital transformation has long been a boardroom buzzword—shorthand for ambitious, often abstract visions of modernization. But today, digital technologies are no longer simply concepts in glossy consultancy decks and on corporate campuses; they&#8217;re also being embedded directly into factory flo"
+    },
+    {
+      "title": "The Download: China’s winning at advanced manufacturing, and a potential TikTok sale",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/07/1119730/the-download-chinas-winning-at-advanced-manufacturing-and-a-potential-tiktok-sale/",
+      "published": "Mon, 07 Jul 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The latest threat from the rise of Chinese manufacturing In 2013, a trio of academics showed convincing evidence that increased trade with China begin"
+    }
+  ]
+}

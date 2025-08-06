@@ -1,0 +1,384 @@
+{
+  "analysis": {
+    "summary": "Tech news focuses on AI advancements, including controversies and sales restrictions (Nvidia to China), regional accents in AI tools, and a former engineer's perspective. Business news highlights share investment plans for savers, tariff deals, and Trump's investments in Pennsylvania's AI hub. Tech gadget trends include Amazon-SpaceX collaboration, GM's use of CT scanners, Razer's eGPU line revival, and Xbox's game streaming expansion.",
+    "keywords": [
+      "wetransfer",
+      "ai",
+      "british",
+      "nvidia",
+      "china",
+      "shares",
+      "savers",
+      "tariff",
+      "trump",
+      "pennsylvania",
+      "amazon",
+      "spacex",
+      "gm",
+      "ct",
+      "scanners",
+      "razer",
+      "egpu",
+      "xbox",
+      "game"
+    ],
+    "trending_topics": [
+      "AI developments and controversies",
+      "Share investment plans for savers",
+      "Trump's business announcements"
+    ],
+    "search_keywords": [
+      "wetransfer",
+      "ai",
+      "british",
+      "nvidia",
+      "china",
+      "shares",
+      "savers",
+      "tariff",
+      "trump",
+      "pennsylvania",
+      "amazon",
+      "spacex",
+      "gm",
+      "ct",
+      "scanners",
+      "razer",
+      "egpu",
+      "xbox",
+      "game"
+    ],
+    "analysis_timestamp": "2025-07-15T18:33:09.205007"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "Fast Company",
+    "MIT Technology Review",
+    "Wired",
+    "BBC Business",
+    "The Verge",
+    "Hacker News",
+    "Ars Technica",
+    "Engadget",
+    "BBC Technology",
+    "BBC World",
+    "TechCrunch",
+    "Slashdot",
+    "VentureBeat"
+  ],
+  "raw_headlines": [
+    {
+      "title": "WeTransfer says files not used to train AI after backlash",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cp8mp79gyz1o",
+      "published": "Tue, 15 Jul 2025 12:47:23 GMT",
+      "summary": "Some social media users had threatened to delete their accounts after WeTransfer's terms were updated."
+    },
+    {
+      "title": "New AI voice tool trained to copy British regional accents",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c07d2dyx19zo",
+      "published": "Mon, 14 Jul 2025 23:06:09 GMT",
+      "summary": "A UK company says it is better at reproducing a range of accents compared with US or Chinese rivals."
+    },
+    {
+      "title": "Nvidia says it will restart AI chip sales to China",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cy8g22n32d0o",
+      "published": "Tue, 15 Jul 2025 06:03:35 GMT",
+      "summary": "The move would reverse a US ban on sales of the high-end chip to the world's second largest economy."
+    },
+    {
+      "title": "Stop being negative about savers buying shares, Reeves says",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cn4ld9v73dzo",
+      "published": "Tue, 15 Jul 2025 21:02:23 GMT",
+      "summary": "Chancellor tells the financial industry to change the narrative around consumer investment to encourage growth."
+    },
+    {
+      "title": "Trump claims tariff deal with Indonesia",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cwyq0ln6z6lo",
+      "published": "Tue, 15 Jul 2025 20:21:12 GMT",
+      "summary": "Trump says the US will lower its tariffs threatened on goods from Indonesia to 19% from a planned 32%."
+    },
+    {
+      "title": "Savers to be targeted with offers to invest in shares under new plans",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cvgwz7vypllo",
+      "published": "Tue, 15 Jul 2025 12:29:33 GMT",
+      "summary": "Banks will send savers details of possible investments and an ad campaign will raise awareness, the Treasury says."
+    },
+    {
+      "title": "I'm 'disappointed but not done' with Putin, Trump tells BBC",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c1e02q12z32o",
+      "published": "Tue, 15 Jul 2025 09:06:15 GMT",
+      "summary": "Trump says he trusts \"almost nobody\" in exclusive interview discussing the war in Ukraine, Nato and the UK."
+    },
+    {
+      "title": "'Not our war' - Trump's Nato weapons deal for Ukraine sparks MAGA anger",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c14e2ydv4d6o",
+      "published": "Tue, 15 Jul 2025 09:38:38 GMT",
+      "summary": "Marjorie Taylor Greene, a key Trump ally, and former Trump strategist Steve Bannon have criticised the move."
+    },
+    {
+      "title": "Thousands of Afghans were moved to UK in secret scheme after data breach",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cvg8zy78787o",
+      "published": "Tue, 15 Jul 2025 17:14:09 GMT",
+      "summary": "The existence of the scheme could not be reported until now because of a court injunction."
+    },
+    {
+      "title": "Amazon’s Kuiper satellites to get boost from rival SpaceX",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/15/amazons-kuiper-satellites-to-get-boost-from-rival-spacex/",
+      "published": "Tue, 15 Jul 2025 22:26:10 +0000",
+      "summary": "Amazon is looking to its main competitor to get its next batch of Kuiper satellites to orbit."
+    },
+    {
+      "title": "US Army soldier pleads guilty to hacking telcos and extortion",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/15/us-army-soldier-pleads-guilty-to-hacking-telcos-and-extortion/",
+      "published": "Tue, 15 Jul 2025 21:41:25 +0000",
+      "summary": "Cameron Wagenius had already pleaded guilty to other charges earlier this year."
+    },
+    {
+      "title": "A former OpenAI engineer describes what it’s really like to work there",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/15/a-former-openai-engineer-describes-what-its-really-like-to-work-there/",
+      "published": "Tue, 15 Jul 2025 20:58:31 +0000",
+      "summary": "A senior engineer describes the thrill, chaos, and exhaustion of working at OpenAI this past year while launching its coding agent Codex."
+    },
+    {
+      "title": "Corporate inadequacy has rendered my favorite rediscovered gadget useless",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/fickle-business-strategy-has-turned-my-new-favorite-earbuds-into-e-waste/",
+      "published": "Tue, 15 Jul 2025 18:49:49 +0000",
+      "summary": "Without rare, proprietary tech, these earbuds are useless."
+    },
+    {
+      "title": "From the hospital to the car plant: What is GM doing with CT scanners?",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/cars/2025/07/from-the-hospital-to-the-car-plant-what-is-gm-doing-with-ct-scanners/",
+      "published": "Tue, 15 Jul 2025 17:07:21 +0000",
+      "summary": "The adoption of medical scanning tech has improved first-time quality by 90 percent."
+    },
+    {
+      "title": "Grok’s “MechaHitler” meltdown didn’t stop xAI from winning $200M military deal",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/tech-policy/2025/07/groks-mechahitler-meltdown-didnt-stop-xai-from-winning-200m-military-deal/",
+      "published": "Tue, 15 Jul 2025 16:57:27 +0000",
+      "summary": "xAI announces Grok for Government, tells Grok to stop calling itself MechaHitler."
+    },
+    {
+      "title": "How to choose which Apple Watch to buy",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/23037217/best-apple-watch-series-se-ultra",
+      "published": "2025-07-15T18:05:03-04:00",
+      "summary": "It used to be easy to pick an Apple Watch. All you had to do was choose whether you wanted the larger model or the smaller one. Then Apple added optional cellular connectivity. Then, a more affordable Watch SE (now in its second generation) and, in 2022, the rugged Apple Watch Ultra (also now in [&#"
+    },
+    {
+      "title": "To make Ironheart feel tactile, the show&#8217;s creative team had to get on the same page",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tv/707329/ironheart-alison-kelly-interview",
+      "published": "2025-07-15T17:15:00-04:00",
+      "summary": "In Disney Plus' Ironheart series, a young genius with an uncanny knack for building armored suits finds herself plunged into a shady, criminal underworld that gives her a chance to really show off her talents. Riri Williams is not Tony Stark, and while the Iron Man films clearly informed many of Iro"
+    },
+    {
+      "title": "Trump announces billions in investments to make Pennsylvania an AI hub",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/707369/trump-ai-energy-investments-pennsylvania-billions",
+      "published": "2025-07-15T16:46:41-04:00",
+      "summary": "President Donald Trump announced more than $90 billion in investments from private companies tied to AI, tech, and energy during the “inaugural” Pennsylvania Energy and Innovation Summit on Tuesday. Google&#8217;s president and chief investment officer, Ruth Porat, announced that the company plans t"
+    },
+    {
+      "title": "Razer revives its eGPU line with a Thunderbolt 5 dock",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/accessories/razer-revives-its-egpu-line-with-a-thunderbolt-5-dock-221526901.html?src=rss",
+      "published": "Tue, 15 Jul 2025 22:15:26 +0000",
+      "summary": "<p>Razer is back with a new addition to its Core line of external graphics enclosures. The <a class=\"no-affiliate-link\" href=\"https://www.razer.com/gaming-egpus/razer-core-x-v2\"><ins>Razer Core X V2</ins></a> external graphics enclosure can house recent GPUs from brands including NVIDIA GeForce and "
+    },
+    {
+      "title": "Xbox's 'Stream your own game' feature now extends to PC",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/xbox/xboxs-stream-your-own-game-feature-now-extends-to-pc-204049103.html?src=rss",
+      "published": "Tue, 15 Jul 2025 20:40:49 +0000",
+      "summary": "<p>Xbox's <a href=\"https://www.engadget.com/gaming/xbox/xbox-previews-cloud-streaming-of-games-you-own-on-consoles-211008822.html\">\"Stream your own game\" feature</a> continues to expand. You can now use your PC to play supported games you own on Xbox. (The games stream from the cloud, not your conso"
+    },
+    {
+      "title": "Analogue says its delayed N64 remake console will start shipping next month",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/analogue-says-its-delayed-n64-remake-console-will-start-shipping-next-month-191520648.html?src=rss",
+      "published": "Tue, 15 Jul 2025 19:15:20 +0000",
+      "summary": "<p>US tariffs continue to cause problems and supply issues in the gaming space. The latest to feel the effects is Analogue. The company <a class=\"no-affiliate-link\" href=\"https://www.analogue.co/support/resource/3d-preorder-faq\"><ins>announced</ins></a> today that its Analogue 3D, a modern remake of"
+    },
+    {
+      "title": "Where's Firefox Going Next?",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://connect.mozilla.org/t5/discussions/where-s-firefox-going-next-you-tell-us/m-p/100698#M39094",
+      "published": "Tue, 15 Jul 2025 21:03:50 +0000",
+      "summary": "<p>Article URL: <a href=\"https://connect.mozilla.org/t5/discussions/where-s-firefox-going-next-you-tell-us/m-p/100698#M39094\">https://connect.mozilla.org/t5/discussions/where-s-firefox-going-next-you-tell-us/m-p/100698#M39094</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=445"
+    },
+    {
+      "title": "The FIPS 140-3 Go Cryptographic Module",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://go.dev/blog/fips140",
+      "published": "Tue, 15 Jul 2025 20:42:49 +0000",
+      "summary": "<p>Article URL: <a href=\"https://go.dev/blog/fips140\">https://go.dev/blog/fips140</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44575607\">https://news.ycombinator.com/item?id=44575607</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Hierarchical Modeling (H-Nets)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://cartesia.ai/blog/hierarchical-modeling",
+      "published": "Tue, 15 Jul 2025 19:35:15 +0000",
+      "summary": "<p>Article URL: <a href=\"https://cartesia.ai/blog/hierarchical-modeling\">https://cartesia.ai/blog/hierarchical-modeling</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44574990\">https://news.ycombinator.com/item?id=44574990</a></p>\n<p>Points: 38</p>\n<p># Comments: 12</p>"
+    },
+    {
+      "title": "KDE's Android TV Alternative, Plasma Bigscreen, Rises From the Dead",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/07/15/1956221/kdes-android-tv-alternative-plasma-bigscreen-rises-from-the-dead?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Plasma Bigscreen, KDE's TV-focused interface, is being revived after years of inactivity thanks to contributor Devin, who overhauled the UI, redesigned the Settings app, improved app launching, and updated key modules. While still in progress -- with features like HDMI-CEC remote support and a virtu"
+    },
+    {
+      "title": "LibreOffice Lands Built-In Support For Bitcoin As Currency",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://linux.slashdot.org/story/25/07/15/1932202/libreoffice-lands-built-in-support-for-bitcoin-as-currency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from Phoronix: Merged yesterday to the latest development code for the LibreOffice open-source office suite is now recognizing Bitcoin \"BTC\" as a supported currency for use within the Calc spreadsheet program and elsewhere within this cross-platform free software "
+    },
+    {
+      "title": "US Prosecutors Close Probe Into Polymarket Betting Website",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/07/15/206217/us-prosecutors-close-probe-into-polymarket-betting-website?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "U.S. prosecutors and the Commodity Futures Trading Commission (CFTC) have officially closed their investigations into Polymarket, the decentralized, blockchain-powered prediction market platform where users bet with real cryptocurrency on the outcomes of future events. \"The DOJ was investigating Pol"
+    },
+    {
+      "title": "Thinking Machines Lab Raises a Record $2 Billion, Announces Cofounders",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/thinking-machines-lab-mira-murati-funding/",
+      "published": "Tue, 15 Jul 2025 22:02:19 +0000",
+      "summary": "Mira Murati and several other former OpenAI researchers are behind the buzzy AI startup, now valued at $12 billion and officially out of stealth."
+    },
+    {
+      "title": "The FBI's Jeffrey Epstein Prison Video Had Nearly 3 Minutes Cut Out",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/the-fbis-jeffrey-epstein-prison-video-had-nearly-3-minutes-cut-out/",
+      "published": "Tue, 15 Jul 2025 19:40:27 +0000",
+      "summary": "Metadata from the “raw” Epstein prison video shows approximately 2 minutes and 53 seconds were removed from one of two stitched-together clips. The cut starts right at the “missing minute.”"
+    },
+    {
+      "title": "The 54 Best Shows on Disney+ Right Now (July 2025)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/best-shows-disney-plus/",
+      "published": "Tue, 15 Jul 2025 19:00:00 +0000",
+      "summary": "Ironheart, Doctor Who, and Star Wars: Tales of the Underworld are just a few of the shows you should be watching on Disney+ this month."
+    },
+    {
+      "title": "With limited job prospects at home, new grads are having better luck teaching abroad",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91364955/new-grads-are-teaching-abroad",
+      "published": "2025-07-15T21:00:00",
+      "summary": "<p>When Ricardo Dollero graduated from UCLA last May with great grades and a robust resume of extracurriculars, he wasn’t expecting a particularly difficult <a href=\"https://www.fastcompany.com/section/job-search\" title=\"Job Search\">job search</a>. After majoring in anthropology, he looked for jobs "
+    },
+    {
+      "title": "Your credit score could be negatively impacted by this controversial court ruling about medical debt",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91368585/your-credit-score-could-be-negatively-impacted-by-this-controversial-court-ruling-about-medical-debt",
+      "published": "2025-07-15T19:20:00",
+      "summary": "<p>Last Friday, a federal judge axed a Biden-era rule from the Consumer Financial Protection Bureau (CFPB) that would have prohibited consumer credit reporting agencies from including certain medical debts on consumer credit reports.&nbsp;</p>\n\n\n\n<p>The CFPB rule <a href=\"https://www.consumerfinance"
+    },
+    {
+      "title": "Jack Dorsey’s new Sun Day app tells you exactly how long to tan before you burn",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91368573/jack-dorseys-new-sun-day-app-tells-you-exactly-how-long-to-tan-before-you-burn",
+      "published": "2025-07-15T18:32:00",
+      "summary": "<p>Twitter cofounder Jack Dorsey is back with a new app that tracks sun exposure and vitamin D levels.</p>\n\n\n\n<p>Sun Day uses location-based data to show the current UV index, the day’s high, and additional details like cloud cover, sunrise, and sunset times. Users can choose their skin type from si"
+    },
+    {
+      "title": "Mira Murati says her startup Thinking Machines will release new product in ‘months’ with ‘significant open source component’",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/mira-murati-says-her-startup-thinking-machines-will-release-new-product-in-months-with-significant-open-source-component/",
+      "published": "Tue, 15 Jul 2025 22:13:13 +0000",
+      "summary": "Backed by $2B and with OpenAI’s open-weight model now in limbo, Thinking Machines could capture developer attention and interest."
+    },
+    {
+      "title": "Finally, a dev kit for designing on-device, mobile AI apps is here: Liquid AI’s LEAP",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/finally-a-dev-kit-for-designing-on-device-mobile-ai-apps-is-here-liquid-ais-leap/",
+      "published": "Tue, 15 Jul 2025 16:46:57 +0000",
+      "summary": "LEAP addresses those needs head-on with a local-first approach that allows small models to run directly on-device, no cloud infrastructure."
+    },
+    {
+      "title": "Perplexity offers free AI tools to students worldwide in partnership with SheerID",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/perplexity-offers-free-ai-tools-to-students-worldwide-in-partnership-with-sheerid/",
+      "published": "Tue, 15 Jul 2025 13:00:00 +0000",
+      "summary": "Perplexity and SheerID launch a global program offering students up to two years of free AI access through secure identity verification."
+    },
+    {
+      "title": "Finding value with AI automation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/15/1119978/finding-value-with-ai-automation/",
+      "published": "Tue, 15 Jul 2025 17:36:36 +0000",
+      "summary": "In June 2023, technology leaders and IT services executives had a lightning bolt headed their way when McKinsey published the “The economic potential of generative AI: The next productivity frontier” report. It echoed a moment from the 2010s when Amazon Web Services launched an advertising campaign "
+    },
+    {
+      "title": "Shaping the future with adaptive production",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/15/1120083/shaping-the-future-with-adaptive-production/",
+      "published": "Tue, 15 Jul 2025 15:32:33 +0000",
+      "summary": "Adaptive production is more than a technological upgrade: it is a paradigm shift. This new frontier enables the integration of cutting-edge technologies to create an increasingly autonomous environment, where interconnected manufacturing plants go beyond the limits of traditional automation. Artific"
+    },
+    {
+      "title": "Google’s generative video model Veo 3 has a subtitles problem",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/15/1120156/googles-generative-video-model-veo-3-has-a-subtitles-problem/",
+      "published": "Tue, 15 Jul 2025 14:40:32 +0000",
+      "summary": "As soon as Google launched its latest video-generating AI model at the end of May, creatives rushed to put it through its paces. Released just months after its predecessor, Veo 3 allows users to generate sounds and dialogue for the first time, sparking a flurry of hyperrealistic eight-second clips s"
+    }
+  ]
+}

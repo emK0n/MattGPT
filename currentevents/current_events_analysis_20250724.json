@@ -1,0 +1,359 @@
+{
+  "analysis": {
+    "summary": "Several technology and business headlines highlight ongoing issues with network services, changes in content streaming and porn age checks, major trade deals, increasing crime rates, geopolitical conflicts, AI developments, and gaming trends. Network outages affected EE and BT customers, while South Park moved to Paramount+. The UK and India signed a £6bn trade deal amid rising shoplifting in England and Wales. UN reports on child malnutrition in Gaza and border clashes between Thailand and Cambodia. An industrial AI startup gains traction by committing to non-acquisition, sparking debates about AI companions' impact on human relationships. Tech updates include Apple's iOS 26 public beta, VMware licensing issues, itch.io's removal of explicit content, and previews for iPadOS 26, macOS 26, and iOS 26.",
+    "keywords": [
+      "network",
+      "outage",
+      "shoplifting",
+      "malnutrition",
+      "ai",
+      "companions",
+      "itch.io",
+      "gaming"
+    ],
+    "trending_topics": [
+      "network issues",
+      "South Park's platform change",
+      "UK-India trade deal",
+      "increasing shoplifting",
+      "Gaza malnutrition crisis",
+      "Thailand-Cambodia border clashes",
+      "AI startup success",
+      "AI companion debate"
+    ],
+    "search_keywords": [
+      "network",
+      "outage",
+      "shoplifting",
+      "malnutrition",
+      "ai",
+      "companions",
+      "itch.io",
+      "gaming"
+    ],
+    "analysis_timestamp": "2025-07-24T14:56:09.342347"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 38,
+  "sources_analyzed": [
+    "Ars Technica",
+    "Engadget",
+    "Fast Company",
+    "The Verge",
+    "MIT Technology Review",
+    "Hacker News",
+    "BBC Technology",
+    "Slashdot",
+    "BBC Business",
+    "VentureBeat",
+    "TechCrunch",
+    "Wired",
+    "BBC World"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Thousands unable to make calls as EE and BT networks down",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cnvmvqrnq7go",
+      "published": "Thu, 24 Jul 2025 16:50:39 GMT",
+      "summary": "The government says \"EE and BT digital voice calls to 999 have now been restored.\""
+    },
+    {
+      "title": "As porn sites apply new age checks, will users hand over personal ID?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c1k81lj8nvpo",
+      "published": "Thu, 24 Jul 2025 02:25:59 GMT",
+      "summary": "All websites hosting pornography will have to check the age of their users from Friday."
+    },
+    {
+      "title": "South Park to stream on Paramount+ after bidding war",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cr4wgywwg0qo",
+      "published": "Thu, 24 Jul 2025 04:14:14 GMT",
+      "summary": "The deal that will see the long-running comedy series move from HBO Max is reportedly worth $1.5bn."
+    },
+    {
+      "title": "Starmer and Modi sign £6bn India-UK trade deal",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c307ggj492vo",
+      "published": "Thu, 24 Jul 2025 15:20:23 GMT",
+      "summary": "The free trade deal is expected to cut tariffs on goods and increase market access for both countries."
+    },
+    {
+      "title": "Four things you need to know about UK-India trade deal",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c99p2mlyep5o",
+      "published": "Thu, 24 Jul 2025 10:36:12 GMT",
+      "summary": "Here's a quick guide to what's been agreed and what it could mean for you."
+    },
+    {
+      "title": "Shoplifting hits record high in England and Wales",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cq8z8kdd8zvo",
+      "published": "Thu, 24 Jul 2025 16:24:57 GMT",
+      "summary": "Retailers say theft is \"spiralling out of control\", with an increase in organised crime hitting stores."
+    },
+    {
+      "title": "One in five children in Gaza is malnourished, UN aid agency says",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cwyxy5k70rzo",
+      "published": "Thu, 24 Jul 2025 17:07:04 GMT",
+      "summary": "The UN agency for Palestinians says it has thousands of truckloads of supplies near Gaza which it wants to deliver."
+    },
+    {
+      "title": "Twelve killed in Thailand-Cambodia military clashes on disputed border",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c80p8z0y0eko",
+      "published": "Thu, 24 Jul 2025 10:58:24 GMT",
+      "summary": "The fighting marks an escalation of a century-old conflict between the two South East Asian neighbours."
+    },
+    {
+      "title": "This industrial AI startup is winning over customers by saying it won’t get acquired",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/24/this-industrial-ai-startup-is-winning-over-customers-by-saying-it-wont-get-acquired/",
+      "published": "Thu, 24 Jul 2025 18:37:47 +0000",
+      "summary": "In red-hot acquisition market, this CVector founders answer this key question in its first conversation with prospective customers."
+    },
+    {
+      "title": "AI companions: A threat to love, or an evolution of it?",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/24/ai-companions-a-threat-to-love-or-an-evolution-of-it/",
+      "published": "Thu, 24 Jul 2025 17:43:35 +0000",
+      "summary": "As AI companions from companies like Replika, Character AI, and Nomi AI abound, love is no longer strictly human. In this debate, we ask the question of whether it should be, or whether dating an AI could be better than dating a human."
+    },
+    {
+      "title": "Apple iOS 26 public beta arrives",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/24/apple-ios-26-public-beta-arrives/",
+      "published": "Thu, 24 Jul 2025 17:21:57 +0000",
+      "summary": "Apple released iOS 26 in public beta. Here's everything you can expect, from the Liquid Glass design to features powered by Apple Intelligence."
+    },
+    {
+      "title": "Study sheds light on why some people keep self-sabotaging",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/07/study-sheds-light-on-why-some-people-keep-self-sabotaging/",
+      "published": "Thu, 24 Jul 2025 18:01:49 +0000",
+      "summary": "\"Some people just don't learn from experience; they fail to realize their own behavior is causing the problem.\""
+    },
+    {
+      "title": "Some VMware perpetual license owners are unable to download security patches",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/",
+      "published": "Thu, 24 Jul 2025 17:51:43 +0000",
+      "summary": "Customers will get patches at unspecified \"later date,\" Broadcom says."
+    },
+    {
+      "title": "Once a relative haven for adult games, itch.io begins removing explicit titles",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gaming/2025/07/once-a-relative-haven-for-adult-games-itch-io-begins-removing-explicit-titles/",
+      "published": "Thu, 24 Jul 2025 17:40:54 +0000",
+      "summary": "Dozens of games deleted with no advance notice, thousands more hidden by \"deindexing.\""
+    },
+    {
+      "title": "The best Nintendo Switch controllers to buy right now",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/23350899/nintendo-switch-controllers-best-wireless-joy-con-gamepad",
+      "published": "2025-07-24T14:00:00-04:00",
+      "summary": "The Nintendo Switch 2 is here, but we can’t just forget about the original Switch. We’ve still got love for the console, and its many millions of owners, so we’ll keep recommending the best controllers for the Switch right here. Now, you may already know that the best Switch controllers aren’t the o"
+    },
+    {
+      "title": "How to install the iOS 26 public beta",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/695230/ios-26-beta-install-how-to",
+      "published": "2025-07-24T13:35:35-04:00",
+      "summary": "People with Apple developer accounts have had all the fun with the iOS 26 beta so far (and yes, if you missed it, there's a new naming system now), but now that the public betas are out, anyone can try the new features. Setting up the public beta is slightly less involved than setting up [&#8230;]"
+    },
+    {
+      "title": "How can Tesla make a cheaper Model Y?",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tesla/713026/tesla-cheaper-model-y-stripped-down",
+      "published": "2025-07-24T13:34:47-04:00",
+      "summary": "In an earnings call Wednesday, Tesla CEO Elon Musk \"let the cat out of the bag\": The new, more affordable electric vehicle the company has been touting for over a year, and that has been singled out as the one thing that could pull Tesla out of its sales rut, wasn't new at all. It [&#8230;]"
+    },
+    {
+      "title": "iPadOS 26 preview: A long-awaited multi-tasking update pays off (so far)",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/mobile/tablets/ipados-26-preview-a-long-awaited-multi-tasking-update-pays-off-so-far-172522054.html?src=rss",
+      "published": "Thu, 24 Jul 2025 18:08:22 +0000",
+      "summary": "<p>I’m not going to beat around the bush: iPadOS 26 and its new multitasking features are a game-changer for Apple’s tablets. Pretty much ever since Steve Jobs introduced the iPad 15 years ago (!), Apple has tried to straddle two worlds. In one, the iPad is a super-simple, easy-to-use tablet with a "
+    },
+    {
+      "title": "macOS 26 beta preview: Spotlight's time to shine",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/macos-26-beta-preview-spotlights-time-to-shine-171700779.html?src=rss",
+      "published": "Thu, 24 Jul 2025 18:03:34 +0000",
+      "summary": "<p>I've learned not to expect much from macOS updates — not through sheer cynicism, but from the obvious reality that Apple pays far more attention to iOS and iPadOS than its desktop platform. I get it. macOS is a thing of the past, while smartphones and tablets are Apple's profitable present and fu"
+    },
+    {
+      "title": "iOS 26 beta preview: Liquid Glass is better than you think",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/mobile/smartphones/ios-26-beta-preview-liquid-glass-is-better-than-you-think-172155402.html?src=rss",
+      "published": "Thu, 24 Jul 2025 18:00:56 +0000",
+      "summary": "<p>At WWDC 2025, Apple revealed a major visual shake-up for iOS (not to mention the rest of the company’s operating systems). This is the biggest change, aesthetically, since the shift away from the stitching, textures and skeuomorphic design of the iOS 4. It also comes with significantly fewer AI a"
+    },
+    {
+      "title": "Show HN: A code editor that integrates into the browser",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://tachicode.dev/",
+      "published": "Thu, 24 Jul 2025 17:28:54 +0000",
+      "summary": "<p>When the startup I was working for shut down, I knew it would probably be a while before my health allowed me to commit to a new role, so I decided to start working on some personal projects to keep my mind active and engaged.<p>With AI-augmented VS Code forks being all the rage at the time, I wa"
+    },
+    {
+      "title": "Major Quantum Computing Advance Made Obsolete by Teenager (2018)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.quantamagazine.org/teenager-finds-classical-alternative-to-quantum-recommendation-algorithm-20180731/",
+      "published": "Thu, 24 Jul 2025 16:42:25 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.quantamagazine.org/teenager-finds-classical-alternative-to-quantum-recommendation-algorithm-20180731/\">https://www.quantamagazine.org/teenager-finds-classical-alternative-to-quantum-recommendation-algorithm-20180731/</a></p>\n<p>Comments URL: <a href=\"https://news"
+    },
+    {
+      "title": "OpenAI prepares to launch GPT-5 in August",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad",
+      "published": "Thu, 24 Jul 2025 16:11:25 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad\">https://www.theverge.com/notepad-microsoft-newsletter/712950/openai-gpt-5-model-release-date-notepad</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4"
+    },
+    {
+      "title": "Microsoft CEO Addresses 'Enigma' of Layoffs",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/07/24/187250/microsoft-ceo-addresses-enigma-of-layoffs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Microsoft CEO Satya Nadella addressed growing internal unease at the company Thursday morning in a company-wide memo that acknowledged the \"uncertainty and seeming incongruence\" of conducting layoffs while achieving record profits and AI investments. The tech giant has eliminated more than 15,000 po"
+    },
+    {
+      "title": "An Inventor Is Injecting Bleach Into Cancerous Tumors - and Wants to Bring the Treatment To the US",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/07/24/1725222/an-inventor-is-injecting-bleach-into-cancerous-tumors---and-wants-to-bring-the-treatment-to-the-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "A Chinese inventor with no medical training is charging cancer patients $20,000 to inject highly concentrated chlorine dioxide -- a toxic bleach solution -- directly into their tumors, and is working with a former pharmaceutical executive to bring the unproven treatment to the United States, Wired r"
+    },
+    {
+      "title": "'Boiling Frog' Effect Makes People Oblivious To Threat of Climate Crisis, Shows Study",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/07/24/1643252/boiling-frog-effect-makes-people-oblivious-to-threat-of-climate-crisis-shows-study?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shares a report: Surveys show that the increasing number of extreme climate events, including floods, wildfires and hurricanes, has not raised awareness of the threats posed by climate change. Instead, people change their idea of what they see as normal. This so-called \"boiling f"
+    },
+    {
+      "title": "The Very Real Case for Brain-Computer Implants",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-the-very-real-case-for-brain-computer-implants/",
+      "published": "Thu, 24 Jul 2025 18:38:16 +0000",
+      "summary": "On this episode of Uncanny Valley, we dive into the heated race between two companies to build a commercial brain-computer interface."
+    },
+    {
+      "title": "The ICJ Rules That Failing to Combat Climate Change Could Violate International Law",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/the-icj-rules-failing-to-combat-climate-could-be-a-violation-of-international-law/",
+      "published": "Thu, 24 Jul 2025 16:31:18 +0000",
+      "summary": "In a landmark ruling, the International Court of Justice declared that failure to act on climate change can be an “internationally wrongful act”—meaning countries could face legal consequences for harming the planet."
+    },
+    {
+      "title": "A Premium Luggage Service’s Web Bugs Exposed the Travel Plans of Every User—Including Diplomats",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/luggage-service-web-bugs-exposed-travel-plans-users-diplomats-airportr/",
+      "published": "Thu, 24 Jul 2025 16:00:00 +0000",
+      "summary": "Security flaws in Airportr, a door-to-door luggage checking service used by 10 airlines, let hackers access user data and even gain privileges that would have let them redirect or steal luggage."
+    },
+    {
+      "title": "Lyft just got a new logo—can you spot the difference?",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91373576/lyft-new-logo-can-you-spot-the-difference",
+      "published": "2025-07-24T18:30:00",
+      "summary": "<p>Lyft just got a new logo, but you probably didn’t notice it.<p>Over the past few weeks, Lyft has quietly rolled out an updated logo, broadened color palette, and custom typeface on its app and across its social media platforms. The new look, designed by the <a href=\"https://www.fastcompany.com/se"
+    },
+    {
+      "title": "Apple’s iOS 26 public beta is out. Here’s how to install it safely",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91371699/apples-ios-26-public-beta-is-out-heres-how-to-install-it-safely",
+      "published": "2025-07-24T18:04:51",
+      "summary": "<p>A stable &#8220;release&#8221; version of Apple&#8217;s iOS 26 is due in September, but you can now try an in-progress version, called the public beta. It previews a revamped interface and new features in apps like <a href=\"https://www.fastcompany.com/91349248/ios-26s-best-new-feature-iphone-bett"
+    },
+    {
+      "title": "Your employees may be leaking trade secrets into ChatGPT",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91369525/your-employees-may-be-leaking-trade-secretes-into-chatgpt",
+      "published": "2025-07-24T18:00:00",
+      "summary": "<p>Every CEO I know wants their team to use <a href=\"https://www.fastcompany.com/section/artificial-intelligence\" title=\"AI\">AI</a> more, and for good reason: it can supercharge almost every area of their business and make employees vastly more efficient. Employee use of AI is a business imperative,"
+    },
+    {
+      "title": "White House plan signals “open-weight first” era—and enterprises need new guardrails",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/white-house-plan-signals-open-weight-first-era-and-enterprises-need-new-guardrails/",
+      "published": "Wed, 23 Jul 2025 23:24:14 +0000",
+      "summary": "Enterprises will not see immediate impact from the AI Action Plan, but it signals wider support for open-source models and evaluations."
+    },
+    {
+      "title": "SecurityPal combines AI and experts in Nepal to speed enterprise security questionnaires by 87X or more",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/securitypal-combines-ai-and-experts-in-nepal-to-speed-enterprise-security-questionnaires-by-87x-or-more/",
+      "published": "Wed, 23 Jul 2025 22:41:32 +0000",
+      "summary": "The Kathmandu center of excellence gives SecurityPal a cost base low enough to keep humans in the loop while staying price-competitive."
+    },
+    {
+      "title": "Qwen3-Coder-480B-A35B-Instruct launches and it ‘might be the best coding model yet’",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/programming-development/qwen3-coder-480b-a35b-instruct-launches-and-it-might-be-the-best-coding-model-yet/",
+      "published": "Wed, 23 Jul 2025 21:49:39 +0000",
+      "summary": "Developers can define custom tools and let Qwen3-Coder dynamically invoke them during conversation or code generation tasks."
+    },
+    {
+      "title": "The Download: gas and oil’s role in climate tech, and using AI to decipher ancient Latin",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/24/1120597/the-download-gas-and-oils-role-in-climate-tech-and-using-ai-to-decipher-ancient-latin/",
+      "published": "Thu, 24 Jul 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What role should oil and gas companies play in climate tech? —Casey Crownhart After writing about Quaise, a geothermal startup that’s trying to commer"
+    },
+    {
+      "title": "What role should oil and gas companies play in climate tech?",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/24/1120590/oil-gas-climate-tech/",
+      "published": "Thu, 24 Jul 2025 10:00:00 +0000",
+      "summary": "This week, I have a new story out about Quaise, a geothermal startup that’s trying to commercialize new drilling technology. Using a device called a gyrotron, the company wants to drill deeper, cheaper, in an effort to unlock geothermal power anywhere on the planet. (For all the details, check it ou"
+    },
+    {
+      "title": "Google DeepMind’s new AI can help historians understand ancient Latin inscriptions",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/23/1120574/deepmind-ai-aeneas-helps-historians-interpret-latin-inscriptions/",
+      "published": "Wed, 23 Jul 2025 15:00:08 +0000",
+      "summary": "Google DeepMind has unveiled new artificial-intelligence software that could help historians recover the meaning and context behind ancient Latin engravings.&#160; Aeneas can analyze words written in long-weathered stone to say when and where they were originally inscribed. It follows Google’s previ"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "company_info": {
+    "name": "IBM",
+    "description": "For more than a century, IBM has been a global technology innovator, leading advances in AI, automation and hybrid cloud solutions that help businesses grow. We deliver enterprise-grade AI, hybrid cloud infrastructure, and consulting services to help organizations transform with trusted technology."
+  },
+  "industries": [
+    {
+      "name": "Financial Services",
+      "specialties": ["Core Banking Modernization", "Risk Management", "Regulatory Compliance", "Real-time Fraud Detection"],
+      "key_products": ["IBM Z Systems for Core Banking", "watsonx for Financial AI", "FlashSystem for Trading Platforms"],
+      "competitive_advantages": ["99.999% availability for mission-critical workloads", "Real-time AI inference on mainframe", "SOX and regulatory compliance built-in"],
+      "information_links": ["https://www.ibm.com/industries/financial-services"]
+    },
+    {
+      "name": "Healthcare",
+      "specialties": ["Clinical Data Management", "AI-Powered Diagnostics", "Healthcare Interoperability", "Research Acceleration"],
+      "key_products": ["watsonx for Healthcare AI", "FHIR-enabled Data Platforms", "Hybrid Cloud Infrastructure"],
+      "competitive_advantages": ["HIPAA-compliant AI governance", "Clinical-grade security", "Interoperable data architecture"],
+      "information_links": ["https://www.ibm.com/industries/healthcare"]
+    },
+    {
+      "name": "Government",
+      "specialties": ["Citizen Services Modernization", "Secure Cloud Migration", "Data Sovereignty", "Legacy System Transformation"],
+      "key_products": ["IBM Z for Government Systems", "watsonx.gov for Secure AI", "Red Hat OpenShift Government"],
+      "competitive_advantages": ["FedRAMP authorized solutions", "Air-gapped security capabilities", "Zero-trust architecture"],
+      "information_links": ["https://www.ibm.com/industries/government"]
+    },
+    {
+      "name": "Manufacturing",
+      "specialties": ["Supply Chain Optimization", "Predictive Maintenance", "Quality Assurance AI", "Sustainability Analytics"],
+      "key_products": ["watsonx for Manufacturing AI", "Edge Computing Solutions", "IoT Data Platforms"],
+      "competitive_advantages": ["Real-time production insights", "Energy-efficient infrastructure", "Integrated OT/IT security"],
+      "information_links": ["https://www.ibm.com/industries/manufacturing"]
+    }
+  ],
+  "products": [
+    {
+      "name": "IBM Z Systems",
+      "category": "Infrastructure Platform",
+      "target_industries": ["Financial Services", "Government", "Healthcare", "Insurance"],
+      "key_features": ["AI-accelerated mainframe processing", "99.999% availability", "Quantum-safe cryptography", "Elastic scaling"],
+      "competitive_advantages": ["Only platform with real-time AI inference", "Unmatched security and compliance", "70% lower TCO vs distributed systems"],
+      "information_links": ["https://www.ibm.com/z"]
+    },
+    {
+      "name": "IBM Power Systems",
+      "category": "Enterprise Infrastructure",
+      "target_industries": ["Manufacturing", "Energy", "Retail", "Healthcare"],
+      "key_features": ["AI-optimized processors", "Memory-driven computing", "Hybrid cloud integration", "Open source compatibility"],
+      "competitive_advantages": ["Superior price-performance for AI workloads", "Built-in virtualization", "Red Hat certified"],
+      "information_links": ["https://www.ibm.com/power"]
+    },
+    {
+      "name": "IBM Storage FlashSystem",
+      "category": "Data Storage Platform",
+      "target_industries": ["All Industries"],
+      "key_features": ["NVMe-optimized architecture", "AI-driven cyber resilience", "Hybrid cloud integration", "Real-time compression"],
+      "competitive_advantages": ["Industry-leading ransomware protection", "46% lower power consumption", "3:1 data reduction guarantee"],
+      "information_links": ["https://www.ibm.com/flashsystem"]
+    },
+    {
+      "name": "watsonx AI Platform",
+      "category": "AI and Data Platform",
+      "target_industries": ["Financial Services", "Healthcare", "Government", "Manufacturing"],
+      "key_features": ["Foundation model studio", "Enterprise AI governance", "Hybrid deployment", "Responsible AI toolkit"],
+      "competitive_advantages": ["Open architecture with model choice", "Built-in AI governance", "Enterprise-grade security"],
+      "information_links": ["https://www.ibm.com/watsonx"]
+    },
+    {
+      "name": "IBM Automation Portfolio",
+      "category": "Business Automation Platform",
+      "target_industries": ["Financial Services", "Healthcare", "Manufacturing", "Government"],
+      "key_features": ["Intelligent workflow automation", "Document processing AI", "Decision optimization", "Process mining and discovery"],
+      "competitive_advantages": ["End-to-end process automation", "AI-powered decision making", "Integration with existing systems"],
+      "information_links": ["https://www.ibm.com/automation"]
+    }
+  ],
+  "specialties": [
+    {
+      "name": "Hybrid Cloud Transformation",
+      "description": "End-to-end hybrid cloud strategy and implementation with Red Hat OpenShift",
+      "applicable_industries": ["All Industries"],
+      "competitive_advantages": ["Only vendor with complete stack", "Red Hat integration", "Multi-cloud management"],
+      "information_links": ["https://www.ibm.com/cloud/hybrid"]
+    },
+    {
+      "name": "AI Governance and Trust",
+      "description": "Enterprise AI deployment with built-in governance, security, and compliance",
+      "applicable_industries": ["Financial Services", "Healthcare", "Government"],
+      "competitive_advantages": ["Industry's most comprehensive AI governance", "Regulatory compliance built-in", "Transparent AI decision-making"],
+      "information_links": ["https://www.ibm.com/watsonx/governance"]
+    },
+    {
+      "name": "Application Modernization",
+      "description": "Legacy system transformation using AI-powered code conversion and containerization",
+      "applicable_industries": ["Financial Services", "Government", "Insurance"],
+      "competitive_advantages": ["AI-powered COBOL transformation", "Zero downtime migration", "Risk-free modernization approach"],
+      "information_links": ["https://www.ibm.com/products/watsonx-code-assistant-z"]
+    },
+    {
+      "name": "Cyber Resilience",
+      "description": "Comprehensive cybersecurity with AI-powered threat detection and automated response",
+      "applicable_industries": ["All Industries"],
+      "competitive_advantages": ["AI-driven threat detection", "Immutable data protection", "60-second recovery guarantee"],
+      "information_links": ["https://www.ibm.com/security"]
+    }
+  ]
+}

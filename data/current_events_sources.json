@@ -1,0 +1,183 @@
+{
+  "sources": [
+    {
+      "name": "BBC Technology",
+      "url": "http://feeds.bbci.co.uk/news/technology/rss.xml",
+      "category": "technology"
+    },
+    {
+      "name": "BBC Business",
+      "url": "http://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "business"
+    },
+    {
+      "name": "BBC World",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "world"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "technology"
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "category": "technology"
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology"
+    },
+    {
+      "name": "Engadget",
+      "url": "https://www.engadget.com/rss.xml",
+      "category": "technology"
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "category": "technology"
+    },
+    {
+      "name": "Slashdot",
+      "url": "http://rss.slashdot.org/Slashdot/slashdotMain",
+      "category": "technology"
+    },
+    {
+      "name": "Reuters Technology",
+      "url": "https://feeds.reuters.com/reuters/technologyNews",
+      "category": "technology"
+    },
+    {
+      "name": "Reuters Business",
+      "url": "https://feeds.reuters.com/reuters/businessNews",
+      "category": "business"
+    },
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/",
+      "category": "technology"
+    },
+    {
+      "name": "Fast Company",
+      "url": "https://www.fastcompany.com/latest/rss",
+      "category": "business"
+    },
+    {
+      "name": "VentureBeat",
+      "url": "https://venturebeat.com/feed/",
+      "category": "technology"
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "category": "technology"
+    }
+  ],
+  "tech_business_keywords": [
+    "ai",
+    "artificial",
+    "intelligence",
+    "machine",
+    "learning",
+    "tech",
+    "technology",
+    "digital",
+    "software",
+    "hardware",
+    "startup",
+    "business",
+    "company",
+    "corporation",
+    "market",
+    "markets",
+    "crypto",
+    "cryptocurrency",
+    "bitcoin",
+    "blockchain",
+    "apple",
+    "google",
+    "microsoft",
+    "amazon",
+    "meta",
+    "facebook",
+    "tesla",
+    "nvidia",
+    "investment",
+    "funding",
+    "venture",
+    "capital",
+    "ipo",
+    "silicon",
+    "valley",
+    "innovation",
+    "data",
+    "cloud",
+    "computing",
+    "cybersecurity",
+    "security",
+    "privacy",
+    "automation",
+    "robotics",
+    "internet",
+    "mobile",
+    "smartphone",
+    "app",
+    "platform",
+    "algorithm",
+    "database",
+    "analytics",
+    "fintech",
+    "ecommerce",
+    "saas",
+    "programming",
+    "developer",
+    "coding",
+    "opensource",
+    "semiconductor",
+    "chip",
+    "processor",
+    "quantum",
+    "biotech",
+    "medtech",
+    "streaming",
+    "subscription",
+    "merger",
+    "acquisition",
+    "revenue",
+    "profit",
+    "earnings",
+    "stock",
+    "shares",
+    "nasdaq",
+    "regulation",
+    "antitrust",
+    "patent",
+    "5g",
+    "wireless",
+    "broadband",
+    "fiber",
+    "satellite",
+    "electric",
+    "vehicle",
+    "autonomous",
+    "drone",
+    "virtual",
+    "reality",
+    "augmented",
+    "metaverse",
+    "gaming",
+    "esports",
+    "social",
+    "media",
+    "advertising",
+    "marketing",
+    "esg",
+    "sustainability",
+    "climate",
+    "energy",
+    "renewable"
+  ]
+}

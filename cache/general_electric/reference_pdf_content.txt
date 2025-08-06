@@ -1,0 +1,1519 @@
+2024 ANNUAL REPORT
+
+THE ENERGY TO
+
+CHANGE THE WORLD
+
+Building on over 130 years of experience, we are
+
+leading a new era of energy—electrifying the world
+
+while simultaneously working to decarbonize it. POWER
+
+GE Vernova is accelerating the path to more reliable,
+
+affordable, and sustainable energy, while helping GE Vernova’s 7HA.02-powered Long Ridge Energy Terminal in
+
+Ohio, the first hydrogen-burning power plant in the U.S.
+
+our customers power economies and deliver the
+
+electricity that is vital to health, safety, security,
+
+and improved quality of life.
+
+WIND
+
+GE Vernova’s 3 MW onshore wind workhorse turbines in
+
+New Mexico, U.S.
+
+FORWARD-LOOKING STATEMENTS
+
+This document includes forward-looking statements. Please reference
+
+the “Forward-Looking Statements” section of the Form 10-K included in
+
+this Annual Report to Stockholders.
+
+NON-GAAP FINANCIAL MEASURES
+
+We sometimes use information derived from consolidated financial data but
+
+not presented in our financial statements prepared in accordance with U.S.
+
+generally accepted accounting principles (GAAP). Certain of these data are
+
+considered “non-GAAP financial measures” under the U.S. Securities and
+
+Exchange Commission rules. These non-GAAP financial measures supplement
+
+our GAAP disclosures and should not be considered an alternative to the GAAP
+
+measure. The reasons we use these non-GAAP financial measures and the ELECTRIFICATION
+
+reconciliations to their most directly comparable GAAP financial measures
+
+can be found in the Management’s Discussion and Analysis section within our
+
+Form 10-K and in GE Vernova’s fourth quarter 2024 earnings materials posted
+
+Installation of GE Vernova’s HVDC offshore converter platform for
+
+to gevernova.com/investors, as applicable. RWE’s Sofia Wind Farm in United Kingdom waters (Credit: RWE)
+
+FELLOW GE VERNOVA A STRONG START IN 2024
+
+2024 was a foundational year for
+
+SHAREHOLDERS
+
+GE Vernova. In April, we became
+
+an independent, publicly traded
+
+company with a sole focus to provide
+
+Over a century ago, the foundation for the our customers with the equipment,
+
+modern age of electricity was established services, and software to generate
+
+by General Electric’s founder, Thomas Edison. and transfer reliable, affordable, secure,
+
+The result: industries have been built, education and sustainable electricity. Our global
+
+GE Vernova begins trading on the New York Stock
+
+has scaled, lives have been saved and the world team of more than 75,000 employees Exchange under the ticker symbol “GEV”
+
+has prospered in countless ways. I’m humbled is guided by our purpose statement:
+
+We also see nuclear power playing an
+
+to have participated in a relatively short but “the energy to change the world.”
+
+important role in the energy transition,
+
+impactful chapter of General Electric’s 130+ year
+
+We executed on our objectives with a leading to life-extension and upgrade
+
+history which serves as an inspiration to me
+
+year of strong financial and operational opportunities for today’s existing fleet,
+
+today. The legacy of Edison’s original innovation
+
+performance. We delivered disciplined while we advance our BWRX-300
+
+is found in the global power system built over the
+
+growth to drive margin expansion, small modular reactor (SMR) standard
+
+last century where 25% of the world’s electricity
+
+higher free cash flow, and strategic design for the future.
+
+is generated through our equipment. Leveraging
+
+capital allocation.
+
+that legacy, today we offer our customers In Electrification, our fastest-growing
+
+advanced technology and services to meet In 2024, GE Vernova booked $44 billion segment, demand accelerated as
+
+the growing demands on our power system. of orders with $35 billion in revenue, customers increased grid investments.
+
+delivered margin expansion across all Electrification provides critical grid
+
+With the creation of GE Vernova, we have
+
+segments, and improved our free cash components including transformers,
+
+launched a purpose-built innovation company
+
+flow by more than one billion dollars. switchgears and high-voltage direct
+
+focused on what the world needs for today
+
+We grew our already healthy backlog current (HVDC) systems, which
+
+and tomorrow: a new company dedicated
+
+to $119 billion while also expanding are essential to ensuring a reliable
+
+to electrifying and decarbonizing the
+
+margins in backlog, which will fuel electricity system. In 2024, we saw
+
+energy system and providing the essential
+
+profitable growth well into the future. significant orders and backlog growth
+
+infrastructure needed for a prosperous and
+
+In December, we raised our multi-year in Europe, our largest market for
+
+sustainable future.
+
+financial outlook and launched our our Grid Solutions business, and in
+
+We approach our role with an enormous capital allocation framework, including North America.
+
+sense of responsibility, knowing the world a shareholder return commitment with
+
+Our Wind segment made solid
+
+relies on us for the equipment, services, our first dividend and share repurchase
+
+progress on our turnaround. Wind
+
+and software to produce and distribute the authorization. We are well-positioned
+
+improved EBITDA losses by nearly
+
+electricity it needs. By nurturing today’s to create value for our stakeholders in
+
+50%, with Onshore delivering high
+
+state-of-the-art technologies, while investing 2025 and beyond.
+
+single digit EBITDA margin in 2024.
+
+in innovation, cutting-edge manufacturing, and
+
+At a segment level, in Power, we Offshore experienced a tough year
+
+lean, we see a clear pathway to grow electrical
+
+delivered solid growth and margin as we worked through blade events
+
+supply while addressing climate change.
+
+expansion led by strength in our and project execution delays, but we
+
+I enter this new year feeling more optimistic Gas Power business. We anticipate will be a stronger company for it.
+
+than ever about GE Vernova, our industry, and this strength to continue into 2025
+
+GE Vernova also invested for
+
+the task ahead of us. In this first shareholder driven by multiple factors including
+
+disciplined growth and innovation in
+
+letter, I’ll discuss the progress we’ve made this demand from data centers associated
+
+2024. As included in our December
+
+year and what drives our continued confidence. with artificial intelligence, and we
+
+outlook, we will increase capex
+
+are investing to increase Gas Power
+
+investments, raise our overall R&D
+
+capacity. Services, both a major
+
+spend approximately 20 percent in
+
+business and source of cash flow
+
+2025, and double our own internal
+
+for GE Vernova, also delivered a
+
+investment into AI programs.
+
+strong year with orders up ten
+
+percent organically as our customers
+
+invested into their existing plants.
+
+2024 GE Vernova Annual Report | 1
+
+Company Performance in 2024
+
+Dollars in millions
+
+GAAP FY24 FY23 Y/Y NON-GAAP FY24 FY23 Y/Y
+
+Orders $44,089 $41,637 6% Organic revenues $34,771 $32,630 7%
+
+Total revenues $34,935 $33,239 5% Adjusted EBITDA $2,035 $807 $1,228
+
+Net income (loss) $1,559 $(474) $2,033 Adjusted EBITDA margin 5.8% 2.4% 340 bps
+
+Net income (loss) margin 4.5% (1.4)% 590 bps Adjusted organic
+
+6.2% 3.3% 290 bps
+
+EBITDA margin
+
+Cash from (used for)
+
+$2,583 $1,186 $1,397
+
+operating activities Free cash flow $1,701 $442 $1,259
+
+Backlog* $119,023 $115,598 3% Adjusted backlog* $119,023 $111,514 7%
+
+* Backlog defined as remaining performance obligation (RPO). Adjusted backlog is a non-GAAP financial measure and is defined as Total RPO (GAAP) of $115.6B and
+
+$119.0B, less RPO related to the portion of Steam Power nuclear activities sold to Electricité de France S.A. of $4.1B and zero, as of December 31, 2023 and 2024,
+
+respectively. The sale was completed in the second quarter of 2024. We believe that Adjusted backlog provides management and investors with a meaningful
+
+measure of our performance that improves the period-to-period comparability of RPO by excluding the effect of this sale.
+
+UNPRECEDENTED ERA OF Alongside this demand, a transition is DELIVERING OUR INDUSTRY’S
+
+ELECTRIC GROWTH AHEAD emerging. Last year, for the first time in TRANSFORMATION
+
+history, the capital expenditure of global
+
+Energy is a defining issue in an To create and deliver the electrons that
+
+utilities was larger than that of the oil
+
+increasingly complex global economic the world desperately needs, business
+
+and gas industry. Behind this statistic
+
+landscape. It fuels all forms of human and government must work together to
+
+is a clear shift, the world is increasingly
+
+progress, enabling what is possible across adopt practical and ambitious plans to
+
+being powered with electrons rather
+
+society at an individual and country level. meet this moment.
+
+than by molecules.
+
+From the comfort of our daily lives to
+
+It starts with the fundamental principle
+
+the strength of a nation’s economy, the I believe that this growth in demand for
+
+that every electron is precious. We need
+
+availability and affordability of energy electricity is the catalyst for the next
+
+to get the most out of our electric power
+
+has a direct impact on outcomes. multi-generational growth opportunity.
+
+system by growing and transforming
+
+We are in the early stages of the next
+
+After decades of modest growth in today’s aging existing infrastructure.
+
+supercycle: global investment into the
+
+developed economies, electricity has Progress starts with improving what you
+
+electric power system. This investment
+
+become a dominant force for prosperity, have. This is a major near-term opportunity;
+
+will have a similar impact on global
+
+and increasingly an enabler of national building new infrastructure takes time
+
+economies as prior investment supercycles
+
+security. The energy system is shifting and electrons are already scarce.
+
+such as globalization in the 1980s and
+
+towards electricity while the growth of
+
+1990s, and the internet and software in Take North America. GE Vernova has
+
+AI is tied to both the health and security
+
+the 2000s and 2010s. approximately 700 of our 7F gas turbines
+
+of our economies as well as national
+
+installed where technological upgrades
+
+interests. At the same time, the demands With our unique scope, portfolio and scale,
+
+can be performed to add an incremental
+
+on our energy system have increased; GE Vernova is well-positioned to lead the
+
+14 gigawatts to the system. With nuclear,
+
+aging infrastructure will require next era of energy.
+
+currently 65 units are running our technology
+
+significant investment and innovation.
+
+to which we can add 3 gigawatts of uprates
+
+Electricity demand growth in the United to produce incremental capacity—in
+
+States, which has been largely flat for addition to generating another 2 gigawatts
+
+two decades, is now predicted to grow by restarting decommissioned sites. In
+
+50 percent over the next 20 years. our hydroelectric business, we have more
+
+Drivers include local manufacturing, than 150 hydro plants with more than one
+
+industrialization, data centers, and gigawatt of planned upgrades this decade
+
+electric vehicles. This is true almost and substantially more planned as we look
+
+everywhere, with countries around the ahead to the 2030s. In Wind, we have
+
+world accelerating their demand for 10,500 wind turbines that are candidates for
+
+incremental power. repowering which can add an incremental
+
+GE Vernova’s purpose statement ~2.6 gigawatts of electricity to the grid.
+
+2 | 2024 GE Vernova Annual Report
+
+The opportunity ahead of us spans far
+
+beyond a single continent. The electric
+
+power industry can take advantage of
+
+existing upgrade opportunities around
+
+the world, even as we take the steps
+
+necessary to build out new capacity.
+
+When I visited Japan in January 2025,
+
+I met with customers who have restarted
+
+two of 20 nuclear power plants with
+
+GE Vernova technology. Over time, we
+
+expect more plants will be restarted. In
+
+Europe, GE Vernova has a fleet of 1,000
+
+gas turbines where upgrade options can
+
+save fuel and lower emissions by improving
+
+efficiency and delivering better operating
+
+conditions. We have approximately 200 9F
+
+gas turbines across the continent which
+
+can be upgraded to deliver an 8 percent Technicians working on a gas turbine in Greenville, South Carolina
+
+increase in output.
+
+This opportunity is not limited to generation The entire industry will require intense
+
+assets: the power transmission and levels of investment over time to develop 2024 HIGHLIGHTS
+
+distribution networks offer similar levels of this new capacity. The world must
+
+gains by upgrading existing infrastructure. prioritize the allocation of capital into 25%
+
+~
+
+Investments into the grid, the backbone products and programs that can scale
+
+of the electric power system, will double industrially, with local manufacturing
+
+through 2030 and overtake worldwide close to the market where it is needed of the world’s electricity
+
+renewable power investment, according for maximum cost efficiency. We’ve seen generated using our technology
+
+to the International Energy Agency. This is this done successfully in other markets
+
+our sweet spot, more than 95 percent of that have demonstrated the ability to
+
+7K
+
+power transmission utilities in the world mass produce technology at scale. ~
+
+are equipped with components from
+
+The confluence of growing demand for
+
+GE Vernova’s Electrification segment. power around the globe will test supply gas turbines installed
+
+For example, deploying our Flexible AC
+
+chains everywhere. If our industry can
+
+Transmission System solution (FACTS),
+
+maximize the existing installed base
+
+57K
+
+offers grid operators the ability to enhance while investing in new capacity at scale, ~
+
+the controllability, stability, and power
+
+we will meet demand requirements,
+
+transfer of existing long-distance AC
+
+deliver reductions in carbon intensity, and wind turbines installed
+
+transmission lines rather than building
+
+innovate the new technologies required
+
+costly new ones.
+
+for the future.
+
+$1B
+
+In parallel, we need serious, global ~
+
+With both efforts, we can improve the
+
+industrialization of power generation
+
+trajectory of emissions and help address
+
+technology which prioritizes scalable,
+
+climate change. In 2024, we released invested in Research & Development
+
+“workhorse” power-dense products.
+
+our first Sustainability Report, detailing
+
+These products need to be mass produced
+
+our efforts that brought an additional
+
+and be able to generate the maximum $35B
+
+29 gigawatts of generation online and ~
+
+power density with minimal footprint.
+
+helped avoid approximately 20 million
+
+Grid equipment and energy storage
+
+metric tons of CO emissions in the first
+
+systems are following a similar trend 2 in revenue
+
+full year of operation through adding
+
+with enhanced standardized solutions
+
+technologies with a lower carbon intensity.
+
+to connect power generation sources,
+
+$119B
+
+to transfer electricity at a higher scale to
+
+multiple points, and to be converted or
+
+stored to meet the increasing demands
+
+backlog*
+
+of load centers.
+
+2024 GE Vernova Annual Report | 3
+
+Segment Performance in 2024
+
+Dollars in millions
+
+POWER
+
+Providing dispatchable, flexible electricity generation
+
+solutions and focused on reducing carbon intensity.
+
+Y/Y
+
+FY24 FY23 Y/Y ORGANIC-a)
+
+Orders $21,758 $17,426 25% 28%
+
+Revenues $18,127 $17,436 4% 7%
+
+EBITDA $2,268 $1,722 $546 $450
+
+EBITDA margin 12.5% 9.9% 260 bps 180 bps
+
+Backlog* $73,351 $72,974 1%
+
+Adjusted backlog* $73,351 $68,890 6%
+
+Expert craft professionals inspect a 7F gas turbine at GE Vernova’s
+
+Houston Learning Center in Texas
+
+WIND
+
+An industry leader with technology to help deliver a
+
+decarbonized future.
+
+Y/Y
+
+FY24 FY23 Y/Y ORGANIC-a)
+
+Orders $7,088 $11,422 (38)% (38)%
+
+Revenues $9,701 $9,826 (1)% (1)%
+
+EBITDA $(588) $(1,033) $445 $385
+
+EBITDA margin (6.1)% (10.5)% 440 bps 380 bps
+
+Backlog* $22,682 $26,949 (16)%
+
+A technician installing hardware on a wind turbine bedplate in
+
+Schenectady, New York
+
+ELECTRIFICATION Developing and orchestrating a modernized
+
+and digitized grid to meet the demands
+
+of today and tomorrow.
+
+Y/Y
+
+FY24 FY23 Y/Y ORGANIC-a)
+
+Orders $15,689 $13,203 19% 19%
+
+Revenues $7,550 $6,378 18% 18%
+
+EBITDA $679 $234 $445 $437
+
+EBITDA margin 9.0% 3.7% 530 bps 520 bps
+
+Backlog* $23,453 $16,342 44%
+
+A technician working on Voltage-Sourced Converter valves in
+
+Stafford, United Kingdom
+
+(a – Organic revenues, EBITDA, and EBITDA margin are non-GAAP financial measures.
+
+* Backlog defined as remaining performance obligation (RPO). Adjusted Power backlog is a non-GAAP
+
+financial measure and is defined as Power RPO (GAAP) of $73.0B and $73.4B, less RPO related to the
+
+portion of Steam Power nuclear activities sold to Electricité de France S.A. of $4.1B and zero, as of
+
+December 31, 2023 and 2024, respectively. The sale was completed in the second quarter of 2024. We
+
+believe that Adjusted Power backlog provides management and investors with a meaningful measure of our
+
+4 | 2024 GE Vernova Annual Report performance that improves the period-to-period comparability of RPO by excluding the effect of this sale.
+
+A generator specialist training at GE Vernova’s Houston High voltage test lab at the power transformer factory in A technician performs maintenance on a GE Vernova
+
+Learning Center Stafford, United Kingdom onshore wind turbine in New Mexico
+
+POSITIONING TO SERVE AND WIN We will also look outside the company for Europe, and on the floor at our largest
+
+As we begin 2025, we have five clear ideas and cultural accelerants, including gas turbine repair shop outside the
+
+priorities for GE Vernova. within the energy transition startup U.S. Our first Board meeting of 2025
+
+community, academia, and government. was held in Greenville, South Carolina,
+
+1. Continue to accelerate For startups, acquisitions are only a part where our full Board spent substantial
+
+GE Vernova culture of the story. There are countless innovative time on the shop floor with our teams
+
+ideas, outstanding leaders, and startups understanding the steps we are taking to
+
+The journey to deliver GE Vernova’s
+
+that don’t have the customer reach or position GE Vernova to serve the growing
+
+spin-off began in early 2022 after being
+
+capability to industrialize their ideas. markets in front of us. To successfully
+
+announced in November 2021. Prior
+
+GE Vernova can help with scale and meet the demand for our solutions,
+
+to the formation of GE Vernova, these
+
+different partnership models, all while we must always be learning, listening,
+
+businesses operated with different
+
+propelling our own culture forward. improving…always at genba.
+
+cultures. Since 2022, we’ve made real
+
+progress in areas like underwriting
+
+2. Scale for significant growth in 3. Deliver the Wind turnaround
+
+discipline, cash linearity focus, and
+
+Gas Power and Grid Solutions
+
+establishing the overall governance Our strategy with Onshore Wind is
+
+needed for a new public company. But Lean fundamentals are at the heart of deliberate and focused on preparing
+
+substantial opportunity to continue to our approach to growth: we only invest for the coming ‘inflection point.’ There
+
+go from “good to great” is in front of us. once we’ve eliminated waste from our is important work happening with the
+
+existing processes. To reduce complexity, existing installed base: GE Vernova’s
+
+You will hear from me in every letter
+
+we will nurture our supply chains closer 57,000 wind turbines are generating
+
+about our true north: SQDC. That’s:
+
+to our key opportunities. For example, power across the world today, with
+
+Safety, Quality, Delivery, Cost—always
+
+in January 2025, GE Vernova announced approximately 35,000 of those units
+
+in that order. We run the company every
+
+a nearly $600 million investment into our in the U.S. To be ready for this growth
+
+day with that prioritization. Increasing
+
+U.S. facilities over two years that will create inflection, we will continue to improve our
+
+affordability also matters greatly in this
+
+approximately 1,500 new factory and existing fleet’s performance, as we invest
+
+supercycle: the companies that prosper
+
+engineering jobs primarily in our Gas Power into more cranes and crews to inject
+
+will be the ones who leverage lean to
+
+business, but also expanding capabilities technological improvements to ensure
+
+deliver industrial products at scale. Each
+
+in Grid, Nuclear, Wind, and our Advanced we have the safest and best performing
+
+of our businesses is on a journey and as
+
+Research Center. Investments like these fleet in the world.
+
+part of our operating rhythm we will make
+
+will position the company to capture
+
+substantial progress across all areas of We are making good progress with
+
+substantial U.S. growth by strengthening
+
+SQDC in 2025. our Wind supply chain where we
+
+the durability of our local supply chain.
+
+are committed to deploying proven,
+
+Our team is improving each day both as
+
+Our Board and management team will workhorse products. Last year, in
+
+individuals and together. Of our top 105
+
+consistently be spending time at genba— Schenectady, New York, we produced
+
+leaders, approximately 30 percent are
+
+or the point of impact. This means walking more than 150 wind turbine nacelles
+
+new to the company since we announced
+
+the factory floor and learning from after starting up operations in 2023.
+
+the spin. I’m excited about the team we
+
+colleagues to identify areas of continuous In Pensacola, Florida, we are using lean
+
+have, while continuing to look to improve
+
+improvement. Our leadership team at to enable higher output from our existing
+
+everyday with both investments into our
+
+GE Vernova understands that this is factory footprint. We also continue to
+
+existing team while attracting talent from
+
+non-negotiable. Personally, I spent the make progress with our AI-enabled
+
+the outside that can make us better. We
+
+first few days of 2025 in Singapore to digital blade inspection certification
+
+will invest in our teams and in our leaders,
+
+meet with critical partners supporting to ensure blades that leave our factory
+
+continually working to improve every day.
+
+the delivery of grid-related projects in are right the first time.
+
+2024 GE Vernova Annual Report | 5
+
+Nuclear professionals train in Wilmington, North Carolina GE Vernova’s GridOS® orchestration software An employee discusses SQDC at the Gas Power Global
+
+Repairs and Services Center in Singapore
+
+Offshore Wind experienced a tough scheduling issues. At GE Vernova, we 5. Sustain our discipline with how
+
+year in 2024, but we will be better for are focused on delivering a product that we manage cash and cost structure
+
+it as we go into 2025. Today, we have is repeatable, using existing combustion
+
+Financial strength is an essential
+
+wind turbines producing power in both and fuel chain infrastructure with our
+
+competitive differentiator as the world shifts
+
+the Atlantic and the North Sea. We are BWRX-300 small modular reaction that
+
+from molecules to electrons. For companies,
+
+focused on executing on the existing can be scaled in the early 2030s. Our first
+
+this includes a strong balance sheet and
+
+backlog in the safest, highest-quality 300-megawatt plant is scheduled to be
+
+lean cost structure. We are also focused
+
+way and looking for smart opportunities commissioned in Canada with Ontario
+
+on the linearity of our cash performance,
+
+to expedite completion of this backlog Power Generation in 2029. 2025 is an
+
+seeking to deliver solid positive free cash
+
+for our customers and our financials. important year for us to further harden
+
+flow every quarter in 2025. In addition,
+
+the supply chain for this build-out, while
+
+I’m proud of our Wind team, and confident we will continue to look for opportunities
+
+finalizing the engineering to scale globally.
+
+that our investments into the installed to simplify our portfolio and create capital
+
+Our significant, multi-decade experience
+
+base and supply chain will pay dividends to both reinvest into core businesses and
+
+with these technologies gives us the
+
+when better market conditions develop return to our shareholders.
+
+ability to innovate for a safer, more
+
+for the industry.
+
+cost-effective future for nuclear energy. As I previously mentioned, in December,
+
+4. Position Nuclear and Electrification we initiated an active share repurchase
+
+The world’s grid is fragile. Our customers
+
+Software to play a meaningful role program. We also declared our first
+
+battle increased complexity with variable
+
+dividend, and plan to return at least one
+
+Great companies deliver on the ‘now’ power generation sources, as well as the
+
+third of cash generation to shareholders
+
+while incubating technology and challenges posed by extreme weather
+
+over time through the combination of
+
+business models for the future. Nuclear conditions, maintenance, and cybersecurity
+
+share repurchases and dividends. On
+
+and Electrification Software are two for an aging system. Our GridOS® software
+
+cost, we’ve committed to a substantial
+
+businesses entering a very important platform is playing a meaningful and
+
+reduction in our G&A costs—$600 million
+
+year ahead. growing role in our customers’ ability to
+
+between 2024 to 2028—to help fund
+
+navigate the growing complexity that is
+
+Nuclear capacity in the world needs to increased R&D for our future. I do not
+
+a daily reality for them. In 2025, we plan
+
+triple from now through 2050 to reach expect us to stop there.
+
+to deliver GridOS® at scale while adding
+
+zero-carbon objectives, but the nuclear
+
+more features.
+
+industry has consistently faced cost and
+
+“W e approach our role with an enormous
+
+sense of responsibility, knowing the world
+
+relies on us for the equipment, services,
+
+and software to produce and distribute
+
+the electricity it needs.”
+
+6 | 2024 GE Vernova Annual Report
+
+THE BEST IS TO COME
+
+BOARD OF DIRECTORS
+
+Steve Angel Jesus Malave
+
+Chairman, Linde plc Chief Financial Officer,
+
+2025 will be an exciting year for GE Vernova and our industry.
+
+Lockheed Martin
+
+There are abundant opportunities for our company to help Scott Strazik
+
+meet the surging global demand for electric power with our Chief Executive Officer, Martina Hund-Mejean
+
+GE Vernova Former Chief Financial Officer,
+
+equipment, services, and software. MasterCard Worldwide
+
+Nicholas K. Akins
+
+We will partner with our customers and the wider energy Former Executive Chair, Paula Rosput Reynolds
+
+ecosystem to shape and deliver the future energy system, American Electric Power President and Chief Executive
+
+Officer, PreferWest LLC
+
+one that provides abundant, resilient and sustainable Arnold W. Donald
+
+energy for everyone. It will be a year of global effort. Former President and Chief Kim K.W. Rucker
+
+Former Executive Vice President,
+
+As an American company, we are uniquely positioned to Executive Officer, Carnival
+
+General Counsel and Secretary,
+
+win in the U.S., but the energy expansion is truly global, Matthew Harris Andeavor (formerly Tesoro Corp.)
+
+and we remain focused on all markets where we operate. Founding Partner, Global
+
+Infrastructure Partners
+
+We are also committed to improving the communities where
+
+we operate: last year, we launched the GE Vernova Foundation
+
+with a priority of building the skilled workforce needed to
+
+drive the energy transition forward, while supporting stronger EXECUTIVE LEADERSHIP TEAM
+
+and more resilient global communities. The GE Vernova team
+
+Scott L. Strazik* Hon. Roger Martella
+
+is ambitious, passionate, and committed to our mission to
+
+Chief Executive Officer Chief Corporate Officer,
+
+electrify and decarbonize the world. Chief Sustainability Officer
+
+Vic Abate*
+
+Leading GE Vernova and serving our stakeholders is an Chief Executive Officer, Kenneth Parks*
+
+Wind Chief Financial Officer
+
+immense privilege. Thank you for your investment in our
+
+company and for your continued support. I am incredibly Steven Baert* Philippe Piron
+
+optimistic that the best is yet to come. Chief People Officer Chief Executive Officer,
+
+Electrification Systems
+
+Kristin Carvell
+
+Chief Communications Officer Scott Reese
+
+Chief Executive Officer,
+
+Daniel Garceau Electrification Software
+
+Chief Supply Chain Officer
+
+Jessica Uhl*
+
+Rachel Gonzalez* President
+
+General Counsel
+
+SCOTT STRAZIK Maví Zingoni*
+
+CEO, GE Vernova Pablo Koziner Chief Executive Officer,
+
+Chief Commercial Officer Power
+
+February 6, 2025
+
+*Executive Officers
+
+GE Vernova’s leadership team at our Founders Meeting in Greenville, South Carolina
+
+2024 GE Vernova Annual Report | 7
+
+2024 GE Vernova Annual Report | 5
+
+2024
+
+FORM 10-K
+
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 10-K
+
+☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the fiscal year ended December 31, 2024
+
+☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+Commission file number 001-41966
+
+GE Vernova Inc.
+
+(Exact name of registrant as specified in its charter)
+
+Delaware 92-2646542
+
+(State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.)
+
+58 Charles Street, Cambridge, MA 02141
+
+(Address of principal executive offices) (Zip Code)
+
+(Registrant’s telephone number, including area code) (617) 674-7555
+
+Securities Registered Pursuant to Section 12(b) of the Act:
+
+Title of each class Trading Symbol(s) Name of each exchange on which registered
+
+Common stock, par value $0.01 per share GEV New York Stock Exchange
+
+Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. Yes ☐ No ☑
+
+Indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. Yes ☐ No ☑
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange
+
+Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has
+
+been subject to such filing requirements for the past 90 days. Yes ☑ No ☐
+
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to
+
+Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was
+
+required to submit such files). Yes ☑ No ☐
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting
+
+company or an emerging growth company. See definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and
+
+"emerging growth company" in Rule 12b-2 of the Exchange Act. (Check one):
+
+Large accelerated filer ☐ Accelerated filer ☐
+
+Non-accelerated filer ☑ Smaller reporting company ☐
+
+Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying
+
+with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Indicate by check mark whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of
+
+its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public
+
+accounting firm that prepared or issued its audit report. ☐
+
+If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant
+
+included in the filing reflect the correction of an error to previously issued financial statements. ☐
+
+Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based
+
+compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). Yes ☐ No ☑
+
+The aggregate market value of the outstanding common equity of the registrant not held by affiliates as of the last business day of the
+
+registrant’s most recently completed second fiscal quarter (June 28, 2024) was approximately $47.1 billion. There were 275,900,754 shares
+
+of common stock with a par value of $0.01 outstanding at January 15, 2025.
+
+DOCUMENTS INCORPORATED BY REFERENCE
+
+Portions of the definitive proxy statement relating to the registrant's 2025 Annual Meeting of Stockholders to be filed pursuant to Regulation
+
+14A within 120 days after the end of the registrant’s fiscal year ended December 31, 2024, are incorporated by reference into Part III of this
+
+Annual Report on Form 10-K to the extent described therein.
+
+TABLE OF CONTENTS
+
+Page
+
+Forward-Looking Statements 3
+
+Part I 4
+
+Item 1. Business 4
+
+Item 1A. Risk Factors 10
+
+Item 1B. Unresolved Staff Comments 31
+
+Item 1C. Cybersecurity 31
+
+Item 2. Properties 32
+
+Item 3. Legal Proceedings 33
+
+Item 4. Mine Safety Disclosures 33
+
+Part II 34
+
+Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters, and Issuer Purchases of Equity Securities 34
+
+Item 6. [Reserved] 34
+
+Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations 34
+
+Item 7A. Quantitative and Qualitative Disclosures About Market Risk 47
+
+Item 8. Financial Statements and Supplementary Data 49
+
+Auditor's Report 49
+
+Consolidated and Combined Statement of Income (Loss) 51
+
+Consolidated and Combined Statement of Financial Position 52
+
+Consolidated and Combined Statement of Cash Flows 53
+
+Consolidated and Combined Statement of Comprehensive Income (Loss) 54
+
+Consolidated and Combined Statement of Changes in Equity 55
+
+Note 1 Organization and Basis of Presentation 56
+
+Note 2 Summary of Significant Accounting Policies 57
+
+Note 3 Dispositions and Businesses Held for Sale 61
+
+Note 4 Current and Long-Term Receivables 62
+
+Note 5 Inventories, Including Deferred Inventory Costs 62
+
+Note 6 Property, Plant, and Equipment 63
+
+Note 7 Leases 63
+
+Note 8 Acquisitions, Goodwill, and Other Intangible Assets 64
+
+Note 9 Contract and Other Deferred Assets & Contract Liabilities and Deferred Income 64
+
+Note 10 Current and All Other Assets 65
+
+Note 11 Equity Method Investments 66
+
+Note 12 Accounts Payable and Equipment Project Payables 67
+
+Note 13 Postretirement Benefit Plans 67
+
+Note 14 Current and All Other Liabilities 72
+
+Note 15 Income Taxes 72
+
+Note 16 Accumulated Other Comprehensive Income (Loss) (AOCI) and Common Stock 75
+
+Note 17 Share-Based Compensation 76
+
+Note 18 Earnings Per Share Information 77
+
+Note 19 Other Income (Expense) – Net 77
+
+Note 20 Financial Instruments 77
+
+Note 21 Variable Interest Entities (VIEs) 80
+
+Note 22 Commitments, Guarantees, Product Warranties, and Other Loss Contingencies 80
+
+Note 23 Restructuring Charges and Separation Costs 81
+
+Note 24 Related Parties 82
+
+Note 25 Segment and Geographical Information 83
+
+Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 86
+
+Item 9A. Controls and Procedures 86
+
+Item 9B. Other Information 86
+
+Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 86
+
+Part III 87
+
+Item 10. Directors, Executive Officers, and Corporate Governance 87
+
+Item 11. Executive Compensation 87
+
+Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 87
+
+Item 13. Certain Relationships and Related Transactions and Director Independence 87
+
+Item 14. Principal Accountant Fees and Services 87
+
+Part IV 88
+
+Item 15. Exhibits and Financial Statement Schedules 88
+
+Item 16. Form 10-K Summary 89
+
+Signatures 90
+
+FORWARD-LOOKING STATEMENTS. This annual report contains forward-looking statements within the meaning of the Private
+
+Securities Litigation Reform Act of 1995 and other securities laws that are subject to risks and uncertainties. These statements may include
+
+words such as “believe”, “expect”, “guidance”, “anticipate”, “intend”, “plan”, “estimate”, “will”, “may”, and negatives or derivatives of these or
+
+similar expressions. These forward-looking statements include, among others, statements about the benefits GE Vernova Inc. (the
+
+Company, GE Vernova, our, we, or us) expects from our lean operating model; our expectations regarding the energy transition; the
+
+demand for our products and services; our expectations of future increased business, revenues, and operating results; our ability to
+
+innovate and anticipate and address customer demands; our ability to increase production capacity, efficiencies, and quality; our
+
+underwriting and risk management; the experiences we believe we are gaining across our Haliade-X backlog related to installation
+
+timelines and related remediation plans; benefits we expect to receive from the Inflation Reduction Act of 2022 (IRA); current and future
+
+customer orders and projects; our actual and planned investments, including in research and development, capital expenditures, joint
+
+ventures and other collaborations with third parties; our ability to meet our sustainability goals and targets; levels of global infrastructure
+
+spending; government policies that further or limit the global energy transition; our expected cash generation; our capital allocation
+
+framework, including share repurchases and dividends; our restructuring programs and strategies to reduce operational costs; our ability to
+
+novate or assign credit support provided by General Electric Company; disputes, litigation, arbitration, and governmental proceedings
+
+involving us; the sufficiency and expected uses of our cash, liquidity, and financing arrangements; and our credit ratings.
+
+Forward-looking statements reflect our current expectations, are based on judgments and assumptions, are inherently uncertain and are
+
+subject to risks, uncertainties, and other factors, which could cause our actual results, performance, or achievements to differ materially
+
+from current expectations. Some of the risks, uncertainties, and other factors that may cause actual results to differ materially from those
+
+expressed or implied by forward-looking statements include the following:
+
+• Our ability to successfully execute our lean operating model;
+
+• Our ability to innovate and successfully identify and meet customer demands and needs;
+
+• Our ability to successfully compete;
+
+• Significant disruptions in our supply chain, including the high cost or unavailability of raw materials, components, and products
+
+essential to our business;
+
+• Significant disruptions to our manufacturing and production facilities and distribution networks;
+
+• Changes in government policies and priorities that reduce funding and demand for energy equipment and services;
+
+• Shifts in demand, market expectations, and other dynamics related to energy, electrification, decarbonization, and sustainability;
+
+• Global economic trends, competition, and geopolitical risks, including conflicts, trade policies, and other constraints on economic
+
+activity;
+
+• Product quality issues or product or safety failures related to our complex and specialized products, solutions, and services;
+
+• Our ability to obtain required permits, licenses, and registrations;
+
+• Our ability to attract and retain highly qualified personnel;
+
+• Our ability to develop, deploy, and protect our intellectual property rights;
+
+• Our capital allocation plans, including the timing and amount of any dividends, share repurchases, acquisitions, organic
+
+investments, and other priorities;
+
+• Our ability to successfully identify, complete, integrate, and obtain benefits from any acquisitions, joint ventures and other
+
+investments;
+
+• The price, availability, and trading volumes of our common stock;
+
+• Downgrades of our credit ratings or ratings outlooks;
+
+• The amount and timing of our cash flows and earnings;
+
+• Our ability to meet our sustainability goals;
+
+• The impact from cybersecurity or data security incidents;
+
+• Changes in law, regulation, or policy that may affect our businesses and projects, or impose additional costs;
+
+• Natural disasters, weather conditions and events, public health events, or other emergencies;
+
+• Tax law and policy changes;
+
+• Adverse outcomes in legal, regulatory, and administrative proceedings, actions, and disputes; and
+
+• Other changes in macroeconomic and market conditions and volatility.
+
+These or other uncertainties may cause our actual future results to be materially different than those expressed in our forward-looking
+
+statements, and these and other factors are more fully discussed elsewhere in this Annual Report on Form 10-K, including in Item 1A. "Risk
+
+Factors" and Item 7. "Management's Discussion and Analysis of Financial Condition and Results of Operations," as may be updated from
+
+time to time in our Securities and Exchange Commission (SEC) filings and as posted on our website at www.gevernova.com/investors/fls.
+
+We do not undertake any obligation to update or revise our forward-looking statements except as may be required by law or regulation.
+
+2024 FORM 10-K 3
+
+PART I
+
+ITEM 1. BUSINESS.
+
+INTRODUCTION. GE Vernova Inc. (the Company, GE Vernova, our, we, or us) is a global leader in the electric power industry, with
+
+products and services that generate, transfer, orchestrate, convert, and store electricity. We design, manufacture, deliver, and service
+
+technologies to create a more reliable, secure, and sustainable electric power system, enabling electrification and decarbonization,
+
+underpinning the progress and prosperity of the communities we serve. We are a purpose-built company, positioned with a unique scope
+
+and scale of solutions to help accelerate the energy transition, while servicing and growing our installed base and strengthening our own
+
+profitability and stockholder returns. We have a strong history of innovation, which is a key strength enabling us to meet our customers’
+
+needs.
+
+The breadth of our portfolio also enables us to provide an extensive range of technologies and integrated solutions to help advance our
+
+customers’ energy and sustainability goals. Our installed base generates approximately 25% of the world’s electricity. We build, modernize,
+
+and service power systems to help our customers electrify their operations and economies, meet power demand growth, improve system
+
+reliability and resiliency, and navigate the energy transition through limiting and reducing emissions. The portfolio of equipment and
+
+services that we deliver is diversified across technology types and is adaptable based on electric power market conditions and demand.
+
+GE Vernova Inc. is a Delaware corporation with corporate headquarters in Cambridge, Massachusetts. On April 2, 2024, General Electric
+
+Company (GE), which now operates as GE Aerospace, completed the previously announced spin-off (the Spin-Off) of GE Vernova. In
+
+connection with the Spin-Off, GE distributed all of the shares of our common stock to its stockholders and we became an independent
+
+company. See Note 1 in the Notes to the consolidated and combined financial statements for further information regarding the Spin-Off.
+
+COMPANY STRATEGY. GE Vernova is positioned as an industry leader to fulfill the growing demand for electrical power, while driving
+
+the energy transition forward. Our focus is on supplying our customers with products and services necessary to deliver reliable, affordable,
+
+and sustainable electricity. We expect significant growth in demand for the offerings we provide to the electric power industry.
+
+Our company strategy is focused on:
+
+• Delivering on global sustainability, by developing, providing, and servicing technologies that enable electrification and
+
+decarbonization.
+
+• Maintaining and enhancing strong relationships with many of the leading and largest utilities, developers, governments, and
+
+electricity users.
+
+• Servicing the existing installed base and delivering new technologies and processes, which improve customer outcomes while
+
+driving increased profitability and cash flow.
+
+• Improving margins and lowering risk through better underwriting.
+
+• Streamlining our product portfolio to focus on core workhorse products, which will improve both cost and quality going forward.
+
+• Using Lean to improve our cost structure and productivity levels across our business and corporate functions.
+
+• Innovating and investing, along with third parties, in new offerings and technologies that will help customers electrify and
+
+decarbonize the world.
+
+• Allocating capital as a whole and within our various businesses – focused on generating cash flow to enable attractive stockholder
+
+returns, with a commitment to return at least 1/3 of our free cash flow* to our stockholders.
+
+SUSTAINABILITY. As a company whose technology base helps generate approximately 25% of the world’s electricity, our integration of
+
+sustainability into our core business strategy and culture reflects our strategic imperative to electrify and decarbonize the world and to play
+
+a crucial role in the energy transition. Our sustainability framework is guided by our commitment to help the energy sector address the
+
+energy trilemma of reliability, affordability, and sustainability.
+
+To operationalize this commitment, we have built the sustainability governance framework of “the Control Room.” The Control Room is led
+
+by our Chief Sustainability Officer, who supervises a cross-functional, global team, and chairs our Sustainability Council. Further, we have a
+
+Safety and Sustainability Committee of the Board of Directors, which guides and oversees our sustainability goals, impacts, risks, and
+
+efforts. Our operational efforts are aligned with our business strategy, the priorities of our stakeholders, our commitments, and our aim to
+
+deliver innovative technologies to create a more sustainable electric power system.
+
+The four pillars of our sustainability framework: Electrify, Decarbonize, Conserve, and Thrive:
+
+• Electrify: Catalyze access to more secure, sustainable, reliable, and affordable electricity, while helping to drive global
+
+economic development. We seek to add power generation and grid capacity to strengthen current electricity infrastructure and
+
+provide critical redundancy, support electrification in underserved regions, and encourage economic development.
+
+• Decarbonize: Invent, deploy, and service technology to help decarbonize and electrify the world. We seek to advance both
+
+the near-term impact by improving the trajectory on carbon intensity and the long-term impact by deploying products that are
+
+increasingly capable of lower carbon emissions once supporting infrastructure is deployed at scale.
+
+• Conserve: Innovate more while using less. We are working to reduce both our direct and indirect greenhouse gas emissions
+
+and have set a goal to achieve carbon neutrality for our Scope 1 and Scope 2 emissions by 2030. We also support the transition
+
+to a more circular economy and recognize the importance of critical raw materials and nature in our mission. We are working to
+
+track 90% of our top products as part of our circularity framework by 2030, including principles such as eco-design.
+
+• Thrive: Advance safe, responsible, and inclusive working conditions in our operations and across our value chain. We
+
+are committed to prioritizing safety, building and fostering an inclusive workplace globally and in the communities in which we
+
+operate, promoting a culture of compliance and ethics, and advancing human rights across our supply chain.
+
+*Non-GAAP Financial Measure
+
+2024 FORM 10-K 4
+
+The global shift towards a variety of energy sources, evolving and increased environmental regulations and requirements, and climate
+
+change effects, present both challenges and opportunities that may impact our business. See Item 1A. "Risk Factors" for further information
+
+about these risks.
+
+COMPETITION. We believe GE Vernova's businesses' ability to supply the electric power industry with a broad array of advanced
+
+technologies for an intelligent, sustainable power system that help customers accelerate the energy transition is a key differentiator among
+
+various of our competitors. Due to increasing demand exceeding available capacity for products and services that supply the electrical
+
+power industry, we face growing competition from emerging threats. The continuing ability to reduce cycle times and ensure available
+
+capacity is expected to allow us to remain competitive as demand for our products and services grows significantly. In addition, continued
+
+investment in our products and services and emerging technologies is necessary for us to successfully compete and deliver economic
+
+value and performance to our customers through efficiency, reliability, and affordability.
+
+Our businesses operate in highly competitive markets. We compete based on product performance, quality, branding, service and/or price
+
+across the industries and geographies served. Various companies compete with us across single or multiple products and services.
+
+Key Power segment competitors include Siemens Energy, Mitsubishi Power, Westinghouse, Framatome, and Rolls-Royce.
+
+Key Wind segment competitors include Vestas, Siemens-Gamesa, and Nordex.
+
+Key Electrification segment competitors include Hitachi Energy, Siemens Energy, Siemens, Schneider Electric, Mitsubishi Electric, and
+
+ABB.
+
+SEGMENTS. We report three business segments that are aligned with the nature of equipment and services they provide, specifically
+
+Power, Wind, and Electrification.
+
+Power. Our Power segment serves power generation, industrial, government, and other customers worldwide with products and services
+
+related to energy production. Our products and technologies harness resources such as natural gas, oil, diesel, water, and nuclear to
+
+produce electric power and include gas and steam turbines, full balance of plant, upgrade, and service solutions.
+
+Gas Power - offers a wide spectrum of heavy-duty and aeroderivative g
+
+[Content truncated due to length...]

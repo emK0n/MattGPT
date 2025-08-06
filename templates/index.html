@@ -1,0 +1,2973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MattGPT: Your Research Buddy</title>
+    <script src="/static/js/d3.min.js"></script>
+    <script src="/static/js/d3.layout.cloud.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="agent-container">
+            <div class="agent-status">
+                        <div class="header">
+                            <div class="header-text">
+                                <h1>MattGPT</h1>
+                                <p>Agentic AI Research Platform</p>
+                            </div>
+                        </div>
+                <div class="status-indicators">
+                    <div class="status-item">
+                        <div class="status-dot pending" id="sourcesStatus"></div>
+                        <span>News Sources</span>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-dot pending" id="analysisStatus"></div>
+                        <span>Today's Analysis</span>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-dot pending" id="databaseStatus"></div>
+                        <span>Database</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="action-btn whats-going-on" onclick="startWhatsGoingOn(false)">
+                    <span>🔍 What's Going On?</span>
+                </button>
+                <button class="action-btn week-review" onclick="startWeekReview()">
+                    <span>📊 Week in Review</span>
+                </button>
+                <button class="action-btn daily-podcast" onclick="startDailyPodcast()">
+                    <span class="btn-icon">🎙️</span>
+                    Daily Podcast
+                </button>
+            </div>
+
+            <div class="search-controls" id="searchControls">
+                <span>🌐 Internet Search:</span>
+                <input type="text" id="quickSearchInput" class="search-input" placeholder="Search the internet for current information...">
+                <button class="search-btn" onclick="quickSearch()">Search</button>
+            </div>
+            <div class="data-table" id="articlesTable">
+                <div class="table-header">
+                    <span>📚 Research Articles Database</span>
+                    <button class="refresh-btn" onclick="refreshArticles()">🔄 Refresh</button>
+                </div>
+                <div class="table-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date Added</th>
+                                <th>Title</th>
+                                <th>Source</th>
+                                <th>Relevance</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="articlesTableBody">
+                            <tr><td colspan="5">Loading articles...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="data-table" id="searchTable">
+                <div class="table-header">
+                    <span>🔍 Search Results</span>
+                </div>
+                <div class="table-content">
+                    <div id="searchTableBody">
+                        <p>Enter a search query above to see results</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Interface moved inside agent-container -->
+            <div class="chat-area">
+                <div id="interestModeIndicator" class="interest-mode-indicator" style="display: none;">
+                    <div class="mode-badge">
+                        ✏️ Interest Management Mode - Type commands or "done" to finish
+                    </div>
+                </div>
+                <div class="messages-container" id="messagesContainer">
+                    <!-- Messages will be added here dynamically -->
+                </div>
+                
+                <div class="thinking-indicator" id="thinkingIndicator">
+                    <span>Thinking</span>
+                    <div class="thinking-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+
+                <div class="mode-indicator" id="customerModeIndicator" style="display: none;">
+                    📋 Customer Management Mode - Type commands or 'done' to exit
+                </div>
+
+                <div class="search-status" id="searchStatus">
+                    <span id="searchStatusText">Ready</span>
+                </div>
+                
+                <div class="input-area">
+                    <div class="input-container">
+                        <textarea id="messageInput" class="message-input" 
+                                  placeholder="Ask me anything about current events, research articles, or paste a URL to analyze..." 
+                                  onkeydown="handleKeyPress(event)" rows="1"></textarea>
+                        <div class="processing-indicator" id="processingIndicator">
+                            <span id="processingText">Processing...</span>
+                        </div>
+                        <button id="sendBtn" class="send-btn" onclick="sendMessage()">
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Articles and Week Review (from old.html) -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container" id="modalContainer">
+            <div class="modal-header" id="modalHeader">
+                <span>📚 Research Articles</span>
+                <button class="modal-close" id="modalClose" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-filters">
+                <div class="filter-section">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all" onclick="setArticleFilter('all')">All Articles</button>
+                        <button class="filter-btn" data-filter="boosted" onclick="setArticleFilter('boosted')">Trending Now</button>
+                        <button class="filter-btn filter-starred" data-filter="starred" onclick="setArticleFilter('starred')">★</button>
+                    </div>
+                </div>
+                <div class="modal-search-section">
+                    <input type="text" id="modalSearchInput" class="modal-search-input"
+                           placeholder="Search articles by keyword..."
+                           onkeyup="handleModalSearch(event)" />
+                    <button class="modal-search-clear" id="modalSearchClear"
+                            onclick="clearModalSearch()" style="display: none;">&times;</button>
+                </div>
+                <div class="sort-section">
+                    <div class="sort-buttons">
+                        <button class="sort-btn active" data-sort="score" onclick="setArticleSort('score')">Highest Score</button>
+                        <button class="sort-btn" data-sort="recent" onclick="setArticleSort('recent')">Most Recent</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content">
+                <div class="modal-articles-list" id="modalArticlesList">
+                    <p>Loading articles...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // =============================================================================
+        // GLOBAL VARIABLES AND STATE MANAGEMENT
+        // =============================================================================
+        
+        // Interest management mode tracking
+        window.isInInterestMode = false;
+        window.currentInterestSession = null;
+
+        let sessionId = generateSessionId();
+        let isOperationRunning = false;
+        let workflowInProgress = false;
+        let currentStreamingSession = null;
+        let currentWeekReviewSession = null;
+
+        // Customer Management State
+        window.isInCustomerMode = false;
+        window.currentCustomerSession = null;
+        
+        // Modal state
+        let isModalOpen = false;
+        let currentFilter = 'all';
+        let currentSort = 'score';
+        let currentArticles = [];
+        let pendingArticlesData = null;
+        
+        // Modal positioning and dragging
+        let isDragging = false;
+        let dragOffset = { x: 0, y: 0 };
+        let modalPosition = { x: 0, y: 0 };
+
+        // Additional variables
+        let currentState = 'initialization';
+        let isProcessing = false;
+        let currentSearchQuery = '';
+        let modalListenersSetup = false;
+        let currentSearchKeyword = '';
+        let currentProgressMessage = null;
+        let progressMessages = [];
+        let isFirstRun = true;
+        let singleProgressMessageElement = null;
+        let allProgressContent = '';
+
+        // =============================================================================
+        // INITIALIZATION
+        // =============================================================================
+
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('MattGPT Research Assistant initialized with Two-Track Architecture');
+            console.log('📊 Chain Operations: Button-driven workflows');
+            console.log('💬 Enhanced Chat: Conversational interactions');
+            
+            setupEventListeners();
+            checkSystemStatus();
+            enableInput();
+
+            const modal = document.getElementById('modalOverlay');
+            modal.classList.remove('show');
+            isModalOpen = false;
+
+            setInterval(pollFrontendMessages, 2000);
+
+            // Reset isFirstRun each day
+            const today = new Date().toDateString();
+            const lastRunDate = localStorage.getItem('lastRunDate');
+            if (lastRunDate !== today) {
+                isFirstRun = true;
+                localStorage.setItem('lastRunDate', today);
+            }
+            
+            // Set up event listeners
+            const messageInput = document.getElementById('messageInput');
+            if (messageInput) {
+                messageInput.addEventListener('input', function() {
+                    this.style.height = 'auto';
+                    this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+                });
+            }
+            
+            // Add welcome message
+            addMessage('assistant', '👋 **Welcome to MattGPT Research Assistant**\n\nI can help you with:\n\n🔍 **What\'s Going On?** - Analyze current events\n📊 **Week in Review** - Weekly analysis summary\n🎙️ **Daily Podcast** - Generate daily podcast\n💬 **Chat** - Discuss articles, analyze URLs, query database\n\nClick a button above or send me a message to get started!');
+        });
+
+        // =============================================================================
+        // UTILITY FUNCTIONS
+        // =============================================================================
+
+        function generateSessionId() {
+            return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        }
+
+        function addMessage(sender, content) {
+            const container = document.getElementById('messagesContainer');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const avatar = document.createElement('div');
+            avatar.className = 'message-avatar';
+            avatar.textContent = sender === 'user' ? 'You' : 'AI';
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.innerHTML = marked.parse ? marked.parse(content) : formatMessageContent(content);
+            
+            messageDiv.appendChild(avatar);
+            messageDiv.appendChild(contentDiv);
+            container.appendChild(messageDiv);
+            container.scrollTop = container.scrollHeight;
+            
+            return messageDiv;
+        }
+
+        function updateMessageContent(messageElement, content) {
+            const contentDiv = messageElement.querySelector('.message-content');
+            if (contentDiv) {
+                contentDiv.innerHTML = marked.parse ? marked.parse(content) : formatMessageContent(content);
+                contentDiv.scrollTop = contentDiv.scrollHeight;
+                const container = document.getElementById('messagesContainer');
+                container.scrollTop = container.scrollHeight;
+            }
+        }
+
+        function formatMessageContent(content) {
+            if (!content) return '';
+
+            //URLs
+            let formatted = makeUrlsClickable(content);
+            //Bold
+            formatted = formatted.replace(/\*\*([^\*\r\n]+?)\*\*/g, '<strong>$1</strong>');
+            //Italics
+            formatted = formatted.replace(/\*([^\*\r\n]+?)\*/g, '<em>$1</em>');
+            //Line breaks
+            formatted = formatted.replace(/\n/g, '<br>');
+            //Bullet points
+            formatted = formatted.replace(/•/g, '•');
+
+            return formatted;
+        }
+
+        function showThinking(show) {
+            const indicator = document.getElementById('thinkingIndicator');
+            if (indicator) {
+                indicator.style.display = show ? 'flex' : 'none';
+            }
+        }
+
+        function disableInput() {
+            const input = document.getElementById('messageInput');
+            const btn = document.getElementById('sendBtn');
+            if (input) input.disabled = true;
+            if (btn) btn.disabled = true;
+        }
+
+        function enableInput() {
+            const input = document.getElementById('messageInput');
+            const btn = document.getElementById('sendBtn');
+            if (input) input.disabled = false;
+            if (btn) btn.disabled = false;
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+
+        function escapeHtml(text) {
+            if (typeof text !== 'string') return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatDate(dateString) {
+            if (!dateString) return 'Unknown';
+            return new Date(dateString).toLocaleDateString();
+        }
+
+        function resetProgressVariables() {
+            // Reset progress tracking variables for clean state
+            singleProgressMessageElement = null;
+            allProgressContent = '';
+        }
+
+        // =============================================================================
+        // CHAIN OPERATIONS (Two-Track Architecture)
+        // =============================================================================
+
+        async function startWhatsGoingOn(forceRefresh = false) {
+            // Skip flag check if force refresh
+            if (!forceRefresh) {
+                // Inline flag check - no separate function needed
+                const now = new Date();
+                const today = now.getFullYear().toString() +
+                          (now.getMonth() + 1).toString().padStart(2, '0') +
+                          now.getDate().toString().padStart(2, '0');
+                const flagFileName = `analysis_complete_${today}.flag`;
+
+                try {
+                    const response = await fetch(`/api/download/${flagFileName}?source=data`, { method: 'HEAD' });
+                       if (response.ok) {
+                            // Flag exists - show current events analysis directly
+                            console.log(`✅ Flag exists - showing current events analysis directly`);
+                            return showCurrentEventsAnalysis();
+                        } else {
+                            // No flag - offer interest management
+                            console.log(`❌ Flag does not exist - offering interest management`);
+                            return offerInterestManagement();
+                        }
+                } catch (error) {
+                    // Error checking flag - offer interest management as fallback
+                    return offerInterestManagement();
+                }
+            } else {
+                // Force refresh - start chain directly
+                return startNormalChain(true);
+            }
+        }
+
+        function startWeekReview() {
+            if (isOperationRunning) {
+                addMessage('assistant', 'Another operation is already running. Please wait for it to complete.');
+                return;
+            }
+
+            showThinking(false);
+            showSearchStatus(false);
+            hideAllTables();
+
+            addMessage('user', '📊 Week in Review');
+            disableInput();
+            isOperationRunning = true;
+
+            const chainSessionId = generateSessionId();
+
+            // Use new chain operations endpoint
+            fetch('/api/chain/week-review', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: chainSessionId })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    addMessage('assistant', data.response_message || '📊 **Starting Week Review**\n\nAnalyzing past 7 days...');
+                    
+                    if (data.show_modal && data.result_data) {
+                        // Existing week review - show modal immediately
+                        showWeekReviewModal(data.result_data);
+                        enableInput();
+                        isOperationRunning = false;
+                    } else if (data.show_progress) {
+                        // Fresh generation - monitor progress
+                        currentWeekReviewSession = chainSessionId;
+                        pollChainProgress(chainSessionId);
+                        pollWeekReviewProgress(chainSessionId);
+                    } else {
+                        enableInput();
+                        isOperationRunning = false;
+                    }
+                } else {
+                    addMessage('assistant', `❌ **Week Review Error**\n\n${data.error || 'Unknown error occurred'}`);
+                    enableInput();
+                    isOperationRunning = false;
+                }
+            })
+            .catch(error => {
+                console.error('Week Review error:', error);
+                addMessage('assistant', '❌ **Week Review Error**\n\nFailed to start week review. Please try again.');
+                enableInput();
+                isOperationRunning = false;
+            });
+        }
+
+        function startDailyPodcast() {
+            if (isOperationRunning) {
+                addMessage('assistant', 'Another operation is already running. Please wait for it to complete.');
+                return;
+            }
+
+            showThinking(false);
+            showSearchStatus(false);
+            hideAllTables();
+
+            addMessage('user', '🎙️ Daily Podcast');
+            disableInput();
+            isOperationRunning = true;
+
+            const chainSessionId = generateSessionId();
+
+            // Use new chain operations endpoint
+            fetch('/api/chain/podcast', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: chainSessionId })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    addMessage('assistant', data.response_message || '🎙️ **Starting Podcast Generation**\n\nCreating daily podcast...');
+                    
+                    if (data.result_data) {
+                        // Existing podcast files - show links
+                        displayPodcastFiles();
+                        enableInput();
+                        isOperationRunning = false;
+                    } else if (data.show_progress) {
+                        resetProgressVariables();
+                        pollFrontendMessages('podcast', chainSessionId);
+                    } else {
+                        enableInput();
+                        isOperationRunning = false;
+                    }
+                } else {
+                    addMessage('assistant', `❌ **Podcast Error**\n\n${data.error || 'Unknown error occurred'}`);
+                    enableInput();
+                    isOperationRunning = false;
+                }
+            })
+            .catch(error => {
+                console.error('Podcast error:', error);
+                addMessage('assistant', '❌ **Podcast Error**\n\nFailed to start podcast generation. Please try again.');
+                enableInput();
+                isOperationRunning = false;
+            });
+        }
+
+        // =============================================================================
+        // INTEREST MANAGEMENT ORCHESTRATION FUNCTIONS
+        // =============================================================================
+
+        async function offerInterestManagement() {
+            try {
+                // Load current interests
+                const response = await fetch('/api/interest-control', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'query' })
+                });
+
+                const data = await response.json();
+
+                // Display current interests and offer choice
+                const interestMessage = formatInterestsForDisplay(data.interests || []);
+                addMessage('assistant', interestMessage);
+
+            } catch (error) {
+                console.error('Error loading interests:', error);
+                addMessage('assistant', '❌ Error loading interests. Starting analysis with current settings...');
+                startNormalChain();
+            }
+        }
+
+        async function handleInterestChoice(choice) {
+            if (choice === 'no') {
+                addMessage('user', 'No, start analysis');
+                addMessage('assistant', '✅ Starting analysis with current interests...');
+                return startNormalChain();
+            } else {
+                addMessage('user', 'Yes, manage interests');
+                await enterInterestManagementMode();
+            }
+        }
+
+        async function enterInterestManagementMode() {
+            try {
+                // Initialize interest management session
+                const response = await fetch('/api/interest-control', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'startIM' })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    window.isInInterestMode = true;
+                    window.currentInterestSession = data.session_id;
+
+                    // Show mode indicator
+                    document.getElementById('interestModeIndicator').style.display = 'block';
+
+                    // Show help message
+                    addMessage('assistant', getInterestManagementHelp());
+                } else {
+                    addMessage('assistant', '❌ Error starting interest management. Starting analysis...');
+                    startNormalChain();
+                }
+            } catch (error) {
+                console.error('Error starting interest management:', error);
+                addMessage('assistant', '❌ Error starting interest management. Starting analysis...');
+                startNormalChain();
+            }
+        }
+
+        async function processInterestModeCommand(message) {
+            // Check for exit command
+            if (message.toLowerCase().trim() === 'done') {
+                await exitInterestManagementMode();
+                return;
+            }
+
+            try {
+                // Send command to interest dialog endpoint
+                const response = await fetch('/api/interest-dialog', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: window.currentInterestSession,
+                        command: message
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Display response
+                    addMessage('assistant', data.response);
+
+                    // If response includes interests list, format and display
+                    if (data.interests) {
+                        const formattedInterests = formatInterestsForDisplay(data.interests);
+                        addMessage('assistant', formattedInterests);
+                    }
+                } else {
+                    addMessage('assistant', data.response || '❌ Error processing command. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error processing interest command:', error);
+                addMessage('assistant', '❌ Error processing command. Please try again or type "done" to finish.');
+            }
+        }
+
+        async function exitInterestManagementMode() {
+            try {
+                // Send cleanup signal
+                if (window.currentInterestSession) {
+                    await fetch('/api/interest-control', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            action: 'endIM',
+                            session_id: window.currentInterestSession
+                        })
+                    });
+                }
+
+                // Reset state
+                window.isInInterestMode = false;
+                window.currentInterestSession = null;
+
+                // Hide mode indicator
+                document.getElementById('interestModeIndicator').style.display = 'none';
+
+                // Show completion message and start chain
+                addMessage('assistant', '✅ **Interest management complete!**\n\nStarting content analysis...');
+                startNormalChain();
+
+            } catch (error) {
+                console.error('Error exiting interest management:', error);
+                // Still proceed with chain start
+                window.isInInterestMode = false;
+                window.currentInterestSession = null;
+                document.getElementById('interestModeIndicator').style.display = 'none';
+                startNormalChain();
+            }
+        }
+
+        async function offerCustomerManagement() {
+            try {
+                // Load current customers
+                const response = await fetch('/api/customer-control', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'query' })
+                });
+
+                const data = await response.json();
+
+                // Display current customers and offer choice
+                const customerMessage = formatCustomersForDisplay(data.customers || []);
+                addMessage('assistant', customerMessage);
+
+            } catch (error) {
+                console.error('Error loading customers:', error);
+                addMessage('assistant', '❌ Error loading customers. Starting analysis with current settings...');
+                startNormalChain();
+            }
+        }
+
+        async function handleCustomerChoice(choice) {
+            if (choice === 'no') {
+                addMessage('user', 'No, start analysis');
+                addMessage('assistant', '✅ Starting analysis with current customers...');
+                return startNormalChain();
+            } else {
+                addMessage('user', 'Yes, manage customers');
+                await enterCustomerManagementMode();
+            }
+        }
+
+        async function enterCustomerManagementMode() {
+            try {
+                // Initialize customer management session
+                const response = await fetch('/api/customer-control', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ action: 'startCM' })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    window.isInCustomerMode = true;
+                    window.currentCustomerSession = data.session_id;
+
+                    // Show mode indicator
+                    document.getElementById('customerModeIndicator').style.display = 'block';
+
+                    // Show help message
+                    addMessage('assistant', getCustomerManagementHelp());
+                } else {
+                    addMessage('assistant', '❌ Error starting customer management. Starting analysis...');
+                    startNormalChain();
+                }
+            } catch (error) {
+                console.error('Error starting customer management:', error);
+                addMessage('assistant', '❌ Error starting customer management. Starting analysis...');
+                startNormalChain();
+            }
+        }
+
+        async function processCustomerCommand(message) {
+            try {
+                disableInput();
+                showThinking(true);
+
+                const response = await fetch('/api/customer-control', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        action: 'process',
+                        message: message,
+                        session_id: window.currentCustomerSession
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    addMessage('assistant', data.response);
+
+                    // Check if workflow is complete
+                    if (data.action === 'customer_added' ||
+                        data.action === 'removed' ||
+                        data.action === 'updated' ||
+                        data.action === 'workflow_cancelled') {
+
+                        // Check if this was a customer add with analysis offer
+                        if (data.action === 'customer_added' &&
+                            data.response.includes('run customer analysis now?')) {
+                            // Stay in customer mode for analysis choice
+                            return;
+                        }
+
+                        // Exit customer management mode
+                        exitCustomerManagementMode();
+                    }
+                } else {
+                    addMessage('assistant', data.response || 'Error processing customer command');
+
+                    // Exit on error
+                    exitCustomerManagementMode();
+                }
+
+            } catch (error) {
+                console.error('Error processing customer command:', error);
+                addMessage('assistant', '❌ Error processing customer command');
+                exitCustomerManagementMode();
+            } finally {
+                showThinking(false);
+                enableInput();
+            }
+        }
+
+        function exitCustomerManagementMode() {
+            window.isInCustomerMode = false;
+            window.currentCustomerSession = null;
+            document.getElementById('customerModeIndicator').style.display = 'none';
+            addMessage('assistant', '✅ Customer management complete. You can now ask about customers or start other operations.');
+        }
+
+        function formatCustomersForDisplay(customers) {
+            if (!customers || customers.length === 0) {
+                return `📋 **Customer Management**
+
+No customers found. You can add customers to organize your business relationships and reference materials.
+
+**Would you like to manage customers?**
+- Type 'yes' to enter customer management mode
+- Type 'no' to proceed with current analysis
+
+<div style="display: flex; gap: 10px; margin-top: 15px;">
+    <button onclick="handleCustomerChoice('yes')" style="background: #4A90E2; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">📋 Manage Customers</button>
+    <button onclick="handleCustomerChoice('no')" style="background: #7ED321; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">▶️ Start Analysis</button>
+</div>`;
+            }
+
+            let message = `📋 **Current Customers**\n\n`;
+            let totalCustomers = 0;
+
+            customers.forEach(cluster => {
+                totalCustomers += cluster.count;
+                message += `**${cluster.cluster}** (${cluster.count} customers):\n`;
+                cluster.customers.forEach(customer => {
+                    message += `  • ${customer.name}\n`;
+                });
+                message += '\n';
+            });
+
+            message += `**Total: ${totalCustomers} customers across ${customers.length} clusters**\n\n`;
+            message += `**Would you like to manage customers?**\n`;
+            message += `• Type 'yes' to add, remove, or update customers\n`;
+            message += `• Type 'no' to proceed with analysis\n\n`;
+
+            message += `<div style="display: flex; gap: 10px; margin-top: 15px;">
+    <button onclick="handleCustomerChoice('yes')" style="background: #4A90E2; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">📋 Manage Customers</button>
+    <button onclick="handleCustomerChoice('no')" style="background: #7ED321; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">▶️ Start Analysis</button>
+</div>`;
+
+            return message;
+        }
+
+        function getCustomerManagementHelp() {
+            return `📋 **Customer Management Help**
+
+**Available Commands:**
+
+**View Customers:**
+- "list customers" - Show all customers by cluster
+- "show customers" - Same as above
+
+**Add Customers:**
+- "add customer" - Start guided workflow to add new customer
+- "create customer" - Same as above
+
+**Remove Customers:**
+- "remove customer" - Remove specific customer
+- "delete cluster" - Remove entire cluster
+
+**Update Customers:**
+- "update customer" - Change cluster or reference URL
+- "move customer" - Same as above
+
+**Help:**
+- "help" - Show this help message
+
+**Exit:**
+- "done", "exit", "cancel" - Exit customer management
+
+All operations use step-by-step guidance with confirmation prompts to prevent accidents.`;
+        }
+
+        function startNormalChain(forceRefresh = false) {
+            // This calls your existing chain start logic
+            const chainSessionId = generateSessionId();
+
+            fetch('/api/chain/whats-going-on', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: chainSessionId,
+                    force_refresh: forceRefresh
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Use your existing chain response handling
+                handleChainResponse(data, chainSessionId);
+            })
+            .catch(error => {
+                console.error('Error starting chain:', error);
+                addMessage('assistant', '❌ Error starting analysis. Please try again.');
+            });
+        }
+
+        function handleChainResponse(data, chainSessionId) {
+            if (data.success) {
+                addMessage('assistant', data.response_message || '🔍 **Starting Analysis**\n\nAnalyzing current events...');
+
+                if (data.show_modal && data.result_data) {
+                    // Existing analysis - show modal immediately
+                    if (data.result_data.articles) {
+                        currentArticles = data.result_data.articles;
+                        openModal();
+                        renderFilteredArticles();
+                    } else {
+                        showCurrentEventsAnalysis();
+                    }
+                    enableInput();
+                    isOperationRunning = false;
+                } else if (data.show_progress) {
+                    // Fresh generation - monitor progress
+                    pollChainProgress(chainSessionId);
+                } else {
+                    // Handle other response types
+                    enableInput();
+                    isOperationRunning = false;
+                }
+            } else {
+                addMessage('assistant', `❌ **Analysis Error**\n\n${data.error || 'Unknown error occurred'}`);
+                enableInput();
+                isOperationRunning = false;
+            }
+        }
+
+        // =============================================================================
+        // INTEREST DISPLAY AND FORMATTING FUNCTIONS
+        // =============================================================================
+
+        function formatInterestsForDisplay(interests) {
+            if (!interests || interests.length === 0) {
+                return `📋 **Current Research Interests**
+
+        🔍 No interests configured yet
+
+        Add interests to improve article relevance scoring! Higher weights mean matching content gets ranked higher in your results.`;
+            }
+                let formattedMessage = `📋 <strong>Current Research Interests</strong>\n\n<table class="interests-table">${interests.map(interest => {
+                            const weightBar = generateWeightBar(interest.weight);
+                            return `<tr><td style="padding-right: 30px;">${escapeHtml(interest.interest)}</td><td>${interest.weight.toFixed(1)}</td><td>${weightBar}</td></tr>`;
+                        }).join('')}</table></div>\n\n<p>Do you want to make any changes?</p>
+                <div class="interest-choice-buttons">
+                    <button onclick="handleInterestChoice('yes')" class="btn-primary">✏️ Manage My Interests</button>
+                    <button onclick="handleInterestChoice('no')" class="btn-secondary">➡️ Close and Continue</button>
+                </div>`;
+            return formattedMessage;
+        }
+
+        function generateWeightBar(weight) {
+            const filledBars = Math.min(Math.floor(weight), 10);
+            const emptyBars = 10 - filledBars;
+            return '🟦'.repeat(filledBars) + '⬜'.repeat(emptyBars);
+        }
+
+        function getInterestCategory(weight) {
+            if (weight <= 3) return 'Low';
+            if (weight <= 6) return 'Medium';
+            return 'High';
+        }
+
+        function getInterestManagementHelp() {
+            return `✏️ **Interest Management Mode**
+
+        **Commands you can use:**
+        - "Show my interests" - Display current interests
+        - "Add [topic] with weight [1-10]" - Add new interest
+        - "Change weight of [topic] to [number]" - Update weight
+        - "Remove [topic] interest" - Delete interest
+        - "Help" - Show this help
+        - **"Done"** - Exit and start analysis
+
+        **Examples:**
+        - "Add artificial intelligence with weight 8.5"
+        - "Change weight of technology to 7"
+        - "Remove climate change interest"
+
+        Type your command or "done" when finished:`;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // =============================================================================
+        // ENHANCED CHAT HANDLERS
+        // =============================================================================
+
+        function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            if (window.isInInterestMode) {
+                input.value = '';
+                input.style.height = 'auto';
+                addMessage('user', message);
+                processInterestModeCommand(message);
+                return; // Exit early - don't process as normal chat
+            }
+
+            if (window.isInCustomerMode) {
+                input.value = '';
+                input.style.height = 'auto';
+                addMessage('user', message);
+                processCustomerCommand(message);
+                return; // Exit early - don't process as normal chat
+            }
+
+            // Initialize session for enhanced chat
+            if (!sessionId || sessionId === 'temp') {
+                sessionId = generateSessionId();
+                console.log('🔧 Initializing enhanced chat session:', sessionId);
+            }
+
+            input.value = '';
+            input.style.height = 'auto';
+            
+            addMessage('user', message);
+
+            const customer_keywords = ['customer', 'customers', 'client', 'clients', 'cluster', 'clusters', 'company', 'companies'];
+            if (customer_keywords.some(keyword => message.toLowerCase().includes(keyword)) ||
+                (message.toLowerCase().includes('add') && message.toLowerCase().includes('customer')) ||
+                (message.toLowerCase().includes('remove') && message.toLowerCase().includes('customer')) ||
+                (message.toLowerCase().includes('list') && message.toLowerCase().includes('customer'))) {
+
+                // Enter customer management mode and process command
+                enterCustomerManagementMode().then(() => {
+                    processCustomerCommand(message);
+                });
+                return;
+            }
+
+
+            showThinking(true);
+            disableInput();
+
+            // Use new enhanced chat endpoint for streaming responses
+            fetch('/api/chat/message', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    message: message,
+                    session_id: sessionId
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let assistantMessage = '';
+                let assistantMessageElement = null;
+                
+                showThinking(false);
+                
+                function readStream() {
+                    return reader.read().then(({ done, value }) => {
+                        if (done) {
+                            enableInput();
+                            return;
+                        }
+                        
+                        const chunk = decoder.decode(value, { stream: true });
+                        const lines = chunk.split('\n');
+                        
+                        for (const line of lines) {
+                            if (line.startsWith('data: ')) {
+                                try {
+                                    const data = JSON.parse(line.slice(6));
+
+                                    if (data.content) {
+                                        // Try to parse content as JSON first (for frontend callbacks)
+                                        let isCallback = false;
+                                        try {
+                                            const callbackData = JSON.parse(data.content);
+                                            if (callbackData.type === 'frontend_callback' && callbackData.function === 'offerInterestManagement') {
+                                                isCallback = true;
+                                                if (callbackData.message) {
+                                                    addMessage('assistant', callbackData.message);
+                                                }
+                                                offerInterestManagement();
+                                                hideThinking();
+                                                enableInput();
+                                                return;
+                                            }
+                                        } catch (e) {
+                                            // Not JSON, process as normal content
+                                        }
+
+                                        if (!isCallback) {
+                                            assistantMessage += data.content;
+
+                                            if (!assistantMessageElement) {
+                                                assistantMessageElement = addMessage('assistant', '');
+                                            }
+
+                                            updateMessageContent(assistantMessageElement, assistantMessage);
+                                        }
+                                    }
+
+                                    if (data.done) {
+                                        enableInput();
+                                        return;
+                                    }
+
+                                    if (data.error) {
+                                        console.error('Streaming error:', data.error);
+                                        enableInput();
+                                        return;
+                                    }
+                                } catch (e) {
+                                    console.error('Error parsing streaming data:', e);
+                                    console.error('Raw line was:', line);
+                                }
+                            }
+                        }
+                        
+                        return readStream();
+                    });
+                }
+                
+                return readStream();
+            })
+            .catch(error => {
+                console.error('Chat error:', error);
+                showThinking(false);
+                addMessage('assistant', '❌ **Error Processing Message**\n\nSorry, I encountered an error. Please try again.');
+                enableInput();
+            });
+        }
+
+        function discussArticle(articleData) {
+            const title = articleData.title || 'Article';
+            addMessage('user', `💬 Discuss: ${title}`);
+            showThinking(true);
+            disableInput();
+
+            // Use new article discussion endpoint
+            fetch('/api/chat/article-discussion', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ 
+                    message: `Let's discuss this article: ${title}`,
+                    article_data: articleData,
+                    session_id: sessionId
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let assistantMessage = '';
+                let assistantMessageElement = null;
+                
+                showThinking(false);
+                
+                function readStream() {
+                    return reader.read().then(({ done, value }) => {
+                        if (done) {
+                            enableInput();
+                            return;
+                        }
+                        
+                        const chunk = decoder.decode(value, { stream: true });
+                        const lines = chunk.split('\n');
+                        
+                        for (const line of lines) {
+                            if (line.startsWith('data: ')) {
+                                try {
+                                    const data = JSON.parse(line.slice(6));
+                                    
+                                    if (data.content) {
+                                        assistantMessage += data.content;
+                                        
+                                        if (!assistantMessageElement) {
+                                            assistantMessageElement = addMessage('assistant', '');
+                                        }
+                                        
+                                        updateMessageContent(assistantMessageElement, assistantMessage);
+                                    }
+                                    
+                                    if (data.done) {
+                                        enableInput();
+                                        return;
+                                    }
+                                } catch (e) {
+                                    console.error('Error parsing streaming data:', e);
+                                }
+                            }
+                        }
+                        
+                        return readStream();
+                    });
+                }
+                
+                return readStream();
+            })
+            .catch(error => {
+                console.error('Article discussion error:', error);
+                showThinking(false);
+                addMessage('assistant', '❌ **Error Starting Discussion**\n\nSorry, I encountered an error. Please try again.');
+                enableInput();
+            });
+        }
+
+        // =============================================================================
+        // CURRENT EVENTS ANALYSIS IMPLEMENTATION
+        // =============================================================================
+
+        function showCurrentEventsAnalysis() {
+            // Get today's date in the format used by the JSON file
+            const today = new Date().toLocaleDateString('en-CA').replace(/-/g, '');
+            const filename = `current_events_analysis_${today}.json`;
+
+            // Try to fetch the current events analysis file
+            fetch(`/api/download/${filename}?source=topics`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Current events file not found');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    displayCurrentEventsAnalysis(data);
+                })
+                .catch(error => {
+                    console.error('Error loading current events analysis:', error);
+                    // Fallback to showing articles directly
+                    proceedToTodaysResearch();
+                });
+        }
+
+        function displayCurrentEventsAnalysis(analysisData) {
+            console.log('Analysis data received:', analysisData); // Debug log
+            const container = document.getElementById('messagesContainer');
+            const analysisDiv = document.createElement('div');
+            analysisDiv.className = 'message assistant';
+            analysisDiv.id = 'current-events-display';
+
+            const timestamp = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+            // Extract the actual analysis data - it's nested under 'analysis' key
+            const actualData = analysisData.analysis || analysisData;
+
+            // Format the current events data
+            let analysisHtml = `
+                <div class="message-avatar">AI</div>
+                <div class="message-content">
+                    <div class="current-events-container">
+                        <div class="current-events-header">
+                            <h2>📰 Here's What's Happening</h2>
+                            <div class="date-info">${new Date().toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'
+                            })}</div>
+                            ${analysisData.sources_analyzed ? `<div style="font-size: 0.85em; color: #64748b; margin-top: 4px;">${analysisData.sources_analyzed.length} sources analyzed • ${analysisData.headline_count || 0} headlines processed</div>` : ''}
+                        </div>
+
+                        <div class="current-events-sections">
+            `;
+
+            // Add Keywords section from analysis.keywords array
+            if (actualData.keywords && Array.isArray(actualData.keywords) && actualData.keywords.length > 0) {
+                analysisHtml += `
+                    <div class="current-events-section">
+                        <h3>🔑 Keywords</h3>
+                        <div class="keywords-grid">
+                `;
+                actualData.keywords.slice(0, 15).forEach(keyword => {
+                    analysisHtml += `
+                        <div class="keyword-tag">
+                            ${escapeHtml(keyword)}
+                            <span class="keyword-count">•</span>
+                        </div>
+                    `;
+                });
+                analysisHtml += `
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Add Trending Topics section from analysis.trending_topics array
+            if (actualData.trending_topics && Array.isArray(actualData.trending_topics) && actualData.trending_topics.length > 0) {
+                analysisHtml += `
+                    <div class="current-events-section">
+                        <h3>🔥 Trending Topics</h3>
+                        <ul class="hot-topics-list">
+                `;
+                actualData.trending_topics.forEach(topic => {
+                    analysisHtml += `
+                        <li>
+                            <span class="topic-name">${escapeHtml(topic)}</span>
+                        </li>
+                    `;
+                });
+                analysisHtml += `
+                        </ul>
+                    </div>
+                `;
+            }
+
+            // Add Summary section from analysis.summary
+            if (actualData.summary) {
+                analysisHtml += `
+                    <div class="current-events-section summary-section">
+                        <h3>📝 Daily Summary</h3>
+                        <div class="summary-content">
+                            ${formatMessageContent(actualData.summary)}
+                        </div>
+                `;
+
+                // Add sample headlines if available
+                if (analysisData.raw_headlines && Array.isArray(analysisData.raw_headlines) && analysisData.raw_headlines.length > 0) {
+                    analysisHtml += `
+                        <div class="news-links">
+                            <h4 style="margin: 15px 0 10px 0; color: #374151;">📰 Sample Headlines</h4>
+                    `;
+                    analysisData.raw_headlines.slice(0, 5).forEach(headline => {
+                        analysisHtml += `
+                            <a href="${escapeHtml(headline.url || '#')}" target="_blank" class="news-link">
+                                <div class="news-link-title">${escapeHtml(headline.title || 'Untitled')}</div>
+                                <div class="news-link-source">${escapeHtml(headline.source || 'Unknown Source')}</div>
+                            </a>
+                        `;
+                    });
+                    analysisHtml += `
+                        </div>
+                    `;
+                }
+
+                analysisHtml += `
+                    </div>
+                `;
+            }
+
+            // Add sources section
+            if (analysisData.sources_analyzed && Array.isArray(analysisData.sources_analyzed) && analysisData.sources_analyzed.length > 0) {
+                analysisHtml += `
+                    <div class="current-events-section">
+                        <h3>📡 Sources Analyzed</h3>
+                        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                `;
+                analysisData.sources_analyzed.forEach(source => {
+                    analysisHtml += `
+                        <span style="background: #e2e8f0; color: #475569; padding: 4px 8px; border-radius: 12px; font-size: 0.8em;">${escapeHtml(source)}</span>
+                    `;
+                });
+                analysisHtml += `
+                        </div>
+                    </div>
+                `;
+            }
+
+            analysisHtml += `
+                        </div>
+
+                        <div class="proceed-button-container">
+                            <button class="proceed-button" onclick="proceedToTodaysResearch()">
+                                📚 Today's Research →
+                            </button>
+                        </div>
+                    </div>
+                    <div style="font-size: 0.8em; opacity: 0.7; margin-top: 8px;">${timestamp}</div>
+                </div>
+            `;
+
+            analysisDiv.innerHTML = analysisHtml;
+            container.appendChild(analysisDiv);
+            container.scrollTop = container.scrollHeight;
+
+            enableInput();
+            workflowInProgress = false;
+            isOperationRunning = false;
+            checkSystemStatus();
+        }
+
+        function proceedToTodaysResearch() {
+            // Remove the current events display
+            const currentEventsDisplay = document.getElementById('current-events-display');
+            if (currentEventsDisplay) {
+                currentEventsDisplay.remove();
+            }
+
+            addMessage('user', '📚 Today\'s Research');
+            addMessage('assistant', '📚 **Opening Today\'s Research Articles**\n\nDisplaying curated articles from today\'s analysis...');
+
+            // Show the modal with the previously stored articles data
+            if (pendingArticlesData) {
+                currentArticles = pendingArticlesData;
+                openModal();
+                renderFilteredArticles();
+                pendingArticlesData = null; // Clear the stored data
+            } else {
+                // Fallback to fetching all articles
+                openModal();
+                fetchAllArticles();
+            }
+        }
+
+        // =============================================================================
+        // MODAL FUNCTIONS
+        // =============================================================================
+
+        function openModal() {
+            const modal = document.getElementById('modalOverlay');
+            const container = document.getElementById('modalContainer');
+
+            if (!modal || !container) {
+                console.error('Modal elements not found');
+                return;
+            }
+
+            if (!isModalOpen) {
+                setInitialModalPosition();
+                setupModalEventListeners();
+            }
+
+            modal.classList.add('show');
+            isModalOpen = true;
+
+            // Fix for search input - add this section
+            const searchInput = document.getElementById('modalSearchInput');
+            if (searchInput) {
+                searchInput.disabled = false;
+                searchInput.readOnly = false;
+                searchInput.style.pointerEvents = 'auto';
+                // Small delay to ensure modal is fully rendered before focusing
+                setTimeout(() => {
+                    searchInput.focus();
+                }, 100);
+            }
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modalOverlay');
+            const container = document.getElementById('modalContainer');
+            const searchInput = document.getElementById('modalSearchInput');
+            const clearBtn = document.getElementById('modalSearchClear');
+
+            if (searchInput) {
+                searchInput.value = '';
+                searchInput.disabled = false;
+                searchInput.readOnly = false;
+                // Small delay to ensure modal is fully rendered
+                setTimeout(() => {
+                    searchInput.focus();
+                }, 100);
+            }
+
+            if (clearBtn) clearBtn.style.display = 'none';
+
+            if (modal) {
+                modal.classList.remove('show');
+                isModalOpen = false;
+
+                if (container) {
+                    container.style.left = '';
+                    container.style.top = '';
+                    container.style.width = '';
+                    container.style.height = '';
+                }
+
+                currentFilter = 'all';
+                currentSort = 'score';
+                currentArticles = [];
+                
+                // Week Review cleanup
+                currentWeekReviewSession = null;
+
+                if (window.currentWeekReviewData) {
+                    delete window.currentWeekReviewData;
+                }
+                if (window.currentResizeObserver) {
+                    window.currentResizeObserver.disconnect();
+                    delete window.currentResizeObserver;
+                }
+                if (window.wordCloudResizeTimeout) {
+                    clearTimeout(window.wordCloudResizeTimeout);
+                    delete window.wordCloudResizeTimeout;
+                }
+            }
+            isOperationRunning = false;
+            workflowInProgress = false;
+            enableInput();
+
+            // Check if we need to restore the welcome message
+            const messagesContainer = document.getElementById('messagesContainer');
+            if (!messagesContainer || messagesContainer.children.length === 0) {
+                // Re-add welcome message if container is empty
+                addMessage('assistant', '👋 **Welcome to MattGPT Research Assistant**\n\nI can help you with:\n\n🔍 **What\'s Going On?** - Analyze current events\n📊 **Week in Review** - Weekly analysis summary\n🎙️ **Daily Podcast** - Generate daily podcast\n💬 **Chat** - Discuss articles, analyze URLs, query database\n\nClick a button above or send me a message to get started!');
+            }
+
+            // Update system status
+            checkSystemStatus();
+            const filters = document.querySelector('.modal-filters');
+            if (filters) {
+                filters.style.display = '';  // Reset to default/visible
+            }
+            hideAllTables();
+
+        }
+
+        function setInitialModalPosition() {
+            const container = document.getElementById('modalContainer');
+            if (!container) return;
+
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+            const initialWidth = viewportWidth * 0.8;
+            const initialHeight = viewportHeight * 0.9;
+
+            modalPosition.x = 0;
+            modalPosition.y = viewportHeight * 0.05;
+
+            container.style.left = modalPosition.x + 'px';
+            container.style.top = modalPosition.y + 'px';
+            container.style.width = initialWidth + 'px';
+            container.style.height = initialHeight + 'px';
+        }
+
+        function setupModalEventListeners() {
+            const container = document.getElementById('modalContainer');
+            if (!container) return;
+
+            // container.addEventListener('mousedown', startDrag);
+            const modalHeader = container.querySelector('.modal-header');
+            if (modalHeader) {
+                modalHeader.addEventListener('mousedown', startDrag);
+            }
+            document.addEventListener('mousemove', drag);
+            document.addEventListener('mouseup', stopDrag);
+
+            const modalSearchInput = document.getElementById('modalSearchInput');
+            if (modalSearchInput) {
+                // Ensure input can receive focus
+                modalSearchInput.addEventListener('focus', function() {
+                    this.style.pointerEvents = 'auto';
+                });
+
+                // Add input event listener
+                modalSearchInput.addEventListener('input', handleModalSearch);
+
+                // Add keyup event as backup
+                modalSearchInput.addEventListener('keyup', handleModalSearch);
+            }
+        }
+
+        function startDrag(e) {
+            if (e.target.classList.contains('modal-close')) return;
+
+            isDragging = true;
+            const container = document.getElementById('modalContainer');
+            if (!container) return;
+
+            const rect = container.getBoundingClientRect();
+            dragOffset.x = e.clientX - rect.left;
+            dragOffset.y = e.clientY - rect.top;
+
+            document.body.style.userSelect = 'none';
+            e.preventDefault();
+        }
+
+        function drag(e) {
+            if (!isDragging) return;
+
+            const container = document.getElementById('modalContainer');
+            const newX = e.clientX - dragOffset.x;
+            const newY = e.clientY - dragOffset.y;
+
+            const containerRect = container.getBoundingClientRect();
+            const maxX = window.innerWidth - containerRect.width;
+            const maxY = window.innerHeight - containerRect.height;
+
+            modalPosition.x = Math.max(0, Math.min(newX, maxX));
+            modalPosition.y = Math.max(0, Math.min(newY, maxY));
+
+            container.style.left = modalPosition.x + 'px';
+            container.style.top = modalPosition.y + 'px';
+        }
+
+        function stopDrag() {
+            if (isDragging) {
+                isDragging = false;
+                document.body.style.userSelect = '';
+            }
+        }
+
+        function setArticleFilter(filter) {
+            currentFilter = filter;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === filter);
+            });
+            renderFilteredArticles();
+        }
+
+        function setArticleSort(sort) {
+            currentSort = sort;
+            document.querySelectorAll('.sort-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.sort === sort);
+            });
+            renderFilteredArticles();
+        }
+
+        function toggleStar(articleUrl, buttonElement) {
+            // Disable button during request
+            buttonElement.disabled = true;
+
+            fetch('/api/articles/toggle-star', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    url: articleUrl
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Update button state based on new starred value
+                    if (data.starred === 1) {
+                        buttonElement.classList.add('active');
+                    } else {
+                        buttonElement.classList.remove('active');
+                    }
+
+                    // Update the article data in currentArticles array
+                    const article = currentArticles.find(a => a.url === articleUrl);
+                    if (article) {
+                        article.starred = data.starred;
+                    }
+
+                    // If we're currently showing starred filter and item was unstarred, re-render
+                    if (currentFilter === 'starred' && data.starred === 0) {
+                        renderFilteredArticles();
+                    }
+                } else {
+                    console.error('Failed to toggle star:', data.error);
+                    alert('Failed to update favorite status. Please try again.');
+                }
+            })
+            .catch(error => {
+                console.error('Error toggling star:', error);
+                alert('Error updating favorite status. Please try again.');
+            })
+            .finally(() => {
+                // Re-enable button
+                buttonElement.disabled = false;
+            });
+        }
+
+        function handleModalSearch(event) {
+            const searchValue = event.target.value.trim();
+            const clearBtn = document.getElementById('modalSearchClear');
+
+            // Show/hide clear button
+            clearBtn.style.display = searchValue ? 'block' : 'none';
+
+            // Update current search and re-render
+            currentSearchKeyword = searchValue;
+            renderFilteredArticles();
+
+            // Update header to show search status
+            updateModalHeaderWithSearch();
+        }
+
+        function clearModalSearch() {
+            const searchInput = document.getElementById('modalSearchInput');
+            const clearBtn = document.getElementById('modalSearchClear');
+
+            searchInput.value = '';
+            clearBtn.style.display = 'none';
+            currentSearchKeyword = '';
+
+            renderFilteredArticles();
+            updateModalHeaderWithSearch();
+        }
+
+        function fetchAllArticles() {
+            const list = document.getElementById('modalArticlesList');
+            list.innerHTML = `
+                <div style="padding: 40px; text-align: center; color: #6b7280;">
+                    <div class="progress-spinner" style="margin: 0 auto 10px;"></div>
+                    Loading all articles from database...
+                </div>
+            `;
+
+            fetch('/api/research-agent/all-articles', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: sessionId,
+                    limit: 2000,
+                    search_keyword: currentSearchKeyword
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success && data.articles) {
+                    currentArticles = data.articles;
+                    currentSearchKeyword = '';
+                    const searchInput = document.getElementById('modalSearchInput');
+                    const clearBtn = document.getElementById('modalSearchClear');
+                    if (searchInput) searchInput.value = '';
+                    if (clearBtn) clearBtn.style.display = 'none';
+                    const header = document.getElementById('modalHeader');
+                    header.innerHTML = `
+                        <span>📚 Research Articles</span>
+                        <button class="modal-close" onclick="closeModal()">&times;</button>
+                    `;
+
+                    const filters = document.querySelector('.modal-filters');
+                    renderFilteredArticles();
+                } else {
+                    list.innerHTML = `
+                        <div style="padding: 40px; text-align: center; color: #ef4444;">
+                            ❌ Error loading articles: ${data.error || 'Unknown error'}
+                        </div>
+                    `;
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching all articles:', error);
+                list.innerHTML = `
+                    <div style="padding: 40px; text-align: center; color: #ef4444;">
+                        ❌ Error loading articles from database
+                    </div>
+                `;
+            });
+        }
+
+        function renderFilteredArticles() {
+            const list = document.getElementById('modalArticlesList');
+            let articlesToShow = [...currentArticles];
+
+            if (currentSearchKeyword) {
+                const searchLower = currentSearchKeyword.toLowerCase();
+                articlesToShow = articlesToShow.filter(article => {
+                    const title = (article.title || '').toLowerCase();
+                    const summary = (article.summary || '').toLowerCase();
+                    const source = (article.source || '').toLowerCase();
+                    return title.includes(searchLower) ||
+                           summary.includes(searchLower) ||
+                           source.includes(searchLower);
+                });
+            }
+
+            if (currentFilter === 'boosted') {
+                articlesToShow = articlesToShow.filter(article =>
+                    (article.boost_score || 0) > 0
+                );
+            }
+
+            if (currentFilter === 'starred') {
+                articlesToShow = articlesToShow.filter(article =>
+                    (article.starred || 0) === 1
+                );
+            }
+
+            if (currentSort === 'score') {
+                articlesToShow.sort((a, b) => (b.total_relevance || b.relevance_score || 0) - (a.total_relevance || a.relevance_score || 0));
+            } else if (currentSort === 'recent') {
+                articlesToShow.sort((a, b) => new Date(b.published_date) - new Date(a.published_date));
+            }
+
+            updateModalHeaderWithSearch();
+
+            list.innerHTML = '';
+
+            articlesToShow.forEach((article, index) => {
+                const articleDiv = document.createElement('div');
+                articleDiv.className = 'article-item';
+
+                articleDiv.innerHTML = `
+                    <div class="article-title">${escapeHtml(article.title || 'Untitled')}</div>
+                    <div class="article-meta">
+                        <span class="relevance-score">Score: ${(article.total_relevance || article.relevance_score || 0).toFixed(1)}</span>
+                        ${(article.boost_score || 0) > 0 ? `<span class="boost-score">+${article.boost_score}</span>` : ''}
+                        <span>${escapeHtml(article.source || 'Unknown source')}</span>
+                        <span>${article.published_date ? new Date(article.published_date).toLocaleDateString() : 'Unknown date'}</span>
+                    </div>
+                    <div class="article-summary">${escapeHtml(((article.summary || 'No summary available').substring(0, 200)))}...</div>
+                    <div class="article-actions">
+                        <a href="${escapeHtml(article.url || '#')}" target="_blank" class="btn btn-primary">📖 Read Article</a>
+                        <button class="btn btn-secondary discuss-btn">💬 Discuss</button>
+                        <button class="star-btn ${(article.starred || 0) === 1 ? 'active' : ''}" onclick="toggleStar('${escapeHtml(article.url || '')}', this)">Favorite</button>
+                    </div>
+                `;
+
+                const discussBtn = articleDiv.querySelector('.discuss-btn');
+                discussBtn.addEventListener('click', function() {
+                    discussArticle(article);
+                    closeModal();
+                });
+
+                list.appendChild(articleDiv);
+            });
+            
+            // Add "Check for New Content" button if showing existing results
+            if (currentArticles.length > 0 && !document.getElementById('refreshContentContainer')) {
+                const refreshContainer = document.createElement('div');
+                refreshContainer.id = 'refreshContentContainer';
+                refreshContainer.innerHTML = `
+                    <div style="padding: 15px; background: #f8fafc; border-radius: 8px; margin-bottom: 15px; text-align: center; border: 1px solid #e2e8f0;">
+                        <p style="margin: 0 0 10px 0; color: #64748b; font-size: 14px;">Looking for more recent articles?</p>
+                        <button onclick="checkForContent()" class="btn btn-primary" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                            🔄 Check for New Content
+                        </button>
+                    </div>
+                `;
+                list.insertBefore(refreshContainer, list.firstChild);
+            }
+        }
+
+        function updateModalHeaderWithSearch() {
+            const header = document.getElementById('modalHeader');
+            const headerSpan = header.querySelector('span');
+            if (!headerSpan) return;
+
+            let baseTitle = '📚 Research Articles';
+
+            // Apply current filters to get accurate count
+            let filteredArticles = [...currentArticles];
+
+            // Apply search filter
+            if (currentSearchKeyword) {
+                const searchLower = currentSearchKeyword.toLowerCase();
+                filteredArticles = filteredArticles.filter(article => {
+                    const title = (article.title || '').toLowerCase();
+                    const summary = (article.summary || '').toLowerCase();
+                    const source = (article.source || '').toLowerCase();
+                    return title.includes(searchLower) ||
+                           summary.includes(searchLower) ||
+                           source.includes(searchLower);
+                });
+            }
+
+            // Apply boost filter
+            if (currentFilter === 'boosted') {
+                filteredArticles = filteredArticles.filter(article =>
+                    (article.boost_score || 0) > 0
+                );
+            }
+
+            // Apply starred filter
+            if (currentFilter === 'starred') {
+                filteredArticles = filteredArticles.filter(article =>
+                    (article.starred || 0) === 1
+                );
+            }
+
+            // Build title with count and filters
+            const filterText = currentFilter === 'boosted' ? 'Boosted' :
+                               currentFilter === 'starred' ? 'Starred' : 'All';
+            const sortText = currentSort === 'score' ? 'by Score' : 'by Date';
+
+            let titleWithInfo = `${baseTitle} (${filteredArticles.length}) - ${filterText} - Sorted ${sortText}`;
+
+            if (currentSearchKeyword) {
+                titleWithInfo += ` - Search: "${currentSearchKeyword}"`;
+            }
+
+            headerSpan.textContent = titleWithInfo;
+        }
+
+        function checkForContent() {
+            closeModal();
+            startWhatsGoingOn(true);
+        }
+
+        // =============================================================================
+        // SEARCH FUNCTIONALITY
+        // =============================================================================
+
+        function quickSearch() {
+            const input = document.getElementById('quickSearchInput');
+            const query = input.value.trim();
+
+            if (!query) return;
+
+            currentSearchQuery = query;
+            
+            showSearchStatus(true, `Searching for: "${query}"`);
+            
+            const btn = document.getElementById('quickSearchBtn') || document.querySelector('.search-btn');
+            if (btn) btn.disabled = true;
+            input.disabled = true;
+
+            fetch('/api/research-agent/search', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: sessionId,
+                    query: query,
+                    max_results: 10
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'started') {
+                    addMessage('assistant', `🌐 **Internet Search Started**\n\nSearching for: "${query}"\n\nAnalyzing results...`);
+                    pollSearchProgress();
+                } else {
+                    showSearchStatus(false);
+                    addMessage('assistant', `❌ **Search Error**\n\n${data.error || 'Unknown error occurred'}`);
+                    enableSearchControls();
+                }
+            })
+            .catch(error => {
+                showSearchStatus(false);
+                console.error('Search error:', error);
+                addMessage('assistant', '❌ **Search Error**\n\nFailed to start internet search. Please try again.');
+                enableSearchControls();
+            });
+        }
+
+        function enableSearchControls() {
+            const btn = document.getElementById('quickSearchBtn') || document.querySelector('.search-btn');
+            const input = document.getElementById('quickSearchInput');
+            if (btn) btn.disabled = false;
+            if (input) {
+                input.disabled = false;
+                input.value = '';
+            }
+        }
+
+        function pollSearchProgress() {
+            const pollInterval = setInterval(() => {
+                fetch(`/api/research-agent/search-progress/${sessionId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.completed) {
+                            clearInterval(pollInterval);
+                            showSearchStatus(false);
+                            enableSearchControls();
+
+                            if (data.success) {
+                                if (data.result && data.result.response) {
+                                    addMessage('assistant', data.result.response);
+                                }
+
+                                let searchResults = null;
+                                if (data.result && data.result.search_results) {
+                                    searchResults = data.result.search_results;
+                                } else if (data.search_results) {
+                                    searchResults = data.search_results;
+                                } else if (data.results) {
+                                    searchResults = data.results;
+                                }
+
+                                if (searchResults && searchResults.length > 0) {
+                                    window.currentSearchResults = searchResults;
+                                    showSearchTable({
+                                        type: 'show_search_results',
+                                        results: searchResults
+                                    });
+                                } else {
+                                    addMessage('assistant', '🔍 **Search Complete**\n\nNo relevant results found for your query. Try different search terms.');
+                                }
+                            } else {
+                                addMessage('assistant', `❌ **Search Failed**\n\n${data.error || 'Unknown error occurred'}`);
+                            }
+                        } else {
+                            showSearchStatus(true, `Searching for: "${currentSearchQuery}" - analyzing results...`);
+                        }
+                    })
+                    .catch(error => {
+                        clearInterval(pollInterval);
+                        showSearchStatus(false);
+                        enableSearchControls();
+                        console.error('Search progress error:', error);
+                        addMessage('assistant', '❌ **Search Error**\n\nError monitoring search progress.');
+                    });
+            }, 2000);
+        }
+
+        function showSearchTable(action) {
+            if (!action || !action.results || action.results.length === 0) {
+                return;
+            }
+
+            const resultsHtml = action.results.map((result, index) => {
+                const title = result.title || result.headline || 'Untitled';
+                const summary = result.ai_summary || result.snippet || result.summary || 'No summary available';
+                const source = result.source || result.domain || 'Unknown source';
+                const url = result.url || result.link || '#';
+                const relevanceScore = result.relevance_score || result.score || 0;
+
+                return `
+                    <div class="search-item" style="border: 1px solid #e5e7eb; border-radius: 4px; padding: 2px; margin-bottom: 2px; background: white; line-height: 1.2;">
+                        <div class="search-title" style="font-weight: 600; color: #1f2937; margin-bottom: 2px; font-size: 0.85em; padding-left: 8px; padding-right: 8px;">${escapeHtml(title)}</div>
+                        <div class="search-meta" style="display: flex; align-items: center; gap: 5px; margin-bottom: 2px; font-size: 0.75em; color: #6b7280;">
+                            <p>Source: 🌐 Internet</p>
+                            <a href="${escapeHtml(url)}" target="_blank" class="btn btn-primary" style="background: linear-gradient(135deg, #1e3a8a, #1e40af); color: white; text-decoration: none; border-radius: 4px; font-size: 0.8em; padding: 6px 12px;">Visit site</a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            addMessage('assistant', `🌐 **Search Results**\n\n${resultsHtml}`);
+        }
+
+        function showSearchStatus(show, text = '') {
+            const status = document.getElementById('searchStatus');
+            const statusText = document.getElementById('searchStatusText');
+            
+            if (status) {
+                if (text && statusText) statusText.textContent = text;
+                status.classList.toggle('show', show);
+            }
+        }
+
+        // =============================================================================
+        // SYSTEM FUNCTIONS
+        // =============================================================================
+
+        function refreshArticles() {
+            fetchAllArticles();
+        }
+
+        function hideAllTables() {
+            document.getElementById('articlesTable')?.classList.remove('show');
+            document.getElementById('searchTable')?.classList.remove('show');
+        }
+
+        function checkSystemStatus() {
+            async function checkNewsSourcesConfig() {
+                try {
+                    const response = await fetch('/api/interests');
+                    return response.ok;
+                } catch {
+                    return false;
+                }
+            }
+
+            async function checkTodaysAnalysis() {
+                try {
+                    const today = new Date().toLocaleDateString('en-CA').replace(/-/g, '');
+                    const filename = `current_events_analysis_${today}.json`;
+                    const response = await fetch(`/api/download/${filename}?source=topics`, {
+                        method: 'HEAD'
+                    });
+                    return response.ok;
+                } catch (error) {
+                    console.error('Error checking today\'s analysis:', error);
+                    return false;
+                }
+            }
+
+            async function checkDatabaseReady() {
+                try {
+                    const response = await fetch('/api/research-agent/all-articles', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            session_id: generateSessionId() + '_health',
+                            limit: 1
+                        })
+                    });
+                    return response.ok;
+                } catch {
+                    return false;
+                }
+            }
+
+            function updateStatusDot(id, isReady) {
+                const dot = document.getElementById(id);
+                if (dot) {
+                    dot.className = isReady ? 'status-dot ready' : 'status-dot pending';
+                }
+            }
+
+            // Execute status checks
+            Promise.all([
+                checkNewsSourcesConfig(),
+                checkTodaysAnalysis(), 
+                checkDatabaseReady()
+            ]).then(([sourcesExists, analysisExists, dbExists]) => {
+                updateStatusDot('sourcesStatus', sourcesExists);
+                updateStatusDot('analysisStatus', analysisExists);
+                updateStatusDot('databaseStatus', dbExists);
+            }).catch(error => {
+                console.error('❌ Status check failed:', error);
+                updateStatusDot('sourcesStatus', false);
+                updateStatusDot('analysisStatus', false);
+                updateStatusDot('databaseStatus', false);
+            });
+        }
+
+        function setupEventListeners() {
+            const input = document.getElementById('messageInput');
+            const sendBtn = document.getElementById('sendBtn');
+            const quickSearchInput = document.getElementById('quickSearchInput');
+
+            if (input) {
+                input.addEventListener('input', function() {
+                    this.style.height = 'auto';
+                    this.style.height = Math.min(this.scrollHeight, 100) + 'px';
+                });
+
+                input.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        sendMessage();
+                    }
+                });
+            }
+
+            if (quickSearchInput) {
+                quickSearchInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        quickSearch();
+                    }
+                });
+            }
+
+            document.addEventListener('keydown', function(e) {
+                if (e.ctrlKey && e.shiftKey && e.key === 'R') {
+                    console.log('🔧 Manual recovery triggered via Ctrl+Shift+R');
+                    enableInput();
+                    showThinking(false);
+                    addMessage('assistant', '🔧 **Manual Recovery**\n\nSystem manually reset. You can continue chatting. Press Ctrl+Shift+R again if needed.');
+                }
+            });
+            setupModalEventListeners();
+        }
+
+        function updateState(state) {
+            currentState = state;
+        }
+
+        function handleActions(actions) {
+            if (!actions) return;
+
+            actions.forEach((action, index) => {
+                switch(action.type) {
+                    case 'show_articles_table':
+                        showArticlesTable(action);
+                        break;
+                    case 'show_search_results':
+                        showSearchTable(action);
+                        break;
+                    case 'start_internet_search':
+                        startInternetSearch(action.query);
+                        break;
+                    case 'load_interests':
+                        break;
+                    case 'show_existing_results_modal':
+                        if (action.articles && action.articles.length > 0) {
+                            const filters = document.querySelector('.modal-filters');
+                            const header = document.getElementById('modalHeader');
+                            header.innerHTML = `
+                                <span>📚 Research Articles</span>
+                                <button class="modal-close" onclick="closeModal()">&times;</button>
+                            `;
+                            currentArticles = action.articles;
+                            openModal();
+                            renderFilteredArticles();
+                        }
+                        break;
+                }
+            });
+        }
+
+        function showArticlesTable(action) {
+            const filters = document.querySelector('.modal-filters');
+            const header = document.getElementById('modalHeader');
+            if (header) {
+                header.innerHTML = `
+                    <span>📚 Loading Articles...</span>
+                    <button class="modal-close" onclick="closeModal()">&times;</button>
+                `;
+            }
+
+            currentFilter = 'all';
+            currentSort = 'score';
+
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === 'all');
+            });
+            document.querySelectorAll('.sort-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.sort === 'score');
+            });
+
+            hideAllTables();
+            openModal();
+
+            const list = document.getElementById('modalArticlesList');
+            list.innerHTML = `
+                <div style="padding: 40px; text-align: center; color: #6b7280;">
+                    <div class="progress-spinner" style="margin: 0 auto 10px;"></div>
+                    Loading all articles from database...
+                </div>
+            `;
+
+            fetchAllArticles();
+        }
+
+        function startInternetSearch(query) {
+            currentSearchQuery = query;
+            showSearchStatus(true, `Searching for: "${query}"`);
+            
+            fetch('/api/research-agent/search', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: sessionId,
+                    query: query,
+                    max_results: 10
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'started') {
+                    pollSearchProgress();
+                } else {
+                    showSearchStatus(false);
+                    addMessage('assistant', `❌ Error starting search: ${data.message}`);
+                }
+            })
+            .catch(error => {
+                showSearchStatus(false);
+                addMessage('assistant', '❌ Error starting internet search');
+            });
+        }
+
+        function pollChainProgress(sessionId) {
+            if (!sessionId) {
+                console.error('No session ID provided for chain progress polling');
+                return;
+            }
+
+            console.log(`🔍 Starting chain progress polling for session: ${sessionId}`);
+
+            const pollInterval = setInterval(() => {
+                fetch(`/api/chain/progress/${sessionId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(`📊 Chain progress update:`, data);
+
+                        // Handle completion
+                        if (data.status === 'completed') {
+                            clearInterval(pollInterval);
+                            console.log(`✅ Chain completed for session ${sessionId}`);
+
+                            // Handle different operation types
+                            const operation = data.operation || 'unknown';
+
+                            if (operation === 'whats_going_on') {
+                                handleWhatsGoingOnCompletion(data);
+                            } else if (operation === 'week_review') {
+                                if (data.result_data) {
+                                    handleWeekReviewCompletion(data.result_data);
+                                } else {
+                                    checkForExistingWeekReview();
+                                }
+                            } else if (operation === 'daily_podcast') {
+                                if (data.result_data) {
+                                    displayPodcastFiles();
+                                } else {
+                                    addMessage('assistant', '✅ **Podcast Generation Complete**\n\nFiles should be available for download.');
+                                }
+                            } else if (operation === 'force_refresh') {
+                                handleForceRefreshCompletion(data);
+                            } else {
+                                // Generic completion
+                                addMessage('assistant', '✅ **Operation Complete**\n\nThe requested operation has finished.');
+                            }
+
+                            enableInput();
+                            isOperationRunning = false;
+                            return;
+                        }
+
+                        // Handle errors
+                        if (data.status === 'error') {
+                            clearInterval(pollInterval);
+                            console.error(`❌ Chain error for session ${sessionId}:`, data.error);
+
+                            const operation = data.operation || 'Operation';
+                            addMessage('assistant', `❌ **${operation} Failed**\n\n${data.error || 'Unknown error occurred'}`);
+
+                            enableInput();
+                            isOperationRunning = false;
+                            return;
+                        }
+
+                        // Handle running status with progress updates
+                        if (data.status === 'running' && data.message) {
+                            const progressMsg = data.percentage ?
+                                `⏳ **${data.message}** (${data.percentage}%)` :
+                                `⏳ **${data.message}**`;
+
+                            console.log(`🔄 Progress: ${progressMsg}`);
+                        }
+
+                        // Continue polling for 'running' or other non-terminal states
+                    })
+                    .catch(error => {
+                        console.error(`❌ Chain progress polling error for ${sessionId}:`, error);
+                        // Don't stop polling on fetch errors - might be temporary
+                    });
+            }, 2000); // Poll every 2 seconds
+
+            // Timeout after 10 minutes
+            setTimeout(() => {
+                clearInterval(pollInterval);
+                console.log(`⏰ Chain progress polling timeout for session ${sessionId}`);
+
+                if (isOperationRunning) {
+                    addMessage('assistant', '⏰ **Operation Timeout**\n\nThe operation took longer than expected. It may still be running in the background.');
+                    enableInput();
+                    isOperationRunning = false;
+                }
+            }, 600000); // 10 minutes
+        }
+
+        function pollFrontendMessages(operationType = null, sessionId = null) {
+            fetch('/api/frontend-messages')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.messages && data.messages.length > 0) {
+                        data.messages.forEach(msg => {
+                            // Filter: only process messages for THIS session/operation
+                            if (sessionId && msg.session_id && msg.session_id !== sessionId) {
+                                return; // Skip messages from other sessions
+                            }
+
+                            if (operationType && msg.chain_flag && msg.chain_flag !== operationType) {
+                                return; // Skip messages from other operations
+                            }
+                            // Create the single message box on first message
+                            if (!singleProgressMessageElement) {
+                                singleProgressMessageElement = addMessage('assistant', '');
+                                singleProgressMessageElement.classList.add('progress-message-box');
+                                allProgressContent = '';
+                            }
+
+                            allProgressContent += msg.content + '\n';
+                            updateMessageContent(singleProgressMessageElement, allProgressContent);
+
+                            // Handle podcast-specific completion
+                             if (msg.content && msg.content.includes('podcast generation completed')) {
+                                console.log('🎙️ 100% completion detected:', msg.content);
+
+                                // Reset state
+                                enableInput();
+                                isOperationRunning = false;
+
+                                // Reset progress variables
+                                singleProgressMessageElement = null;
+                                allProgressContent = '';
+
+                                // Display the podcast files
+                                displayPodcastFiles();
+                             }
+                        });
+                    }
+                })
+                .catch(error => {
+                    // Silent fail for polling
+                });
+        }
+
+        // Helper completion handlers
+        function handleWhatsGoingOnCompletion(data) {
+            if (data.result_data && data.result_data.show_modal) {
+                // Force refresh completed - show articles modal
+                addMessage('assistant', '✅ **Content Analysis Complete**\n\nOpening updated articles database...');
+                proceedToTodaysResearch();
+            } else {
+                addMessage('assistant', '✅ **Analysis Complete**\n\nCurrent events analysis has finished successfully.');
+            }
+        }
+
+        function handleForceRefreshCompletion(data) {
+            addMessage('assistant', '✅ **Content Refresh Complete**\n\nNew articles have been collected and analyzed. Opening updated database...');
+            openModal();
+            fetchAllArticles();
+        }
+
+        // Add this function to detect and make URLs clickable
+        function makeUrlsClickable(text) {
+            const urlRegex = /(https?:\/\/[^\s<>"{}|\\^`\[\]]+)/g;
+            return text.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener noreferrer" class="url-link">$1</a>');
+        }
+
+        // =============================================================================
+        // WEEK REVIEW FUNCTIONS - Add these to index.html
+        // =============================================================================
+
+        function pollWeekReviewProgress(sessionId) {
+            if (!sessionId) return;
+
+            const pollInterval = setInterval(() => {
+                fetch(`/api/chain/progress/${sessionId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'completed') {
+                            clearInterval(pollInterval);
+
+                            if (data.error) {
+                                addMessage('assistant', `❌ **Week Review Failed**\n\n${data.error}`);
+                                enableInput();
+                                isOperationRunning = false;
+                            } else if (data.result_data) {
+                                handleWeekReviewCompletion(data.result_data);
+                            } else {
+                                // Check for existing week review file
+                                checkForExistingWeekReview();
+                            }
+                        } else if (data.status === 'error') {
+                            clearInterval(pollInterval);
+                            addMessage('assistant', `❌ **Week Review Failed**\n\n${data.error || 'Unknown error'}`);
+                            enableInput();
+                            isOperationRunning = false;
+                        }
+                        // Continue polling if status is 'running'
+                    })
+                    .catch(error => {
+                        console.error('Week review polling error:', error);
+                    });
+            }, 2000);
+
+            // Timeout after 10 minutes
+            setTimeout(() => {
+                clearInterval(pollInterval);
+                if (isOperationRunning) {
+                    checkForExistingWeekReview(); // Fallback to check for completed file
+                }
+            }, 600000);
+        }
+
+        function checkForExistingWeekReview() {
+            const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+            const filename = `week_review_${today}.json`;
+
+            fetch(`/api/download/${filename}?source=topics&read=true`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.content) {
+                        handleWeekReviewCompletion(data.content);
+                    } else {
+                        addMessage('assistant', '⚠️ **Week Review Completed**\n\nAnalysis finished but results may not be ready yet. Please try again in a moment.');
+                        enableInput();
+                        isOperationRunning = false;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error checking for week review file:', error);
+                    addMessage('assistant', '⚠️ **Week Review Status Unknown**\n\nPlease try running Week Review again.');
+                    enableInput();
+                    isOperationRunning = false;
+                });
+        }
+
+        function handleWeekReviewCompletion(resultData) {
+            let completionMessage = `✅ **Week in Review Complete!**\n\n`;
+            completionMessage += `📅 **Analysis Period**: ${resultData.date_range}\n`;
+            completionMessage += `📊 **Days Analyzed**: ${resultData.total_days_analyzed}\n`;
+            completionMessage += `🔍 **Keywords Found**: ${Object.keys(resultData.keyword_counts || {}).length}\n`;
+            completionMessage += `📈 **Trends Found**: ${Object.keys(resultData.trend_counts || {}).length}\n\n`;
+            completionMessage += `📊 **Detailed analysis opened in modal window - view word clouds and full report!**`;
+
+            addMessage('assistant', completionMessage);
+
+            showWeekReviewModal(resultData);
+
+            enableInput();
+            isOperationRunning = false;
+        }
+
+        function showCachedWeekReview(data) {
+            const generatedDate = new Date(data.generated_date).toLocaleDateString();
+
+            let completionMessage = `✅ **Week in Review Already Generated!**\n\n`;
+            completionMessage += `📅 **Analysis Period**: ${data.date_range}\n`;
+            completionMessage += `📊 **Days Analyzed**: ${data.total_days_analyzed}\n`;
+            completionMessage += `🔍 **Keywords Found**: ${Object.keys(data.keyword_counts || {}).length}\n`;
+            completionMessage += `📈 **Trends Found**: ${Object.keys(data.trend_counts || {}).length}\n`;
+            completionMessage += `📄 **Generated**: ${generatedDate}\n\n`;
+            completionMessage += `*Analysis loaded from cache - no processing time needed!*\n\n`;
+            completionMessage += `📊 **Detailed analysis opened in modal window - view word clouds and full report!**`;
+
+            addMessage('assistant', completionMessage);
+
+            showWeekReviewModal(data);
+
+            enableInput();
+            isOperationRunning = false;
+        }
+
+        function showWeekReviewModal(data) {
+            window.currentWeekReviewData = data;
+            const header = document.getElementById('modalHeader');
+            header.innerHTML = `
+                <span>📊 Week in Review: ${data.date_range}</span>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            `;
+
+            const filters = document.querySelector('.modal-filters');
+            if (filters) {
+                filters.style.display = 'none';
+            }
+
+            const list = document.getElementById('modalArticlesList');
+            list.innerHTML = `
+                <div class="week-review-modal-content" id="weekReviewPrintContent">
+                    <div class="week-review-header">
+                        <h1>📊 Week in Review Analysis</h1>
+                        <h2>${data.date_range}</h2>
+                        <div class="week-review-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">${data.total_days_analyzed}</span>
+                                <span class="stat-label">Days Analyzed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">${Object.keys(data.keyword_counts || {}).length}</span>
+                                <span class="stat-label">Keywords Found</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">${Object.keys(data.trend_counts || {}).length}</span>
+                                <span class="stat-label">Trends Found</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="week-review-section">
+                        <h3>📝 Weekly Summary</h3>
+                        <div class="summary-content">
+                            ${formatWeeklySummary(data.weekly_summary)}
+                        </div>
+                    </div>
+                        <div class="word-clouds-container">
+                            <div class="word-cloud-column">
+                                <h3>🔍 Top Keywords</h3>
+                                <div class="word-cloud-modal" id="keywordCloudModal"></div>
+                                <div class="word-cloud-stats-modal">
+                                    <strong>${Object.keys(data.keyword_counts || {}).length}</strong> unique keywords •
+                                    <strong>${Object.values(data.keyword_counts || {}).reduce((a, b) => a + b, 0)}</strong> total mentions
+                                </div>
+                                <div class="data-table">
+                                    <table class="frequency-table">
+                                        <thead>
+                                            <tr><th>Keyword</th><th>Mentions</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            ${Object.entries(data.keyword_counts || {}).sort(([,a], [,b]) => b - a).slice(0, 20).map(([keyword, count]) =>
+                                                `<tr><td>${escapeHtml(keyword)}</td><td>${count}</td></tr>`
+                                            ).join('')}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="word-cloud-column">
+                                <h3>📈 Trending Topics</h3>
+                                <div class="word-cloud-modal" id="trendCloudModal"></div>
+                                <div class="word-cloud-stats-modal">
+                                    <strong>${Object.keys(data.trend_counts || {}).length}</strong> unique trends •
+                                    <strong>${Object.values(data.trend_counts || {}).reduce((a, b) => a + b, 0)}</strong> total mentions
+                                </div>
+                                <div class="data-table">
+                                    <table class="frequency-table">
+                                        <thead>
+                                            <tr><th>Topic</th><th>Mentions</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            ${Object.entries(data.trend_counts || {}).sort(([,a], [,b]) => b - a).slice(0, 20).map(([trend, count]) =>
+                                                `<tr><td>${escapeHtml(trend)}</td><td>${count}</td></tr>`
+                                            ).join('')}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            `;
+
+            // Generate word clouds after DOM is ready
+            setTimeout(() => {
+                generateWordCloudInModal('keywordCloudModal', data.keyword_counts, 'keywords');
+                generateWordCloudInModal('trendCloudModal', data.trend_counts, 'trends');
+                const dataTables = document.querySelectorAll('.data-table');
+                dataTables.forEach(table => {
+                    table.classList.add('show');
+                });
+            }, 150);
+
+            // Set up resize observer for responsive word clouds
+            if (window.ResizeObserver) {
+                const modalContainer = document.getElementById('modalContainer');
+                if (modalContainer) {
+                    // Clear any existing observer
+                    if (window.currentResizeObserver) {
+                        window.currentResizeObserver.disconnect();
+                    }
+
+                    const resizeObserver = new ResizeObserver((entries) => {
+                        if (window.currentWeekReviewData && isModalOpen) {
+                            // Debounce resize events for better performance
+                            clearTimeout(window.wordCloudResizeTimeout);
+                            window.wordCloudResizeTimeout = setTimeout(() => {
+                                // Check if word cloud containers exist before regenerating
+                                const keywordContainer = document.getElementById('keywordCloudModal');
+                                const trendContainer = document.getElementById('trendCloudModal');
+
+                                if (keywordContainer) {
+                                    generateWordCloudInModal('keywordCloudModal', window.currentWeekReviewData.keyword_counts, 'keywords');
+                                }
+                                if (trendContainer) {
+                                    generateWordCloudInModal('trendCloudModal', window.currentWeekReviewData.trend_counts, 'trends');
+                                }
+                            }, 150); // Reduced timeout for more responsive feel
+                        }
+                    });
+                    resizeObserver.observe(modalContainer);
+                    window.currentResizeObserver = resizeObserver;
+                }
+            }
+            openModal();
+        }
+
+        function formatWeeklySummary(summary) {
+            if (!summary) return '<p>No summary available</p>';
+
+            const processed = summary.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            const lines = processed.split(/\n/).map(line => line.trim()).filter(line => line);
+
+            let result = '';
+            let currentSection = '';
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                const hasStrong = line.includes('<strong>');
+
+                if (hasStrong) {
+                    // Close previous section if exists
+                    if (currentSection) {
+                        result += `<div class="summary-section">${currentSection}</div>`;
+                    }
+                    // Start new section
+                    currentSection = `<h4 class="summary-header">${line}</h4>`;
+                } else {
+                    // Add content to current section
+                    currentSection += `<p class="summary-text">${line}</p>`;
+                }
+            }
+
+            // Close final section
+            if (currentSection) {
+                result += `<div class="summary-section">${currentSection}</div>`;
+            }
+
+            return result;
+        }
+
+        function generateWordCloudInModal(containerId, wordData, type) {
+            const container = document.getElementById(containerId);
+
+            if (!wordData || Object.keys(wordData).length === 0) {
+                container.innerHTML = `<div style="padding: 40px; text-align: center; color: #6b7280;">No ${type} data available</div>`;
+                return;
+            }
+
+            // Wait for container to be rendered, then get dimensions
+            setTimeout(() => {
+                const containerRect = container.getBoundingClientRect();
+                const availableWidth = Math.max(300, containerRect.width - 40);
+                const availableHeight = Math.max(250, containerRect.height - 40);
+
+                container.innerHTML = '';
+
+                const words = Object.entries(wordData).slice(0, 50).map(([text, size]) => ({
+                    text: text,
+                    size: Math.max(10, Math.min(28, size * (availableWidth / 400) * 3))
+                }));
+
+                const colorScale = d3.scaleOrdinal(
+                    type === 'keywords'
+                        ? ['#667eea', '#764ba2', '#4facfe', '#00f2fe', '#667eea']
+                        : ['#f093fb', '#f5576c', '#ff6b6b', '#4ecdc4', '#45b7d1']
+                );
+
+                const svg = d3.select(container)
+                    .append('svg')
+                    .attr('width', '100%')
+                    .attr('height', '100%')
+                    .attr('viewBox', `0 0 ${availableWidth} ${availableHeight}`)
+                    .style('max-width', '100%')
+                    .style('max-height', '100%');
+
+                const g = svg.append('g')
+                    .attr('transform', `translate(${availableWidth/2},${availableHeight/2})`);
+
+                const layout = d3.layout.cloud()
+                    .size([availableWidth, availableHeight])
+                    .words(words)
+                    .padding(3)
+                    .rotate(() => ~~(Math.random() * 2) * 90)
+                    .font('Impact')
+                    .fontSize(d => d.size)
+                    .on('end', draw);
+
+                layout.start();
+
+                function draw(words) {
+                    g.selectAll('text')
+                        .data(words)
+                        .enter().append('text')
+                        .style('font-size', d => d.size + 'px')
+                        .style('font-family', 'Impact')
+                        .style('fill', (d, i) => colorScale(i))
+                        .style('cursor', 'pointer')
+                        .attr('text-anchor', 'middle')
+                        .attr('transform', d => `translate(${d.x},${d.y})rotate(${d.rotate})`)
+                        .text(d => d.text)
+                        .on('mouseover', function(event, d) {
+                            d3.select(this)
+                                .transition()
+                                .duration(200)
+                                .style('opacity', 0.7);
+                        })
+                        .on('mouseout', function(event, d) {
+                            d3.select(this)
+                                .transition()
+                                .duration(200)
+                                .style('opacity', 1);
+                        });
+                }
+            }, 100);
+        }
+
+        // =============================================================================
+        // PODCAST FUNCTIONS (if needed for standalone podcast generation)
+        // =============================================================================
+
+        function pollPodcastProgress(sessionId) {
+            if (!sessionId) return;
+
+            const pollInterval = setInterval(() => {
+                fetch(`/api/chain/progress/${sessionId}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'completed') {
+                            clearInterval(pollInterval);
+
+                            if (data.error) {
+                                addMessage('assistant', `❌ **Podcast Generation Failed**\n\n${data.error}`);
+                                enableInput();
+                                isOperationRunning = false;
+                            } else if (data.result_data) {
+                                displayPodcastFiles();
+                            } else {
+                                addMessage('assistant', '✅ <strong>Podcast Generation Complete</strong>\n\nFiles should be available for download.');
+                                enableInput();
+                                isOperationRunning = false;
+                            }
+                        } else if (data.status === 'error') {
+                            clearInterval(pollInterval);
+                            addMessage('assistant', `❌ **Podcast Generation Failed**\n\n${data.error || 'Unknown error'}`);
+                            enableInput();
+                            isOperationRunning = false;
+                        }
+                        // Continue polling if status is 'running'
+                    })
+                    .catch(error => {
+                        console.error('Podcast polling error:', error);
+                    });
+            }, 2000);
+
+            // Timeout after 10 minutes
+            setTimeout(() => {
+                clearInterval(pollInterval);
+                if (isOperationRunning) {
+                    addMessage('assistant', '⏰ **Podcast Generation Timeout**\n\nProcess took longer than expected. Files may still be generating.');
+                    enableInput();
+                    isOperationRunning = false;
+                }
+            }, 600000);
+        }
+
+        async function displayPodcastFiles() {
+            const today = new Date().toLocaleDateString('en-CA').replace(/-/g, '');
+            const scriptFile = `podcast_${today}.txt`;
+            const audioFile = `podcast_${today}.mp3`;
+
+            try {
+                // Check if file exists
+                const response = await fetch(`/api/download/${scriptFile}?source=podcasts`, {
+                    method: 'HEAD'
+                });
+
+                if (!response.ok) {
+                    console.error('Today\'s podcast not found');
+                    return false;
+                }
+
+                console.log('Found today\'s podcast');
+
+                // Fetch file contents
+                const fileResponse = await fetch(`/api/download/${scriptFile}?source=podcasts`);
+                if (!fileResponse.ok) {
+                    throw new Error('Current events file not found');
+                }
+
+                const podcastInfo = await fileResponse.text();
+                const lines = podcastInfo.split('\n');
+
+                const podcastTitle = lines[0]?.replace('Title: ', '').replace(/^"|"$/g, '') || 'Daily Podcast';
+                const podcastDesc = lines[1]?.replace('Description: ', '') || '';
+                const podcastLength = lines[2]?.replace('Length: ', '') || '';
+                const podcastDate = lines[3]?.replace('Date: ', '') || '';
+
+                let message = `<strong>${podcastTitle}</strong>\n`;
+                message += `${podcastDesc}\n\n`;
+                message += `Listening Time: <strong>${podcastLength}</strong>\n`;
+                message += `Created on: <strong>${podcastDate}</strong>`;
+
+                // Create the buttons HTML
+                const buttonsHTML = `
+                <div style="display: flex; gap: 10px; margin-top: 15px;">
+                    <button onclick="togglePodcastPlayer('${audioFile}', this)"
+                            class="podcast-listen-btn"
+                            data-audio-file="${audioFile}">
+                        🎧 Listen
+                    </button>
+                    <a href="/api/download/${audioFile}?source=podcasts"
+                       class="podcast-download-btn"
+                       download>
+                        📥 Download
+                    </a>
+                    <button onclick="createNewPodcast()"
+                            class="podcast-listen-btn"
+                            style="background: linear-gradient(135deg, #a855f7, #9333ea);">
+                        🔄 Create New Podcast
+                    </button>
+                </div>
+                `;
+                // Embedded player HTML
+                const embeddedPlayerHTML = `
+                <div id="player-${audioFile.replace(/[^a-zA-Z0-9]/g, '')}" class="podcast-player" style="display: none;">
+                    <audio controls style="width: 100%; max-width: 100%;">
+                        <source src="/api/download/${audioFile}?source=podcasts" type="audio/mpeg">
+                        <source src="/api/download/${audioFile}?source=podcasts" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                `;
+
+                // Add the message first
+                const messageElement = addMessage('assistant', message);
+
+                // Insert the buttons after the message content
+                const messageContent = messageElement.querySelector('.message-content');
+                messageContent.insertAdjacentHTML('beforeend', buttonsHTML);
+                messageContent.insertAdjacentHTML('beforeend', embeddedPlayerHTML);
+
+                enableInput();
+                isOperationRunning = false;
+
+            } catch (error) {
+                console.error('Error checking today\'s podcast:', error);
+                return false;
+            }
+        }
+
+        function togglePodcastPlayer(filename, button) {
+            // Generate consistent ID by sanitizing filename
+            const playerId = 'player-' + filename.replace(/[^a-zA-Z0-9]/g, '');
+            const player = document.getElementById(playerId);
+
+            if (!player) {
+                console.error(`Player element with ID '${playerId}' not found`);
+                return;
+            }
+
+            if (player.style.display === 'none' || player.style.display === '') {
+                player.style.display = 'block';
+                button.innerHTML = '⏹️ Hide';
+                button.style.background = 'var(--neutral-500)';
+
+                // Auto-play the audio when showing the player
+                const audio = player.querySelector('audio');
+                if (audio) {
+                    // Add loading state feedback
+                    button.innerHTML = '⏳ Loading...';
+                    button.disabled = true;
+
+                    // Set up event listeners for loading states
+                    audio.addEventListener('loadstart', () => {
+                        console.log('Audio loading started');
+                    });
+
+                    audio.addEventListener('canplay', () => {
+                        console.log('Audio can start playing');
+                        button.innerHTML = '⏹️ Hide';
+                        button.disabled = false;
+                    });
+
+                    audio.addEventListener('error', (e) => {
+                        console.error('Audio loading error:', e);
+                        button.innerHTML = '❌ Error';
+                        button.disabled = false;
+                    });
+
+                    // Load and play
+                    audio.load();
+                    audio.play().catch(e => {
+                        console.log('Auto-play prevented by browser policy');
+                        button.innerHTML = '⏹️ Hide';
+                        button.disabled = false;
+                    });
+                }
+            } else {
+                player.style.display = 'none';
+                button.innerHTML = '🎧 Listen';
+                button.style.background = 'var(--accent-electric)';
+
+                // Pause the audio when hiding the player
+                const audio = player.querySelector('audio');
+                if (audio) {
+                    audio.pause();
+                }
+            }
+        }
+
+        function createNewPodcast() {
+            if (isOperationRunning) {
+                addMessage('assistant', 'Another operation is already running. Please wait for it to complete.');
+                return;
+            }
+
+            showThinking(false);
+            showSearchStatus(false);
+            hideAllTables();
+
+            addMessage('user', '🔄 Create New Podcast');
+            disableInput();
+            isOperationRunning = true;
+
+            const chainSessionId = generateSessionId();
+
+            // Call API with force_new = true
+            fetch('/api/chain/podcast', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: chainSessionId,
+                    force_new: true
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    addMessage('assistant', data.response_message || '🔄 **Generating New Podcast**\n\nCreating fresh podcast...');
+
+                    if (data.show_progress) {
+                        resetProgressVariables();
+                        pollFrontendMessages('podcast', chainSessionId);
+                    } else {
+                        enableInput();
+                        isOperationRunning = false;
+                    }
+                } else {
+                    addMessage('assistant', `❌ **Podcast Error**\n\n${data.error || 'Unknown error occurred'}`);
+                    enableInput();
+                    isOperationRunning = false;
+                }
+            })
+
+            .catch(error => {
+                console.error('New podcast error:', error);
+                addMessage('assistant', '❌ **Podcast Error**\n\nFailed to create new podcast. Please try again.');
+                enableInput();
+                isOperationRunning = false;
+            });
+        }
+
+        // =============================================================================
+        // MARKED.JS FALLBACK
+        // =============================================================================
+
+        if (typeof marked === 'undefined') {
+            window.marked = {
+                parse: function(text) {
+                    if (!text) return '';
+
+                    return text
+                        .replace(/\*\*([^\*\r\n]+?)\*\*/g, '<strong>$1</strong>')  // Bold
+                        .replace(/\*([^\*\r\n]+?)\*/g, '<em>$1</em>')              // Italic
+                        .replace(/\n/g, '<br>');                                    // Line breaks
+                }
+            };
+        }
+
+    </script>
+</body>
+</html>

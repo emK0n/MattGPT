@@ -1,0 +1,353 @@
+{
+  "analysis": {
+    "summary": "Tech headlines indicate a focus on tech company regulations and innovations, data privacy issues, and product launches. In business news, there are mentions of economic impacts of tariffs, infrastructure development, and consumer electronics.",
+    "keywords": [
+      "tariffs",
+      "microphones",
+      "smartwatches"
+    ],
+    "trending_topics": [
+      "Tech company regulations and innovations",
+      "Data privacy issues",
+      "Economic impacts of tariffs",
+      "Consumer electronics"
+    ],
+    "search_keywords": [
+      "tariffs",
+      "microphones",
+      "smartwatches"
+    ],
+    "analysis_timestamp": "2025-07-30T05:23:20.227779"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "Engadget",
+    "Hacker News",
+    "Wired",
+    "MIT Technology Review",
+    "The Verge",
+    "Fast Company",
+    "Ars Technica",
+    "BBC Technology",
+    "Slashdot",
+    "BBC Business",
+    "TechCrunch",
+    "BBC World"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Dating safety app Tea suspends messaging after hack",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cd0dgkjgzvjo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 30 Jul 2025 08:08:21 GMT",
+      "summary": "Messaging has been turned off on the women's dating safety app Tea, following a hack which has exposed thousands of members' images, posts and comments."
+    },
+    {
+      "title": "YouTube to be included in Australia's teen social media ban",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cpv0zkxx0njo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 30 Jul 2025 01:24:49 GMT",
+      "summary": "The Australian government says the world-first ban is aimed at protecting youth from online harm."
+    },
+    {
+      "title": "EE to launch phone plans which restrict internet for teens",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvg3lgdv3r7o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 29 Jul 2025 11:11:08 GMT",
+      "summary": "UK mobile network operators are already required to ensure only adults can access adult content while using their network."
+    },
+    {
+      "title": "Adidas to raise prices as US tariffs cost €200m",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cjey0zv1pkqo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 30 Jul 2025 09:18:32 GMT",
+      "summary": "The German sportswear giant sources most of its products from Vietnam and Indonesia."
+    },
+    {
+      "title": "What will the new banknotes look like?",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/ckgy7j02xzro?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 29 Jul 2025 23:04:33 GMT",
+      "summary": "Young people are among those suggesting new themes for the biggest change to banknotes in 50 years."
+    },
+    {
+      "title": "Up to 40,000 homes to be built on disused railway land",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cgqny1jw7peo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 29 Jul 2025 23:00:43 GMT",
+      "summary": "The UK government is taking a \"brownfield first\" approach to building in places like Manchester."
+    },
+    {
+      "title": "Hawaiians cram roads away from coasts as tsunami waves arrive",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c8ryl02p8ngo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 30 Jul 2025 08:56:53 GMT",
+      "summary": "Following early warnings to evacuate coastal areas, thousands of Hawaiians head for higher ground - for many it isn't the first time."
+    },
+    {
+      "title": "Trump says 'good friend' India may face up to 25% tariffs",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cz71w1dgl84o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 30 Jul 2025 05:19:53 GMT",
+      "summary": "Trade negotiations continue between India and the US but sticking points remain, especially around agriculture."
+    },
+    {
+      "title": "A mistaken elevator, frantic emails and a run for help - how New York shooting unfolded",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cy85737235go?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 29 Jul 2025 21:02:54 GMT",
+      "summary": "Workers barricaded doors and sent goodbye notes as a man roamed through a skyscraper killing people."
+    },
+    {
+      "title": "Space Force bets on commercial entrants in $4B satcom contest",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/29/space-force-bets-on-commercial-entrants-in-4b-satcom-contest/",
+      "published": "Tue, 29 Jul 2025 23:55:38 +0000",
+      "summary": "The Space Force is leveraging commercial competition for the next phase of its PTS program."
+    },
+    {
+      "title": "Nvidia AI chip challenger Groq said to be nearing new fundraising at $6B valuation",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/29/nvidia-ai-chip-challenger-groq-said-to-be-nearing-new-fundraising-at-6b-valuation/",
+      "published": "Tue, 29 Jul 2025 22:02:51 +0000",
+      "summary": "AI chip startup Groq is in talks to raise a fresh $600 million at a near $6 billion valuation, sources tell Bloomberg, although the deal isn’t yet final and terms could change."
+    },
+    {
+      "title": "Luma and Runway expect robotics to eventually be a big revenue driver for them",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/29/luma-and-runway-expect-robotics-to-eventually-be-a-big-revenue-driver-for-them/",
+      "published": "Tue, 29 Jul 2025 20:12:43 +0000",
+      "summary": "Both Luma and Runway have reportedly held conversations with self-driving car and robotics companies as they look toward the future."
+    },
+    {
+      "title": "AI in Wyoming may soon use more electricity than state’s human residents",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/information-technology/2025/07/ai-in-wyoming-may-soon-use-more-electricity-than-states-human-residents/",
+      "published": "Tue, 29 Jul 2025 21:24:16 +0000",
+      "summary": "Proposed datacenter would demand 5x Wyoming's current power use at full deployment."
+    },
+    {
+      "title": "“It’s shocking”: Massive raw milk outbreak from 2023 finally reported",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/features/2025/07/its-shocking-massive-raw-milk-outbreak-from-2023-finally-reported/",
+      "published": "Tue, 29 Jul 2025 20:39:16 +0000",
+      "summary": "The outbreak occurred in 2023–2024, but little information had been shared about it."
+    },
+    {
+      "title": "Trump claims Europe won’t make Big Tech pay ISPs; EU says it still might",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/tech-policy/2025/07/trump-claims-europe-wont-make-big-tech-pay-isps-eu-says-it-still-might/",
+      "published": "Tue, 29 Jul 2025 19:52:40 +0000",
+      "summary": "EC spokesperson denies network-fee issue is settled, says it must be legislated."
+    },
+    {
+      "title": "YouTube tells creators they can drop more F-bombs",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/715658/youtube-swearing-profanity-f-bombs-monetization",
+      "published": "2025-07-29T19:15:13-04:00",
+      "summary": "YouTube videos with strong profanity in the first seven seconds (words like “fuck”) are now eligible for full monetization, according to a video from Conor Kavanagh, YouTube’s head of monetization policy experience. Previously, these kinds of videos were only eligible for “limited ad revenue.”   Cha"
+    },
+    {
+      "title": "Lovense was told its sex toy app leaked users’ emails and didn&#8217;t fix it",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/715645/lovense-sex-toy-app-email-leak-vulnerability",
+      "published": "2025-07-29T18:07:51-04:00",
+      "summary": "Lovense, the maker of internet-connected sex toys, left user emails exposed for months — even after it became aware of the vulnerability. In a blog post spotted by TechCrunch and Bleeping Computer, security researcher BobDaHacker found that they could “turn any username into their email address,” wh"
+    },
+    {
+      "title": "LG’s StanbyMe 2 is an unquestionably cool TV at a questionably high price",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/715523/lg-stanbyme-2-price-available-features",
+      "published": "2025-07-29T16:47:00-04:00",
+      "summary": "LG’s StanbyMe 2 has all the ingredients of a good follow-up gadget: the 27-inch display is 1440p instead of 1080p, and instead of being trapped on its rollable stand, the screen is detachable for you to use wherever and however you want. It can hang on the wall if you buy a compatible strap, or [&#8"
+    },
+    {
+      "title": "The best mobile microphones for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/accessories/best-mobile-microphones-for-recording-with-a-phone-154536629.html?src=rss",
+      "published": "Wed, 30 Jul 2025 09:00:38 +0000",
+      "summary": "<p>There’s nothing more frustrating than shooting the perfect reel only to realize that the audio sounds like garbage. For budding creators, it’s a frustration; for those looking to make more professional content, it’s a dealbreaker. Fortunately, the world of mobile-specific (or phone-friendly) micr"
+    },
+    {
+      "title": "The best smartwatches for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/wearables/best-smartwatches-153013118.html?src=rss",
+      "published": "Wed, 30 Jul 2025 07:00:38 +0000",
+      "summary": "<p>Smartwatches do more than just track your steps and deliver phone alerts to your wrist. The best smartwatches go even further, giving you the ability to pay for a cup of coffee, take calls and connect to apps like Spotify all without whipping out your smartphone.<br /><br />Chances are, if you’re"
+    },
+    {
+      "title": "Opera takes its browser beef with Microsoft to Brazil in antitrust complaint",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/opera-takes-its-browser-beef-with-microsoft-to-brazil-in-antitrust-complaint-214105355.html?src=rss",
+      "published": "Tue, 29 Jul 2025 21:41:06 +0000",
+      "summary": "<p>Opera is filing an antitrust complaint against Microsoft in Brazil, <a class=\"no-affiliate-link\" href=\"https://www.reuters.com/legal/litigation/microsoft-be-hit-with-opera-complaint-brazilian-antitrust-regulator-2025-07-29/\">alleging</a> it creates an unfair environment for alternate browsers to "
+    },
+    {
+      "title": "Seriously, Why Do Some AI Chatbot Subscriptions Cost More Than $200?",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.wired.com/story/seriously-why-do-some-ai-chatbot-subscriptions-cost-more-than-200/",
+      "published": "Wed, 30 Jul 2025 08:37:09 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.wired.com/story/seriously-why-do-some-ai-chatbot-subscriptions-cost-more-than-200/\">https://www.wired.com/story/seriously-why-do-some-ai-chatbot-subscriptions-cost-more-than-200/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44732031\">htt"
+    },
+    {
+      "title": "Oscar-Winning 'No Other Land' Awdah Hathaleen Killed by Israeli Settler",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.latimes.com/entertainment-arts/story/2025-07-29/awdah-hathaleen-killed-no-other-land-palestinian-activist-israeli-settler",
+      "published": "Wed, 30 Jul 2025 08:19:46 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.latimes.com/entertainment-arts/story/2025-07-29/awdah-hathaleen-killed-no-other-land-palestinian-activist-israeli-settler\">https://www.latimes.com/entertainment-arts/story/2025-07-29/awdah-hathaleen-killed-no-other-land-palestinian-activist-israeli-settler</a></p"
+    },
+    {
+      "title": "Pkgbase Removes FreeBSD Base System Feature",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://lists.freebsd.org/archives/freebsd-pkgbase/2025-July/000590.html",
+      "published": "Wed, 30 Jul 2025 01:05:46 +0000",
+      "summary": "<p>Article URL: <a href=\"https://lists.freebsd.org/archives/freebsd-pkgbase/2025-July/000590.html\">https://lists.freebsd.org/archives/freebsd-pkgbase/2025-July/000590.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44730021\">https://news.ycombinator.com/item?id=44730021</"
+    },
+    {
+      "title": "Apple's iOS 26 Text Filters Could Cost Political Campaigns Millions of Dollars",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://politics.slashdot.org/story/25/07/29/2259223/apples-ios-26-text-filters-could-cost-political-campaigns-millions-of-dollars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Longtime Slashdot reader schwit1 shares a report from Business Insider: Apple's new spam text filtering feature could end up being a multimillion-dollar headache for political campaigns. iOS 26 includes a new feature that allows users to filter text messages from unrecognized numbers into an \"Unknow"
+    },
+    {
+      "title": "YouTube Rolls Out Age-Estimation Tech To Identify US Teens, Apply Additional Protections",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/07/29/2237252/youtube-rolls-out-age-estimation-tech-to-identify-us-teens-apply-additional-protections?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "YouTube is rolling out age-estimation technology in the U.S. to identify teen users in order to provide a more age-appropriate experience. TechCrunch reports: When YouTube identifies a user as a teen, it introduces new protections and experiences, which include disabling personalized advertising, sa"
+    },
+    {
+      "title": "Minnesota Activates National Guard After St. Paul Cyberattack",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://it.slashdot.org/story/25/07/29/2229221/minnesota-activates-national-guard-after-st-paul-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Minnesota Governor Tim Walz has activated the National Guard to assist the City of Saint Paul after a cyberattack crippled the city's digital services on Friday. \"The city is currently working with local, state, and federal partners to investigate the attack and restore full functionality, and says "
+    },
+    {
+      "title": "The Hyperflexible People Who May Help Unlock Better Sleep Apnea Treatments",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/eds-sleep-apnea-treatments/",
+      "published": "Wed, 30 Jul 2025 09:00:00 +0000",
+      "summary": "Patients with Ehlers-Danlos Syndrome are six times more at risk for the sleeping disorder. Now scientists are studying them in hopes of finding remedies beyond the CPAP machine."
+    },
+    {
+      "title": "Lelo Dot Review: A Clitoral Pinpoint Vibrator",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/lelo-dot/",
+      "published": "Wed, 30 Jul 2025 08:00:00 +0000",
+      "summary": "A pinpoint vibrator will more precisely help you find inner peace."
+    },
+    {
+      "title": "Top Verizon Promo Codes & Deals | August 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/verizon-promo-code/",
+      "published": "Wed, 30 Jul 2025 05:00:00 +0000",
+      "summary": "Save with our roundup of the best Verizon coupons for free iPhone 16 Pros up to $1,100 off new Galaxy phones, and plans up to 50% off this August."
+    },
+    {
+      "title": "Laid off? Start building up your personal brand",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91374831/laid-off-start-building-up-your-personal-brand",
+      "published": "2025-07-30T06:00:00",
+      "summary": "<p>This year alone, companies have announced <a href=\"https://www.challengergray.com/wp-content/uploads/2025/07/Challenger-Report-June-2025.pdf\">over 740,000 job cuts</a> so far, a high since 2020. And that’s just in the US.&nbsp;</p>\n\n\n\n<p>But for a growing number of professionals (even before 2025"
+    },
+    {
+      "title": "How to protect yourself from the next cyber security threat",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91375712/how-to-protect-yourself-from-the-next-cyber-security-incident",
+      "published": "2025-07-30T06:00:00",
+      "summary": "<p>Earlier this month, Microsoft confirmed that attackers had exploited a critical vulnerability in <a href=\"https://www.fastcompany.com/91371597/microsoft-sharepoint-hack-servers-emergency-patches-update\">SharePoint servers</a>. A patch had already been issued, but it failed to fully resolve the pr"
+    },
+    {
+      "title": "The Trump administration might overhaul the U.S. patent system",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91376618/the-trump-administration-might-overhaul-the-patent-system",
+      "published": "2025-07-30T04:11:00",
+      "summary": "<p>Holding a patent could be a lot costlier for businesses and founders in the years to come. The Trump administration is reportedly considering a substantial change to the patent process, which would raise trillions of dollars for the government but could substantially increase fees for patent hold"
+    },
+    {
+      "title": "AI vs. AI: Prophet Security raises $30M to replace human analysts with autonomous defenders",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/ai-vs-ai-prophet-security-raises-30m-to-replace-human-analysts-with-autonomous-defenders/",
+      "published": "Tue, 29 Jul 2025 21:39:24 +0000",
+      "summary": "Prophet Security raises $30 million to launch a fully autonomous AI cybersecurity platform that investigates and responds to threats without human intervention, promising 10x faster response times and 96% fewer false positives."
+    },
+    {
+      "title": "Acree opens up new enterprise-focused, customizable AI model AFM-4.5B trained on ‘clean, rigorously filtered data’",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/acree-opens-up-new-enterprise-focused-customizable-ai-model-afm-4-5b-trained-on-clean-rigorously-filtered-data/",
+      "published": "Tue, 29 Jul 2025 21:26:29 +0000",
+      "summary": "Geared toward Acree's growing list of enterprise customers and their needs and wants — specifically, a model trained without violating IP."
+    },
+    {
+      "title": "Positron believes it has found the secret to take on Nvidia in AI inference chips — here’s how it could benefit enterprises",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/positron-believes-it-has-found-the-secret-to-take-on-nvidia-in-ai-inference-chips-heres-how-it-could-benefit-enterprises/",
+      "published": "Tue, 29 Jul 2025 18:45:40 +0000",
+      "summary": "The company’s first-generation chips were fabricated in the U.S. using Intel facilities, with final server assembly and integration."
+    },
+    {
+      "title": "Exclusive: A record-breaking baby has been born from an embryo that’s over 30 years old",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/29/1120769/exclusive-record-breaking-baby-born-embryo-over-30-years-old/",
+      "published": "Tue, 29 Jul 2025 17:36:56 +0000",
+      "summary": "A baby boy born over the weekend holds the new record for the “oldest baby.” Thaddeus Daniel Pierce, who arrived on July 26, developed from an embryo that had been in storage for 30 and a half years. “We had a rough birth but we are both doing well now,” says Lindsey Pierce, his mother.&#160;&#8220;"
+    },
+    {
+      "title": "OpenAI is launching a version of ChatGPT for college students",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/29/1120801/openai-is-launching-a-version-of-chatgpt-for-college-students/",
+      "published": "Tue, 29 Jul 2025 17:18:45 +0000",
+      "summary": "OpenAI is launching Study Mode, a version of ChatGPT for college students that it promises will act less like a lookup tool and more like a friendly, always-available tutor. It’s part of a wider push by the company to get AI more embedded into classrooms when the new academic year starts in Septembe"
+    },
+    {
+      "title": "The Download: how to store energy underground, and what you may not know about Trump’s AI Action Plan",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/29/1120771/the-download-how-to-store-energy-underground-and-what-you-may-not-know-about-trumps-ai-action-plan/",
+      "published": "Tue, 29 Jul 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This startup wants to use the Earth as a massive battery Texas-based startup Quidnet Energy just completed a test showing it can store energy for up t"
+    }
+  ]
+}

@@ -1,0 +1,1325 @@
+Annual Report 2024
+
+March 6, 2025
+
+Information in this annual report is provided as of March 5, 2025 unless otherwise indicated.
+
+Certain statements in this annual report are forward-looking. These forward-looking statements are based on certain
+
+assumptions and reflect our current expectations. As a result, forward-looking statements are subject to a number of risks
+
+and uncertainties that could cause actual results or events to differ materially from current expectations. Some of the factors
+
+that could cause actual results to differ materially from current expectations are discussed in the “Risk Factors” section of this
+
+annual report as well as in materials that we from time to time file with, or furnish to, the Canadian securities regulatory
+
+authorities and the U.S. Securities and Exchange Commission. There is no assurance that any forward-looking statements will
+
+materialize. You are cautioned not to place undue reliance on forward-looking statements, which reflect expectations only as
+
+of the date of this annual report. Except as may be required by applicable law, we disclaim any intention or obligation to
+
+update or revise any forward-looking statements.
+
+The following terms in this annual report have the following meanings, unless otherwise indicated:
+
+Term Definition
+
+AI Artificial intelligence
+
+“Big 3” segments Our combined Legal Professionals, Corporates and Tax & Accounting Professionals segments
+
+Blackstone’s
+
+consortium The Blackstone Group and its subsidiaries, and private equity funds affiliated with Blackstone
+
+bp Basis points – one basis point is equal to 1/100th of 1%,“100bp” is equivalent to 1%
+
+constant currency A non-IFRS measure derived by applying the same foreign currency exchange rates to the financial
+
+results of the current and equivalent prior-year period
+
+EBITDA Earnings before interest, tax, depreciation and amortization
+
+EPS Earnings per share
+
+IFRS International Financial Reporting Standards
+
+LSEG London Stock Exchange Group plc
+
+ML Machine learning
+
+n/a Not applicable
+
+n/m Not meaningful
+
+organic or organically A non-IFRS measure that represents changes in revenues of our existing businesses at constant
+
+currency. The metric excludes the distortive impacts of acquisitions and dispositions from not owning
+
+the business in both comparable periods
+
+Woodbridge The Woodbridge Company Limited, our principal and controlling shareholder
+
+YPL York Parent Limited, the entity that owned LSEG shares, which is jointly owned by our company and the
+
+Blackstone consortium. References to YPL also include its subsidiaries.
+
+$ and US$ U.S. dollars
+
+Non-IFRS financial measures are defined and reconciled to the most directly comparable measure in the “Management’s
+
+Discussion and Analysis” section of this annual report. See Appendix A of the Management’s Discussion and Analysis for a
+
+description of our non-IFRS financial measures, including an explanation of why we believe they are useful measures of our
+
+performance. See Appendices B and C of the Management’s Discussion and Analysis for reconciliations of our non-IFRS
+
+financial measures to the most directly comparable IFRS measures. Non-IFRS measures do not have standardized meanings
+
+prescribed by IFRS and therefore are unlikely to be comparable to the calculation of similar measures used by other companies
+
+and should not be viewed as alternatives to measures of financial performance calculated in accordance with IFRS.
+
+For information regarding our disclosure requirements under applicable Canadian and U.S. laws and regulations, please see
+
+the “Cross Reference Tables” section of this annual report.
+
+Information contained on our website or any other websites identified in this annual report is not part of this annual report. All
+
+website addresses listed in this annual report are intended to be inactive, textual references only. The Thomson Reuters logo
+
+and our other trademarks, trade names and service names mentioned in this annual report are the property of Thomson Reuters.
+
+Front cover photo credit: REUTERS/Maxim Shemetov; Page 9 photo credit: REUTERS/Piroschka Van De Wouw; and Page 15
+
+photo credit: REUTERS/Daniel Beccevil.
+
+Thomson Reuters Annual Report 2024
+
+Table of Contents
+
+Business ....................................................................................... 2
+
+Overview .................................................................................................................. 2
+
+Customer Segments ....................................................................................................... 5
+
+Legal Professionals .................................................................................................... 5
+
+Corporates ............................................................................................................ 5
+
+Tax & Accounting Professionals ........................................................................................ 6
+
+Reuters News ......................................................................................................... 6
+
+Global Print ........................................................................................................... 6
+
+Key Brands ................................................................................................................ 7
+
+Additional Business Information ............................................................................................ 10
+
+Corporate Center ...................................................................................................... 10
+
+The Role of Thomson Reuters Enterprise Centre ....................................................................... 10
+
+Operations & Technology .............................................................................................. 10
+
+Innovation, Research and Development ................................................................................ 10
+
+Go To Market .......................................................................................................... 10
+
+Intellectual Property ................................................................................................... 11
+
+Acquisitions and Dispositions .......................................................................................... 11
+
+Thomson Reuters Venture Fund ....................................................................................... 11
+
+Human Capital Management ........................................................................................... 12
+
+Environmental, Social and Governance (ESG) ........................................................................... 13
+
+Properties and Facilities ................................................................................................ 15
+
+Risk Factors ................................................................................... 16
+
+Management’s Discussion and Analysis ....................................................... 28
+
+Consolidated Financial Statements ............................................................ 81
+
+Governance ...................................................................................142
+
+Executive Officers ..........................................................................................................142
+
+Directors ..................................................................................................................144
+
+Audit Committee ...........................................................................................................147
+
+Principal Accountant Fees and Services ....................................................................................148
+
+Woodbridge ...............................................................................................................149
+
+Controlled Company .......................................................................................................149
+
+Independent Directors .....................................................................................................150
+
+Presiding Directors at Meetings of Non-Management and Independent Directors ............................................ 151
+
+Code of Business Conduct and Ethics ...................................................................................... 151
+
+Additional Disclosures ..................................................................................................... 151
+
+Additional Information .........................................................................152
+
+Description of Capital Structure ............................................................................................152
+
+Market for Securities .......................................................................................................153
+
+Dividends ..................................................................................................................154
+
+Transfer Agents and Registrars .............................................................................................155
+
+Ratings of Debt Securities ..................................................................................................155
+
+Investment in LSEG ........................................................................................................156
+
+Material Contracts .........................................................................................................156
+
+Principal Subsidiaries .......................................................................................................159
+
+Interests of Experts ........................................................................................................160
+
+Further Information and Disclosures ........................................................................................160
+
+Cross Reference Tables ....................................................................... 162
+
+Annual Information Form (Form 51-102F2) Cross Reference Table ............................................................162
+
+Form 40-F Cross Reference Table ..........................................................................................163
+
+Thomson Reuters Annual Report 2024
+
+Business
+
+Overview
+
+Thomson Reuters informs the way forward by bringing together the trusted content and technology that people and
+
+organizations need to make the right decisions. We serve professionals across legal, tax, audit, accounting, compliance,
+
+government, and media. Our products combine highly specialized software and insights to empower professionals with the
+
+data, intelligence, and solutions needed to make informed decisions, and to help institutions in their pursuit of justice, truth
+
+and transparency. Reuters, part of Thomson Reuters, is a world leading provider of trusted journalism and news.
+
+Thomson Reuters shares are listed on the Toronto Stock Exchange and the Nasdaq (symbol: TRI). Our website is tr.com.
+
+We are organized in five reportable segments reflecting how we manage our businesses:
+
+Legal Professionals
+
+Serves law firms and governments with research and workflow products powered by leading-edge
+
+technologies, including generative AI, focusing on intuitive legal research and integrated legal workflow
+
+solutions that combine content, tools and analytics.
+
+Corporates
+
+Serves corporations, ranging from small businesses to multinational organizations, including the seven
+
+largest global accounting firms, with our full suite of content-driven products, powered by leading-edge
+
+technologies, including generative AI, and integrated compliance workflow solutions to help them achieve
+
+their business outcomes.
+
+Tax & Accounting Professionals
+
+Serves tax, audit and accounting firms (other than the seven largest, which are served by our Corporates
+
+segment) with research and workflow products powered by leading-edge technologies, including
+
+generative AI.
+
+Reuters News
+
+Supplies business, financial and global news and data to the world’s media organizations, professionals
+
+and news consumers through Reuters News Agency, Reuters.com, Reuters Events, Thomson Reuters
+
+products and to financial firms exclusively via LSEG products.
+
+Global Print
+
+Provides legal and tax information primarily in print format to customers around the world and provides
+
+commercial printing services to a wide range of book publishers.
+
+We refer to our Legal Professionals, Corporates and Tax & Accounting Professionals segments, on a combined basis, as our
+
+“Big 3” segments.
+
+Our businesses are supported by a corporate center that manages our commercial and technology operations, including
+
+those around our sales capabilities, digital customer experience, and product and content development, as well as our global
+
+facilities. Costs relating to these activities are allocated to our business segments. We also report “Corporate costs”, which
+
+includes expenses for centrally managed functions such as finance, legal and human resources.
+
+Our Business Model and Key Operating Characteristics
+
+We derive most of our revenues from selling information and software solutions, primarily on a recurring subscription basis.
+
+Our solutions blend deep domain knowledge with software and automation tools. We believe our workflow solutions make
+
+our customers more productive by streamlining how they operate, enabling them to focus on higher value activities. Many of
+
+our customers use our solutions as part of their workflows, which has led to strong customer retention. We believe that our
+
+customers trust us because of our history and dependability and our deep understanding of their businesses and industries,
+
+and they rely on our services for navigating a rapidly changing and increasingly complex digital world. Over the years, our
+
+business model has proven to be capital efficient and cash flow generative, and it has enabled us to maintain leading and
+
+scalable positions in our chosen market segments.
+
+Page 2 Thomson Reuters Annual Report 2024
+
+Some of our key business and operating characteristics are:
+
+Attractive Balanced and Attractive Strong Disciplined
+
+Industry Diversified Business Competitive Financial
+
+Leadership Model Positioning Policies
+
+ Currently our “Big 3”
+
+segments operate in
+
+ A leader in key  81% of revenues  Proprietary content  Focused and
+
+an estimated
+
+Legal were recurring in plus data and incentivized on
+
+$28 billion market
+
+Professionals, 2024 human expertise organic revenue
+
+expected to grow
+
+Corporates, Tax & combined with AI growth and free
+
+between 8% and  Fixed cost model
+
+Accounting and ML are key cash flow growth
+
+11% over the next supports operating
+
+Professionals and differentiators
+
+5 years leverage as we grow  Balance investing in
+
+News segments
+
+ Products deeply business and
+
+ Legal, Tax & Risk  Strong and
+
+ Resilient embedded in returning capital to
+
+markets are prime consistent cash
+
+businesses, customers’ daily shareholders
+
+for content-driven generation
+
+historically stable, workflows
+
+innovation capabilities  Committed to
+
+through periods of
+
+ 91% retention rate in maintaining
+
+macroeconomic
+
+2024 investment grade
+
+uncertainty
+
+rating with stable
+
+ Approximately capital structure
+
+450,000
+
+ Significant potential
+
+customers; largest
+
+capital capacity
+
+customer is
+
+affords optionality
+
+approximately 5%
+
+of revenues*
+
+* The news agreement with the Data & Analytics business of LSEG.
+
+Three-Year History
+
+ 2022 – Our two-year Change Program (an initiative that focused on transforming our company from a holding company to
+
+an operating company and from a content provider into a content-driven technology company) was completed by the end
+
+of 2022. We achieved $540 million of annualized run-rate operating expense savings and made significant progress
+
+transforming Thomson Reuters into a more streamlined and scalable business that we believe has a strong foundation for
+
+sustainable future growth. In 2022, LSEG repurchased approximately 1.2 million ordinary shares from YPL under a buyback
+
+program announced by LSEG in August 2022. We received proceeds of $43 million, for approximately 0.5 million shares,
+
+related to our portion of the buyback. In 2022, we also launched Westlaw Precision, a new version of Westlaw designed to
+
+dramatically improve research speed and quality by enabling lawyers to target precisely what they are looking for.
+
+ 2023 – In 2023, we made significant investments in AI-based initiatives, including generative AI. In November 2023, we
+
+announced a series of generative AI initiatives designed to assist in the transformation of the legal profession. Most
+
+notably, the commercial releases of AI-Assisted Research on Westlaw Precision and CoCounsel Core AI Assistant for
+
+lawyers. In 2023, we further deepened our focus on content-enabled technology with the acquisitions of SurePrep, LLC,
+
+Imagen Ltd., Casetext, Inc., and the remaining interest in Westlaw Japan. Additionally, in 2023, we received gross proceeds
+
+of $5.4 billion, which included the settlement of foreign exchange contracts, from the sale of approximately 56 million
+
+LSEG shares. During 2023, we returned $2.0 billion from the gross proceeds of our disposition of LSEG shares to
+
+shareholders through a return of capital transaction. We also repurchased approximately $1.1 billion of our common shares
+
+through our various normal course issuer bid buyback programs.
+
+ 2024 – In 2024, we continued to invest aggressively in innovation, both organically and through acquisitions. On an organic
+
+basis, we invested more than $200 million in AI, which yielded a number of new product launches and dozens of
+
+enhancements throughout the portfolio. Notably, in April, we launched Checkpoint Edge with CoCounsel, marking our first
+
+generative AI solution for Tax & Accounting Professionals, followed by the launch of CoCounsel Drafting in July. In August,
+
+we introduced CoCounsel 2.0, a major update for the franchise, offering faster results with improved connectivity to
+
+customers’ documents. We also rolled out AI-enabled tools to automate internal processes, including in the Reuters
+
+newsroom and our editorial and go-to-market operations. This was bolstered by the acquisitions of Pagero, World
+
+Business Media (The Insurer), Safe Sign and Materia, which deepened our focus on content-enabled technology. The
+
+December divestiture of FindLaw continued our portfolio optimization efforts. For additional information about our 2024
+
+acquisitions, please see the “Additional Business Information – Acquisitions and Dispositions” section of this annual report.
+
+During 2024, we also completed the disposition of our LSEG stake and repurchased $0.6 billion of our shares through
+
+normal course issuer bid buyback programs.
+
+Thomson Reuters Annual Report 2024 Page 3
+
+2024 Financial Highlights and Accomplishments
+
+2024 marked another year of good revenue momentum driven by strong growth in recurring and transactions revenues.
+
+Revenues increased 7% in total, in constant currency and on an organic basis, compared to the prior year. Revenues for our
+
+“Big 3” segments increased 8% in total and in constant currency, and 9% on an organic basis. Our revenue performance met
+
+the targets set out in our 2024 outlook, which was last updated in November 2024. Operating profit declined 10% due to
+
+lower gains from the sales of non-core businesses in 2024 compared to 2023, as well as higher computer software
+
+amortization expense. Adjusted EBITDA, which excludes the gains on sale of businesses, computer software amortization
+
+expense and other adjustments, increased 4% compared to the prior year. Adjusted EBITDA margin of 38.2% was in line with
+
+our updated 2024 outlook but below the prior year adjusted EBITDA margin of 39.3%. The adjusted EBITDA margin
+
+performance was due to a higher growth in expenses versus revenues reflecting costs associated with investments and
+
+higher incentive compensation based on strong business performance, as well as the impact of acquisitions and divestitures.
+
+The adjusted EBITDA margin of our “Big 3” segments was 42.1% in 2024 compared to 43.8% in 2023.
+
+In 2024, we generated net cash from operating activities of $2.5 billion and achieved our 2024 outlook with $1.8 billion of free cash
+
+flow. As mentioned above, we acquired Pagero, which boosted our indirect tax workflow automation solutions for our Corporates
+
+customers, as well as Safe Sign Technologies and Materia both of which onboarded key talent and are expected to accelerate our
+
+generative AI roadmap. In the Reuters News segment, we acquired World Business Media (The Insurer), which adds subscription
+
+professional content focused on the (re)insurance industry. Additionally, we completed the sale of FindLaw and certain other
+
+non-core businesses. We also received $1.9 billion of gross proceeds from the sale of our remaining LSEG shares.
+
+We returned $1.6 billion to shareholders in dividends and share repurchases in 2024. On February 6, 2025, we announced a
+
+10% or $0.22 per share annualized increase in our dividend to $2.38 per common share, representing the 32nd consecutive
+
+year of dividend increases, and the fourth consecutive 10% increase. Our capital capacity and liquidity remain a key asset to
+
+support further acquisitions and drive returns to shareholders.
+
+Below are revenue highlights for our company and our business segments for the year ended December 31, 2024. For
+
+additional information about the results of operations for the company and its business segments, please see the
+
+“Management’s Discussion and Analysis” section of this annual report.
+
+Full-Year 2024
+
+Revenue Growth by Segment
+
+Reported revenues up 7% to $7.3 billion
+
+Organic revenues up 7%
+
+Tax &
+
+Legal
+
+Corporates Accounting Reuters News Global Print
+
+Professionals
+
+Professionals
+
+$2.9B $1.8B $1.2B $0.8B $0.5B
+
+Reported
+
++4% +14% +10% +8% -8%
+
+Revenues
+
+(+7% organic) (+10% organic) (+10% organic) (+6% organic) (-7% organic)
+
+“Big 3” grew 9% organically (82% total revenues)
+
+Organic revenue growth, adjusted EBITDA margin, free cash flow as well as all financial measures for our “Big 3” segments are
+
+non-IFRS measures. Please see the “Management’s Discussion and Analysis” section of this annual report for additional
+
+information about our non-IFRS measures, including how they are defined and reconciled to the most directly comparable
+
+IFRS measure.
+
+NYSE listing transferred to Nasdaq
+
+In February 2025, we announced that we voluntarily transferred our U.S. stock exchange listing to the Nasdaq from the New York
+
+Stock Exchange (“NYSE”) effective February 25, 2025. We continue to trade under the symbol “TRI”. We ceased trading on the NYSE
+
+effective February 24, 2025.
+
+Page 4 Thomson Reuters Annual Report 2024
+
+2025 Key Priorities
+
+We strive to be a leading content-driven technology company that empowers professionals to navigate legal, tax, accounting,
+
+compliance, government, and media environments. In 2024, we accelerated our progress on delivering generative AI-powered
+
+solutions, including rapidly evolving our CoCounsel AI Assistant, acquiring Materia to target generative AI use cases in the
+
+Tax & Accounting market, and working on proprietary legal AI models in TR Labs.
+
+The rapid pace of innovation in AI has sparked a major wave of transformation across multiple industries, including the ones
+
+we serve. As a leading content-driven technology company, we are in a prime position to combine these new technologies
+
+with our existing strengths to serve our customers in new and innovative ways. This guides our key priorities for 2025, which
+
+include:
+
+• Continue evolving our transformative AI capabilities through ongoing product innovation and enhancements to our
+
+flagship products
+
+ Continue to roll out our AI assistant, CoCounsel, across our customer base
+
+ Maintain and build on our deep domain expertise and comprehensive collection of richly enhanced data and content
+
+ Further enhance our go-to-market model, including a focus on customer success and retention
+
+ Extend our channel partnerships to integrate our products and services into broader ecosystems
+
+ Ongoing expansion of our international offerings
+
+ Accelerate our pace of execution to move fast and win in a competitive market
+
+ Leverage our significant capital capacity to fund organic investment and execute a balanced capital allocation approach
+
+including annual dividend growth, strategic acquisitions and shareholder returns
+
+Customer Segments
+
+Our business is a customer-focused structure organized in five reportable customer segments: Legal Professionals,
+
+Corporates, Tax & Accounting Professionals, Reuters News and Global Print. This structure allows us to focus on the customer
+
+and partner with them to solve challenges that they face in their businesses. For additional information about the financial
+
+results of our customer segments, please see the “Management’s Discussion and Analysis” section of this annual report.
+
+Legal Professionals
+
+Our Legal Professionals segment serves law firms and governments with research and workflow products powered by
+
+emerging technologies, including generative AI, focusing on intuitive legal research and integrated legal workflow solutions
+
+that combine content, tools and analytics. The following provides a summary of Legal Professionals’ 2024 revenues by type of
+
+customer.
+
+18%
+
+Law Firms (63%)
+
+Government (19%)
+
+19%
+
+63% Global (18%)
+
+Legal Professionals’ primary global competitors are LexisNexis (which is owned by RELX Group) and Wolters Kluwer. Legal
+
+Professionals also competes with other companies that provide legal and regulatory information, legal workflow and drafting
+
+software providers, and emerging AI and software companies that support legal professionals.
+
+Corporates
+
+Our Corporates segment helps corporations achieve their goals of generating new business, driving operational efficiency,
+
+achieving digital transformation, and improving customer loyalty. Our Corporates segment serves a range of customers, from
+
+small businesses to multinational organizations, including the seven largest global accounting firms, with our full suite of
+
+content-driven products, powered by leading-edge technologies, including generative AI, and integrated compliance
+
+workflow solutions to help them achieve their business outcomes.
+
+Thomson Reuters Annual Report 2024 Page 5
+
+The following provides a summary of Corporates’ 2024 revenues by type of customer.
+
+20% Tax (34%)
+
+34% Legal (23%)
+
+9% Global Firms (15%)
+
+Risk (9%)
+
+15%
+
+International (20%)
+
+23%
+
+Corporates’ primary global competitors include LexisNexis, Wolters Kluwer and Bloomberg. Corporates also competes with
+
+focused software providers such as Avalara, Mitratech, Vertex and Sovos and at times with large technology companies, and
+
+highly focused venture capital-backed startups. While the largest global accounting firms are significant customers of
+
+Thomson Reuters, they can also be competitors.
+
+Tax & Accounting Professionals
+
+Our Tax & Accounting Professionals segment serves customers from tax and accounting firms (other than the seven largest,
+
+which are served by the Corporates segment) with research and automated workflow products powered by leading-edge
+
+technologies, including generative AI. The following provides a summary of Tax & Accounting Professionals’ 2024 revenues by
+
+type of customer.
+
+8%
+
+14%
+
+Tax Workflow (78%)
+
+Audit Workflow (14%)
+
+Strategic (8%)
+
+78%
+
+Tax & Accounting Professionals’ competitors include the CCH business of Wolters Kluwer, Bloomberg Industry Group, Intuit,
+
+Drake Software, CaseWare and Sage. Tax & Accounting Professionals also competes with software start-ups that serve tax,
+
+accounting and audit professionals.
+
+Reuters News
+
+Reuters is a leading provider of trusted news, insight and analysis. Founded in 1851, it brings together world-class journalism,
+
+industry expertise and cutting-edge technology with unparalleled speed, reliability and accuracy to enable people to make
+
+better decisions. Reuters is committed to the Thomson Reuters Trust Principles, including that of independence, integrity and
+
+freedom from bias, and is an essential source of business, financial and world news delivered to financial firms exclusively via
+
+LSEG products, to the world’s media organizations, and to professionals via industry events and Reuters.com. In 2024, Reuters
+
+delivered approximately 4 million unique news stories, 1 million pictures and images and 136,000 video stories and numerous
+
+industry events.
+
+For more information on the Thomson Reuters Trust Principles, please see the “Additional Information – Material Contracts –
+
+Thomson Reuters Trust Principles and Thomson Reuters Founders Share Company” section of this annual report.
+
+Reuters’ primary competitors include Bloomberg, the Associated Press, Agence France-Presse and Getty.
+
+Global Print
+
+Global Print is a leading provider of information, primarily in print format, to legal and tax professionals, government (including
+
+federal, state and local government lawyers and judges), law schools and corporations. Global Print also leverages its
+
+capabilities through offering commercial printing services to a wide range of book publishers including those in trade,
+
+government, associations, faith-based organizations, universities and children’s books. The business serves customers
+
+primarily in the United States, Canada and the United Kingdom. Global Print’s primary global competitors are LexisNexis and
+
+Wolters Kluwer.
+
+Page 6 Thomson Reuters Annual Report 2024
+
+Key Brands
+
+Our customer-focused structure enables us to have broader conversations with our customers, with a more cohesive
+
+go-to-market approach. We believe that this focus will create opportunities to deepen relationships with customers on more
+
+of our products and services across their organizations, increase sales to existing customers, improve retention and attract
+
+new customers. The following table provides information about our key brands and the target customer for each brand.
+
+Tax &
+
+Legal Accounting
+
+Brand Type of Product/Service Professionals Corporates Professionalss
+
+Westlaw Legal, regulatory and compliance
+
+Westlaw Edge (U.S., U.K. & information-based products and services.
+
+Canada)
+
+Westlaw is our primary online legal
+
+Westlaw Precision (U.S.)
+
+research delivery platform. Westlaw offers
+
+authoritative content, powerful search
+
+functionality and research organization,
+
+team collaboration features and navigation
+
+tools to find and share specific points of
+
+law and search for analytical commentary.
+
+Westlaw employs proprietary, innovative
+
+technology including generative AI.
+
+Localized country-specific online legal
+
+research platforms are provided for
+
+Argentina, Australia, Brazil, Canada, Chile,
+
+Ireland, Japan, New Zealand, the United
+
+Kingdom, United States, Uruguay and other
+
+countries. Through Westlaw International
+
+and Westlaw Asia, we offer our region-
+
+based online legal research platforms to
+
+customers in markets where we do not
+
+offer a country-specific Westlaw service.
+
+Practical Law
+
+Practical Law Legal know-how, current awareness and
+
+Practical Law Connect workflow tools with embedded guidance
+
+Practical Law Dynamic from expert practitioners. Practice notes,
+
+Tool Set standard documents, checklists and
+
+What’s Market tools cover a wide variety of
+
+practice areas such as commercial,
+
+corporate, labor and employment,
+
+intellectual property, finance and litigation.
+
+Practical Law currently has localized
+
+product offerings in the United Kingdom,
+
+United States, Canada and Australia.
+
+Through Practical Law Global and our local
+
+Practical Law offerings, we offer our online
+
+products and services to customers in
+
+markets where we do not have a fully
+
+localized service.
+
+CoCounsel Our professional-grade generative AI
+
+CoCounsel Drafting assistant that is trained by TR domain
+
+experts and leverages our TR proprietary
+
+content in generating answers to users
+
+across the legal, tax, risk & fraud, and
+
+media domains. This AI assistant also
+
+integrates functionality from other
+
+software products across the TR estate,
+
+allowing users to navigate seamlessly from
+
+one application to another. It also has the
+
+capability to integrate customer content
+
+directly to help ground the responses in
+
+customer proprietary content in addition to
+
+TR’s world-class content assets.
+
+Thomson Reuters Annual Report 2024 Page 7
+
+Tax &
+
+Legal Accounting
+
+Brand Type of Product/Service Professionals Corporates Professionalss
+
+CLEAR Prevent fraud, detect risk and investigate
+
+CLEAR Risk Inform crime with powerful online software.
+
+CLEAR ID Confirm
+
+CLEAR Adverse Media
+
+Sanctions
+
+PeopleMap
+
+HighQ Cloud-based collaboration and workflow
+
+platform for the legal and regulatory
+
+market segment.
+
+Case Center Cloud-based evidence-sharing platform for
+
+sharing documents and multimedia
+
+between justice agencies for trial
+
+preparation and courtroom presentation.
+
+Fraud Analytics A suite of data and analytics solutions to
+
+Fraud Detect help auditors, investigators and managers
+
+ID Risk Analytics detect fraud, waste and abuse in
+
+Case Tracking healthcare and large government subsidy
+
+programs.
+
+Checkpoint Integrated tax, audit and accounting
+
+Checkpoint Edge research solution that delivers news,
+
+(U.S. & Canada) editorial insights, advisory tools,
+
+authoritative content and linked primary
+
+sources integrated throughout Thomson
+
+Reuters workflow productivity tools,
+
+applications and software.
+
+Legal Tracker Online spend and matter management,
+
+e-billing, legal analytics services and
+
+document storage, search and retrieval.
+
+ONESOURCE Global cloud-based tax and trade solutions
+
+that reduce risk and regulatory complexity,
+
+improving the accuracy of a company’s
+
+entire tax or trade lifecycle. Integrating
+
+openly with existing technology and
+
+ecosystem solutions to manage direct and
+
+indirect tax compliance, indirect tax
+
+determination, statutory reporting, trust
+
+taxation, tax information reporting, tax
+
+planning, trade compliance, trade
+
+operations, trade special programs, trade
+
+regulatory content and overall data and
+
+process management.
+
+Confirmation Cloud-based platform to automate the
+
+workflow of the confirmations process of
+
+an audit. Used by a global network of audit
+
+firms, banks and law firms to increase
+
+efficiency and reduce risk.
+
+Pagero A provider of e-invoicing and continuous
+
+transaction controls compliance solutions
+
+for the global market. Pagero provides a
+
+Smart Business Network that connects
+
+buyers and sellers for automated,
+
+compliant and secure exchange of orders,
+
+invoices, payment instructions and other
+
+business documents.
+
+Dominio Accounting management and tax
+
+management software solutions for
+
+accounting firms and micro and small
+
+companies in Brazil.
+
+Page 8 Thomson Reuters Annual Report 2024
+
+Tax &
+
+Legal Accounting
+
+Brand Type of Product/Service Professionals Corporates Professionalss
+
+Cloud Audit Suite End-to-end solution providing accuracy
+
+and efficiency throughout the audit
+
+process through a suite of tools including:
+
+engagement management and trial balance
+
+capabilities, guided assurance with
+
+assisted decision making, online
+
+confirmations and embedded disclosure
+
+examples. Its cloud-based technology
+
+offers the ability to work from anywhere,
+
+collaborate with colleagues in real time and
+
+securely access audit data.
+
+UltraTax & CS Professional Scalable, integrated suite of desktop and
+
+Suite online software applications that
+
+encompass key aspects of a professional
+
+accounting firm’s operations, from
+
+collecting client data and preparing and
+
+filing tax returns to the overall management
+
+of the accounting practice.
+
+SafeSend Cloud-based software that automates
+
+assembly, review, e-signature and secure
+
+delivery of tax returns for individuals and
+
+entities.
+
+SurePrep Software and services that automate tax
+
+preparation, supporting a digital tax
+
+workflow for accounting firms and their
+
+clients. Solutions TaxCaddy, 1040SCAN and
+
+SPbinder streamline the entire 1040 tax
+
+process for tax professionals and
+
+taxpayers.
+
+Thomson Reuters Annual Report 2024 Page 9
+
+Additional Business Information
+
+Corporate Center
+
+Our corporate center seeks to foster a group-wide approach to management while allowing our business segments sufficient
+
+operational flexibility to serve their customers effectively. Our corporate center centrally manages our Operations & Technology
+
+group, as described below, our commercial operations and certain functions such as finance, legal and human resources.
+
+The Role of Thomson Reuters Enterprise Centre
+
+The Thomson Reuters Enterprise Centre in Switzerland has a pivotal role in our business operations and strategic initiatives.
+
+Key decisions on companywide strategy and global commercial policies are led by a senior Executive Leadership team in
+
+Switzerland representing multiple functions across Strategy, Product, Operations & Technology, Engineering, Labs, Legal
+
+Risk & Compliance and Finance. This strengthens our speed of innovation, collaboration and direction setting across our
+
+global business.
+
+Operations & Technology
+
+Our Operations & Technology group consolidates essential corporate functions into a cohesive team, encompassing product
+
+engineering, technology delivery and service, data and analytics, AI innovation, digital transformation, customer service,
+
+procurement, real estate, collections, and content operations. This unified approach provides a strong foundation for
+
+accelerating our scale and growth strategies, allowing us to focus resources effectively on key priorities. One such priority for
+
+2025 is to deliver advanced AI assistance, seamlessly integrated into the customer experience of our flagship products.
+
+By harnessing technology smartly, we aim to deliver information that is more relevant and personalized, and to do so more
+
+swiftly. Through shared technology and cross-business collaboration, we are enhancing the accessibility and value of our
+
+data for customers, irrespective of their access method. We are also moving away from on-premise software installations
+
+towards cloud-based or software-as-a-service (SaaS) solutions. In 2024, we successfully completed the exit of our Eagan
+
+data center, transferring in-scope applications to the cloud.
+
+Our commitment to transformation ensures our content, products, and services evolve to meet customer needs, while we
+
+continue to focus on securing customer data and global systems as part of our ongoing security program enhancements.
+
+Innovation, Research and Development
+
+Innovation is essential to our success and is one of our primary bases of competition. We continue to operate Thomson
+
+Reuters Labs, the dedicated applied research division of Thomson Reuters, which we have grown meaningfully throughout
+
+2024. This Labs arm of our product engineering discipline has played a pivotal role in AI development and delivery for our
+
+products and customers for over 30 years. The team has a rich history in applied research activities focused on exploring
+
+cutting-edge technologies applied to concrete business problems. We ensure Thomson Reuters and our customers stay
+
+ahead in an ever-changing world with tools, products and human expertise enhanced by AI.
+
+We are driven by our customers’ need for trustworthy information and software solutions that enable them to serve their
+
+customers with trusted information and work products in an efficient manner. We innovate across many dimensions of
+
+technology, including but not limited to: AI, generative AI, language models, natural language processing (NLP), search and
+
+information retrieval systems, AI ethics and bias mitigation, AI operations (ML Ops) and systematic evaluation and
+
+implementation of Human-Centered AI (HCAI) solutions.
+
+Our research ethos and focus on our customers keep us at the driving edge of how emerging technologies like deep learning,
+
+generative AI and language models can be applied to the distinct challenges of the industries and customers that we serve.
+
+We believe that we are uniquely positioned to combine these technologies with the intelligence and human expertise that our
+
+customers need to find trusted answers. The work of Thomson Reuters’ product engineering organization is at the heart of
+
+our ambition to become the world’s leading content-driven technology company.
+
+Go to Market
+
+We primarily sell our products and services directly to our customers. In addition, we sell some of our products and services
+
+online directly to customers. Focusing more of our marketing and sales efforts on digital propositions has allowed us to
+
+broaden our range of customers and reduce sales and marketing costs.
+
+As part of our customer experience transformation, we are creating a more holistic online experience, making it easier for our
+
+customers to find, try, buy, renew and manage our products by interacting digitally with Thomson Reuters. In 2024, we leveraged
+
+AI to improve our digital customer journey, made new products available online, grew digital share of sales and renewals across
+
+multiple segments and continued to enhance our online support tools. We continue to invest in online self-serve capabilities that
+
+allow customers to manage their accounts and get quick access to support and service in their channel of choice.
+
+Some of our products and services are also sold in partnership with third-parties through various sales channels, including
+
+referrals and resellers. Centralizing our team to manage partnerships has accelerated the growth of our partner ecosystem,
+
+which has allowed for expansion into business segments and geographies providing expanded market opportunities and
+
+Page 10 Thomson Reuters Annual Report 2024
+
+revenue streams. Our successful commercial partnership with cPaperless, LLC, SurePrep, LLC and Pagero Group AB (publ)
+
+provided us with confidence in the strategic and cultural fit of these businesses at Thomson Reuters and ultimately supported
+
+our acquisition thesis, as discussed in the “Acquisitions and Dispositions” section below. Partnerships continue to be a
+
+strategic lever to expand our global reach and our associated sales and revenue.
+
+Application Program Interfaces (APIs) allow our software platforms to connect with those of other companies, providing
+
+customers with data and access to the services of both companies. This will open new channels, business models and
+
+product offerings and will help grow our partner ecosystem to support the customers’ end-to-end lifecycle. In 2025, we plan
+
+to continue expanding our API ecosystem to improve the experience of existing and new customers. As our capabilities
+
+related to APIs continue to grow, it will further enable our ability to provide more robust solutions in collaboration with our
+
+partners to solve our customers’ business challenges.
+
+In 2024, we began building a more structured and data-driven customer success approach to help customers achieve
+
+measurable business outcomes with our solutions. By creating a new customer success function, we are laying the foundation
+
+for a more proactive model that guides customers through adoption, value realization, and renewal. We are also introducing
+
+scalable engagement models and leveraging data-driven insights to provide the right level of support at the right time. As we
+
+continue this work into 2025, our focus remains on driving long-term customer value, deeper insights, and stronger retention.
+
+Intellectual Property
+
+Many of our products and services are comprised of information, including originally authored content, delivered through a
+
+variety of channels. Our principal intellectual property (IP) assets are intended to protect these products and services, as well
+
+as the underlying content. In particular, we rely on patents and trade secrets, which protect the innovative ways that help
+
+create and deliver our content, trademarks, which protect our valuable brands and copyrights, which protect our proprietary
+
+content, databases and source code underpinning our software. We believe that our IP is sufficient to permit us to carry on
+
+our business as presently conducted. We also incorporate technical and commercial preventative measures into our content
+
+delivery channels. We continue to grow our patent portfolio by applying for and receiving patents for our innovative
+
+technologies globally, as well as continuing to acquire patents through the acquisition of companies. We have registered a
+
+number of website domain names in connection with our online operations and protect our global trademarks and copyrights
+
+through continued registrations, where appropriate, and enforcement against third-parties who threaten to infringe our
+
+trademarks and copyrights. Additionally, we continue to expand our overall IP portfolio as we acquire companies that typically
+
+includes trademarks, copyrights (whether registered or though common law), patents and web domains. In all cases we
+
+continue to evaluate the intersection of AI regulations and concepts and IP to ensure that the valuable technology, source
+
+code and content we create can continue to be protected by our IP strategies. For more information on the risks related to
+
+our IP rights, see the “Risk Factors” section of this annual report.
+
+Acquisitions and Dispositions
+
+Acquisitions – Acquired businesses can strengthen our offerings and enable us to extend our platform with new capabilities
+
+that we believe will provide opportunities to expand our positions, better serve our customers and supplement our organic
+
+revenue growth. Generally, the businesses that we acquire initially have lower margins than our existing businesses, largely
+
+reflecting the costs of integration.
+
+In January 2024, we acquired Pagero Group AB (publ), a publicly traded Swedish company and a global leader in e-invoicing
+
+and indirect tax solutions. In addition, in January 2024, we acquired World Business Media Limited (The Insurer), a
+
+cross-platform and subscription-based provider of editorial coverage for the global P&C and specialty (re)insurance industry.
+
+In August 2024, we acquired Safe Sign Technologies, a U.K.-based startup developing legal-specific large language models.
+
+In October 2024, we acquired Credere Technologies, Inc., doing business as Materia, a U.S.-based startup that specializes in
+
+the development of an agentic AI assistant for the tax, audit and accounting profession. More recently, in January 2025, we
+
+acquired cPaperless, LLC, doing business as SafeSend, a U.S.-based cloud-native provider of technology for tax and
+
+accounting professionals.
+
+We expect that acquisitions will continue to play an important role in our strategy going forward and we expect to continue to
+
+make acquisitions from time to time that we believe will strengthen our positions in key growth segments. See the “Liquidity and
+
+Capital Resources” section of the management’s discussion and analysis for additional information about our capital strategy.
+
+Dispositions – As part of our continuing strategy to optimize our portfolio of businesses and ensure that we are investing in
+
+parts of our business that offer the greatest opportunities to achieve growth and returns, we have sold a number of non-core
+
+businesses and product lines during the last several years which are not compatible with our strategy. In December 2024, we
+
+sold our FindLaw business to Internet Brands.
+
+For more information on acquisitions and dispositions that we made in the last two years, please see the “Management’s
+
+Discussion and Analysis” section of this annual report.
+
+Thomson Reuters Venture Fund
+
+During 2024, our Thomson Reuters Ventures Fund, which was launched in 2021 with the authority to invest up to $100 million,
+
+made several investments to support companies that are building innovations to allow professionals to operate more
+
+productively and with greater insights. Following the success of the initial Thomson Reuters Ventures fund, we have
+
+committed to a $150 million second fund.
+
+Thomson Reuters Annual Report 2024 Page 11
+
+Human Capital Management
+
+Employees
+
+The following table sets forth information about our employees as of December 31, 2024.
+
+By Region
+
+Americas 14,100
+
+Asia Pacific 8,300
+
+Europe, Middle East and Africa (EMEA) 4,000
+
+By Unit
+
+Legal Professionals 700
+
+Corporates 1,900
+
+Tax & Accounting Professionals 1,300
+
+Global Print 800
+
+Government 650
+
+Reuters News 3,500
+
+Product & Editorial 3,300
+
+Operations & Technology 9,100
+
+Corporate Center (Enabling Functions) 1,300
+
+Commercial Functions(1) 1,200
+
+Other(2) 2,650
+
+Thomson Reuters 26,400
+
+(1) Reflects employees in Marketing, Commercial Excellence and Strategy.
+
+(2) Reflects employees in our Latin America, Asia and Emerging Markets businesses.
+
+We believe that we generally have good relations with our employees, unions and works councils, although we have had
+
+disputes from time to time with the various unions that represent some of our employees. Our senior management team is
+
+committed to maintaining good relations with our employees, unions and works councils.
+
+Overview
+
+Our human capital practices and initiatives are designed to attract, develop and retain talented employees across all of our
+
+businesses around the globe, and ensure they feel valued, are provided with opportunities to grow, and are driven to succeed.
+
+We focus on a variety of human capital topics, such as compensation and benefits, culture and employee engagement, talent
+
+acquisition, learning and development, and inclusion and belonging. Over the last few years, oversight of human capital
+
+management has also been a key focus area for our Board of Directors.
+
+Our talent priorities continue to focus on addressing shifting organizational needs and business realities. In an AI-enabled
+
+world, jobs are changing rapidly and continuously. Our talent strategy in turn must also b
+
+[Content truncated due to length...]

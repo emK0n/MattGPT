@@ -1,0 +1,372 @@
+{
+  "analysis": {
+    "summary": "Tech headlines focus on cyber-attacks, AI developments, and business leadership changes. Business news covers economic shrinkage, job cuts due to tax increases, and Prime Day deals.",
+    "keywords": [
+      "cyber",
+      "m&s",
+      "grok",
+      "economy",
+      "shrinks",
+      "jobs",
+      "cuts",
+      "tax",
+      "prime",
+      "deals",
+      "ai",
+      "platform",
+      "study"
+    ],
+    "trending_topics": [
+      "cyber-attacks",
+      "AI advancements",
+      "business leadership changes"
+    ],
+    "search_keywords": [
+      "cyber",
+      "m&s",
+      "grok",
+      "economy",
+      "shrinks",
+      "jobs",
+      "cuts",
+      "tax",
+      "prime",
+      "deals",
+      "ai",
+      "platform",
+      "study"
+    ],
+    "analysis_timestamp": "2025-07-11T16:32:14.341672"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "BBC Business",
+    "VentureBeat",
+    "Engadget",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "Ars Technica",
+    "TechCrunch",
+    "BBC Technology",
+    "Slashdot",
+    "Wired",
+    "BBC World",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Four arrested in connection with M&S and Co-op cyber-attacks",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cwykgrv374eo",
+      "published": "Thu, 10 Jul 2025 13:42:24 GMT",
+      "summary": "Three men and one woman - aged between 17 and 20 - have been arrested in London and the Midlands."
+    },
+    {
+      "title": "Musk says Grok chatbot was 'manipulated' into praising Hitler",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c4g8r34nxeno",
+      "published": "Thu, 10 Jul 2025 12:02:11 GMT",
+      "summary": "Anti-hate campaigners say the posts were \"irresponsible, dangerous and antisemitic.\""
+    },
+    {
+      "title": "Linda Yaccarino departs as boss of Musk's X",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cx2gy3j9xq6o",
+      "published": "Wed, 09 Jul 2025 19:47:26 GMT",
+      "summary": "Her exit comes at a difficult time for Musk who, in a brief reply, thanked her for her \"contributions.\""
+    },
+    {
+      "title": "Reeves disappointed after economy unexpectedly shrinks",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cq6mvem8neno",
+      "published": "Fri, 11 Jul 2025 10:57:00 GMT",
+      "summary": "The economy contracted in May for the second month in a row, adding to pressure on the chancellor."
+    },
+    {
+      "title": "Plans for cash Isa changes on hold after backlash",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cqjq9yxkkrvo",
+      "published": "Fri, 11 Jul 2025 08:28:20 GMT",
+      "summary": "There had been reports in recent weeks that the chancellor was going to cut the £20,000 limit."
+    },
+    {
+      "title": "National Trust blames tax rises as it cuts 550 jobs",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/clym8029nnvo",
+      "published": "Fri, 11 Jul 2025 13:02:28 GMT",
+      "summary": "The heritage and conservation charity says it is under \"sustained cost pressures\" and is looking to save £26m."
+    },
+    {
+      "title": "Ukraine to receive US air defence systems, says Trump",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/crl04200dp4o",
+      "published": "Fri, 11 Jul 2025 12:43:19 GMT",
+      "summary": "The US president says he will sell weapons to Nato, which would then give them to Ukraine."
+    },
+    {
+      "title": "War crimes being committed in Sudan, ICC believes",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cvg819yxkp5o",
+      "published": "Fri, 11 Jul 2025 11:50:01 GMT",
+      "summary": "The court says there are \"reasonable grounds\" to believe claims of war crimes in western Sudan."
+    },
+    {
+      "title": "Death of Ukrainian conscript prompts row with Hungary",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cp3l22z5y2zo",
+      "published": "Fri, 11 Jul 2025 17:02:04 GMT",
+      "summary": "Allegations that the 45-year-old was beaten with iron bars, weeks after being forcibly conscripted, have been denied by Ukraine's military."
+    },
+    {
+      "title": "Tesla reportedly close to starting sales in India",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/11/tesla-reportedly-close-to-starting-sales-in-india/",
+      "published": "Fri, 11 Jul 2025 20:20:18 +0000",
+      "summary": "Tesla may finally start selling its EVs in India with a showroom slated for Mumbai."
+    },
+    {
+      "title": "AI leadership development platform Praxis Labs sells to Torch",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/11/ai-leadership-development-platform-praxis-labs-sells-to-torch/",
+      "published": "Fri, 11 Jul 2025 20:00:00 +0000",
+      "summary": "Praxis Labs, a learning development platform, announced its acquisition on Thursday for an undisclosed amount by the leadership and coaching enterprise Torch.&#160; “As a small company with fewer than 20 people serving companies as large as Amazon, we knew we needed to build powerful partnerships, a"
+    },
+    {
+      "title": "AI coding tools may not speed up every developer, study shows",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/11/ai-coding-tools-may-not-speed-up-every-developer-study-shows/",
+      "published": "Fri, 11 Jul 2025 19:56:41 +0000",
+      "summary": "Software engineer workflows have been transformed in recent years by an influx of AI coding tools, but However, a new study calls into question the extent to which today's AI coding tools enhance productivity for experienced developers."
+    },
+    {
+      "title": "Belkin shows tech firms getting too comfortable with bricking customers’ stuff",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/belkin-shows-tech-firms-getting-too-comfortable-with-bricking-customers-stuff/",
+      "published": "Fri, 11 Jul 2025 18:54:57 +0000",
+      "summary": "There's no easy alternative, and IoT customers are paying the price."
+    },
+    {
+      "title": "Review: Stellar cast makes Superman shine bright",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/culture/2025/07/review-superman-joyfully-embraces-its-comic-book-roots/",
+      "published": "Fri, 11 Jul 2025 18:27:51 +0000",
+      "summary": "James Gunn's entertaining reboot has a few flaws but so much heart—and wow, that stellar cast."
+    },
+    {
+      "title": "Trump’s DOJ seems annoyed about having to approve T-Mobile’s latest merger",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/tech-policy/2025/07/trumps-doj-seems-annoyed-about-having-to-approve-t-mobiles-latest-merger/",
+      "published": "Fri, 11 Jul 2025 17:52:23 +0000",
+      "summary": "DOJ approves T-Mobile/US Cellular deal despite bemoaning \"the Big 3's oligopoly.\""
+    },
+    {
+      "title": "The 20 Prime Day deals that are most popular with Verge readers",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/701278/amazon-prime-day-2025-popular-products-verge-readers",
+      "published": "2025-07-11T16:28:35-04:00",
+      "summary": "It may not surprise anyone who is tech-aware that publications such as The Verge track the affiliate links that are clicked by their readers — in fact, every article that links to a vendor has this statement on top: “If you buy something from a Verge link, Vox Media may earn a commission.” So we [&#"
+    },
+    {
+      "title": "The best Prime Day deals on games, hardware, and accessories",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/698696/amazon-prime-day-best-gaming-deals-controllers-headsets-accessories-2025",
+      "published": "2025-07-11T16:25:37-04:00",
+      "summary": "The final day of Amazon’s Prime Day is the your last chance to score incredible deals on games to fill your backlog, as well as essential accessories like controllers, headsets, and storage expansion for your next-gen console. Combing through thousands of deals to find the ones actually worth your t"
+    },
+    {
+      "title": "The best last-minute Apple deals you can still grab for Prime Day",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/689813/best-amazon-prime-day-apple-deals",
+      "published": "2025-07-11T16:05:42-04:00",
+      "summary": "If you want to upgrade your Apple gear ahead of the back-to-school season, there are still some great Amazon Prime Day deals worth exploring, although they likely won’t last much longer given it’s the final day of the sale. From tablets to smartwatches, many gadgets — including the latest iPad Air —"
+    },
+    {
+      "title": "ITC rules Insta360 infringed on GoPro patents",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/cameras/itc-rules-insta360-infringed-on-gopro-patents-195518334.html?src=rss",
+      "published": "Fri, 11 Jul 2025 19:55:18 +0000",
+      "summary": "<p>The US International Trade Commission <a class=\"no-affiliate-link\" href=\"https://www.usitc.gov/press_room/documents/notice_of_issuance_final_idrd_1400.pdf\">has determined</a> that Chinese camera company Insta360 has infringed on at least some of GoPro's patents. Based on <a class=\"no-affiliate-li"
+    },
+    {
+      "title": "Last chance Prime Day deals: Get up to 36 percent off Kindles and ereaders",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/last-chance-prime-day-deals-get-up-to-36-percent-off-kindles-and-ereaders-080957317.html?src=rss",
+      "published": "Fri, 11 Jul 2025 19:35:12 +0000",
+      "summary": "<p>Without a sale, even the most affordable Kindle usually has a $110 MSRP, so holding out for <a href=\"https://www.engadget.com/deals/the-best-amazon-prime-day-deals-for-the-last-day-our-top-picks-on-headphones-tvs-robot-vacuums-and-more-120028336.html\">Prime Day</a> before you buy one of Amazon's "
+    },
+    {
+      "title": "Amazon Prime Day kitchen deals: It's the last day to get up to 50 percent off air fryers, Instant Pots, blenders and more",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/amazon-prime-day-kitchen-deals-its-the-last-day-to-get-up-to-50-percent-off-air-fryers-instant-pots-blenders-and-more-180019300.html?src=rss",
+      "published": "Fri, 11 Jul 2025 19:29:23 +0000",
+      "summary": "<p>You've still got a few more hours to shop Amazon’s <a href=\"https://www.engadget.com/deals/the-best-amazon-prime-day-deals-for-the-last-day-our-top-picks-on-headphones-tvs-robot-vacuums-and-more-120028336.html\">July Prime sale</a>. There's still time for Prime Members to take advantage of deals o"
+    },
+    {
+      "title": "I'm more proud of these 128 kilobytes than anything I've built since",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://medium.com/@mikehall314/im-more-proud-of-these-128-kilobytes-than-anything-i-ve-built-since-53706cfbdc18",
+      "published": "Fri, 11 Jul 2025 19:55:39 +0000",
+      "summary": "<p>Article URL: <a href=\"https://medium.com/@mikehall314/im-more-proud-of-these-128-kilobytes-than-anything-i-ve-built-since-53706cfbdc18\">https://medium.com/@mikehall314/im-more-proud-of-these-128-kilobytes-than-anything-i-ve-built-since-53706cfbdc18</a></p>\n<p>Comments URL: <a href=\"https://news.y"
+    },
+    {
+      "title": "Belkin shows tech firms getting too comfortable with bricking customers' stuff",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/07/belkin-shows-tech-firms-getting-too-comfortable-with-bricking-customers-stuff/",
+      "published": "Fri, 11 Jul 2025 19:18:45 +0000",
+      "summary": "<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2025/07/belkin-shows-tech-firms-getting-too-comfortable-with-bricking-customers-stuff/\">https://arstechnica.com/gadgets/2025/07/belkin-shows-tech-firms-getting-too-comfortable-with-bricking-customers-stuff/</a></p>\n<p>Comments URL: <a href=\"ht"
+    },
+    {
+      "title": "ETH Zurich and EPFL to release a LLM developed on public infrastructure",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html",
+      "published": "Fri, 11 Jul 2025 18:45:10 +0000",
+      "summary": "<p>Article URL: <a href=\"https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html\">https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i"
+    },
+    {
+      "title": "Earth Is Spinning Faster and Days Are Getting Shorter, for Now",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/07/11/1741218/earth-is-spinning-faster-and-days-are-getting-shorter-for-now?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shares a report: This week has seen the shortest days of the year so far. According to data from the U.S. Naval Observatory and the International Earth Rotation and Reference Systems Service, Tuesday's rotation was about 1.34 milliseconds less than 24 hours. More quick spins are "
+    },
+    {
+      "title": "Few Danes Work Until Official Retirement Age as Government Pushes It to 70",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/07/11/1734217/few-danes-work-until-official-retirement-age-as-government-pushes-it-to-70?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Denmark's Parliament adopted a law in May raising the retirement age to 70 by 2040, up from the current 67, affecting anyone born after December 31, 1970. The country indexed its official retirement age to life expectancy in 2006 and revises it every five years, with the age set to increase to 68 in"
+    },
+    {
+      "title": "How Hot Can It Get, Literally? Scientists Weigh In",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/07/11/1728246/how-hot-can-it-get-literally-scientists-weigh-in?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Four years of research following the 2021 western North American heat wave has revealed both the meteorological conditions that fuel extreme temperatures and evidence that heat has physical limits. The 2021 event \"shocked everyone, including specialists working on the subject. People were completely"
+    },
+    {
+      "title": "The Best Anti-Prime Day Sales to Shop Before They're Over",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/anti-prime-day-small-business-sales-july-2025/",
+      "published": "Fri, 11 Jul 2025 20:10:30 +0000",
+      "summary": "Feeling anti-Amazon? These small businesses have sales you can shop right now before the week of sales ends."
+    },
+    {
+      "title": "15 Best Amazon Prime Day Vacuum Deals for Dust and Dirt in 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/prime-day-vacuum-deals-july-2025-1/",
+      "published": "Fri, 11 Jul 2025 19:21:42 +0000",
+      "summary": "Looking for a new cleaning gadget? Whether it's a Dyson or a dupe, we've found the best deals on vacuums during Prime Day."
+    },
+    {
+      "title": "15 Prime Day Kindle Deals (Plus Amazon Echo Devices)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/prime-kindle-amazon-device-deals-2025-3/",
+      "published": "Fri, 11 Jul 2025 18:59:47 +0000",
+      "summary": "Amazon’s biannual sale event is the best time to shop for a Kindle e-reader, Echo speaker, and many more of Amazon’s own devices."
+    },
+    {
+      "title": "Delta’s creative tariff dodge: leave the fancy new jet, bring home the guts",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91366920/deltas-creative-tariff-dodge-leave-the-fancy-new-jet-bring-home-the-guts",
+      "published": "2025-07-11T19:45:00",
+      "summary": "<p>While tariffs threaten to whittle away profits for many businesses, those costs aren’t subtle when they’re tacked onto the price tag of an airplane.</p>\n\n\n\n<p>In an effort to preserve its bottom line, Delta is getting creative. The Atlanta-based airline is now <a href=\"https://www.bloomberg.com/n"
+    },
+    {
+      "title": "Meet Devin: Goldman Sachs’s new AI software engineer that never sleeps",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91366706/meet-devin-goldman-sachs-new-ai-software-engineer-that-never-sleeps",
+      "published": "2025-07-11T18:30:00",
+      "summary": "<p>An <a href=\"https://www.fastcompany.com/section/artificial-intelligence\" title=\"AI\">AI</a> called Devin just landed a job on Wall Street.&nbsp;</p>\n\n\n\n<p>Goldman Sachs just &#8220;hired&#8221; an AI software engineer made by the startup <a href=\"https://app.devin.ai/\">Cognition</a>.&nbsp;</p>\n\n\n\n"
+    },
+    {
+      "title": "Over 850,000 Ford cars and trucks recalled nationwide—and there’s no fix available yet",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91366689/over-850000-ford-cars-and-trucks-recalled-nationwide-and-theres-no-fix-available-yet",
+      "published": "2025-07-11T17:45:00",
+      "summary": "<p>Ford Motor just issued <a href=\"https://www.reuters.com/business/autos-transportation/ford-recall-over-850000-us-vehicles-citing-low-pressure-fuel-pump-failure-2025-07-10/\">another major recall.</a> On July 7, the brand recalled 850,318 Ford and Lincoln models over concerns about the vehicles&#82"
+    },
+    {
+      "title": "Solo.io wins ‘most likely to succeed’ award at VB Transform 2025 innovation showcase",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/solo-io-wins-most-likely-to-succeed-award-at-vb-transform-2025-innovation-showcase/",
+      "published": "Fri, 11 Jul 2025 20:18:18 +0000",
+      "summary": "Solo.io's Kagent Studio framework allows enterprises to build, secure, run and manage their AI agents in Kubernetes."
+    },
+    {
+      "title": "The great AI agent acceleration: Why enterprise adoption is happening faster than anyone predicted",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/the-great-ai-agent-acceleration-why-enterprise-adoption-is-happening-faster-than-anyone-predicted/",
+      "published": "Fri, 11 Jul 2025 18:43:35 +0000",
+      "summary": "Enterprise AI agent adoption is accelerating faster than predicted. Get the 4 key takeaways from VB Transform 2025 on how leaders from Intuit, Capital One, and more are deploying agents in production and reshaping their teams for a new era of AI."
+    },
+    {
+      "title": "$8.8 trillion protected: How one CISO went from ‘that’s BS’ to bulletproof in 90 days",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/ciso-dodges-bullet-protecting-8-8-trillion-from-shadow-ai/",
+      "published": "Thu, 10 Jul 2025 23:18:23 +0000",
+      "summary": "Clearwater Analytics CISO Sam Evans dodged a bullet by blocking shadow AI from exposing data integral to $8.8 trillion under management."
+    },
+    {
+      "title": "The Download: cybersecurity’s shaky alert system, and mobile IVF",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/11/1120003/the-download-cybersecuritys-shaky-alert-system-and-mobile-ivf/",
+      "published": "Fri, 11 Jul 2025 12:14:00 +0000",
+      "summary": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Cybersecurity’s global alarm system is breaking down Every day, billions of people trust digital systems to run everything from communicatio"
+    },
+    {
+      "title": "Cybersecurity’s global alarm system is breaking down",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/11/1119370/cybersecurity-alarm-system-breaking-down/",
+      "published": "Fri, 11 Jul 2025 09:00:00 +0000",
+      "summary": "Every day, billions of people trust digital systems to run everything from communication to commerce to critical infrastructure. But the global early warning system that alerts security teams to dangerous software flaws is showing critical gaps in coverage—and most users have no idea their digital l"
+    },
+    {
+      "title": "The first babies have been born following “simplified” IVF in a mobile lab",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/11/1119976/first-babies-born-simplified-ivf-mobile-lab/",
+      "published": "Fri, 11 Jul 2025 09:00:00 +0000",
+      "summary": "This week I’m sending congratulations to two sets of parents in South Africa. Babies Milayah and Rossouw arrived a few weeks ago. All babies are special, but these two set a new precedent. They’re the first to be born following &#8220;simplified&#8221; IVF performed in a mobile lab. This new mobile "
+    }
+  ]
+}

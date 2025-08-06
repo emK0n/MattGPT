@@ -1,0 +1,276 @@
+{
+  "analysis": {
+    "summary": "Headlines cover a mix of technology and business news, including discussions on food waste solutions (flies), changes in Trump's product labelling, Pornhub implementing age checks, trade negotiations between countries (US-Canada, DR Congo-Rwanda), court decisions affecting policy (Supreme Court rulings), AI advancements and concerns (Congress blocking state AI laws, Anthropic tracking AI's economic impact), tech product updates (YouTube mobile editor for iOS, Tesla losing execs, Logitech webcams with Nintendo Switch 2), and controversies (Trump's comments on Iran, Peter Thiel's Alzheimer's claims).",
+    "keywords": [
+      "flies",
+      "usa",
+      "pornhub",
+      "trade",
+      "supreme",
+      "congo",
+      "iran",
+      "ai",
+      "youtube",
+      "tesla",
+      "logitech",
+      "nothing",
+      "thiel",
+      "alzheimer's"
+    ],
+    "trending_topics": [
+      "Food waste solutions",
+      "Trade negotiations",
+      "Judicial rulings",
+      "Artificial Intelligence developments",
+      "Tech product updates"
+    ],
+    "search_keywords": [
+      "flies",
+      "usa",
+      "pornhub",
+      "trade",
+      "supreme",
+      "congo",
+      "iran",
+      "ai",
+      "youtube",
+      "tesla",
+      "logitech",
+      "nothing",
+      "thiel",
+      "alzheimer's"
+    ],
+    "analysis_timestamp": "2025-06-27T17:44:28.094278"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 27,
+  "sources_analyzed": [
+    "Slashdot",
+    "Hacker News",
+    "The Verge",
+    "BBC Technology",
+    "TechCrunch",
+    "BBC Business",
+    "Engadget",
+    "BBC World",
+    "Ars Technica"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Should we be letting flies eat our food waste?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cz9y1l397vno",
+      "published": "Thu, 26 Jun 2025 23:10:12 GMT",
+      "summary": "In Lithuania and Australia, hungry fly larvae are used to process food waste into useful protein."
+    },
+    {
+      "title": "'Made in the USA' reference disappears from Trump phone listing",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cy4yv3pmmwjo",
+      "published": "Thu, 26 Jun 2025 16:53:29 GMT",
+      "summary": "Trump Mobile maintains the gold smartphone will be made in the US, despite the  changed wording on its website."
+    },
+    {
+      "title": "Pornhub to introduce 'government approved' age checks in UK",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cr5v2lz5vl6o",
+      "published": "Thu, 26 Jun 2025 13:39:14 GMT",
+      "summary": "It is one of a number of porn sites which regulator Ofcom says will bring in tougher age verification for users."
+    },
+    {
+      "title": "Trump says he is cutting off trade talks with Canada",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/ckg629n7wzvo",
+      "published": "Fri, 27 Jun 2025 20:19:38 GMT",
+      "summary": "Canada had been hoping to secure a trade deal with the US next month to avoid steep tariffs."
+    },
+    {
+      "title": "Lotus considering shifting UK production to US",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cdr3gn3lv8zo",
+      "published": "Fri, 27 Jun 2025 18:42:48 GMT",
+      "summary": "The BBC understands the car maker is considering the move amid the introduction of US tariffs."
+    },
+    {
+      "title": "Faisal Islam: How much will U-turn on disability benefits cost?",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c9dgjjnvw54o",
+      "published": "Fri, 27 Jun 2025 11:43:15 GMT",
+      "summary": "The changes could cost up to £3bn which will have to come from higher taxes or cuts elsewhere, given the chancellor's self-imposed borrowing rules."
+    },
+    {
+      "title": "Supreme Court curbs judges' power to block Trump's orders in birthright citizenship case",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cev0d10kdd9o",
+      "published": "Fri, 27 Jun 2025 18:01:10 GMT",
+      "summary": "Because of the ruling to limit injunctions, Trump's birthright citizenship order will be able to take effect, 30 days after the courts opinion was filed, the court said."
+    },
+    {
+      "title": "DR Congo and Rwanda sign long-awaited peace deal in Washington",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c1e0ggw7d43o",
+      "published": "Fri, 27 Jun 2025 20:57:20 GMT",
+      "summary": "The deal has been hailed by President Trump as \"a great day\" but there are potential pitfalls."
+    },
+    {
+      "title": "Trump says he would 'absolutely' consider bombing Iran again",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cvgenq599kwo",
+      "published": "Fri, 27 Jun 2025 19:59:34 GMT",
+      "summary": "The US president also reiterates his claim that Iran's nuclear facilities have been \"obliterated\"."
+    },
+    {
+      "title": "Congress might block state AI laws for a decade. Here’s what it means.",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/06/27/congress-might-block-state-ai-laws-for-a-decade-heres-what-it-means/",
+      "published": "Fri, 27 Jun 2025 21:20:32 +0000",
+      "summary": "A federal proposal that would ban states and local governments from regulating AI for 10 years could soon be signed into law, as Sen. Ted Cruz (R-TX) and other lawmakers work to secure its inclusion into a GOP megabill ahead of a key July 4 deadline. Here's what's at stake."
+    },
+    {
+      "title": "As job losses loom, Anthropic launches program to track AI’s economic fallout",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/06/27/as-job-losses-loom-anthropic-launches-program-to-track-ais-economic-fallout/",
+      "published": "Fri, 27 Jun 2025 20:59:19 +0000",
+      "summary": "As warnings mount about AI’s potential to displace millions of jobs, Anthropic on Friday launched a its Economic Futures Program, new initiative to support research and policy development that addresses AI’s economic impacts."
+    },
+    {
+      "title": "YouTube’s mobile video editor is coming to iOS",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/06/27/youtubes-mobile-video-editor-is-coming-to-ios/",
+      "published": "Fri, 27 Jun 2025 20:38:02 +0000",
+      "summary": "Google is preparing to bring YouTube Create to iOS devices nearly two years after the video editing app launched exclusively on Android. Job listings reviewed by TechCrunch reveal the company is actively hiring engineers in India for the iOS development project. The job postings show Google is recru"
+    },
+    {
+      "title": "After 27 years, engineer discovers how to display secret photo in Power Mac ROM",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/06/after-27-years-engineer-discovers-how-to-display-secret-photo-in-power-mac-rom/",
+      "published": "Fri, 27 Jun 2025 21:32:07 +0000",
+      "summary": "Developer solves mystery of hidden JPEG from the beige G3 era."
+    },
+    {
+      "title": "Supreme Court overturns 5th Circuit ruling that upended Universal Service Fund",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/tech-policy/2025/06/supreme-court-saves-universal-service-fund-rules-fcc-fee-is-not-illegal-tax/",
+      "published": "Fri, 27 Jun 2025 20:32:55 +0000",
+      "summary": "5th Circuit ruling reversed; FCC can continue programs that boost Internet access."
+    },
+    {
+      "title": "Android phones could soon warn you of “Stingrays” snooping on your communications",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/06/future-android-phones-could-warn-you-about-data-stealing-fake-cell-towers/",
+      "published": "Fri, 27 Jun 2025 20:00:50 +0000",
+      "summary": "But it requires specific hardware support that is missing on current phones."
+    },
+    {
+      "title": "Tesla recently lost two key execs",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/694301/tesla-executives-gm-cruise-hire-elon-musk",
+      "published": "2025-06-27T17:15:18-04:00",
+      "summary": "Yesterday, reports from Forbes and CNBC said that Musk had fired Omead Afshar, who formerly led operations in North America and Europe and was a close confidant of Musk’s. (Bloomberg and The Wall Street Journal also reported that Afshar left the company, but did not say he was fired.) The firing fol"
+    },
+    {
+      "title": "Logitech says all its webcams work with Nintendo Switch 2, save one",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/694565/logitech-webcams-work-with-nintendo-switch-2",
+      "published": "2025-06-27T16:43:48-04:00",
+      "summary": "If you’re looking for a webcam that works with the Nintendo Switch 2’s new GameChat mode that lets you video chat with friends and see their faces within games, it looks like the biggest brand in PC accessories is still your best bet. Logitech is the first webcam maker to confirm to The Verge that ["
+    },
+    {
+      "title": "The Nothing Phone 3 might have the weirdest camera design out there",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/694635/nothing-phone-3-camera-design-weird",
+      "published": "2025-06-27T16:33:15-04:00",
+      "summary": "Earlier this month, I wrote about a leaked image of what was rumored to be the Nothing Phone 3. That image showed a design with a translucent back and three center-aligned cameras. But a new set of supposed Nothing Phone 3 images reveal a different design — with one of the wildest camera layouts I’v"
+    },
+    {
+      "title": "Trump ends trade talks with Canada over a digital services tax",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/big-tech/trump-ends-trade-talks-with-canada-over-a-digital-services-tax-192322721.html?src=rss",
+      "published": "Fri, 27 Jun 2025 19:23:22 +0000",
+      "summary": "<p>President Donald Trump said the US is ending trade talks with Canada, effective immediately, over a tax on digital services that will impact American tech companies. He also pledged to announce further tariffs on Canada within the next week, adding in a <a class=\"no-affiliate-link\" href=\"https://"
+    },
+    {
+      "title": "Peter Thiel is utterly wrong about Alzheimer's",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/science/peter-thiel-is-utterly-wrong-about-alzheimers-173206349.html?src=rss",
+      "published": "Fri, 27 Jun 2025 18:17:02 +0000",
+      "summary": "<p><em>The</em> <em>New York Times</em> ran a <a href=\"https://www.nytimes.com/2025/06/26/opinion/peter-thiel-antichrist-ross-douthat.html?unlocked_article_code=1.R08.APIh.B3k6mu3lv7q0&amp;smid=nytcore-ios-share&amp;referringSource=articleShare\">lengthy interview</a> this morning between columnist R"
+    },
+    {
+      "title": "Donald Trump is reportedly preparing a sweep of pro-AI executive orders",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/big-tech/donald-trump-is-reportedly-preparing-a-sweep-of-pro-ai-executive-orders-171856144.html?src=rss",
+      "published": "Fri, 27 Jun 2025 17:18:56 +0000",
+      "summary": "<p>We know what you’re thinking: there just isn’t enough AI around right now. Luckily for you, Donald Trump emphatically agrees. According to a new <a href=\"https://www.reuters.com/legal/government/trump-plans-executive-orders-power-ai-growth-race-with-china-2025-06-27/\"><ins>report</ins></a> from <"
+    },
+    {
+      "title": "Spark AI (YC W24) is hiring a full-stack engineer in SF (founding team)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack-founding-team",
+      "published": "Fri, 27 Jun 2025 21:01:03 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack-founding-team\">https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack-founding-team</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=444"
+    },
+    {
+      "title": "Normalizing Flows Are Capable Generative Models",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://machinelearning.apple.com/research/normalizing-flows",
+      "published": "Fri, 27 Jun 2025 20:50:10 +0000",
+      "summary": "<p>Article URL: <a href=\"https://machinelearning.apple.com/research/normalizing-flows\">https://machinelearning.apple.com/research/normalizing-flows</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44400105\">https://news.ycombinator.com/item?id=44400105</a></p>\n<p>Points: 18</p>"
+    },
+    {
+      "title": "A Brief History of Children Sent Through the Mail",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.smithsonianmag.com/smart-news/brief-history-children-sent-through-mail-180959372/",
+      "published": "Fri, 27 Jun 2025 20:12:00 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.smithsonianmag.com/smart-news/brief-history-children-sent-through-mail-180959372/\">https://www.smithsonianmag.com/smart-news/brief-history-children-sent-through-mail-180959372/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44399854\">https"
+    },
+    {
+      "title": "Renewables Soar, But Fossil Fuels Continue To Rise as Global Electricity Demand Hits Record Levels",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/06/27/1956207/renewables-soar-but-fossil-fuels-continue-to-rise-as-global-electricity-demand-hits-record-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "In a year when average air temperatures consistently breached the 1.5C warming threshold, global CO&#226;-equivalent emissions from energy rose by 1%, marking yet another record, the fourth in as many years. From a report: Wind and solar energy alone expanded by an impressive 16% in 2024, nine times"
+    },
+    {
+      "title": "DeepSeek Faces Ban From Apple, Google App Stores In Germany",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://apple.slashdot.org/story/25/06/27/1949207/deepseek-faces-ban-from-apple-google-app-stores-in-germany?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Germany's data protection commissioner has urged Apple and Google to remove Chinese AI startup DeepSeek from their app stores due to concerns about data protection. Reuters reports: Commissioner Meike Kamp said in a statement on Friday that she had made the request because DeepSeek illegally transfe"
+    },
+    {
+      "title": "Canada's Digital Services Tax To Stay In Place Despite G7 Deal",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/06/27/1935258/canadas-digital-services-tax-to-stay-in-place-despite-g7-deal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from Bloomberg: Canada is proceeding with its digital services tax on technology companies such as Meta despite a Group of Seven agreement that resulted in removing the Section 899 \"revenge tax\" proposal from U.S. President Donald Trump's tax bill. The first payme"
+    }
+  ]
+}

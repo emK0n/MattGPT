@@ -1,0 +1,352 @@
+{
+  "analysis": {
+    "summary": "Key tech headlines include Tesla being partially blamed for a fatal Autopilot crash, Magnus Carlsen winning an Esports World Cup chess tournament, and Apple potentially developing its own AI 'answer engine'. In business news, Boeing's defense workers went on strike, affecting the aviation giant. Car finance redress plans were deemed impractical by lenders, and victims of mis-sold car finance may receive less than £950 per deal. Other notable stories include SAP acquiring SmartRecruiters, a significant advancement in HIV treatment for children, and Nintendo raising the price of its Switch console.",
+    "keywords": [
+      "tesla",
+      "apple",
+      "boeing",
+      "sap",
+      "smartrecruiters",
+      "nintendo"
+    ],
+    "trending_topics": [
+      "Tesla Autopilot safety concerns",
+      "Esports expansion",
+      "AI advancements in tech",
+      "Boeing labor disputes",
+      "Car finance regulatory issues"
+    ],
+    "search_keywords": [
+      "tesla",
+      "apple",
+      "boeing",
+      "sap",
+      "smartrecruiters",
+      "nintendo"
+    ],
+    "analysis_timestamp": "2025-08-04T06:45:44.527198"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 38,
+  "sources_analyzed": [
+    "BBC Business",
+    "MIT Technology Review",
+    "VentureBeat",
+    "BBC World",
+    "The Verge",
+    "Wired",
+    "Ars Technica",
+    "Slashdot",
+    "BBC Technology",
+    "TechCrunch",
+    "Fast Company",
+    "Hacker News",
+    "Engadget"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Tesla found partly to blame for fatal Autopilot crash",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c93dqpkwx4xo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 01 Aug 2025 23:17:40 GMT",
+      "summary": "The company's self-driving technology failed to prevent a 2019 crash which killed a 22-year-old woman and severely injured her boyfriend in Florida."
+    },
+    {
+      "title": "Chess grandmaster Carlsen wins at Esports World Cup",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/ce3jl1kgyv0o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 02 Aug 2025 01:49:02 GMT",
+      "summary": "World number one Magnus Carlsen takes home $250,000 (£188,000) for winning the online competition."
+    },
+    {
+      "title": "Some Gaza and Ukraine posts blocked under new age checks",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cj3l0e4vr0ko?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 31 Jul 2025 23:38:38 GMT",
+      "summary": "Tech companies are restricting debates of public interest to comply the Online Safety Act, analysis shows."
+    },
+    {
+      "title": "Car finance redress plan 'impractical', say lenders",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cx2909pvddlo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 04 Aug 2025 09:16:29 GMT",
+      "summary": "Many firms and individuals may no longer have records going back to 2007, the car finance industry says."
+    },
+    {
+      "title": "Boeing defence workers go on strike in new blow to aviation giant",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c4gze2medkdo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 04 Aug 2025 06:34:17 GMT",
+      "summary": "About 3,200 workers who build F-15 fighter jets and other military aircraft voted to reject the firm's latest contract deal."
+    },
+    {
+      "title": "Victims of mis-sold car finance could get less than £950 per deal",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cgjy29zql25o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 03 Aug 2025 18:47:02 GMT",
+      "summary": "The financial services regulator will consult on a redress scheme for motorists following a court ruling, though many drivers will be ineligible."
+    },
+    {
+      "title": "World leaders condemn videos of emaciated Israeli hostages in Gaza as Red Cross calls for access",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/crr2dwn7q40o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 03 Aug 2025 21:15:58 GMT",
+      "summary": "Hamas said it would allow Red Cross access if humanitarian aid corridors were opened into Gaza."
+    },
+    {
+      "title": "Boeing defence workers go on strike in new blow to aviation giant",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c4gze2medkdo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 04 Aug 2025 06:34:17 GMT",
+      "summary": "About 3,200 workers who build F-15 fighter jets and other military aircraft voted to reject the firm's latest contract deal."
+    },
+    {
+      "title": "Apple might be building its own AI ‘answer engine’",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/08/03/apple-might-be-building-its-own-ai-answer-engine/",
+      "published": "Sun, 03 Aug 2025 21:49:00 +0000",
+      "summary": "Apple is reportedly working to create a lightweight competitor to ChatGPT."
+    },
+    {
+      "title": "Mastercard denies pressuring game platforms, Valve tells a different story",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/08/03/mastercard-denies-pressuring-game-platforms-valve-tells-a-different-story/",
+      "published": "Sun, 03 Aug 2025 21:29:14 +0000",
+      "summary": "Mastercard seemingly denied playing a role in a recent marketplace crackdown on games with adult content, while Valve says the pressure was indirect."
+    },
+    {
+      "title": "SAP is acquiring SmartRecruiters",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/08/03/sap-is-acquiring-smartrecruiters/",
+      "published": "Sun, 03 Aug 2025 17:12:51 +0000",
+      "summary": "SAP has reached an agreement to acquire SmartRecruiters, with SmartRecruiters' software complementing SAP's existing HR tools."
+    },
+    {
+      "title": "Five children see HIV viral loads vanish after taking antiretroviral drugs",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/08/five-children-see-hiv-viral-loads-vanish-after-taking-antiretroviral-drugs/",
+      "published": "Sat, 02 Aug 2025 13:20:11 +0000",
+      "summary": "The first widespread success in curing HIV may come from children, not adults."
+    },
+    {
+      "title": "With Trump’s cutbacks, crew heads for ISS unsure of when they’ll come back",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/08/with-trumps-cutbacks-crew-heads-for-iss-unsure-of-when-theyll-come-back/",
+      "published": "Fri, 01 Aug 2025 22:06:42 +0000",
+      "summary": "\"We are looking at the potential to extend this current flight, Crew-11.\""
+    },
+    {
+      "title": "At $250 million, top AI salaries dwarf those of the Manhattan Project and the Space Race",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2025/08/at-250-million-top-ai-salaries-dwarf-those-of-the-manhattan-project-and-the-space-race/",
+      "published": "Fri, 01 Aug 2025 21:23:42 +0000",
+      "summary": "A 24 year-old AI researcher will earn 327x what Oppenheimer made while developing the atomic bomb."
+    },
+    {
+      "title": "Brendan Carr declares victory over the First Amendment",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/internet-censorship/717548/brendan-carr-paramount-merger-free-speech",
+      "published": "2025-08-03T10:00:00-04:00",
+      "summary": "On Monday, the Freedom of the Press Foundation filed a complaint against Federal Communications Commission Chairman Brendan Carr. The filing, sent to the Office of Disciplinary Counsel at the DC Court of Appeals, alleges that Carr had repeatedly broken basic principles of conduct as a licensed attor"
+    },
+    {
+      "title": "Nintendo raises the Switch 1 price from $299 to $339",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/717610/nintendo-switch-original-price-increase",
+      "published": "2025-08-03T09:46:13-04:00",
+      "summary": "The original Nintendo Switch, which has cost $299.99 in the US since its release in 2017, is now priced at $339.99 on Nintendo’s online store. Other first-gen Switch models are now more expensive, too, with the Switch OLED going from $349.99 to $399.99, and the Switch Lite increasing from $199.99 to"
+    },
+    {
+      "title": "Lenovo&#8217;s rollable laptop is the coolest computer I&#8217;ve used all year",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/reviews/717491/lenovo-thinkbook-plus-gen-6-rollable-laptop-review",
+      "published": "2025-08-03T09:00:00-04:00",
+      "summary": "Part of me still can't believe it, but Lenovo did the thing: it took a bonkers concept for a laptop with a rollable screen and built the tech into something you can actually own and use like a normal computer. Except, as conventional as the ThinkBook Plus Gen 6 can be, it's far from a [&#8230;]"
+    },
+    {
+      "title": "The best Bluetooth trackers for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/accessories/best-bluetooth-tracker-140028377.html?src=rss",
+      "published": "Mon, 04 Aug 2025 09:00:37 +0000",
+      "summary": "<p>Most people think of AirTags when they picture a Bluetooth tracker. And indeed, Apple’s little white discs used to be the most capable option, relying on a vast finding network of nearby iPhones to pinpoint lost tags. But now, both Google and Samsung have implemented finding networks of their own"
+    },
+    {
+      "title": "The best Nintendo Switch 2 accessories for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/nintendo/best-nintendo-switch-2-accessories-070011952.html?src=rss",
+      "published": "Mon, 04 Aug 2025 07:00:35 +0000",
+      "summary": "<p>Now that the Switch 2 is finally here, you may be equally as excited to kit out your new console with the right accessories as you are to dive into <em>Mario Kart World</em>. Not only can the right accessories make it easier and more fun to play all of the games you love, but they can also make y"
+    },
+    {
+      "title": "You can watch Pokémon the Movie 2000 for free on YouTube right now",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/entertainment/youtube/you-can-watch-pokemon-the-movie-2000-for-free-on-youtube-right-now-213303624.html?src=rss",
+      "published": "Sun, 03 Aug 2025 21:33:03 +0000",
+      "summary": "<p>The official <a href=\"https://www.youtube.com/@OfficialPoke%CC%81monTV/featured\"><ins>Pokémon TV YouTube</ins></a> channel is continuing its <a href=\"https://x.com/Pokemon/status/1940486087149080642\"><ins>summer movie watch party</ins></a> with another classic: <em>Pokémon the Movie 2000</em>. Th"
+    },
+    {
+      "title": "ThinkBook Plus Gen 6 – Lenovo’s rollable laptop",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.theverge.com/reviews/717491/lenovo-thinkbook-plus-gen-6-rollable-laptop-review",
+      "published": "Mon, 04 Aug 2025 10:10:54 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.theverge.com/reviews/717491/lenovo-thinkbook-plus-gen-6-rollable-laptop-review\">https://www.theverge.com/reviews/717491/lenovo-thinkbook-plus-gen-6-rollable-laptop-review</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44783862\">https://new"
+    },
+    {
+      "title": "Lightning on Earth is sparked by a powerful chain reaction from outer space",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.livescience.com/physics-mathematics/lightning-on-earth-is-sparked-by-a-powerful-chain-reaction-from-outer-space-simulations-show",
+      "published": "Mon, 04 Aug 2025 09:49:42 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.livescience.com/physics-mathematics/lightning-on-earth-is-sparked-by-a-powerful-chain-reaction-from-outer-space-simulations-show\">https://www.livescience.com/physics-mathematics/lightning-on-earth-is-sparked-by-a-powerful-chain-reaction-from-outer-space-simulatio"
+    },
+    {
+      "title": "Mastercard deflects blame for NSFW games being taken down",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.pcgamer.com/games/mastercard-deflects-blame-for-nsfw-games-being-taken-down-but-valve-says-payment-processors-specifically-cited-a-mastercard-rule-about-damaging-the-brand/",
+      "published": "Mon, 04 Aug 2025 09:27:49 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.pcgamer.com/games/mastercard-deflects-blame-for-nsfw-games-being-taken-down-but-valve-says-payment-processors-specifically-cited-a-mastercard-rule-about-damaging-the-brand/\">https://www.pcgamer.com/games/mastercard-deflects-blame-for-nsfw-games-being-taken-down-b"
+    },
+    {
+      "title": "With Flight of Six More Tourists to Space, Blue Origin Carries 75th Passenger",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/08/04/0513249/with-flight-of-six-more-tourists-to-space-blue-origin-carries-75th-passenger?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Jeff Bezos' Blue Origin launched a crypto billionaire and five other people to the final frontier on Sunday,\" reports Space.com:\n\nThe mission &mdash; known as NS-34, because it was the 34th overall flight of Blue Origin's New Shepard vehicle &mdash; lifted off from the company's West Texas spacepor"
+    },
+    {
+      "title": "Disney Struggles With How to Use AI - While Retaining Copyrights and Avoiding Legal Issues",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://games.slashdot.org/story/25/08/04/0432213/disney-struggles-with-how-to-use-ai---while-retaining-copyrights-and-avoiding-legal-issues?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Disney \"cloned\" Dwayne Johnson when filming a live-action Moana, reports the Wall Street Journal, using an AI process that they were ultimately afraid to use:\n\nUnder the plan they devised, Johnson's similarly buff cousin Tanoai Reed &mdash; who is 6-foot-3 and 250 pounds &mdash; would fill in as a b"
+    },
+    {
+      "title": "How Napster Inspired a Generation of Rule-Breaking Entrepreneurs",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/08/04/0146202/how-napster-inspired-a-generation-of-rule-breaking-entrepreneurs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Napster's latest AI pivot \"is the latest in a series of attempts by various owners to ride its brand cachet during emerging tech waves,\" Fast Company reported in July.\nIn March, it sold for $207 million to Infinite Reality, an immersive digital media and e-commerce company, which also rebranded as N"
+    },
+    {
+      "title": "The US Military Is Raking in Millions From On-Base Slot Machines",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/us-military-on-base-slot-machines-gambling-addiction/",
+      "published": "Mon, 04 Aug 2025 10:30:00 +0000",
+      "summary": "The Defense Department operates slot machines on US military bases overseas, raising millions of dollars to fund recreation for troops—and creating risks for soldiers prone to gambling addiction."
+    },
+    {
+      "title": "Meet Ultra Skelly: Skelly the Skeleton Gets a High-Tech Edition This Halloween",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/high-tech-skelly-is-here-for-halloween/",
+      "published": "Mon, 04 Aug 2025 10:02:00 +0000",
+      "summary": "The new 6'5'' version of Skelly has digital eyeballs, audio options, and a motion sensor. It’s available to buy starting today."
+    },
+    {
+      "title": "A Hiker Was Missing for Nearly a Year—Until an AI System Recognized His Helmet",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/missing-hiker-ai-drone-recovery/",
+      "published": "Mon, 04 Aug 2025 09:30:00 +0000",
+      "summary": "Using AI to analyze thousands of frames taken by drone, The Piedmontese Alpine Rescue team has found the body of a doctor who had been missing since September 2024."
+    },
+    {
+      "title": "What a concussion taught me about leading through a crisis",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91375428/what-a-concussion-taught-me-about-leading-through-crisis-leadership-crisis",
+      "published": "2025-08-04T10:26:00",
+      "summary": "<p>A serious concussion four years ago made me more susceptible to future head injuries. Sure enough, a simple bump this winter left me in a months-long funk. </p>\n\n\n\n<p>My neurologist explained that my nervous system was stuck in an endless cycle of stimulus, unable to move out of fight-or-flight a"
+    },
+    {
+      "title": "Ready or not, Gen Z Is managing you",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91369085/ready-or-not-gen-z-is-managing-you-gen-z-work-management",
+      "published": "2025-08-04T10:18:00",
+      "summary": "<p>By the end of this year, one in ten managers will be from Generation Z. That’s not a distant projection. It’s happening right now. It’s not just a statistic. It’s a cultural turning point.</p>\n\n\n\n<p>I’ve spent the last decade teaching leadership and strategy to Gen Z students. I’ve watched them g"
+    },
+    {
+      "title": "Using ChatGPT or other AI tools? Here’s who can see your chat history",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91379336/using-chatgpt-or-other-ai-tools-heres-who-can-see-your-chat-history",
+      "published": "2025-08-04T10:07:00",
+      "summary": "<p>While <a href=\"https://www.fastcompany.com/section/artificial-intelligence\" title=\"AI\">AI</a> tools like ChatGPT and Google Gemini can be helpful, they&#8217;re also potential <a href=\"https://www.fastcompany.com/91376687/google-indexing-chatgpt-conversations\">privacy minefields</a>.</p>\n\n\n\n<p>Mo"
+    },
+    {
+      "title": "Why tomorrow’s best devs won’t just code — they’ll curate, coordinate and command AI",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/programming-development/why-tomorrows-best-devs-wont-just-code-theyll-curate-coordinate-and-command-ai/",
+      "published": "Sun, 03 Aug 2025 20:05:00 +0000",
+      "summary": "AI coding requires a serious structural change. Where does that leave entry-level developers and the software industry as a whole?"
+    },
+    {
+      "title": "Why the AI era is forcing a redesign of the entire compute backbone",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/why-the-ai-era-is-forcing-a-redesign-of-the-entire-compute-backbone/",
+      "published": "Sun, 03 Aug 2025 18:05:00 +0000",
+      "summary": "<p><span class=\"ARTICLELISTING__LABEL\"><span class=\"ARTICLE-TYPE\">GUEST:</span></span> The past few decades have seen almost unimaginable advances in compute performance and efficiency, enabled by Moore’s Law and underpinned by scale-out commodity hardware and loosely coupled software. This architec"
+    },
+    {
+      "title": "New vision model from Cohere runs on two GPUs, beats top-tier VLMs on visual tasks",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/new-vision-model-from-cohere-runs-on-two-gpus-beats-top-tier-vlms-on-visual-tasks/",
+      "published": "Fri, 01 Aug 2025 22:05:20 +0000",
+      "summary": "Cohere's Command A Vision can read graphs and PDFs to make enterprise research richer and analyze the documents businesses actually rely on."
+    },
+    {
+      "title": "Forcing LLMs to be evil during training can make them nicer in the long run",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/08/01/1120924/forcing-llms-to-be-evil-during-training-can-make-them-nicer-in-the-long-run/",
+      "published": "Fri, 01 Aug 2025 16:00:00 +0000",
+      "summary": "A new study from Anthropic suggests that traits such as sycophancy or evilness are associated with specific patterns of activity in large language models—and turning on those patterns during training can, paradoxically, prevent the model from adopting the related traits. Large language models have r"
+    },
+    {
+      "title": "The Download: how fertility tech is changing families, and Trump’s latest tariffs",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/08/01/1120918/the-download-how-fertility-tech-is-changing-families-and-trumps-latest-tariffs/",
+      "published": "Fri, 01 Aug 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How decades-old frozen embryos are changing the shape of families This week we welcomed a record-breaking baby to the world. Thaddeus Daniel Pierce, w"
+    },
+    {
+      "title": "How decades-old frozen embryos are changing the shape of families",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/08/01/1120911/decades-old-frozen-embryos-are-changing-the-shape-of-families/",
+      "published": "Fri, 01 Aug 2025 09:00:00 +0000",
+      "summary": "This week we welcomed a record-breaking baby to the world. Thaddeus Daniel Pierce, who arrived over the weekend, developed from an embryo that was frozen in storage for 30 and a half years. You could call him the world’s oldest baby. His parents, Lindsey and Tim Pierce, were themselves only young ch"
+    }
+  ]
+}

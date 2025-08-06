@@ -1,0 +1,423 @@
+{
+  "analysis": {
+    "summary": "Headlines cover topics such as online safety for children, cyber-attacks on retailers Marks & Spencer and Co-op, Boeing fuel switch safety post Air India crash, potential worker ownership of the Post Office, job market influence on bank interest rates, and advancements in technology including AI chatbots, EVs, foldable devices, solar exposure tracking apps, and space exploration.",
+    "keywords": [
+      "children",
+      "cyber-attacks",
+      "safe",
+      "m&s",
+      "co-op",
+      "manipulated",
+      "hitler",
+      "workers",
+      "ownership",
+      "job",
+      "rates",
+      "switches",
+      "regulator",
+      "crash",
+      "app",
+      "chatbot",
+      "therapy",
+      "risks",
+      "guilty",
+      "pleasure",
+      "species",
+      "martian",
+      "climate",
+      "takeaways",
+      "trump",
+      "bill",
+      "chromeos",
+      "android",
+      "foldables",
+      "thin",
+      "gm",
+      "electric",
+      "vehicles",
+      "racing",
+      "fitness",
+      "trackers",
+      "sun",
+      "historic",
+      "flyby"
+    ],
+    "trending_topics": [
+      "online safety",
+      "cybersecurity",
+      "retail cyber-attacks",
+      "Boeing fuel switch safety",
+      "Post Office ownership",
+      "job market influence on bank rates",
+      "AI chatbots",
+      "EV advancements",
+      "foldable devices",
+      "space exploration"
+    ],
+    "search_keywords": [
+      "children",
+      "cyber-attacks",
+      "safe",
+      "m&s",
+      "co-op",
+      "manipulated",
+      "hitler",
+      "workers",
+      "ownership",
+      "job",
+      "rates",
+      "switches",
+      "regulator",
+      "crash",
+      "app",
+      "chatbot",
+      "therapy",
+      "risks",
+      "guilty",
+      "pleasure",
+      "species",
+      "martian",
+      "climate",
+      "takeaways",
+      "trump",
+      "bill",
+      "chromeos",
+      "android",
+      "foldables",
+      "thin",
+      "gm",
+      "electric",
+      "vehicles",
+      "racing",
+      "fitness",
+      "trackers",
+      "sun",
+      "historic",
+      "flyby"
+    ],
+    "analysis_timestamp": "2025-07-14T06:43:54.115925"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 38,
+  "sources_analyzed": [
+    "Fast Company",
+    "MIT Technology Review",
+    "Wired",
+    "BBC Business",
+    "The Verge",
+    "Hacker News",
+    "Ars Technica",
+    "Engadget",
+    "BBC Technology",
+    "BBC World",
+    "TechCrunch",
+    "Slashdot",
+    "VentureBeat"
+  ],
+  "raw_headlines": [
+    {
+      "title": "More rules being considered to keep children safe online",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cp82447l84ko",
+      "published": "Sun, 13 Jul 2025 11:57:33 GMT",
+      "summary": "Cabinet minister Heidi Alexander says age checks will not mark the \"end of the conversation\"."
+    },
+    {
+      "title": "Four arrested in connection with M&S and Co-op cyber-attacks",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cwykgrv374eo",
+      "published": "Thu, 10 Jul 2025 13:42:24 GMT",
+      "summary": "Three men and one woman - aged between 17 and 20 - have been arrested in London and the Midlands."
+    },
+    {
+      "title": "Musk says Grok chatbot was 'manipulated' into praising Hitler",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c4g8r34nxeno",
+      "published": "Thu, 10 Jul 2025 12:02:11 GMT",
+      "summary": "Anti-hate campaigners say the posts were \"irresponsible, dangerous and antisemitic.\""
+    },
+    {
+      "title": "Post Office could be owned by its workers, government says",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/czjk2eynz1lo",
+      "published": "Mon, 14 Jul 2025 10:29:26 GMT",
+      "summary": "The service could be turned into an employee-owned business, under options set out by the government."
+    },
+    {
+      "title": "Bank boss ready to cut rates if job market slows",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cqx2pj42395o",
+      "published": "Mon, 14 Jul 2025 07:23:01 GMT",
+      "summary": "Andrew Bailey tells the Times he believes \"the path is downward\" on interest rates."
+    },
+    {
+      "title": "Boeing fuel switches safe, regulator says after Air India crash",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/ce9xpgnx3vdo",
+      "published": "Mon, 14 Jul 2025 10:05:54 GMT",
+      "summary": "A preliminary investigation found the switches had been turned off in June's fatal Air India crash."
+    },
+    {
+      "title": "Boeing fuel switches safe, regulator says after Air India crash",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ce9xpgnx3vdo",
+      "published": "Mon, 14 Jul 2025 10:05:54 GMT",
+      "summary": "A preliminary investigation found the switches had been turned off in June's fatal Air India crash."
+    },
+    {
+      "title": "Meteor Garden's boy band F4 thrills fans with surprise reunion",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cwyr2gnzx5wo",
+      "published": "Mon, 14 Jul 2025 04:39:25 GMT",
+      "summary": "The Taiwanese boy band shot to stardom in the early 2000s after starring in the hit TV drama Meteor Garden."
+    },
+    {
+      "title": "Jack Dorsey’s latest app tracks sun exposure",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/14/jack-dorseys-latest-app-tracks-sun-exposure/",
+      "published": "Mon, 14 Jul 2025 10:21:32 +0000",
+      "summary": "Twitter co-founder Jack Dorsey's new app, called Sun Day, ostensibly helps users track UV exposure and Vitamin D intake."
+    },
+    {
+      "title": "Meta acquires voice startup Play AI",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/13/meta-acquires-voice-startup-play-ai/",
+      "published": "Sun, 13 Jul 2025 21:32:25 +0000",
+      "summary": "Meta has acquired Play AI, a startup that uses AI to generate human-sounding voices."
+    },
+    {
+      "title": "Study warns of ‘significant risks’ in using AI therapy chatbots",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/07/13/study-warns-of-significant-risks-in-using-ai-therapy-chatbots/",
+      "published": "Sun, 13 Jul 2025 19:50:38 +0000",
+      "summary": "Therapy chatbots powered by large language models may stigmatize users with mental health conditions and otherwise respond inappropriately or even dangerously, according to researchers at Stanford University."
+    },
+    {
+      "title": "Species at 30 makes for a great guilty pleasure",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/culture/2025/07/species-at-30-makes-for-a-great-guilty-pleasure/",
+      "published": "Sun, 13 Jul 2025 19:20:53 +0000",
+      "summary": "Sure, the plot lacks originality but it's a solid B movie—and H.R. Giger designed the alien lifeform."
+    },
+    {
+      "title": "A new Martian climate model suggest a mostly cold, harsh environment",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/07/a-new-martian-climate-model-suggest-a-mostly-cold-harsh-environment/",
+      "published": "Sun, 13 Jul 2025 11:13:05 +0000",
+      "summary": "A model built using data from the Curiosity rover suggests wet periods were rare."
+    },
+    {
+      "title": "5 big EV takeaways from Trump’s “One Big Beautiful Bill”",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/cars/2025/07/5-big-ev-takeaways-from-trumps-one-big-beautiful-bill/",
+      "published": "Sat, 12 Jul 2025 11:12:00 +0000",
+      "summary": "Experts have advice for how the EV-curious buyer might navigate this tricky moment."
+    },
+    {
+      "title": "Google exec: ‘We’re going to be combining ChromeOS and Android’",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/706558/google-android-chromeos-combining-sameer-samat",
+      "published": "2025-07-14T05:34:55-04:00",
+      "summary": "Google’s head of Android has said that the company plans to combine its mobile operating system with ChromeOS, the software that currently runs across Google’s Chromebook laptops. Sameer Samat, president of Google’s Android ecosystem, told TechRadar that “we’re going to be combining Chrome OS and An"
+    },
+    {
+      "title": "Foldables are in and suddenly really thin",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/installer-newsletter/705979/samsung-galaxy-z-fold-flip-7-nothing-phone-headphone-installer",
+      "published": "2025-07-13T08:00:00-04:00",
+      "summary": "Hi! Welcome to Installer No. 89, your guide to the best and Verge-iest stuff in the world. My name is Jay Peters, and I will be taking care of Installer while David is on parental leave. All of us here at The Verge are very excited for him and his family, and he'll be back [&#8230;]"
+    },
+    {
+      "title": "Why GM’s CEO is still betting on electric vehicles (and racing)",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/gm-general-motors/705320/gm-ceo-mary-barra-interview-ev-cadillac-dei-trump",
+      "published": "2025-07-13T07:00:00-04:00",
+      "summary": "GM was the first major US automaker to make the promise to go all-electric by 2035, just four years ago. Those promises have since turned into rough estimates under the second Donald Trump presidency, with the company softening language about its electrification goals. But GM is riding high on EV sa"
+    },
+    {
+      "title": "The best cheap fitness trackers for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/wearables/best-cheap-fitness-trackers-140054780.html?src=rss",
+      "published": "Mon, 14 Jul 2025 09:00:36 +0000",
+      "summary": "<p>If you’re looking to get healthier without spending a fortune, the best cheap fitness trackers prove you don’t need to splash out on the best smartwatches to stay on top of your goals. Whether you're counting steps, keeping track of heart rate monitoring or trying to improve your sleep patterns, "
+    },
+    {
+      "title": "These are the closest-ever images of the sun from Parker Solar Probe's historic flyby",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/science/space/these-are-the-closest-ever-images-of-the-sun-from-parker-solar-probes-historic-flyby-215549723.html?src=rss",
+      "published": "Sun, 13 Jul 2025 21:55:49 +0000",
+      "summary": "<p>NASA's Parker Solar Probe made history with the <a class=\"no-affiliate-link\" href=\"https://www.engadget.com/science/space/parker-solar-probe-survived-its-close-approach-to-the-sun-and-will-make-two-more-in-2025-180350510.html\">closest-ever approach to the sun last December</a>, and we're finally "
+    },
+    {
+      "title": "Great, Grok is in cars now too",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ai/great-grok-is-in-cars-now-too-202153874.html?src=rss",
+      "published": "Sun, 13 Jul 2025 20:21:53 +0000",
+      "summary": "<p>Just a day after the xAI team issued a <a class=\"no-affiliate-link\" href=\"https://www.engadget.com/ai/grok-team-apologizes-for-the-chatbots-horrific-behavior-and-blames-mechahitler-on-a-bad-update-184520189.html\">comprehensive apology</a> and explanation about why its chatbot was spreading <a cla"
+    },
+    {
+      "title": "East Asian air cleanup likely contributed to acceleration in global warming",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.nature.com/articles/s43247-025-02527-3",
+      "published": "Mon, 14 Jul 2025 09:30:37 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.nature.com/articles/s43247-025-02527-3\">https://www.nature.com/articles/s43247-025-02527-3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44558034\">https://news.ycombinator.com/item?id=44558034</a></p>\n<p>Points: 24</p>\n<p># Comments: 10</"
+    },
+    {
+      "title": "Bitcoin passes $120k milestone as US Congress readies for 'crypto week'",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.ft.com/content/1d4c5942-7190-45e1-9167-a5eacfd93982",
+      "published": "Mon, 14 Jul 2025 09:13:49 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.ft.com/content/1d4c5942-7190-45e1-9167-a5eacfd93982\">https://www.ft.com/content/1d4c5942-7190-45e1-9167-a5eacfd93982</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44557916\">https://news.ycombinator.com/item?id=44557916</a></p>\n<p>Points: "
+    },
+    {
+      "title": "Telefónica DE shifts VMware support to Spinnaker due to cost",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.theregister.com/2025/07/11/telefnica_germany_shifts_vmware_support/",
+      "published": "Mon, 14 Jul 2025 08:43:50 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.theregister.com/2025/07/11/telefnica_germany_shifts_vmware_support/\">https://www.theregister.com/2025/07/11/telefnica_germany_shifts_vmware_support/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44557757\">https://news.ycombinator.com/item"
+    },
+    {
+      "title": "Blender Studio Releases Free New Game 'Dogwalk' to Showcase Its Open Source Godot Game Engine",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://games.slashdot.org/story/25/07/14/0513223/blender-studio-releases-free-new-game-dogwalk-to-showcase-its-open-source-godot-game-engine?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Steam quietly welcomed another indie game this week, but this one is distinctly different for a lot of reasons,\" writes Notebookcheck:\n\n Dogwalk, which debuted on July 11, is the kind of short, gentle experience that almost forces you to smile. Developed by Blender Studio, the game introduces playe"
+    },
+    {
+      "title": "Ada Beats SQL, Perl, and Fortan for #10 Spot on Programming Language Popularity Index",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://developers.slashdot.org/story/25/07/14/0456224/ada-beats-sql-perl-and-fortan-for-10-spot-on-programming-language-popularity-index?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shared this report from InfoWorld:\nTiobe CEO Paul Jansen says Ada, a system programming language whose initial development dates back to the late 1970s, could outlast similarly aged languages like Visual Basic, Perl, and Fortran in the language popularity race. \n\nIn comments on t"
+    },
+    {
+      "title": "More Than Half of Carbon Credit Auditors Have Signed Off on 'Overclaimed' Benefits",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/07/14/0058203/more-than-half-of-carbon-credit-auditors-have-signed-off-on-overclaimed-benefits?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Can carbon-reducing projects \"offset\" a company's emissions? \"The reality has been less encouraging,\" according to a Science magazine editorial by Cary Coglianese, a law/political science professor at University of Pennsylvania, and Cynthia Giles, a former senior advisor at the U.S. Environmental Pr"
+    },
+    {
+      "title": "The Structure of Ice in Space Is Neither Order nor Chaos—It’s Both",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/space-ice-structure-order-chaos/",
+      "published": "Mon, 14 Jul 2025 09:00:00 +0000",
+      "summary": "Long thought to be completely disordered, space ice appears to have some crystallized regions, new research suggests."
+    },
+    {
+      "title": "Le Wand Dive Review: A Waterproof Wand Vibrator",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/le-wand-dive/",
+      "published": "Mon, 14 Jul 2025 08:00:00 +0000",
+      "summary": "It’s heavy and loud, but this powerful wand vibrator will send shockwaves through you, even underwater."
+    },
+    {
+      "title": "9 Best Electric Scooters (2025), Tested and Reviewed",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-electric-scooters/",
+      "published": "Sun, 13 Jul 2025 14:01:00 +0000",
+      "summary": "These WIRED-tested two-wheelers will help you scoot scoot scoot around town."
+    },
+    {
+      "title": "How Kroger designed its catchy new sonic logo",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91362412/how-kroger-designed-its-catchy-new-sonic-logo",
+      "published": "2025-07-14T10:00:00",
+      "summary": "<p>What does Kroger’s brand <em>sound</em> like? Until recently, no one knew. And then on June 25, the grocery behemoth (which includes regional chains like King Soopers, Fred Meyer, Ralphs, and Pick&#8217;n Save) launched its first-ever sonic identity. There’s a succinct sonic logo (think Netflix’s"
+    },
+    {
+      "title": "How Sega’s surprise Saturn launch backfired—and changed gaming forever",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91363906/sega-surprise-saturn-launch-backfired-changed-gaming-forever",
+      "published": "2025-07-14T10:00:00",
+      "summary": "<p>In May of 1995, the video game industry hosted its first major trade show. Electronic Entertainment Expo (E3) was designed to shine a spotlight on games, and every major player wanted to stand in it.</p>\n\n\n\n<p>Sega believed it had figured out how to command that spotlight. Riding high on the <a h"
+    },
+    {
+      "title": "Step inside the Nakagin Capsule Tower, one of the world’s weirdest architectural wonders",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91361605/step-inside-the-nakagin-capsule-tower-one-of-the-worlds-weirdest-architectural-wonders",
+      "published": "2025-07-14T09:30:00",
+      "summary": "<p>The Nakagin Capsule Tower in Tokyo was one of the most distinctive buildings of the 20th century, both for its oddball form and for its tumultuous evolution. A space station stack of 140 prefabricated cabin-like capsule living spaces completed in 1972, the building went from high concept design t"
+    },
+    {
+      "title": "The human harbor: Navigating identity and meaning in the AI age",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/the-human-harbor-navigating-identity-and-meaning-in-the-ai-age/",
+      "published": "Sun, 13 Jul 2025 20:35:00 +0000",
+      "summary": "The future is marked by deepening uncertainty about our place in it, and by growing ambiguity about the nature of human purpose itself."
+    },
+    {
+      "title": "Stop vetting engineers like it’s 2021 — the AI-native workforce has arrived",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/programming-development/stop-vetting-engineers-like-its-2021-the-ai-native-workforce-has-arrived/",
+      "published": "Sun, 13 Jul 2025 18:15:00 +0000",
+      "summary": "Jobs will fade and rise due to AI. But those who learn to screen, train and build dev teams around AI-enabled talent will write the future."
+    },
+    {
+      "title": "Building voice AI that listens to everyone: Transfer learning and synthetic speech in action",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/building-voice-ai-that-listens-to-everyone-transfer-learning-and-synthetic-speech-in-action/",
+      "published": "Sat, 12 Jul 2025 20:45:00 +0000",
+      "summary": "Enterprises adopting voice AI must consider not just usability, but inclusion. Supporting users with disabilities is a market opportunity."
+    },
+    {
+      "title": "California is set to become the first US state to manage power outages with AI",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/14/1120027/california-set-to-manage-power-outages-with-ai/",
+      "published": "Mon, 14 Jul 2025 09:00:00 +0000",
+      "summary": "California&#8217;s statewide power grid operator is poised to become the first in North America to deploy artificial intelligence to manage outages, MIT Technology Review has learned.&#160; “We wanted to modernize our grid operations. This fits in perfectly with that,” says Gopakumar Gopinathan, a s"
+    },
+    {
+      "title": "The Download: cybersecurity’s shaky alert system, and mobile IVF",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/11/1120003/the-download-cybersecuritys-shaky-alert-system-and-mobile-ivf/",
+      "published": "Fri, 11 Jul 2025 12:14:00 +0000",
+      "summary": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Cybersecurity’s global alarm system is breaking down Every day, billions of people trust digital systems to run everything from communicatio"
+    },
+    {
+      "title": "Cybersecurity’s global alarm system is breaking down",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/07/11/1119370/cybersecurity-alarm-system-breaking-down/",
+      "published": "Fri, 11 Jul 2025 09:00:00 +0000",
+      "summary": "Every day, billions of people trust digital systems to run everything from communication to commerce to critical infrastructure. But the global early warning system that alerts security teams to dangerous software flaws is showing critical gaps in coverage—and most users have no idea their digital l"
+    }
+  ]
+}
