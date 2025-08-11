@@ -132,6 +132,13 @@ class CustomerDataManager:
             print(f"❌ Error checking CSV file: {e}")
             return False
 
+    def force_reload(self):
+        """Force reload customer data regardless of file timestamp"""
+        print("🔄 Force reloading customer data...")
+        self._last_csv_mtime = None  # Reset timestamp to force reload
+        self._load_customers()
+        return self.customers_data is not None
+
     def get_company_data(self) -> Optional[Dict]:
         """Get loaded company data"""
         return self.company_data
@@ -928,6 +935,7 @@ class CustomerInsightsHandler:
         self.content_curator = content_curator
         self.chat_assistant = chat_assistant
         self.data_manager = CustomerDataManager(data_directory)
+        self.data_manager.force_reload()
         self.content_collector = CustomerContentCollector()
         self.analyzer = CustomerInsightsAnalyzer(content_curator, chat_assistant, self.data_manager)
         self.conversation_context = None

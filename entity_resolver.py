@@ -115,9 +115,18 @@ def calculate_similarity(text1: str, text2: str) -> float:
     text1_norm = normalize_text(text1)
     text2_norm = normalize_text(text2)
 
-    # CRITICAL FIX: Exact match should return 1.0
+    # Exact match should return 1.0
     if text1_norm == text2_norm:
         return 1.0
+
+    if _are_different_semantic_domains(text1_norm, text2_norm):
+        return 0.0
+
+    length_ratio = min(len(text1_norm), len(text2_norm)) / max(len(text1_norm), len(text2_norm))
+    if length_ratio < 0.5:  # Very different lengths
+        length_penalty = 0.5
+    else:
+        length_penalty = 1.0
 
     if HAS_FUZZYWUZZY:
         # Use fuzzy matching if available
@@ -125,6 +134,25 @@ def calculate_similarity(text1: str, text2: str) -> float:
     else:
         # Fallback to built-in SequenceMatcher
         return SequenceMatcher(None, text1_norm, text2_norm).ratio()
+
+def _are_different_semantic_domains(text1: str, text2: str) -> bool:
+    """Check if two texts are from completely different semantic domains"""
+    # Define domain keywords
+    tech_keywords = {'tesla', 'apple', 'microsoft', 'google', 'amazon', 'meta', 'nvidia'}
+    retail_keywords = {'staples', 'walmart', 'target', 'costco', 'kroger', 'macys'}
+    finance_keywords = {'bank', 'goldman', 'jpmorgan', 'wells', 'citi', 'chase'}
+
+    # Check if one is tech and other is retail (classic mismatch)
+    text1_is_tech = any(keyword in text1 for keyword in tech_keywords)
+    text1_is_retail = any(keyword in text1 for keyword in retail_keywords)
+    text2_is_tech = any(keyword in text2 for keyword in tech_keywords)
+    text2_is_retail = any(keyword in text2 for keyword in retail_keywords)
+
+    # Return True if they're in different domains
+    if (text1_is_tech and text2_is_retail) or (text1_is_retail and text2_is_tech):
+        return True
+
+    return False
 
 def extract_abbreviation(text: str) -> str:
     """Extract potential abbreviation from text"""
@@ -357,10 +385,10 @@ class CustomerEntityResolver:
         self._cluster_cache = None
         
         # Final agreed-upon thresholds
-        self.high_confidence_threshold = 0.75    # Auto-resolve without prompting (lowered)
-        self.similarity_threshold = 0.50         # Prompt for confirmation (lowered)
-        self.minimum_threshold = 0.30            # Minimum to consider as candidate
-        self.unique_reasonable_threshold = 0.50  # Minimum for unique auto-resolve
+        self.high_confidence_threshold = 0.95    # Auto-resolve without prompting (lowered)
+        self.similarity_threshold = 0.80         # Prompt for confirmation (lowered)
+        self.minimum_threshold = 0.60            # Minimum to consider as candidate
+        self.unique_reasonable_threshold = 0.70  # Minimum for unique auto-resolve
     
     def resolve_customer_entity(self, mention: EntityMention) -> DisambiguationResult:
         """Resolve a customer entity mention to actual customers"""

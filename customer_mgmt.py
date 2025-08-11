@@ -176,7 +176,7 @@ class CustomerManager:
                 })
             
             response += f"**Total: {total_customers} customers across {len(cluster_data)} clusters**\n\n"
-            response += "*Commands: 'add customer', 'remove customer', 'update customer'*"
+            response += "*Commands: 'add customer', 'remove customer', 'update customer', or 'exit' when done*"
             
             return {
                 'success': True,
@@ -827,7 +827,13 @@ class CustomerManager:
             # Clean up backup if everything succeeded
             if os.path.exists(backup_path):
                 os.remove(backup_path)
-            
+
+            try:
+                os.utime(self.customers_file)  # Touch file to update modification time
+                print(f"🔄 Triggered customer data refresh after adding {data['customer_name']}")
+            except Exception as e:
+                print(f"⚠️ Warning: Could not trigger data refresh: {e}")
+
             # Offer analysis
             response = f"✅ **Customer Added Successfully!**\n\n"
             response += f"**Customer:** {data['customer_name']}\n"

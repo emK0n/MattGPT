@@ -160,6 +160,17 @@ class ChatIntentDetector:
                 if re.search(pattern, message_lower):
                     confidence = self._calculate_confidence(message_lower, pattern, intent_type)
                     if confidence >= self._confidence_threshold:
+                        # NEW: Skip entity resolution for file upload and URL analysis contexts
+                        if intent_type in ['file_upload_trigger', 'url_analysis']:
+                            return {
+                                'intent': intent_type,
+                                'confidence': confidence,
+                                'matched_pattern': pattern,
+                                'original_message': message,
+                                'resolved_message': message,
+                                'skip_entity_resolution': True  # Flag to prevent customer matching
+                            }
+
                         return {
                             'intent': intent_type,
                             'confidence': confidence,
@@ -181,7 +192,7 @@ class ChatIntentDetector:
                 'original_message': message
             }
 
-        # FIXED: Ensure resolved entities trigger customer_insights intent
+        # Ensure resolved entities trigger customer_insights intent
         if resolution_result.get('customer_resolutions'):
             resolved_customers = [r for r in resolution_result['customer_resolutions']
                                   if r.get('result_type') == 'single_match' and not r.get('needs_confirmation')]

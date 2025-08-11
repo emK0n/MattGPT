@@ -689,8 +689,6 @@
                     // Show mode indicator
                     document.getElementById('customerModeIndicator').style.display = 'block';
 
-                    // Show help message
-                    addMessage('assistant', getCustomerManagementHelp());
                 } else {
                     addMessage('assistant', '❌ Error starting customer management. Starting analysis...');
                     startNormalChain();
@@ -801,36 +799,6 @@ No customers found. You can add customers to organize your business relationship
 </div>`;
 
             return message;
-        }
-
-        function getCustomerManagementHelp() {
-            return `📋 **Customer Management Help**
-
-**Available Commands:**
-
-**View Customers:**
-- "list customers" - Show all customers by cluster
-- "show customers" - Same as above
-
-**Add Customers:**
-- "add customer" - Start guided workflow to add new customer
-- "create customer" - Same as above
-
-**Remove Customers:**
-- "remove customer" - Remove specific customer
-- "delete cluster" - Remove entire cluster
-
-**Update Customers:**
-- "update customer" - Change cluster or reference URL
-- "move customer" - Same as above
-
-**Help:**
-- "help" - Show this help message
-
-**Exit:**
-- "done", "exit", "cancel" - Exit customer management
-
-All operations use step-by-step guidance with confirmation prompts to prevent accidents.`;
         }
 
         function startNormalChain(forceRefresh = false) {
