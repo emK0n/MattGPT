@@ -24,7 +24,7 @@ from podcast_generator import PodcastGenerator
 from interest_mgmt import InterestManager
 from chain_operations_manager import create_chain_operations_manager, add_chain_operations_endpoints
 from customer_mgmt import CustomerManager
-
+from file_upload_processor import create_file_uploader
 
 # Define Data structure and create directory first
 DATA_DIR = os.environ.get('DATA_DIR', 'data')
@@ -399,6 +399,32 @@ def download_file(filename):
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/upload', methods=['POST'])
+def upload_file():
+    """Handle file upload from drag and drop"""
+    try:
+        if 'file' not in request.files:
+            return jsonify({'success': False, 'error': 'No file provided'}), 400
+
+        file = request.files['file']
+        if file.filename == '':
+            return jsonify({'success': False, 'error': 'No file selected'}), 400
+
+        session_id = request.form.get('session_id', f"upload_{int(time.time())}")
+
+        # Create file uploader and process
+        file_uploader = create_file_uploader(curator)
+        result = file_uploader.process_uploaded_file(file, session_id)
+
+        if result['success']:
+            return jsonify(result)
+        else:
+            return jsonify(result), 400
+
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)}), 500
 
 # =============================================================================
 # CORE UTILITY ENDPOINTS (Simple Delegation)

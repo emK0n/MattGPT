@@ -223,6 +223,7 @@
             setupEventListeners();
             checkSystemStatus();
             enableInput();
+            initializeDragAndDrop();
 
             const modal = document.getElementById('modalOverlay');
             modal.classList.remove('show');
@@ -2949,6 +2950,100 @@ All operations use step-by-step guidance with confirmation prompts to prevent ac
                 enableInput();
                 isOperationRunning = false;
             });
+        }
+
+        // Initialize drag and drop
+        function initializeDragAndDrop() {
+            const chatContainer = document.getElementById('messagesContainer');
+
+            // Prevent default drag behaviors
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                chatContainer.addEventListener(eventName, preventDefaults, false);
+                document.body.addEventListener(eventName, preventDefaults, false);
+            });
+
+            // Highlight drop zone
+            ['dragenter', 'dragover'].forEach(eventName => {
+                chatContainer.addEventListener(eventName, highlight, false);
+            });
+
+            ['dragleave', 'drop'].forEach(eventName => {
+                chatContainer.addEventListener(eventName, unhighlight, false);
+            });
+
+            // Handle dropped files
+            chatContainer.addEventListener('drop', handleDrop, false);
+        }
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        function highlight(e) {
+            const chatContainer = document.getElementById('messagesContainer');
+            chatContainer.classList.add('drag-over');
+        }
+
+        function unhighlight(e) {
+            const chatContainer = document.getElementById('messagesContainer');
+            chatContainer.classList.remove('drag-over');
+        }
+
+        function handleDrop(e) {
+            const files = e.dataTransfer.files;
+
+            if (files.length > 0) {
+                const file = files[0];
+
+                // Check file type
+                const allowedTypes = ['.pdf', '.txt', '.doc', '.docx', '.rtf', '.md'];
+                const fileExt = '.' + file.name.split('.').pop().toLowerCase();
+
+                if (!allowedTypes.includes(fileExt)) {
+                    addMessage('system', `❌ Unsupported file type: ${fileExt}. Supported: ${allowedTypes.join(', ')}`);
+                    return;
+                }
+
+                // Process the dropped file
+                handleFileUpload(file);
+            }
+        }
+
+        function handleFileUpload(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+            formData.append('session_id', sessionId);
+
+            // Show upload in chat
+            addMessage('user', `📁 Uploading: ${file.name}...`);
+
+            fetch('/api/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    addMessage('assistant', result.message);
+                    refreshArticles();
+                } else {
+                    addMessage('assistant', `❌ Upload failed: ${result.error}`);
+                }
+            })
+            .catch(error => {
+                addMessage('assistant', `❌ Upload error: ${error.message}`);
+            });
+        }
+
+        function promptFileUpload() {
+            // This function is called by the frontend callback
+            // The message is already shown, just highlight the drop zone briefly
+            const chatContainer = document.getElementById('messagesContainer');
+            chatContainer.style.animation = 'pulse 1s ease-in-out';
+            setTimeout(() => {
+                chatContainer.style.animation = '';
+            }, 1000);
         }
 
         // =============================================================================

@@ -19,6 +19,7 @@ from contextlib import contextmanager
 from flask import request, jsonify, Response
 from customer_insights import create_customer_insights_handler
 from entity_resolver import EntityResolutionPipeline
+from file_upload_processor import create_file_uploader
 
 DATA_DIRECTORY = "data"
 
@@ -130,6 +131,16 @@ class ChatIntentDetector:
                 r'^analyze my customers?$',
                 r'^do customer analysis$',
                 r'^relate to my customers?$'
+            ],
+            'file_upload_trigger': [
+                r'add (?:my )?file',
+                r'upload (?:my )?file',
+                r'upload (?:a )?document',
+                r'add (?:my )?document',
+                r'analyze (?:my )?file',
+                r'process (?:my )?file',
+                r'import (?:a )?file',
+                r'load (?:my )?file'
             ]
         }
         
@@ -921,6 +932,7 @@ class EnhancedChatManager:
         self.customer_insights = create_customer_insights_handler(
             content_curator, chat_assistant, data_directory
         )
+        self.file_uploader = create_file_uploader(content_curator)
         
         # Session management
         self.active_sessions = {}
@@ -1094,6 +1106,8 @@ class EnhancedChatManager:
                 yield from self._handle_current_events_query(conversation, message, intent_result)
             elif intent == 'customer_insights':
                 yield from self._handle_customer_insights(conversation, message, intent_result)
+            elif intent == 'file_upload_trigger':
+                yield from self._handle_file_upload_trigger(conversation, message, intent_result)
             else:
                 yield from self._handle_general_conversation(conversation, message, intent_result)
             
@@ -1618,6 +1632,27 @@ class EnhancedChatManager:
 
         except Exception as e:
             yield f"❌ **Error in customer insights**: {str(e)}"
+
+    def _handle_file_upload_trigger(self, conversation: ConversationMemory,
+                                    message: str, intent_result: Dict) -> Generator[str, None, None]:
+        """Handle file upload trigger - prompt user to drag and drop"""
+        try:
+            yield "📁 **Ready for file upload!** Please drag and drop your file into the chat area. PDF, TXT, DOC, DOCX, RTF, MD are all supported"
+        except Exception as e:
+            yield f"❌ **Error initiating file upload**: {str(e)}"
+
+    def _handle_file_upload_result(self, conversation: ConversationMemory,
+                                   upload_result: Dict) -> Generator[str, None, None]:
+        """Handle completed file upload result"""
+        if upload_result['success']:
+            # Add to conversation context for discussion
+            article_data = upload_result['article_data']
+            conversation.add_article_to_context(article_data)
+
+            # Yield the success message
+            yield upload_result['message']
+        else:
+            yield f"❌ **Upload Failed:** {upload_result['error']}"
 
     def _is_article_discussion_context(self, conversation: ConversationMemory, message: str) -> bool:
         """Check if user is asking about article content in relational context"""

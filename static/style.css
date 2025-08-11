@@ -2171,6 +2171,30 @@ body::before {
     background: #a1a1a1;
 }
 
+.drag-over {
+    background-color: #f0f8ff !important;
+    border: 2px dashed #007bff !important;
+    border-radius: 8px;
+    position: relative;
+}
+
+.drag-over::after {
+    content: "📁 Drop your file here to upload and analyze";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 123, 255, 0.9);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    z-index: 1000;
+    text-align: center;
+    white-space: nowrap;
+}
+
 /* Animation for smooth appearance */
 @keyframes slideIn {
     from {
