@@ -106,8 +106,8 @@
                     </div>
                 </div>
 
-                <div class="mode-indicator" id="customerModeIndicator" style="display: none;">
-                    📋 Customer Management Mode - Type commands or 'done' to exit
+                <div class="customer-mode-indicator" id="customerModeIndicator" style="display: none;">
+                    📋 Customer Management Mode
                 </div>
 
                 <div class="search-status" id="searchStatus">
@@ -757,7 +757,6 @@
             window.isInCustomerMode = false;
             window.currentCustomerSession = null;
             document.getElementById('customerModeIndicator').style.display = 'none';
-            addMessage('assistant', '✅ Customer management complete. You can now ask about customers or start other operations.');
         }
 
         function formatCustomersForDisplay(customers) {

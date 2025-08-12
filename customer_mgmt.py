@@ -34,6 +34,12 @@ try:
 except ImportError:
     HAS_CUSTOMER_INSIGHTS = False
 
+try:
+    from customer_insights import CustomerDataManager
+    HAS_CUSTOMER_DATA_MANAGER = True
+except ImportError:
+    HAS_CUSTOMER_DATA_MANAGER = False
+
 
 class CustomerManager:
     """Manages customer data with multi-step workflow processing"""
@@ -62,6 +68,11 @@ class CustomerManager:
             self.insights_agent = CustomerInsightsAgent(data_directory)
         else:
             self.insights_agent = None
+
+        if HAS_CUSTOMER_DATA_MANAGER:
+            self.customer_data_manager = CustomerDataManager(data_directory)
+        else:
+            self.customer_data_manager = None
 
     def is_customer_command(self, message: str) -> bool:
         """Check if message is a customer management command"""
@@ -128,64 +139,90 @@ class CustomerManager:
         # Help
         elif 'help' in command_lower:
             return self._get_customer_help()
+
+        # Exit Management Mode
+        elif command_lower in ['exit', 'quit', 'done', 'stop', 'cancel']:
+            return {
+                'success': True,
+                'action': 'workflow_cancelled',
+                'response': '✅ Customer management complete. You can now ask about customers or start other operations.',
+                'exit_mode': True
+            }
             
         else:
             return {
                 'success': False,
-                'action': 'unknown_command',
-                'response': self._get_customer_help()['response']
+                'action': 'not_customer_command',
+                'exit_mode': True  # Signal to exit customer management mode
             }
 
     def _process_list_command(self) -> Dict:
-        """List all customers organized by cluster"""
+        """List all customers organized by cluster - use CustomerDataManager for proper sorting"""
         try:
-            customers_df = self._load_customers_csv()
-            if customers_df is None or len(customers_df) == 0:
+            # Use CustomerDataManager for proper natural sorting
+            if HAS_CUSTOMER_DATA_MANAGER and self.customer_data_manager:
+                clusters = self.customer_data_manager.get_clusters()  # Already sorted correctly
+                all_customers = self.customer_data_manager.get_all_customers()
+
+                if not clusters and not all_customers:
+                    return {
+                        'success': True,
+                        'action': 'list',
+                        'response': "📋 No customers found. Use 'add customer' to create your first customer record.",
+                        'customers': []
+                    }
+
+                response_parts = [
+                    "📋 **Your Customers by Cluster:**",
+                    ""
+                ]
+
+                total_customers = 0
+                cluster_data = []
+
+                for cluster in clusters:  # clusters already sorted with natural_sort_key
+                    cluster_customers = self.customer_data_manager.get_customers_by_cluster(cluster)
+                    customer_count = len(cluster_customers)
+                    total_customers += customer_count
+
+                    response_parts.append(f"**{cluster}** ({customer_count} customers):")
+
+                    customers_in_cluster = []
+                    for customer in cluster_customers:
+                        customer_name = customer.get('customer_name', 'Unknown')
+                        response_parts.append(f"  • {customer_name}")
+                        customers_in_cluster.append(customer_name)
+
+                    response_parts.append("")
+
+                    cluster_data.append({
+                        'cluster': cluster,
+                        'count': customer_count,
+                        'customers': customers_in_cluster
+                    })
+
+                response_parts.extend([
+                    f"**Total: {total_customers} customers across {len(cluster_data)} clusters**",
+                    "",
+                    "*Commands: 'add customer', 'remove customer', 'update customer', or 'exit' when done*"
+                ])
+
                 return {
                     'success': True,
                     'action': 'list',
-                    'response': "📋 No customers found. Use 'add customer' to create your first customer record.",
-                    'customers': []
+                    'response': "\n".join(response_parts),
+                    'customers': cluster_data,
+                    'total_customers': total_customers
                 }
-            
-            # Group by cluster
-            response = "📋 **Your Customers by Cluster:**\n\n"
-            customers_by_cluster = customers_df.groupby('cluster')
-            
-            total_customers = 0
-            cluster_data = []
-            
-            for cluster_name, group in customers_by_cluster:
-                customer_count = len(group)
-                total_customers += customer_count
-                
-                response += f"**{cluster_name}** ({customer_count} customers):\n"
-                
-                customers_in_cluster = []
-                for _, customer in group.iterrows():
-                    customer_name = customer['customer_name']
-                    response += f"  • {customer_name}\n"
-                    customers_in_cluster.append(customer_name)
-                
-                response += "\n"
-                
-                cluster_data.append({
-                    'cluster': cluster_name,
-                    'count': customer_count,
-                    'customers': customers_in_cluster
-                })
-            
-            response += f"**Total: {total_customers} customers across {len(cluster_data)} clusters**\n\n"
-            response += "*Commands: 'add customer', 'remove customer', 'update customer', or 'exit' when done*"
-            
-            return {
-                'success': True,
-                'action': 'list',
-                'response': response,
-                'customers': cluster_data,
-                'total_customers': total_customers
-            }
-            
+            else:
+                # Simple error if customer_data_manager not available
+                return {
+                    'success': False,
+                    'action': 'error',
+                    'response': "❌ Customer data manager not available",
+                    'error': "Customer data manager not available"
+                }
+
         except Exception as e:
             return {
                 'success': False,
