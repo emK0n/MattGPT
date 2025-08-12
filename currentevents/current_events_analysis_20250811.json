@@ -1,0 +1,354 @@
+{
+  "analysis": {
+    "summary": "Cyber attacks impact businesses, with M&S's click and collect service resuming 15 weeks after a cyber attack. Tech giants Nvidia and AMD are required to pay 15% of China chip sales to the US due to regulatory concerns. AI advancements continue with Apple potentially enabling app operation via voice command and NASA planning to build a nuclear reactor on the Moon. In the automotive industry, Hyundai is addressing keyless entry security issues in Ioniq 5 models.",
+    "keywords": [
+      "m&s",
+      "nvidia",
+      "amd",
+      "nasa"
+    ],
+    "trending_topics": [
+      "Cyber attacks impacting businesses",
+      "Regulatory concerns regarding tech companies in China",
+      "AI advancements in technology"
+    ],
+    "search_keywords": [
+      "m&s",
+      "nvidia",
+      "amd",
+      "nasa"
+    ],
+    "analysis_timestamp": "2025-08-11T08:38:17.248228"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "BBC Business",
+    "The Verge",
+    "BBC Technology",
+    "Ars Technica",
+    "Slashdot",
+    "Hacker News",
+    "TechCrunch",
+    "Engadget",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "VentureBeat",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "M&S click and collect returns 15 weeks after cyber attack",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cewyyjdzql4o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 09:09:15 GMT",
+      "summary": "The retailer stopped taking orders on its website and app for clothing on 25 April."
+    },
+    {
+      "title": "Musk's Tesla applies to supply power to British homes",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c3v3333rlp7o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 04:17:07 GMT",
+      "summary": "If approved by the energy watchdog Ofgem, it would allow the US firm to take on the UK's dominant suppliers."
+    },
+    {
+      "title": "Nvidia and AMD to pay 15% of China chip sales to US",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvgvvnx8y19o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 09:26:32 GMT",
+      "summary": "The chip giants will hand revenues to the US government in exchange for licences to export to China."
+    },
+    {
+      "title": "Entertainer founder hands over toy shop chain to staff",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cgm2jjwmw9jo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 08:48:50 GMT",
+      "summary": "The toy retailer's 1,900 workers will get a share of profits and a say in how the business is run."
+    },
+    {
+      "title": "Nvidia and AMD to pay 15% of China chip sales to US",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cvgvvnx8y19o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 09:26:32 GMT",
+      "summary": "The chip giants will hand revenues to the US government in exchange for licences to export to China."
+    },
+    {
+      "title": "M&S click and collect returns 15 weeks after cyber attack",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cewyyjdzql4o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 09:09:15 GMT",
+      "summary": "The retailer stopped taking orders on its website and app for clothing on 25 April."
+    },
+    {
+      "title": "Bowen: Israeli settlers intensify campaign to drive out West Bank Palestinians",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cj4wwxz12jko?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 10 Aug 2025 21:03:27 GMT",
+      "summary": "In the shadow of the Gaza war, violence is rising in the occupied territories as radical settlers seize land with the backing of the government."
+    },
+    {
+      "title": "Five Al Jazeera journalists killed in Israeli strike in Gaza",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ceqyyrp3yq9o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 08:58:23 GMT",
+      "summary": "Israel said it targeted well known reporter Anas al-Sharif and alleged he was part of Hamas, which Al Jazeera has denied."
+    },
+    {
+      "title": "Trump demands homeless people 'immediately' move out of Washington DC",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c1kzz4m3ll1o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 11 Aug 2025 08:56:40 GMT",
+      "summary": "Trump says homeless people must go \"far\" from the nation's capital, as part of his anti-crime plan, but the mayor pushes back."
+    },
+    {
+      "title": "Apple’s new Siri may allow users to operate apps just using voice",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/08/11/apples-new-siri-may-allow-users-to-operate-apps-just-using-voice/",
+      "published": "Mon, 11 Aug 2025 11:23:38 +0000",
+      "summary": "Apple is testing a version of Siri that will be able to take actions on your behalf across various apps by following voice commands. The company plans to release a new version of App Intents, its framework gives developers the ability to allow users access to parts of their app via different systems"
+    },
+    {
+      "title": "Nigerian profitable food delivery Chowdeck lands $9M from Novastar, Y Combinator",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/08/11/nigeria-profitable-food-delivery-chowdeck-lands-9m-from-novastar-y-combinator/",
+      "published": "Mon, 11 Aug 2025 07:11:55 +0000",
+      "summary": "Chowdeck, a Lagos-based food delivery startup that has stayed profitable in a notoriously tough and low-margin market, has raised $9 million in Series A funding to launch a quick commerce strategy and expand into more cities in Nigeria and Ghana. The equity round was led by Novastar Ventures, with p"
+    },
+    {
+      "title": "Security flaws in a carmaker’s web portal let one hacker remotely unlock cars from anywhere",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/08/10/security-flaws-in-a-carmakers-web-portal-let-one-hacker-remotely-unlock-cars-from-anywhere/",
+      "published": "Mon, 11 Aug 2025 00:00:00 +0000",
+      "summary": "Security researcher Eaton Zveare told TechCrunch that the flaws he discovered in the carmaker's centralized dealer portal exposed vast access to customer and vehicle data. With this access, Zveare said he could remotely take over a customer's account and unlock their cars, and more."
+    },
+    {
+      "title": "Netflix drops One Piece S2 teaser, renews for S3",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/culture/2025/08/netflix-drops-one-piece-s2-teaser-renews-for-s3/",
+      "published": "Mon, 11 Aug 2025 11:14:17 +0000",
+      "summary": "\"Everything I've done, everywhere I go, is for the One Piece,\""
+    },
+    {
+      "title": "How old is the earliest trace of life on Earth?",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/08/how-old-is-the-earliest-trace-of-life-on-earth/",
+      "published": "Mon, 11 Aug 2025 11:00:03 +0000",
+      "summary": "A recent conference sees doubts raised about the age of the oldest signs of life."
+    },
+    {
+      "title": "NASA plans to build a nuclear reactor on the Moon—a space lawyer explains why",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/08/nasa-plans-to-build-a-nuclear-reactor-on-the-moon-a-space-lawyer-explains-why/",
+      "published": "Sun, 10 Aug 2025 11:05:19 +0000",
+      "summary": "Nuclear power could be the linchpin for long-term human activity."
+    },
+    {
+      "title": "Matter’s latest update doubles down on stability and pushes the platforms to play better together",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/matter/757179/matter-1-4-2-spec-release-pushes-platforms-to-play-nicely",
+      "published": "2025-08-11T08:00:00-04:00",
+      "summary": "For Matter, this year was never going to be about flashy new features. Other than support for security cameras, which I hear should finally arrive this fall, 2025 is all about fixing problems. And with Matter 1.4.2, announced today, the smart home standard is taking an encouraging step forward. Back"
+    },
+    {
+      "title": "Hyundai wants Ioniq 5 owners to pay to fix a keyless entry security hole",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/757205/hyundai-ioniq-5-security-upgrade-fix-game-boy-device-attacks",
+      "published": "2025-08-11T07:52:30-04:00",
+      "summary": "Hyundai is now offering an “optional” security upgrade for the Ioniq 5 in the UK that prevents the car being stolen with a Game Boy-like device. Hyundai wants some Ioniq 5 owners to pay £49 ($65) to upgrade hardware and software components to prevent thieves using handheld devices to unlock and star"
+    },
+    {
+      "title": "AOL is finally shutting down dial-up",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/757194/aol-dial-up-is-dead",
+      "published": "2025-08-11T03:32:48-04:00",
+      "summary": "AOL dial-up is ending on September 30th according to a statement posted on the company’s website. It marks the end of the service that was synonymous with the internet for many since its launch in 1991.  “AOL routinely evaluates its products and services and has decided to discontinue Dial-up Intern"
+    },
+    {
+      "title": "Pick up Apple's AirPods Pro 2 while they're on sale for $169",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/pick-up-apples-airpods-pro-2-while-theyre-on-sale-for-169-142401232.html?src=rss",
+      "published": "Thu, 07 Aug 2025 12:19:11 +0000",
+      "summary": "<p>Even a few years after launch, the <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-02904efde6ea&amp;itemId=amazon_B0D1XD1ZV3&amp;siteId=us-engadget&amp;pageId=1p-autolink&amp;contentUuid=3b487941-6c2a-4764-863b-e333e959871d&amp;featureId=text"
+    },
+    {
+      "title": "NVIDIA may give US government a cut of its profits to sell AI chips to China",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ai/nvidia-may-give-us-government-a-cut-of-its-profits-to-sell-ai-chips-to-china-120003260.html?src=rss",
+      "published": "Mon, 11 Aug 2025 12:00:03 +0000",
+      "summary": "<p>The debate over whether AI chipmakers should be allowed to sell their products to China has taken an unusual turn. The US government has reportedly given NVIDIA and Advanced Micro Devices (AMD) permission to make the sales but for one big catch: 15 percent of the sales. The news was <a href=\"http"
+    },
+    {
+      "title": "The best gadgets for students under $50",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/school-tech-under-50-140026676.html?src=rss",
+      "published": "Mon, 11 Aug 2025 09:01:26 +0000",
+      "summary": "<p>Sure, you've remembered to pack the most important things as you prep to go back to campus for the new semester. But the little things can get you in college. It's not uncommon to discover that, a few days into your new class schedule, you forgot to pack small things like an extra charger, a port"
+    },
+    {
+      "title": "OpenSSH Post-Quantum Cryptography",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.openssh.com/pq.html",
+      "published": "Mon, 11 Aug 2025 12:01:58 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.openssh.com/pq.html\">https://www.openssh.com/pq.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44863242\">https://news.ycombinator.com/item?id=44863242</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "GPT-OSS-120B runs on just 8GB VRAM & 64GB+ system RAM",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://old.reddit.com/r/LocalLLaMA/comments/1mke7ef/120b_runs_awesome_on_just_8gb_vram/",
+      "published": "Mon, 11 Aug 2025 10:02:08 +0000",
+      "summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/LocalLLaMA/comments/1mke7ef/120b_runs_awesome_on_just_8gb_vram/\">https://old.reddit.com/r/LocalLLaMA/comments/1mke7ef/120b_runs_awesome_on_just_8gb_vram/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44862542\">https://news.yc"
+    },
+    {
+      "title": "Faster substring search with SIMD in Zig",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://aarol.dev/posts/zig-simd-substr/",
+      "published": "Mon, 11 Aug 2025 09:41:13 +0000",
+      "summary": "<p>Article URL: <a href=\"https://aarol.dev/posts/zig-simd-substr/\">https://aarol.dev/posts/zig-simd-substr/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=44862414\">https://news.ycombinator.com/item?id=44862414</a></p>\n<p>Points: 69</p>\n<p># Comments: 11</p>"
+    },
+    {
+      "title": "It's Steve Wozniak's 75th Birthday.  Whatever Happened to His YouTube Lawsuit?",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/08/10/1938248/its-steve-wozniaks-75th-birthday-whatever-happened-to-his-youtube-lawsuit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "In 2020 a YouTube video used video footage of Steve Wozniak in a scam to steal bitcoin. \"Some people said they lost their life savings,\" Wozniak tells CBS News, explaining why he sued YouTube in 2020 &mdash; and where his case stands now:\n\nWozniak's lawsuit against YouTube has been tied up in court "
+    },
+    {
+      "title": "As Demand for Plant-Based Meat Weakens in the US, Beyond Disappoints Wall Street",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/08/11/068247/as-demand-for-plant-based-meat-weakens-in-the-us-beyond-disappoints-wall-street?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Wedneday Beyond Meat \"missed Wall Street estimates for second-quarter revenue,\" reports Reuters.\n\"Consumers' growing concerns about processed foods are severely diminishing the appeal of Beyond Meat's product line, causing retailers and quick service restaurants to pull back sharply on orders,\" Rach"
+    },
+    {
+      "title": "How 12 'Enola Gay' Crew Members Remember Dropping the Atomic Bomb",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/08/11/0518238/how-12-enola-gay-crew-members-remember-dropping-the-atomic-bomb?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Last week saw the 80th anniversary of a turning point in World War II: the day America dropped an atomic bomb on Hiroshima. \n\n\"Twelve men were on that flight...\" remembers the online magazine Mental Floss, adding \"Almost all had something to say after the war.\"\n\nThe group was segregated from the res"
+    },
+    {
+      "title": "Best Nintendo Switch 2 Accessories: Controllers, Cases, and More",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-switch-2-accessories/",
+      "published": "Mon, 11 Aug 2025 12:03:00 +0000",
+      "summary": "Looking to jazz up your portable gaming experience? Here are the best accessories we've tested for the Nintendo Switch 2."
+    },
+    {
+      "title": "7 Best Tents (2025), Tested: Backpacking, Family, and Ultralight",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-camping-tents/",
+      "published": "Mon, 11 Aug 2025 11:00:00 +0000",
+      "summary": "The right shelter can make a big difference in how comfortable you are outdoors. Here are the ones we’ve tested and love."
+    },
+    {
+      "title": "What Does Palantir Actually Do?",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/palantir-what-the-company-does/",
+      "published": "Mon, 11 Aug 2025 11:00:00 +0000",
+      "summary": "Palantir is often called a data broker, a data miner, or a giant database of personal information. In reality, it’s none of these—but even former employees struggle to explain it."
+    },
+    {
+      "title": "Content creators are cashing in with live events",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91383054/content-creators-are-cashing-in-with-live-events",
+      "published": "2025-08-11T12:00:00",
+      "summary": "<p>Forget Cowboy Carter or the Eras tour, the hottest ticket this year is for your favorite podcast.&nbsp;&nbsp;</p>\n\n\n\n<p>Content creator tours sold nearly 500% more tickets this year compared to 2024, according to StubHub, with Alex Cooper&#8217;s &#8220;Unwell&#8221; tour, Crime Junkie&#8217;s po"
+    },
+    {
+      "title": "Why your company is failing at building the next generation of leaders",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91373259/why-your-leadership-pipeline-is-shrinking-and-how-you-can-fix-it",
+      "published": "2025-08-11T11:36:00",
+      "summary": "<p>In a relentless pursuit of agility and efficiency, many organizations are aggressively flattening their hierarchies, effectively eliminating layers of middle management. This move to a <a href=\"https://study.com/learn/lesson/flat-organizational-structure-hierarchy-examples.html\">flattened organiz"
+    },
+    {
+      "title": "Corporate boards are dropping the ball on their No. 1 job",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91379620/corporate-boards-are-dropping-the-ball-on-their-no-1-job",
+      "published": "2025-08-11T11:00:00",
+      "summary": "<p><em>Hello and welcome to </em>Modern CEO<em>! I&#8217;m Stephanie Mehta, CEO and chief content officer of Mansueto Ventures. Each week this newsletter explores inclusive approaches to leadership drawn from conversations with executives and entrepreneurs, and from the pages of </em>Inc<em>. and </"
+    },
+    {
+      "title": "AI’s promise of opportunity masks a reality of managed displacement",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/ais-promise-of-opportunity-masks-a-reality-of-managed-displacement/",
+      "published": "Sun, 10 Aug 2025 20:35:00 +0000",
+      "summary": "The challenge is not just to build better AI tools, but to ask harder questions about where they are taking us."
+    },
+    {
+      "title": "From terabytes to insights: Real-world AI obervability architecture",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/from-terabytes-to-insights-real-world-ai-obervability-architecture/",
+      "published": "Sat, 09 Aug 2025 19:15:00 +0000",
+      "summary": "Using structured protocols such as MCP and AI-driven analyses results in proactive rather than reactive systems."
+    },
+    {
+      "title": "Anthropic revenue tied to two customers as AI pricing war threatens margins",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/anthropic-revenue-tied-to-two-customers-as-ai-pricing-war-threatens-margins/",
+      "published": "Fri, 08 Aug 2025 23:35:35 +0000",
+      "summary": "Anthropic faces risks as $5B run rate leans on Cursor and GitHub Copilot as OpenAI’s cheaper GPT‑5 undercuts Claude, spotlighting customer concentration risks and enterprise AI cost pressure."
+    },
+    {
+      "title": "The Download: a quantum radar, and chipmakers’ deal with the US government",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/08/11/1121437/the-download-a-quantum-radar-and-chipmakers-deal-with-the-us-government/",
+      "published": "Mon, 11 Aug 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This quantum radar could image buried objects Physicists have created a new type of radar that could help improve underground imaging, using a cloud o"
+    },
+    {
+      "title": "This quantum radar could image buried objects",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/08/11/1121314/this-quantum-radar-could-image-buried-objects/",
+      "published": "Mon, 11 Aug 2025 09:00:00 +0000",
+      "summary": "Physicists have created a new type of radar that could help improve underground imaging, using a cloud of atoms in a glass cell to detect reflected radio waves. The radar is a type of quantum sensor, an emerging technology that uses the quantum-mechanical properties of objects as measurement devices"
+    },
+    {
+      "title": "The Download: GPT-5 is here, and Intel’s CEO drama",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/08/08/1121330/the-download-gpt-5-is-here-and-intels-ceo-drama/",
+      "published": "Fri, 08 Aug 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. GPT-5 is here. Now what? At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI’s flagship models and its o s"
+    }
+  ]
+}

@@ -1,0 +1,1251 @@
+Table of Contents
+
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 10-K
+
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the year ended December 31, 2023
+
+Commission File Number 1-11758
+
+(Exact name of Registrant as specified in its charter)
+
+Delaware 1585 Broadway 36-3145972 (212) 761-4000
+
+(State or other jurisdiction of New York, NY 10036 (I.R.S. Employer Identification No.) (Registrant’s telephone number,
+
+incorporation or organization) including area code)
+
+(Address of principal executive offices,
+
+including Zip Code)
+
+Securities registered pursuant to Section 12(b) of the Act:
+
+Trading Name of exchange on
+
+Title of each class Symbol(s) which registered
+
+Common Stock, $0.01 par value MS New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of Floating Rate
+
+Non-Cumulative Preferred Stock, Series A, $0.01 par value MS/PA New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate
+
+Non-Cumulative Preferred Stock, Series E, $0.01 par value MS/PE New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate
+
+Non-Cumulative Preferred Stock, Series F, $0.01 par value MS/PF New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate
+
+Non-Cumulative Preferred Stock, Series I, $0.01 par value MS/PI New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate
+
+Non-Cumulative Preferred Stock, Series K, $0.01 par value MS/PK New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of 4.875%
+
+Non-Cumulative Preferred Stock, Series L, $0.01 par value MS/PL New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of 4.250%
+
+Non-Cumulative Preferred Stock, Series O, $0.01 par value MS/PO New York Stock Exchange
+
+Depositary Shares, each representing 1/1,000th interest in a share of 6.500%
+
+Non-Cumulative Preferred Stock, Series P, $0.01 par value MS/PP New York Stock Exchange
+
+Global Medium-Term Notes, Series A, Fixed Rate Step-Up Senior Notes Due 2026
+
+of Morgan Stanley Finance LLC (and Registrant’s guarantee with respect thereto) MS/26C New York Stock Exchange
+
+Global Medium-Term Notes, Series A, Floating Rate Notes Due 2029
+
+of Morgan Stanley Finance LLC (and Registrant’s guarantee with respect thereto) MS/29 New York Stock Exchange
+
+Indicate by check mark if the Registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. Yes ☐ No ☒
+
+Indicate by check mark if the Registrant is not required to file reports pursuant to Section 13 or 15(d) of the Act. Yes ☐ No ☒
+
+Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the
+
+preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past
+
+90 days. Yes ☒ No ☐
+
+Indicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation
+
+S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files). Yes ☒ No ☐
+
+Indicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging
+
+growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b-2 of
+
+the Exchange Act. (Check one):
+
+Large accelerated filer ☒ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company ☐ Emerging growth company ☐
+
+If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised
+
+financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+
+Indicate by check mark whether the Registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over
+
+financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit
+
+report. ☒
+
+If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the Registrant included in the filing
+
+reflect the correction of an error to previously issued financial statements. ☐
+
+Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of
+
+the Registrant’s executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐
+
+Indicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act ). Yes ☐ No ☒
+
+As of June 30, 2023, the aggregate market value of the common stock of the Registrant held by non-affiliates of the Registrant was approximately $136,317,364,533.
+
+This calculation does not reflect a determination that persons are affiliates for any other purposes.
+
+As of January 31, 2024, there were 1,635,268,297 shares of the Registrant’s common stock, $0.01 par value, outstanding.
+
+Documents Incorporated by Reference: Portions of the Registrant’s definitive proxy statement for its 2024 annual meeting of shareholders are incorporated by
+
+reference in Part III of this Form 10-K.
+
+Table of Contents
+
+ANNUAL REPORT ON FORM 10-K
+
+For the year ended December 31, 2023
+
+Table of Contents Part Item Page Table of Contents Part Item Page
+
+6. Derivative Instruments and Hedging
+
+Business I 1 5 Activities 108
+
+Overview 5 7. Investment Securities 112
+
+Business Segments 5 8. Collateralized Transactions 113
+
+Competition 5 9. Loans, Lending Commitments and Related
+
+Allowance for Credit Losses 116
+
+Supervision and Regulation 6
+
+10. Goodwill and Intangible Assets 119
+
+Human Capital 10
+
+11. Other Assets—Equity Method
+
+Information about our Executive Officers 12 Investments and Leases 120
+
+Risk Factors 1A 13 12. Deposits 121
+
+Cybersecurity 1C 26 13. Borrowings and Other Secured
+
+Financings 121
+
+Management’s Discussion and Analysis of 14. Commitments, Guarantees and
+
+Financial Condition and Results of Contingencies 123
+
+Operations II 7 28
+
+15. Variable Interest Entities and
+
+Introduction 28 Securitization Activities 129
+
+Executive Summary 29 16. Regulatory Requirements 133
+
+Business Segments 33 17. Total Equity 136
+
+Institutional Securities 37 18. Interest Income and Interest Expense 139
+
+Wealth Management 39 19. Deferred Compensation Plans and
+
+Carried Interest Compensation 139
+
+Investment Management 42
+
+20. Employee Benefit Plans 141
+
+Supplemental Financial Information 44
+
+21. Income Taxes 144
+
+Other Matters 44
+
+22. Segment, Geographic and Revenue
+
+Accounting Development Updates 45 Information 145
+
+Critical Accounting Estimates 46 23. Parent Company 147
+
+Liquidity and Capital Resources 48 Financial Data Supplement (Unaudited) 150
+
+Balance Sheet 49 Glossary of Common Terms and Acronyms 153
+
+Changes in and Disagreements with
+
+Regulatory Requirements 53
+
+Accountants on Accounting and Financial
+
+Disclosure 9 154
+
+Quantitative and Qualitative Disclosures
+
+about Risk 7A 61 Controls and Procedures 9A 154
+
+Risk Management 61 Other Information 9B 156
+
+Market Risk 64 Disclosure Regarding Foreign Jurisdictions
+
+that Prevent Inspections 9C 156
+
+Credit Risk 68
+
+Unresolved Staff Comments I 1B 156
+
+Country and Other Risks 75
+
+Properties 2 156
+
+Financial Statements and Supplementary Data 8 80
+
+Legal Proceedings 3 156
+
+Report of Independent Registered Public
+
+Accounting Firm (PCAOB ID No. 34) 80 Mine Safety Disclosures 4 156
+
+Consolidated Income Statement 82 Market for Registrant’s Common Equity,
+
+Related Stockholder Matters and Issuer
+
+Consolidated Comprehensive Income
+
+Purchases of Equity Securities II 5 156
+
+Statement 82
+
+Directors, Executive Officers and Corporate
+
+Consolidated Balance Sheet 83 Governance III 10 157
+
+Consolidated Statement of Changes in Total
+
+Executive Compensation 11 157
+
+Equity 84
+
+Security Ownership of Certain Beneficial
+
+Consolidated Cash Flow Statement 85 Owners and Management and Related
+
+Stockholder Matters 12 157
+
+Notes to Consolidated Financial Statements 86
+
+Certain Relationships and Related
+
+1. Introduction and Basis of Presentation 86 Transactions and Director Independence 13 157
+
+2. Significant Accounting Policies 87 Principal Accountant Fees and Services 14 157
+
+3. Cash and Cash Equivalents 97 Exhibits and Financial Statement Schedules IV 15 157
+
+4. Fair Values 97 Form 10-K Summary 16 160
+
+5. Fair Value Option 107 Signatures 161
+
+2
+
+Table of Contents
+
+Forward-Looking Statements
+
+We have included in or incorporated by reference into this report, and from time to time may make in our public filings, press releases or
+
+other public statements, certain statements, including, without limitation, those under “Management’s Discussion and Analysis of
+
+Financial Condition and Results of Operations,” “Quantitative and Qualitative Disclosures about Risk” and “Legal Proceedings” that
+
+may constitute “forward-looking statements” within the meaning of the safe harbor provisions of the Private Securities Litigation Reform
+
+Act of 1995. In addition, our management may make forward-looking statements to analysts, investors, representatives of the media and
+
+others. These forward-looking statements are not historical facts and represent only our beliefs regarding future events, many of which,
+
+by their nature, are inherently uncertain and beyond our control.
+
+The nature of our business makes predicting the future trends of our revenues, expenses and net income difficult. The risks and
+
+uncertainties involved in our businesses could affect the matters referred to in such statements, and it is possible that our actual results
+
+may differ, possibly materially, from the anticipated results indicated in these forward-looking statements. Important factors that could
+
+cause actual results to differ from those in the forward-looking statements include, without limitation:
+
+• the effect of market conditions, particularly in the global equity, fixed income, currency, credit and commodities markets, including
+
+corporate, commercial and residential mortgage lending, real estate and energy markets;
+
+• the level of individual investor participation in the global markets, as well as the level and mix of client assets;
+
+• the flow of investment capital into or from AUM;
+
+• the level and volatility of equity, fixed income and commodity prices, interest rates, inflation and currency values, other market indices
+
+or other market factors, such as market liquidity;
+
+• the availability and cost of both credit and capital, as well as the credit ratings assigned to our unsecured short-term and long-term
+
+debt;
+
+• technological changes instituted by us, our competitors or counterparties, and technological risks, including risks associated with
+
+emerging technologies, business continuity and related operational risks, including breaches or other disruptions of our or a third
+
+party’s (or third-parties thereof) operations or systems;
+
+• risk associated with cybersecurity threats, including data protection and cybersecurity risk management;
+
+• our ability to effectively manage our capital and liquidity, including under stress tests designed by our banking regulators;
+
+• the impact of current, pending and future legislation or changes thereto, regulation (including capital, leverage, funding, liquidity,
+
+consumer protection, and recovery and resolution requirements) and our ability to address such requirements;
+
+• uncertainty concerning fiscal or monetary policies established by central banks and financial regulators, government shutdowns, debt
+
+ceilings or funding;
+
+• changes to global trade policies, tariffs and replacement or reform of certain interest rate benchmarks;
+
+• legal and regulatory actions, including litigation and enforcement, and other non-financial risks in the U.S. and worldwide;
+
+• changes in tax laws and regulations globally;
+
+• the effectiveness of our risk management processes and related controls, including climate risk;
+
+• our ability to effectively respond to an economic downturn, or other market disruptions;
+
+• the effect of social, economic, and political conditions and geopolitical events, including as a result of government shutdowns, changes
+
+in U.S. presidential administrations or Congress, sovereign risk, acts of war or aggression, and terrorist activities or military actions;
+
+• the actions and initiatives of current and potential competitors, as well as governments, central banks, regulators and self-regulatory
+
+organizations;
+
+• our ability to provide innovative products and services and execute our strategic initiatives, and costs related thereto, including with
+
+respect to the operational or technological integration related to such innovative and strategic initiatives;
+
+• the performance and results of our acquisitions, divestitures, joint ventures, partnerships, minority stakes or strategic alliances, or other
+
+strategic arrangements and related integrations;
+
+• investor, consumer and business sentiment and confidence in the financial markets;
+
+• our reputation and the general perception of the financial services industry;
+
+• our ability to retain, integrate and attract qualified employees or successfully transition key roles;
+
+• climate-related incidents, other environmental and sustainability matters, and global pandemics; and
+
+• other risks and uncertainties detailed under “Business—Competition,” “Business—Supervision and Regulation,” “Risk Factors” and
+
+elsewhere throughout this report.
+
+Accordingly, you are cautioned not to place undue reliance on forward-looking statements, which speak only as of the date on which
+
+they are made. We undertake no obligation to update publicly or revise any forward-looking statements to reflect the impact of
+
+circumstances or events that arise after the dates they are made, whether as a result of new information, future events or otherwise,
+
+except as required by applicable law. You should, however, consult further disclosures we may make in future filings of our annual
+
+reports on Form 10-K, quarterly reports on Form 10-Q and current reports on Form 8-K and any amendments thereto or in future press
+
+releases or other public statements.
+
+3
+
+Table of Contents
+
+Available Information
+
+We file annual, quarterly and current reports, proxy statements and other information with the Securities and Exchange
+
+Commission (“SEC”). The SEC maintains a website, www.sec.gov, that contains annual, quarterly and current reports, proxy and
+
+information statements, and other information that issuers file electronically with the SEC. Our electronic SEC filings are
+
+available to the public at the SEC’s website.
+
+Our website is www.morganstanley.com. You can access our Investor Relations webpage at www.morganstanley.com/about-us-ir.
+
+We make available free of charge, on or through our Investor Relations webpage, our proxy statements, annual reports on Form
+
+10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and any amendments to those reports filed or furnished
+
+pursuant to the Securities Exchange Act of 1934, as amended (“Exchange Act”), as soon as reasonably practicable after such
+
+material is electronically filed with, or furnished to, the SEC. We also make available, through our Investor Relations webpage,
+
+via a link to the SEC’s website, statements of beneficial ownership of our equity securities filed by our directors, officers, 10% or
+
+greater shareholders and others under Section 16 of the Exchange Act.
+
+You can access information about our corporate governance at www.morganstanley.com/about-us-governance, our sustainability
+
+initiatives at www.morganstanley.com/about-us/sustainability-at-morgan-stanley, and our commitment to diversity and inclusion
+
+at www.morganstanley.com/about-us/diversity. Our webpages include:
+
+• Amended and Restated Certificate of Incorporation;
+
+• Amended and Restated Bylaws;
+
+• Charters for our Audit Committee, Compensation, Management Development and Succession Committee, Governance and
+
+Sustainability Committee, Operations and Technology Committee, and Risk Committee;
+
+• Corporate Governance Policies;
+
+• Policy Regarding Corporate Political Activities;
+
+• Policy Regarding Shareholder Rights Plan;
+
+• Equity Ownership Commitment;
+
+• Code of Ethics and Business Conduct;
+
+• Code of Conduct;
+
+• Integrity Hotline Information;
+
+• Environmental and Social Policies; and
+
+• 2022 ESG Report: Diversity & Inclusion, Climate, and Sustainability.
+
+Our Code of Ethics and Business Conduct applies to all directors, officers and employees, including our Chief Executive Officer,
+
+Chief Financial Officer and Deputy Chief Financial Officer. We will post any amendments to the Code of Ethics and Business
+
+Conduct and any waivers that are required to be disclosed by the rules of either the SEC or the New York Stock Exchange LLC
+
+(“NYSE”) on our website. You can request a copy of these documents, excluding exhibits, at no cost, by contacting Investor
+
+Relations, 1585 Broadway, New York, NY 10036 (212-761-4000). The information on our website is not incorporated by
+
+reference into this report.
+
+4
+
+Table of Contents
+
+Business position also depends substantially on our ability to continue
+
+to attract and retain highly qualified employees while
+
+Overview managing compensation and other costs. We compete with
+
+commercial banks, investment banking firms, brokerage
+
+We are a global financial services firm that, through our firms, insurance companies, exchanges, electronic trading and
+
+subsidiaries and affiliates, advises, and originates, trades, clearing platforms, financial data repositories, investment
+
+manages and distributes capital for governments, institutions advisers and sponsors of mutual funds, hedge funds, real
+
+and individuals. We were originally incorporated under the assets funds and private credit and equity funds, energy
+
+laws of the State of Delaware in 1981, and our predecessor companies, financial technology firms and other companies
+
+companies date back to 1924. We are a financial holding offering financial and ancillary services in the U.S. and
+
+company (“FHC”) regulated by the Board of Governors of the globally, including, in certain instances, through the internet.
+
+Federal Reserve System (“Federal Reserve”) under the Bank In addition, restrictive laws and regulations applicable to
+
+Holding Company Act of 1956, as amended (“BHC Act”). certain global financial services institutions, which have been
+
+We conduct our business from our headquarters in and around increasing in complexity and volume, may prohibit us from
+
+New York City, our regional offices and branches throughout engaging in certain transactions, impose more stringent
+
+the U.S. and our principal offices in London, Frankfurt, capital and liquidity requirements, and increase costs, and can
+
+Tokyo, Hong Kong and other world financial centers. Unless put us at a competitive disadvantage to competitors in certain
+
+the context otherwise requires, the terms “Morgan Stanley,” businesses not subject to these same requirements. See also
+
+the “Firm,” “us,” “we” and “our” mean Morgan Stanley (the “Supervision and Regulation” herein and “Risk Factors.”
+
+“Parent Company”) together with its consolidated
+
+subsidiaries. See the “Glossary of Common Terms and We compete directly in the U.S. and globally with other
+
+Acronyms” for the definition of certain terms and acronyms securities and financial services firms and broker-dealers and
+
+used throughout the 2023 Form 10-K. with others on a regional or product basis. Additionally, there
+
+is increased competition driven by established firms and asset
+
+Financial information concerning us, our business segments managers, as well as the emergence of new firms, non-
+
+and geographic regions for each of the years ended December financial companies and business models, including
+
+31, 2023, December 31, 2022, and December 31, 2021 is innovative uses of technology, competing for the same clients
+
+included in “Financial Statements and Supplementary Data.” and assets, or offering similar products and services to retail
+
+and institutional customers. We also compete with companies
+
+Business Segments
+
+that provide online trading and banking services, investment
+
+advisory services, robo-advice capabilities, access to digital
+
+We are a global financial services firm that maintains
+
+asset capabilities and services, and other financial products
+
+significant market positions in each of our business segments:
+
+and services.
+
+Institutional Securities, Wealth Management and Investment
+
+Management. Through our subsidiaries and affiliates, we
+
+Our ability to access capital at competitive rates (which is
+
+provide a wide variety of products and services to a large and
+
+generally impacted by, among other things, our credit spreads
+
+diversified group of clients and customers, including
+
+and ratings) and to commit and deploy capital efficiently,
+
+corporations, governments, financial institutions and
+
+particularly in our more capital-intensive businesses,
+
+individuals. Additional information related to our business
+
+including underwriting and sales, trading, financing and
+
+segments, respective clients, and products and services
+
+market-making activities, also affects our competitive
+
+provided is included under “Management’s Discussion and
+
+position. We expect clients to continue to request that we
+
+Analysis of Financial Condition and Results of Operations.”
+
+provide loans or lending commitments in connection with
+
+certain investment banking activities.
+
+Competition
+
+It is possible that competition may become even more intense
+
+All aspects of our businesses are highly competitive, and we
+
+as we continue to compete with financial or other institutions
+
+expect them to remain so. We compete in the U.S. and
+
+that may be larger, or better capitalized, or may have a
+
+globally for clients, market share and human talent. Operating
+
+stronger local presence and longer operating history in certain
+
+within the financial services industry on a global basis
+
+geographies or products. Many of these firms have the ability
+
+presents, among other things, technological, risk management,
+
+to offer a wide range of products and services through
+
+regulatory, infrastructure and other challenges that require
+
+different platforms that may enhance their competitive
+
+effective resource allocation in order for us to remain
+
+position and could result in additional pricing pressure on our
+
+competitive. Our competitive position depends on a number
+
+businesses.
+
+of factors, including our reputation, client experience, the
+
+quality and consistency of our long-term investment
+
+We continue to experience price competition in some of our
+
+performance, innovation, execution, relative pricing and other
+
+businesses. In particular, the ability to execute securities,
+
+factors, including entering into new or expanding current
+
+derivatives and other financial instrument trades electronically
+
+businesses as a result of acquisitions and other strategic
+
+on exchanges, swap execution facilities and other automated
+
+initiatives. Our ability to sustain or improve our competitive
+
+trading platforms, and the introduction and application of new
+
+5 December 2023 Form 10-K
+
+Table of Contents
+
+technologies will likely continue the pressure on our Scope of Permitted Activities. The BHC Act limits the
+
+revenues. The trend toward direct access to automated, activities of BHCs and FHCs and grants the Federal Reserve
+
+electronic markets will likely continue as additional markets authority to limit our ability to conduct activities. We must
+
+move to more automated trading platforms. We have obtain the Federal Reserve’s approval before engaging in
+
+experienced and will likely continue to experience certain banking and other financial activities both in the U.S.
+
+competitive pressures in these and other areas in the future. and internationally.
+
+Our ability to compete successfully in the investment The BHC Act grandfathers “activities related to the trading,
+
+management industry is affected by several factors, including sale or investment in commodities and underlying physical
+
+our reputation, quality of investment professionals, properties,” provided that we were engaged in “any of such
+
+performance of investment strategies or product offerings activities as of September 30, 1997 in the U.S.” and provided
+
+relative to peers and appropriate benchmark indices, that certain other conditions that are within our reasonable
+
+advertising and sales promotion efforts, fee levels, the control are satisfied. We currently engage in our commodities
+
+effectiveness of and access to distribution channels and activities pursuant to the BHC Act grandfather exemption, as
+
+investment pipelines, the types of products offered, and well as other authorities under the BHC Act.
+
+regulatory restrictions specific to FHCs. Our investment
+
+products, including alternative investment products, may Activities Restrictions under the Volcker Rule. The Volcker
+
+compete with investments offered by other investment Rule prohibits banking entities, including us and our affiliates,
+
+managers, including by investment managers who may be from engaging in certain proprietary trading activities, as
+
+subject to less stringent legal and regulatory regimes than us. defined in the Volcker Rule, subject to exemptions for
+
+underwriting, market-making, risk-mitigating hedging and
+
+Supervision and Regulation certain other activities. The Volcker Rule also prohibits
+
+certain investments and relationships by banking entities with
+
+As a major financial services firm, we are subject to extensive covered funds, as defined in the Volcker Rule, subject to a
+
+regulation by U.S. federal and state regulatory agencies and number of exemptions and exclusions.
+
+securities exchanges and by regulators and exchanges in each
+
+of the major markets where we conduct our business. Capital Requirements. The Federal Reserve establishes
+
+capital requirements largely based on the Basel III capital
+
+We continue to monitor the changing political, tax and standards established by the Basel Committee on Banking
+
+regulatory environment. While it is likely that there will be Supervision (“Basel Committee”), including well-capitalized
+
+changes in the way major financial institutions are regulated standards, for large BHCs and evaluates our compliance with
+
+in both the U.S. and other markets in which we operate, it such requirements. The Office of the Comptroller of the
+
+remains difficult to predict the exact impact these changes Currency (“OCC”) establishes similar capital requirements
+
+will have on our business, financial condition, results of and standards for Morgan Stanley Bank, N.A. (“MSBNA”)
+
+operations and cash flows for a particular future period. We and Morgan Stanley Private Bank, National Association
+
+expect to remain subject to extensive supervision and (“MSPBNA”) (together, our “U.S. Bank Subsidiaries”).
+
+regulation.
+
+The Federal Reserve, Federal Deposit Insurance Corporation
+
+Financial Holding Company (“FDIC”) and the OCC (collectively, “U.S. banking
+
+agencies”) have proposed a comprehensive set of revisions to
+
+Consolidated Supervision. We operate as a bank holding
+
+their capital requirements based on changes to the Basel III
+
+company (“BHC”) and FHC under the BHC Act and are
+
+capital standards finalized by the Basel Committee. The
+
+subject to comprehensive consolidated supervision, regulation
+
+impact on us of any revisions to the capital requirements is
+
+and examination by the Federal Reserve. In particular, we are
+
+uncertain and depends on the adoption of final rulemakings
+
+subject to (among other things): significant regulation and
+
+by the U.S. banking agencies. For additional information, see
+
+supervision; intensive scrutiny of our businesses and plans for
+
+“Management’s Discussion and Analysis of Financial
+
+expansion of those businesses; limitations on activities; a
+
+Condition and Results of Operations—Liquidity and Capital
+
+systemic risk regime that imposes heightened capital and
+
+Resources—Regulatory Requirements—Regulatory
+
+liquidity requirements; restrictions on activities and
+
+Developments and Other Matters—Basel III Endgame
+
+investments imposed by a section of the BHC Act added by
+
+Proposal.”
+
+the Dodd-Frank Wall Street Reform and Consumer Protection
+
+Act (“Dodd-Frank Act”) referred to as the “Volcker Rule,” In addition, many of our regulated subsidiaries are subject to
+
+and comprehensive derivatives regulation. In addition, the regulatory capital requirements, including regulated
+
+Consumer Financial Protection Bureau (“CFPB”) has primary subsidiaries registered as swap dealers with the U.S.
+
+rulemaking, enforcement and examination authority over us Commodity Futures Trading Commission (“CFTC”) or
+
+and our subsidiaries with respect to federal consumer conditionally registered as security-based swap dealers with
+
+protection laws. the SEC or registered as broker-dealers or futures commission
+
+merchants.
+
+December 2023 Form 10-K 6
+
+Table of Contents
+
+For more information about the specific capital requirements systemically important financial institutions supervised by the
+
+applicable to us and our U.S. Bank Subsidiaries, as well as Federal Reserve). In addition, we are subject to a limit of 25%
+
+our subsidiaries that are broker-dealers, swap dealers and of Tier 1 capital for aggregate net credit exposures to any
+
+security-based swap dealers, see “Management’s Discussion other unaffiliated counterparty.
+
+and Analysis of Financial Condition and Results of
+
+Operations—Liquidity and Capital Resources—Regulatory The Federal Reserve may establish additional prudential
+
+Requirements” and Note 16 to the financial statements. standards for large BHCs, including with respect to an early
+
+remediation framework, contingent capital, enhanced public
+
+Capital Planning, Stress Tests and Capital Distributions. The disclosures and limits on short-term debt, including off-
+
+Federal Reserve has adopted capital planning and stress test balance sheet exposures. See “Management’s Discussion and
+
+requirements for large BHCs, including Morgan Stanley. For Analysis of Financial Condition and Results of Operations—
+
+more information about our capital planning and stress test Liquidity and Capital Resources—Regulatory Requirements
+
+requirements, see “Management’s Discussion and Analysis of —Total Loss-Absorbing Capacity, Long-Term Debt and
+
+Financial Condition and Results of Operations—Liquidity Clean Holding Company Requirements.”
+
+and Capital Resources—Regulatory Requirements.”
+
+If the Federal Reserve or the Financial Stability Oversight
+
+In addition, the Federal Reserve, the OCC and the FDIC have Council determines that a BHC with $250 billion or more in
+
+the authority to prohibit or limit the payment of dividends by consolidated assets poses a “grave threat” to U.S. financial
+
+the banking organizations they supervise, including us and stability, the institution may be, among other things, restricted
+
+our U.S. Bank Subsidiaries, if, in the banking regulator’s in its ability to merge or offer financial products and/or
+
+opinion, payment of a dividend would constitute an unsafe or required to terminate activities and dispose of assets. See also
+
+unsound practice in light of the financial condition of the “Capital Requirements” and “Liquidity Requirements” and
+
+banking organization. For information about the Federal “Resolution and Recovery Planning” herein.
+
+Reserve’s restrictions on capital distributions for large BHCs,
+
+see “Management’s Discussion and Analysis of Financial Resolution and Recovery Planning. We are required to submit
+
+Condition and Results of Operations—Liquidity and Capital once every two years to the Federal Reserve and the FDIC a
+
+Resources—Regulatory Requirements—Capital Plans, Stress resolution plan that describes our strategy for a rapid and
+
+Tests and the Stress Capital Buffer.” All of these policies and orderly resolution under the U.S. Bankruptcy Code in the
+
+other requirements could affect our ability to pay dividends event of our material financial distress or failure. Interim
+
+and/or repurchase stock or require us to provide capital updates are required in certain limited circumstances,
+
+assistance to our U.S. Bank Subsidiaries under circumstances including material mergers or acquisitions or fundamental
+
+that we would not otherwise decide to do. changes to our resolution strategy.
+
+Liquidity Requirements. In addition to capital regulations, the Our preferred resolution strategy, which is set out in our most
+
+U.S. banking agencies have adopted liquidity and funding recent resolution plan, is an SPOE strategy, which generally
+
+standards, including the LCR, the NSFR, liquidity stress contemplates the provision of adequate capital and liquidity
+
+testing and associated liquidity reserve requirements. by the Parent Company to certain of its subsidiaries so that
+
+such subsidiaries have the resources necessary to implement
+
+For more information, see “Management’s Discussion and the resolution strategy after the Parent Company has filed for
+
+Analysis of Financial Condition and Results of Operations— bankruptcy.
+
+Liquidity and Capital Resources—Balance Sheet—
+
+Regulatory Liquidity Framework.” Our next resolution plan is due July 1, 2025. Further, we
+
+submit an annual recovery plan to the Federal Reserve that
+
+Systemic Risk Regime. Under rules issued by the Federal outlines the steps that management could take over time to
+
+Reserve, large BHCs, including Morgan Stanley, must generate or conserve financial resources in times of prolonged
+
+conduct internal liquidity stress tests, maintain unencumbered financial stress.
+
+highly liquid assets to meet projected net cash outflows for 30
+
+days over the range of liquidity stress scenarios used in Certain of our domestic and foreign subsidiaries are also
+
+internal stress tests, and comply with various liquidity risk subject to resolution and recovery planning requirements in
+
+management requirements. These large BHCs also must the jurisdictions in which they operate. For example, the
+
+comply with a range of risk management and corporate FDIC currently requires certain insured depository institutions
+
+governance requirements. (“IDI”), including our U.S. Bank Subsidiaries, to submit a
+
+resolution plan every three years that describes the IDI’s
+
+The Federal Reserve also imposes single-counterparty credit strategy for a rapid and orderly resolution in the event of
+
+limits (“SCCL”) for large banking organizations. U.S. Global material financial distress or failure of the IDI.
+
+systemically important banks (“G-SIBs”), including us, are
+
+subject to a limit of 15% of Tier 1 capital for aggregate net In addition, certain financial companies, including BHCs such
+
+credit exposures to any “major counterparty” (defined to as the Firm and certain of its subsidiaries, can be subject to a
+
+include other U.S. G-SIBs, foreign G-SIBs and non-bank resolution proceeding under the orderly liquidation authority,
+
+7 December 2023 Form 10-K
+
+Table of Contents
+
+with the FDIC being appointed as receiver, provided that localization requirements and restrictions on cross-border
+
+determination of extraordinary financial distress and systemic transfer of personal and other data that may restrict our ability
+
+risk is made by the U.S. Treasury Secretary in consultation to conduct business in those jurisdictions or create additional
+
+with the U.S. President. Regulators have adopted certain financial and regulatory burdens to do so.
+
+orderly liquidation authority implementing regulations and
+
+may expand or clarify these regulations in the future. If we Numerous jurisdictions have passed laws, rules and
+
+were subject to the orderly liquidation authority, the FDIC regulations in these areas and many are considering new or
+
+would have considerable powers, including: the power to updated ones that could impact our businesses, particularly as
+
+remove directors and officers responsible for our failure and the application, interpretation and enforcement of these laws,
+
+to appoint new directors and officers; the power to assign our rules and regulations are often uncertain and evolving. Many
+
+assets and liabilities to a third party or bridge financial aspects of our businesses are subject to legal requirements
+
+company without the need for creditor consent or prior court concerning the use and protection of certain customer and
+
+review; the ability to differentiate among our creditors, other information, as well as the privacy and cybersecurity
+
+including treating certain creditors within the same class laws referenced above. We have adopted measures designed
+
+better than others, subject to a minimum recovery right on the to comply with these and related applicable requirements in
+
+part of disfavored creditors to receive at least what they would all relevant jurisdictions.
+
+have received in bankruptcy liquidation; and broad powers to
+
+For additional information on our cybersecurity strategy and
+
+administer the claims process to determine distributions from
+
+processes, see “Cybersecurity.”
+
+the assets of the receivership. The FDIC has been developing
+
+an SPOE strategy that could be used to implement the orderly
+
+Institutional Securities and Wealth Management
+
+liquidation authority.
+
+U.S. Bank Subsidiaries. Our U.S. Bank Subsidiaries are
+
+Regulators have also taken and proposed various actions to
+
+FDIC-insured depository institutions subject to supervision,
+
+facilitate an SPOE strategy under the U.S. Bankruptcy Code,
+
+regulation and examination by the OCC and are subject to the
+
+the orderly liquidation authority or other resolution regimes.
+
+OCC’s risk governance guidelines, which establish
+
+heightened standards for a large IDI’s risk governance
+
+For more information about our resolution plan-related
+
+framework and the oversight of that framework by the IDI’s
+
+submissions and associated regulatory actions, see “Risk
+
+board of directors. Our U.S. Bank Subsidiaries are also
+
+Factors—Legal, Regulatory and Compliance Risk,”
+
+subject to prompt corrective action standards, which require
+
+“Management’s Discussion and Analysis of Financial
+
+the relevant federal banking regulator to take prompt
+
+Condition and Results of Operations—Liquidity and Capital
+
+corrective action with respect to a depository institution if that
+
+Resources—Regulatory Requirements—Total Loss-
+
+institution does not meet certain capital adequacy standards.
+
+Absorbing Capacity, Long-Term Debt and Clean Holding
+
+In addition, BHCs, such as Morgan Stanley, are required to
+
+Company Requirements” and “Management’s Discussion and
+
+serve as a source of strength to their U.S. bank subsidiaries
+
+Analysis of Financial Condition and Results of Operations—
+
+and commit resources to support these subsidiaries in the
+
+Liquidity and Capital Resources—Regulatory Requirements
+
+event such subsidiaries are in financial distress. Our U.S.
+
+—Resolution and Recovery Planning.”
+
+Bank Subsidiaries’ business activities are generally limited to
+
+Cyber and Information Security Risk Management and supporting our Institutional Securities and Wealth
+
+Protection of Client Information Management business segments. Our U.S. Bank Subsidiaries’
+
+business activities are generally limited to supporting our
+
+The financial services industry faces increased global Institutional Securities and Wealth Management business
+
+regulatory focus regarding cyber and information security risk segments.
+
+management practices. Many aspects of our businesses are
+
+subject to cybersecurity legal, regulatory and disclosure Our U.S. Bank Subsidiaries are also subject to Sections 23A
+
+requirements enacted by U.S. federal and state governments and 23B of the Federal Reserve Act, which impose
+
+and other non-U.S. jurisdictions. These requirements are restrictions on certain transactions with affiliates, including
+
+generally aimed at codifying basic cybersecurity protections any extension of credit to, or purchase of assets from, an
+
+and mandating data breach notification requirements. affiliate. These restrictions limit the total amount of credit
+
+exposure that our U.S. Bank Subsidiaries may have to any
+
+Our businesses are also subject to increasing privacy and data one affiliate and to all affiliates and require collateral for
+
+protection legal requirements concerning the use and those exposures. Section 23B requires affiliate transactions to
+
+protection of certain personal information with regard to be on market terms.
+
+clients, employees and others. These requirements impose
+
+mandatory privacy and data protection obligations, including As commonly controlled FDIC-insured depository
+
+providing for individual rights, enhanced governance and institutions, each of our U.S. Bank Subsidiaries could be
+
+accountability requirements, and significant fines and responsible for any loss to the FDIC from the failure of the
+
+litigation risk for noncompliance. In addition, several other U.S. Bank Subsidiary.
+
+jurisdictions have enacted or proposed personal and other data
+
+December 2023 Form 10-K 8
+
+Table of Contents
+
+Broker-Dealer and Investment Adviser Regulation. Our are subject to net capital requirements of, and certain of their
+
+primary U.S. broker-dealer subsidiaries, Morgan Stanley & activities are regulated by, the CFTC and the National Futures
+
+Co. LLC (“MS&Co.”) and Morgan Stanley Smith Barney Association (“NFA”). MS&Co. is also subject to
+
+LLC (“MSSB”) are registered broker-dealers with the SEC requirements of, and regulation by, the CME Group, in its
+
+and in all 50 states, the District of Columbia, Puerto Rico and capacity as MS&Co.’s designated self-regulatory
+
+the U.S. Virgin Islands and are members of various self- organization, and various commodity futures exchanges of
+
+regulatory organizations, including the Financial Industry which MS&Co. is a member. Rules and regulations of the
+
+Regulatory Authority (“FINRA”), and various securities CFTC, NFA, the Joint Audit Committee and commodity
+
+exchanges and clearing organizations. Broker-dealers are futures exchanges address obligations related to, among other
+
+subject to laws and regulations covering all aspects of the things, customer asset protections, including rules and
+
+securities business, including sales and trading practices, regulations governing the segregation of customer funds, the
+
+securities offerings, publication of research reports, use of use by futures commission merchants of customer funds, the
+
+customers’ funds and securities, capital structure, risk margining of customer accounts and documentation entered
+
+management controls in connection with market access, into by futures commission merchants with their customers,
+
+recordkeeping and retention, and the conduct of their record-keeping and reporting obligations of futures
+
+directors, officers, representatives and other associated commission merchants and introducing brokers, risk
+
+persons. Broker-dealers are also regulated by securities disclosure and risk management. Our commodities activities
+
+administrators in those states where they do business. Our are subject to extensive laws and regulations in the U.S. and
+
+significant broker-dealer subsidiaries are members of the abroad.
+
+Securities Investor Protection Corporation.
+
+Derivatives Regulation. We are subject to comprehensive
+
+MSSB is also a registered investment adviser with the SEC. regulation of our derivatives businesses, including regulations
+
+MSSB’s relationship with its investment advisory clients is that impose margin requirements, public and regulatory
+
+subject to the fiduciary and other obligations imposed on reporting, central clearing and mandatory trading on regulated
+
+investment advisers. The SEC and other supervisory bodies exchanges or execution facilities for certain types of swaps
+
+generally have broad administrative powers to address non- and security-based swaps (collectively, “Swaps”).
+
+compliance, including the power to restrict or limit MSSB
+
+from carrying on its investment advisory and other asset CFTC and SEC rules require registration of swap dealers and
+
+management activities. security-based swap dealers, respectively, and impose
+
+numerous obligations on such registrants, including adherence
+
+The Firm is subject to various regulations that affect broker- to business conduct standards for all in-scope Swaps. We
+
+dealer sales practices and customer relationships, including have registered a number of U.S. and non-U.S. swap dealers
+
+the SEC’s “Regulation Best Interest,” which requires broker- and conditionally registered a number of U.S. and non-U.S
+
+dealers to act in the “best interest” of retail customers at the security-based swap dealers. Swap dealers and security-based
+
+time a recommendation is made without placing the financial swap dealers regulated by a prudential regulator are subject to
+
+or other interests of the broker-dealer ahead of the interest of uncleared Swap margin requirements and minimum capital
+
+the retail customer. requirements established by the prudential regulators. Swap
+
+dealers and security-based swap dealers not subject to
+
+Margin lending by our broker-dealers is regulated by the regulation by a prudential regulator are subject to uncleared
+
+Federal Reserve’s restrictions on lending in connection with Swap margin requirements and minimum capital requirements
+
+purchases and short sales of securities. Our broker-dealers are established by the CFTC and SEC, respectively. In some
+
+also subject to maintenance and other margin requirements cases, the CFTC and SEC permit non-U.S. swap dealers and
+
+imposed under FINRA and other self-regulatory organization security-based swap dealers that do not have a prudential
+
+rules. regulator to comply with applicable non-U.S. uncleared Swap
+
+margin and minimum capital requirements instead of direct
+
+Our U.S. broker-dealer subsidiaries are subject to the SEC’s
+
+compliance with CFTC or SEC requirements.
+
+net capital rule and the net capital requirements of various
+
+exchanges, other regulatory authorities and self-regulatory Investment Management
+
+organizations. For more information about these
+
+requirements, see Note 16 to the financial statements. Many of the subsidiaries engaged in our investment
+
+management activities are registered as investment advisers
+
+Research Regulation. In addition to research-related with the SEC. Many aspects of our investment management
+
+regulations currently in place in the U.S. and other activities are also subject to federal and state laws and
+
+jurisdictions, regulators continue to focus on research regulations in place primarily for the protection of the
+
+conflicts of interest and may impose additional regulations. investor or client. These laws and regulations generally grant
+
+supervisory agencies and bodies broad administrative powers,
+
+Futures Activities and Certain Commodities Activities
+
+including the power to limit or restrict us from carrying on
+
+Regulation. MS&Co. and E*TRADE Futures LLC, as futures
+
+our investment management activities in the event that we fail
+
+commission merchants, and MSSB, as an introducing broker,
+
+to comply with such laws and regulations.
+
+9 December 2023 Form 10-K
+
+Table of Contents
+
+In addition, certain of our subsidiaries are U.S. registered prudential requirements that are applicable under non-U.S.
+
+broker-dealers and act as distributors to our proprietary law.
+
+mutual funds and as placement agents to certain private
+
+investment funds managed by our Investment Management Firmwide Financial Crimes Program
+
+business segment. Certain of our affiliates are registered as
+
+Our Financial Crimes program is coordinated and
+
+commodity trading advisors and/or commodity pool
+
+implemented on an enterprise-wide basis and supports our
+
+operators, or are operating under certain exemptions from
+
+financial crime prevention efforts across all regions and
+
+such registration pursuant to CFTC rules and other guidance,
+
+business units. The program includes anti-money laundering
+
+and have certain responsibilities with respect to each pool
+
+(“AML”), economic sanctions (“Sanctions”), anti-boycott,
+
+they advise. Our investment management activities are subject
+
+anti-corruption, anti-tax evasion, and government and
+
+to additional laws and regulations, including restrictions on
+
+political activities compliance programs and aligned business-
+
+sponsoring or investing in, or maintaining certain other
+
+line risk functions.
+
+relationships with, covered funds, as defined by the Volcker
+
+Rule, subject to certain limited exemptions. See also
+
+In the U.S., the Bank Secrecy Act, as amended by the USA
+
+“Financial Holding Company—Activities Restrictions under
+
+PATRIOT Act of 2001 and the Anti-Money Laundering Act
+
+the Volcker Rule,” “Institutional Securities and Wealth
+
+of 2020, imposes significant obligations on financial
+
+Management—Broker-Dealer and Investment Adviser
+
+institutions to detect and deter money laundering and terrorist
+
+Regulation,” “Institutional Securities and Wealth
+
+financing activity, including requiring banks, broker-dealers,
+
+Management—Regulation of Futures Activities and Certain
+
+futures commission merchants, introducing brokers and
+
+Commodities Activities,” and “Institutional Securities and
+
+mutual funds to develop and implement AML programs,
+
+Wealth Management—Derivatives Regulation” herein and
+
+verify the 
+
+[Content truncated due to length...]
