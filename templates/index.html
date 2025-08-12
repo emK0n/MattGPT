@@ -951,11 +951,13 @@ No customers found. You can add customers to organize your business relationship
             
             addMessage('user', message);
 
-            const customer_keywords = ['customer', 'customers', 'client', 'clients', 'cluster', 'clusters', 'company', 'companies'];
-            if (customer_keywords.some(keyword => message.toLowerCase().includes(keyword)) ||
-                (message.toLowerCase().includes('add') && message.toLowerCase().includes('customer')) ||
-                (message.toLowerCase().includes('remove') && message.toLowerCase().includes('customer')) ||
-                (message.toLowerCase().includes('list') && message.toLowerCase().includes('customer'))) {
+            const message_lower = message.toLowerCase().trim();
+
+            // Only route to customer management for these specific commands
+            if ((message_lower.startsWith('list') && message_lower.includes('customer')) ||
+                (message_lower.startsWith('add') && message_lower.includes('customer')) ||
+                (message_lower.startsWith('remove') && message_lower.includes('customer')) ||
+                (message_lower.startsWith('move') && message_lower.includes('customer'))) {
 
                 // Enter customer management mode and process command
                 enterCustomerManagementMode().then(() => {
@@ -963,7 +965,6 @@ No customers found. You can add customers to organize your business relationship
                 });
                 return;
             }
-
 
             showThinking(true);
             disableInput();
