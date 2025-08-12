@@ -415,11 +415,17 @@ def upload_file():
         session_id = request.form.get('session_id', f"upload_{int(time.time())}")
 
         # Create file uploader and process
-        file_uploader = create_file_uploader(curator)
+        file_uploader = create_file_uploader(curator, enhanced_chat_manager)
         result = file_uploader.process_uploaded_file(file, session_id)
 
         if result['success']:
-            return jsonify(result)
+            return jsonify({
+                'success': True,
+                'message': result['message'],
+                'title': result['article_data'].get('title', 'Unknown'),
+                'session_id': session_id,
+                'article_data': result['article_data']
+            })
         else:
             return jsonify(result), 400
 

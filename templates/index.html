@@ -2993,7 +2993,19 @@ No customers found. You can add customers to organize your business relationship
             .then(response => response.json())
             .then(result => {
                 if (result.success) {
+                    // Show upload completion message
                     addMessage('assistant', result.message);
+
+                    // ✅ NEW: Check for auto-discussion trigger
+                    if (result.article_data && result.article_data.auto_discuss) {
+                        console.log('🗣️ Auto-discussion triggered for uploaded file:', result.article_data.title);
+
+                        // Automatically start discussion using existing discussArticle function
+                        setTimeout(() => {
+                            discussArticle(result.article_data);
+                        }, 500); // Small delay to let upload message display first
+                    }
+
                     refreshArticles();
                 } else {
                     addMessage('assistant', `❌ Upload failed: ${result.error}`);

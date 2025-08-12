@@ -1105,7 +1105,7 @@ class EntityResolutionPipeline:
         # Could not parse choice
         return {
             'action': 'unclear',
-            'message': "I didn't understand your choice. Could you please select a number from the list or say 'none' if none of them match?",
+            'message': "I didn't understand your choice, please try again.",
             'resolved_message': original_message
         }
     

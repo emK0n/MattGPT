@@ -130,7 +130,15 @@ class ChatIntentDetector:
                 r'^my customers?$',
                 r'^analyze my customers?$',
                 r'^do customer analysis$',
-                r'^relate to my customers?$'
+                r'^relate to my customers?$',
+                r'^customer .+$',
+                r'^analyze customer .+$',
+                r'^cluster .+$',
+                r'^analyze cluster .+$',
+                r'^squad .+$',
+                r'^analyze squad .+$',
+                r'^territory .+$',
+                r'^analyze territory .+$'
             ],
             'file_upload_trigger': [
                 r'add (?:my )?file',
@@ -154,56 +162,44 @@ class ChatIntentDetector:
         """
         message_lower = message.lower().strip()
 
-        # Check all patterns (no special handling needed)
+        # Check all patterns
         for intent_type, patterns in self._chat_patterns.items():
             for pattern in patterns:
                 if re.search(pattern, message_lower):
                     confidence = self._calculate_confidence(message_lower, pattern, intent_type)
                     if confidence >= self._confidence_threshold:
-                        # NEW: Skip entity resolution for file upload and URL analysis contexts
-                        if intent_type in ['file_upload_trigger', 'url_analysis']:
+
+                        # For customer_insights patterns, run entity resolution
+                        if intent_type == 'customer_insights':
+                            resolution_result = self.entity_pipeline.resolve_message(message)
+
+                            # Handle disambiguation needed case
+                            if resolution_result.get('needs_disambiguation'):
+                                return {
+                                    'intent': 'disambiguation_needed',
+                                    'confidence': 0.95,
+                                    'disambiguation_prompt': resolution_result.get('disambiguation_prompt'),
+                                    'disambiguation_context': resolution_result,
+                                    'original_message': message
+                                }
+
+                            # Return customer_insights with entity resolution
                             return {
-                                'intent': intent_type,
+                                'intent': 'customer_insights',
                                 'confidence': confidence,
                                 'matched_pattern': pattern,
                                 'original_message': message,
-                                'resolved_message': message,
-                                'skip_entity_resolution': True  # Flag to prevent customer matching
+                                'resolved_message': resolution_result.get('resolved_message', message)
                             }
 
+                        # For other patterns, return without entity resolution
                         return {
                             'intent': intent_type,
                             'confidence': confidence,
                             'matched_pattern': pattern,
                             'original_message': message,
-                            'resolved_message': message  # No entity resolution needed
+                            'resolved_message': message
                         }
-
-        # Check for customer entities using EntityResolutionPipeline
-        resolution_result = self.entity_pipeline.resolve_message(message)
-
-        # Handle disambiguation needed case
-        if resolution_result.get('needs_disambiguation'):
-            return {
-                'intent': 'disambiguation_needed',
-                'confidence': 0.95,
-                'disambiguation_prompt': resolution_result.get('disambiguation_prompt'),
-                'disambiguation_context': resolution_result,
-                'original_message': message
-            }
-
-        # Ensure resolved entities trigger customer_insights intent
-        if resolution_result.get('customer_resolutions'):
-            resolved_customers = [r for r in resolution_result['customer_resolutions']
-                                  if r.get('result_type') == 'single_match' and not r.get('needs_confirmation')]
-            if resolved_customers:
-                return {
-                    'intent': 'customer_insights',
-                    'confidence': 0.9,
-                    'matched_pattern': 'entity_resolution',
-                    'original_message': message,
-                    'resolved_message': resolution_result.get('resolved_message', message)
-                }
 
         # Default to general conversation if no patterns match
         return {
@@ -1658,7 +1654,8 @@ class EnhancedChatManager:
         if upload_result['success']:
             # Add to conversation context for discussion
             article_data = upload_result['article_data']
-            conversation.add_article_to_context(article_data)
+            conversation.add_article_context(article_data, "File uploaded for discussion")  # ← ADD THIS
+            conversation.set_discuss_mode(True, article_data.get('title', 'Unknown'))  # ← ADD THIS
 
             # Yield the success message
             yield upload_result['message']

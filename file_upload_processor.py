@@ -25,8 +25,9 @@ class ConversationalFileUploader:
     Leverages existing PDF processing infrastructure
     """
     
-    def __init__(self, content_curator, upload_dir: str = "uploads"):
+    def __init__(self, content_curator, enhanced_chat_manager=None, upload_dir: str = "uploads"):
         self.content_curator = content_curator
+        self.enhanced_chat_manager = enhanced_chat_manager
         self.upload_dir = upload_dir
         
         # Security configuration
@@ -110,12 +111,12 @@ class ConversationalFileUploader:
             return content.startswith(b'{\\rtf')
         
         return True  # Default allow if we can't validate
-    
+
     def process_uploaded_file(self, file_storage: FileStorage, session_id: str) -> Dict[str, Any]:
         """Main file processing method"""
         try:
             print(f"📁 Processing uploaded file: {file_storage.filename}")
-            
+
             # Security validation
             is_safe, error_msg = self.validate_file_security(file_storage)
             if not is_safe:
@@ -124,25 +125,25 @@ class ConversationalFileUploader:
                     'error': f"Security validation failed: {error_msg}",
                     'filename': file_storage.filename
                 }
-            
+
             # Generate secure filename
             original_filename = secure_filename(file_storage.filename)
             file_ext = os.path.splitext(original_filename)[1].lower()
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             safe_filename = f"upload_{timestamp}_{original_filename}"
-            
+
             # Save file temporarily
             temp_file_path = os.path.join(self.upload_dir, safe_filename)
             file_storage.save(temp_file_path)
-            
+
             try:
                 # Extract content based on file type
                 content_result = self._extract_file_content(temp_file_path, file_ext)
-                
+
                 if not content_result['success']:
                     return content_result
-                
-                # Create article data for existing pipeline
+
+                # Create article data for unified processing pipeline
                 article_data = {
                     'url': f"file_upload://{original_filename}",
                     'title': self._generate_title_from_filename(original_filename, content_result['content']),
@@ -154,43 +155,101 @@ class ConversationalFileUploader:
                     'original_filename': original_filename,
                     'file_size': os.path.getsize(temp_file_path)
                 }
-                
-                # Process with existing content curator
-                summary, relevance_score = self._process_with_content_curator(article_data, session_id)
-                
-                # Update article data
-                article_data.update({
-                    'ai_summary': summary,
-                    'relevance_score': relevance_score,
-                    'session_id': session_id
-                })
-                
-                # Add to database
-                self._add_to_database(article_data, session_id)
-                
+
+                # Process through unified pipeline (reconvergent flow)
+                if self.enhanced_chat_manager:
+                    try:
+                        print(f"🔗 Processing through unified pipeline: {article_data['title']}")
+
+                        # Use content curator to process and store in database
+                        session_context = {'session_id': session_id, 'file_data': article_data}
+
+                        # Create a temporary article data structure that mimics URL processing
+                        temp_article = {
+                            'title': article_data['title'],
+                            'url': article_data['url'],
+                            'source': article_data['source'],
+                            'content': article_data['content'],
+                            'published_date': article_data['published_date'],
+                            'search_topic': article_data['search_topic']
+                        }
+
+                        # Generate summary and relevance using content curator pipeline
+                        summary, relevance_score = self.content_curator.generate_summary_and_relevance(
+                            temp_article,
+                            session_context=session_context
+                        )
+
+                        # Update article data with AI processing results
+                        article_data.update({
+                            'ai_summary': summary,
+                            'relevance_score': relevance_score,
+                            'session_id': session_id
+                        })
+
+                        # Add to database using existing pipeline
+                        search_result_format = {
+                            'title': article_data['title'],
+                            'url': article_data['url'],
+                            'source': article_data['source'],
+                            'published_date': article_data['published_date'],
+                            'search_topic': article_data['search_topic'],
+                            'ai_summary': summary,
+                            'full_content': article_data['content'],
+                            'snippet': article_data['content'][:200] + '...' if len(article_data['content']) > 200 else
+                            article_data['content'],
+                            'relevance_score': relevance_score
+                        }
+
+                        self.content_curator.add_search_result_to_database(search_result_format, session_context)
+                        print(f"✅ File added to database: {article_data['title']}")
+
+                        # Set up auto-discussion trigger (like URL paste does)
+                        article_data['auto_discuss'] = True
+                        article_data[
+                            'discussion_message'] = f"Let's discuss this uploaded file: {article_data['title']}"
+
+                        print(f"🗣️ Auto-discussion prepared for: {article_data['title']}")
+
+                    except Exception as e:
+                        print(f"⚠️ Error in enhanced processing: {e}")
+                        # Fallback to basic processing
+                        article_data.update({
+                            'ai_summary': f"Uploaded file: {article_data['title']} (processing error: {str(e)})",
+                            'relevance_score': 5.0,
+                            'session_id': session_id,
+                            'auto_discuss': False  # Don't auto-discuss on error
+                        })
+                else:
+                    # No enhanced chat available - basic fallback
+                    print("⚠️ Enhanced chat not available - using basic processing")
+                    article_data.update({
+                        'ai_summary': f"Uploaded file: {article_data['title']} (basic mode)",
+                        'relevance_score': 5.0,
+                        'session_id': session_id,
+                        'auto_discuss': False  # Don't auto-discuss without enhanced chat
+                    })
+
+                # Return success with auto-discussion trigger
                 return {
                     'success': True,
                     'type': 'file_upload',
                     'article_data': article_data,
+                    'message': f"✅ **File Upload Complete**\n\n**File:** {original_filename}\n**Title:** {article_data['title']}\n\nProcessing complete - ready for discussion!",
+                    'auto_discuss': article_data.get('auto_discuss', False),
+                    'discussion_message': article_data.get('discussion_message', ''),
                     'title': article_data['title'],
-                    'source': article_data['source'],
-                    'relevance_score': relevance_score,
-                    'ai_summary': summary,
-                    'message': f"✅ **File Upload Complete**\n\n**File:** {original_filename}\n**Title:** {article_data['title']}\n**Relevance Score:** {relevance_score:.1f}/10\n\n**Summary:** {summary}\n\nYour file has been processed and added to the database. What would you like to know about it?",
-                    'file_info': {
-                        'original_filename': original_filename,
-                        'file_type': file_ext,
-                        'file_size': article_data['file_size']
-                    }
+                    'relevance_score': article_data.get('relevance_score', 5.0)
                 }
-                
+
             finally:
                 # Clean up temporary file
                 try:
                     os.remove(temp_file_path)
+                    print(f"🗑️ Cleaned up temp file: {safe_filename}")
                 except Exception as e:
                     print(f"⚠️ Warning: Could not remove temp file: {e}")
-                    
+
         except Exception as e:
             print(f"⚠️ Error processing uploaded file: {e}")
             return {
@@ -403,61 +462,11 @@ class ConversationalFileUploader:
                         return line[:80] + ('...' if len(line) > 80 else '')
         
         return title if title else "Uploaded Document"
-    
-    def _process_with_content_curator(self, article_data: Dict, session_id: str) -> tuple[str, float]:
-        """Process with existing content curator"""
-        try:
-            # Get hot topics for boost scoring
-            hot_topics_keywords = []
-            try:
-                today_date = datetime.now().strftime('%Y-%m-%d')
-                hot_topics_status = self.content_curator.check_hot_topics_boost_status(today_date)
-                if hot_topics_status.get('keywords_used'):
-                    hot_topics_keywords = hot_topics_status['keywords_used']
-            except Exception as e:
-                print(f"⚠️ Could not get hot topics: {e}")
-            
-            # Generate summary and relevance
-            session_context = {'session_id': session_id}
-            summary, relevance_score = self.content_curator.generate_summary_and_relevance(
-                article_data, 
-                hot_topics_keywords=hot_topics_keywords, 
-                session_context=session_context
-            )
-            
-            return summary, relevance_score
-            
-        except Exception as e:
-            print(f"⚠️ Error in content curator processing: {e}")
-            return "Summary generation failed", 0.0
-    
-    def _add_to_database(self, article_data: Dict, session_id: str) -> None:
-        """Add to database using existing infrastructure"""
-        try:
-            search_result_format = {
-                'title': article_data['title'],
-                'url': article_data['url'],
-                'source': article_data['source'],
-                'published_date': article_data['published_date'],
-                'search_topic': article_data['search_topic'],
-                'ai_summary': article_data['ai_summary'],
-                'full_content': article_data['content'],
-                'snippet': article_data['content'][:200] + '...' if len(article_data['content']) > 200 else article_data['content'],
-                'relevance_score': article_data['relevance_score']
-            }
-            
-            session_context = {'session_id': session_id}
-            self.content_curator.add_search_result_to_database(search_result_format, session_context)
-            
-            print(f"✅ File added to database: {article_data['title']}")
-            
-        except Exception as e:
-            print(f"⚠️ Error adding file to database: {e}")
 
 # Factory function for easy integration
-def create_file_uploader(content_curator) -> ConversationalFileUploader:
+def create_file_uploader(content_curator, enhanced_chat_manager=None) -> ConversationalFileUploader:
     """Create file uploader instance"""
-    return ConversationalFileUploader(content_curator)
+    return ConversationalFileUploader(content_curator, enhanced_chat_manager)
 
 def get_upload_capabilities() -> Dict[str, Any]:
     """Get upload capabilities without creating full uploader instance"""
