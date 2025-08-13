@@ -291,12 +291,12 @@ def detect_fuzzy_command(input_text: str) -> Dict:
     command_patterns = [
         {
             'name': 'show_customers',
-            'exact_patterns': ['show customers', 'list customers', 'customers', 'database'],
-            'fuzzy_keywords': ['customers', 'database', 'show', 'list']
+            'exact_patterns': ['show customers', 'list customers'],
+            'fuzzy_keywords': ['show', 'list']
         },
         {
             'name': 'customer_insights_trigger',
-            'exact_patterns': ['my customers', 'analyze my customers', 'do customer analysis',
+            'exact_patterns': ['customer', 'my customers', 'analyze my customers', 'do customer analysis',
                                'relate to my customers'],
             'fuzzy_keywords': ['my', 'customers', 'analyze', 'customer', 'analysis', 'relate']
         }

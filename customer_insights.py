@@ -1083,7 +1083,7 @@ Add customer information to `data/customers.csv`"""
 
             # Handle special commands
             message_lower = customer_input.lower()
-            if any(phrase in message_lower for phrase in ['show customers', 'list customers', 'customers', 'database']):
+            if any(phrase in message_lower for phrase in ['show customers', 'list customers']):
                 yield self.show_customers_list()
                 return
 
