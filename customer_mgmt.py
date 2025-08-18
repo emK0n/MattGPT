@@ -204,7 +204,9 @@ class CustomerManager:
                 response_parts.extend([
                     f"**Total: {total_customers} customers across {len(cluster_data)} clusters**",
                     "",
-                    "*Commands: 'add customer', 'remove customer', 'update customer', or 'exit' when done*"
+                    "*Commands: 'add customer', 'remove customer', 'update customer', or 'exit' when done*",
+                    "*To view insights about a customer, exit customer management then type 'customer' and the name you want to research*",
+                    "*To view insights about a cluster of customers, just enter the name of that cluster (ex: 'squad 1')*"
                 ])
 
                 return {
