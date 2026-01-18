@@ -1,0 +1,352 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business headlines highlight a mix of issues including online safety, cybercrime, AI in the job market, economic policy, electric vehicle (EV) incentives, international conflicts, child safety on platforms, and Black Friday deals. Online platforms are under scrutiny for explicit content and foreign troll problems, while AI's risks are becoming a concern. In business, there are discussions about potential job losses due to AI, budget leaks' impact on economy, rail fare freezes, and EV incentives.",
+    "keywords": [
+      "cyber-attack",
+      "ai"
+    ],
+    "trending_topics": [
+      "Online safety and explicit content issues",
+      "AI's impact on job market",
+      "Economic policy and budget discussions",
+      "Electric vehicle (EV) incentives",
+      "Cybercrime and attacks"
+    ],
+    "search_keywords": [
+      "cyber-attack",
+      "ai"
+    ],
+    "analysis_timestamp": "2025-11-23T18:16:30.393682"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Vinted blocks 'sickening' sexually explicit ads",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cn515p22nxno?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 18:10:50 GMT",
+      "summary": "The online marketplace removed adverts which included a video a user said depicted a pornographic scene."
+    },
+    {
+      "title": "Teens plead not guilty over TfL cyber-attack",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvgjxlgyx87o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 14:09:56 GMT",
+      "summary": "Thalha Jubair, 19, and Owen Flowers, 18,  are charged with conspiring to commit unauthorised acts."
+    },
+    {
+      "title": "Graduate jobs under threat from AI, PwC boss says",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cm272510e6jo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 02:34:57 GMT",
+      "summary": "The accountancy giant says artificial intelligence will eventually lead to fewer entry-level positions at the firm."
+    },
+    {
+      "title": "Minister denies Budget leaks have damaged economy",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/clykvql14r7o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 23 Nov 2025 20:24:03 GMT",
+      "summary": "A former Bank of England chief economist says Budget speculation has \"caused paralysis for businesses and consumers\"."
+    },
+    {
+      "title": "Rail fares to be frozen in England next year",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cwygx71g3n7o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 23 Nov 2025 11:51:01 GMT",
+      "summary": "Regulated fares, which include season tickets and off-peak returns, will not see annual price rises for the first time in 30 years, the government announces."
+    },
+    {
+      "title": "EV grant scheme boost worth £1.3bn expected in Budget",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c39pk873wlwo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 23 Nov 2025 10:28:02 GMT",
+      "summary": "But it is also possible electric vehicle owners could face a new tax elsewhere in Wednesday's Budget."
+    },
+    {
+      "title": "Rubio hails 'tremendous progress' at Ukraine peace talks",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ce3zwy808dpo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 23 Nov 2025 22:00:11 GMT",
+      "summary": "The top US diplomat says more work is needed to finalise a US-Ukraine deal that will then need Russia's agreement."
+    },
+    {
+      "title": "Israel kills top Hezbollah official in first attack on Beirut in months",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cn81j54xjx1o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 23 Nov 2025 19:31:39 GMT",
+      "summary": "Israel has escalated its campaign on targets it says are linked to Hezbollah, raising fears of a resumption of hostilities."
+    },
+    {
+      "title": "Fifty children escape after mass school abduction in Nigeria",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cpwk5qzzppzo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 23 Nov 2025 17:53:05 GMT",
+      "summary": "The raid on a Christian school came amid a surge of attacks by armed groups in the African nation."
+    },
+    {
+      "title": "Roblox CEO interview gets heated over child safety",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/23/roblox-ceo-interview-gets-heated-over-child-safety/",
+      "published": "Sun, 23 Nov 2025 21:58:04 +0000",
+      "summary": "Roblox CEO Dave Baszuki joined the Hard Fork podcast to discuss the gaming platform’s new age verification feature — but he seemed to get frustrated at the number of questions focused on child safety."
+    },
+    {
+      "title": "X’s new About This Account feature is going great",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/23/xs-new-about-this-account-feature-is-going-great/",
+      "published": "Sun, 23 Nov 2025 21:11:05 +0000",
+      "summary": "A new feature seemingly revealed many right-wing “America First” accounts are actually based outside the United States. But the data seems questionable."
+    },
+    {
+      "title": "AI is too risky to insure, say people whose job is insuring risk",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/23/ai-is-too-risky-to-insure-say-people-whose-job-is-insuring-risk/",
+      "published": "Sun, 23 Nov 2025 17:45:00 +0000",
+      "summary": "Major insurers including AIG, Great American, and WR Berkley are asking U.S. regulators for permission to exclude AI-related liabilities from corporate policies. One underwriter describes the AI models’ outputs to the FT as \"too much of a black box.\""
+    },
+    {
+      "title": "This hacker conference installed a literal antivirus monitoring system",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/11/this-hacker-conference-installed-a-literal-antivirus-monitoring-system/",
+      "published": "Sat, 22 Nov 2025 12:00:20 +0000",
+      "summary": "Organizers had a way for attendees to track CO<sub>2</sub> levels throughout the venue—even before they arrived."
+    },
+    {
+      "title": "Oops. Cryptographers cancel election results after losing decryption key.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/",
+      "published": "Sat, 22 Nov 2025 00:16:25 +0000",
+      "summary": "Voting system required three keys. One of them has been \"irretrievably lost.\""
+    },
+    {
+      "title": "Why you don’t want to get tuberculosis on your penis",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/11/why-you-dont-want-to-get-tuberculosis-on-your-penis/",
+      "published": "Fri, 21 Nov 2025 23:15:05 +0000",
+      "summary": "While tuberculosis can attack anywhere, it's extremely rare on the penis."
+    },
+    {
+      "title": "About This Account reveals the scale of X’s foreign troll problem",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/827298/about-this-account-reveals-the-scale-of-xs-foreign-troll-problem",
+      "published": "2025-11-23T16:36:32-05:00",
+      "summary": "It’s long been known that X (and Twitter before it) is a major venue for foreign influence campaigns to meddle in American politics. Much of the focus has been on Russian troll farms, which the US government has targeted on several occasions. But the launch of X’s About This Account feature may have"
+    },
+    {
+      "title": "Some of the best Nintendo Switch games are up to $30 off for Black Friday",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/gadgets/826416/best-nintendo-black-friday-deals-switch-games-amiibo-sale-2025",
+      "published": "2025-11-23T14:00:00-05:00",
+      "summary": "Nintendo has made some of the most iconic video games of all time, but building a library of the standouts can quickly become expensive, especially given that many titles don’t often go on sale at a significant discount. The good news is that Nintendo is already running a holiday sale in the run-up "
+    },
+    {
+      "title": "X&#8217;s messy About This Account rollout has caused utter chaos",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/827279/xs-messy-about-this-account-rollout-has-caused-utter-chaos",
+      "published": "2025-11-23T13:55:41-05:00",
+      "summary": "Yesterday X started rolling out a new About This Account feature, which included what country the account was created from and what country the account is “based” in (which is different from “connected via”). Head of product at X, Nikita Bier, was quick to say that there were “a few rough edges,” bu"
+    },
+    {
+      "title": "Black Friday subscription deals 2025: Early sales on Apple TV+, MasterClass, Fubo, Rosetta Stone and more",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/black-friday-subscription-deals-2025-early-sales-on-apple-tv-masterclass-fubo-rosetta-stone-and-more-180000334.html?src=rss",
+      "published": "Sun, 23 Nov 2025 21:00:37 +0000",
+      "summary": "<p>I love locking in a cheap subscription deal during a discount period like <a href=\"https://www.engadget.com/black-friday/\">Black Friday</a> or Cyber Monday. It always feels like I've gotten away with something — for the rest of the year, I can relax in my Scrooge McDuck money pit while all the ot"
+    },
+    {
+      "title": "This entry-level Roomba robot vacuum is only $150 for Black Friday",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/home/smart-home/this-entry-level-roomba-robot-vacuum-is-only-150-for-black-friday-191506987.html?src=rss",
+      "published": "Sun, 23 Nov 2025 20:31:26 +0000",
+      "summary": "<p>Robot vacuums can be a huge help, keeping your floors clean regularly without much extra work on your part. Black Friday deals often include some of our favorite robovacs, and this year is shaping up to be no different. iRobot's entry-level <a class=\"rapid-with-clickid\" href=\"https://shopping.yah"
+    },
+    {
+      "title": "reMarkable Black Friday deals include up to $70 off E Ink tablet bundles",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/remarkable-black-friday-deals-include-up-to-70-off-e-ink-tablet-bundles-125523385.html?src=rss",
+      "published": "Sun, 23 Nov 2025 20:01:28 +0000",
+      "summary": "<p>reMarkable makes some of our favorite E Ink tablets, and the company is running a <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=1f7efcc9-4a08-437e-b0e7-e67043761cab&amp;siteId=us-engadget&amp;pageId=1p-autolink&amp;contentUuid=072547a9-20a0-4789-b412-91518e9eebb2&"
+    },
+    {
+      "title": "Liva AI (YC S25) Is Hiring",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern",
+      "published": "Sun, 23 Nov 2025 22:36:07 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern\">https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46028046\">https://news.ycombinator.com/item?id=46028046</"
+    },
+    {
+      "title": "Iowa City Made Its Buses Free. Traffic Cleared, and So Did the Air",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
+      "published": "Sun, 23 Nov 2025 22:06:44 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html\">https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46027833\">https://news.ycombinator.com/item?id=46027833</a></p>\n<"
+    },
+    {
+      "title": "Particle Life – Sandbox Science",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://sandbox-science.com/particle-life",
+      "published": "Sun, 23 Nov 2025 21:54:32 +0000",
+      "summary": "<p>Article URL: <a href=\"https://sandbox-science.com/particle-life\">https://sandbox-science.com/particle-life</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46027722\">https://news.ycombinator.com/item?id=46027722</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Cryptologist DJB Criticizes Push to Finalize Non-Hybrid Security for Post-Quantum Cryptography",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://it.slashdot.org/story/25/11/23/226258/cryptologist-djb-criticizes-push-to-finalize-non-hybrid-security-for-post-quantum-cryptography?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "In October cryptologist/CS professor Daniel J. Bernstein alleged that America's National Security\nAgency (and its UK counterpart GCHQ) were attempting to influence NIST to adopt weaker post-quantum cryptography\nstandards without a \"hybrid\" approach that would've also included pre-quantum ECC. \n\nBern"
+    },
+    {
+      "title": "Google Revisits JPEG XL in Chromium After Earlier Removal",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/11/23/2026246/google-revisits-jpeg-xl-in-chromium-after-earlier-removal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Three years ago, Google removed JPEG XL support from Chrome, stating there wasn't enough interest at the time,\" writes the blog Windows Report. \"That position has now changed.\"\n\nIn a recent note to developers, a Chrome team representative confirmed that work has restarted to bring JPEG XL to Chromi"
+    },
+    {
+      "title": "Mozilla Announces 'TABS API' For Developers Building AI Agents",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/11/23/206245/mozilla-announces-tabs-api-for-developers-building-ai-agents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Fresh from announcing it is building an AI browsing mode in Firefox and laying the groundwork for agentic interactions in the Firefox 145 release, the corp arm of Mozilla is now flexing its AI muscles in the direction of those more likely to care,\" writes the blog OMG Ubuntu:\n\n\n\nIf you're a develop"
+    },
+    {
+      "title": "16 Best Air Purifiers (2025): Coway, AirDoctor, IQAir",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-air-purifiers/",
+      "published": "Sun, 23 Nov 2025 15:04:00 +0000",
+      "summary": "Protect your home against dust, pets, allergies, and more with air purifiers tested firsthand by WIRED."
+    },
+    {
+      "title": "The 73 Best Deals From REI’s 2025 Holiday Sale",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/rei-holiday-sale-nov-2025/",
+      "published": "Sun, 23 Nov 2025 14:31:44 +0000",
+      "summary": "The company that wants you to #optoutside for Black Friday is having its sale early. Gear up for next year with these great deals on packs, sleeping bags, merino wool, and more."
+    },
+    {
+      "title": "11 Best MagSafe Wallets (2025), Tested and Reviewed",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-magsafe-wallets/",
+      "published": "Sun, 23 Nov 2025 14:00:00 +0000",
+      "summary": "These convenient and slim magnetic wallets are the ones you’ll want to stick to the back of your smartphone."
+    },
+    {
+      "title": "From CIA cash to local police: How Palantir got its start",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91446398/cia-police-palantir-alex-karp-predictive-peter-thiel-paypal-sequoia",
+      "published": "2025-11-23T16:35:13",
+      "summary": "<p>The low point in Palantir’s very first quest for investors came during a pitch meeting in 2004 that CEO <a href=\"https://www.fastcompany.com/91237322/how-alex-karp-helped-turn-palantir-into-the-wests-ai-arms-dealer\">Alex Karp</a> and some colleagues had with Sequoia Capital, which was arguably th"
+    },
+    {
+      "title": "If you’re not helping employees with AI-xiety, you’re not leading",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91447374/if-youre-not-helping-employees-with-ai-xiety-youre-not-leading",
+      "published": "2025-11-23T12:00:00",
+      "summary": "<p>In the modern working world, employees have a lot on their minds. From stressing about <a href=\"https://www.fastcompany.com/91446335/jd-vance-affordability-high-prices-patience\" rel=\"noreferrer noopener\" target=\"_blank\">high costs of living</a> and pressing political issues, there are no shortage"
+    },
+    {
+      "title": "What’s your wabi-sabi?",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91447044/tiktok-wabi-sabi-japan-king-of-the-hill",
+      "published": "2025-11-23T11:00:00",
+      "summary": "<p>A snaggle tooth. A gap in someone’s smile. A birthmark or mole. What do each of these facial features have in common? They all have wabi-sabi.&nbsp;</p>\n\n\n\n<p>That’s according to <a href=\"https://www.fastcompany.com/section/tiktok\" title=\"TikTok\">TikTok</a>’s latest trend, which has users highlig"
+    },
+    {
+      "title": "Lean4: How the theorem prover works and why it's the new competitive edge in AI",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
+      "published": "Sun, 23 Nov 2025 00:30:00 GMT",
+      "summary": "<p>Large language models (LLMs) have astounded the world with their capabilities, yet they remain plagued by unpredictability and hallucinations – confidently outputting incorrect information. In high-stakes domains like finance, medicine or autonomous systems, such unreliability is unacceptable. </"
+    },
+    {
+      "title": "OpenAI is ending API access to fan-favorite GPT-4o model in February 2026",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/openai-is-ending-api-access-to-fan-favorite-gpt-4o-model-in-february-2026",
+      "published": "Fri, 21 Nov 2025 23:01:00 GMT",
+      "summary": "<p>OpenAI has sent out emails notifying API customers that its chatgpt-4o-latest model will be retired from the developer platform in mid-February 2026,. </p><p>Access to the model is scheduled to end on February 16, 2026, creating a roughly three-month transition period for remaining applications s"
+    },
+    {
+      "title": "AI agent evaluation replaces data labeling as the critical path to production deployment",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/data-infrastructure/ai-agent-evaluation-replaces-data-labeling-as-the-critical-path-to",
+      "published": "Fri, 21 Nov 2025 14:00:00 GMT",
+      "summary": "<p>As LLMs have continued to improve, there has been some discussion in the industry about the continued need for standalone data labeling tools, as LLMs are increasingly able to work with all types of data.<a href=\"https://venturebeat.com/ai/humansignal-launches-adala-open-source-framework-for-auto"
+    },
+    {
+      "title": "The Download: the secrets of vitamin D, and an AI party in Africa",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/21/1128232/the-download-the-secrets-of-vitamin-d-and-an-ai-party-in-africa/",
+      "published": "Fri, 21 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re learning more about what vitamin D does to our bodies At a checkup a few years ago, a doctor told me I was deficient in vitamin D. But he wouldn"
+    },
+    {
+      "title": "We’re learning more about what vitamin D does to our bodies",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
+      "published": "Fri, 21 Nov 2025 10:00:00 +0000",
+      "summary": "It has started to get really wintry here in London over the last few days. The mornings are frosty, the wind is biting, and it’s already dark by the time I pick my kids up from school. The darkness in particular has got me thinking about vitamin D, a.k.a. the sunshine vitamin. At a checkup&#8230;"
+    },
+    {
+      "title": "Roundtables: Surviving the New Age of Conspiracies",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/20/1127749/roundtables-surviving-the-new-age-of-conspiracies/",
+      "published": "Thu, 20 Nov 2025 18:03:17 +0000",
+      "summary": "Everything is a conspiracy theory now. MIT Technology Review’s series, “The New Conspiracy Age,” explores how this moment is changing science and technology. Watch a discussion with our editors and Mike Rothschild, journalist and conspiracy theory expert, about how we can make sense of them all. Spe"
+    }
+  ]
+}

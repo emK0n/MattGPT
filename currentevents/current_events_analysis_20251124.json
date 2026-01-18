@@ -1,0 +1,345 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business headlines highlight a range of issues, including cybersecurity threats and AI's impact on job markets. Cybersecurity concerns are prevalent, with reports of sexually explicit ads being blocked on Vinted, a teenager-led cyber-attack on Transport for London (TfL), and US banks assessing data theft following a hack of a financial tech firm. AI is also a significant topic, with PwC's warning about its potential to threaten graduate jobs and an article discussing how video professionals are navigating AI. On the business front, there are discussions about budget implications for businesses, the high cost of nuclear power development in the UK, and Malaysia's proposed ban on social media for users under 16.",
+    "keywords": [
+      "vinted",
+      "ai",
+      "budget",
+      "malaysia"
+    ],
+    "trending_topics": [
+      "Cybersecurity threats",
+      "AI's impact on job market"
+    ],
+    "search_keywords": [
+      "vinted",
+      "ai",
+      "budget",
+      "malaysia"
+    ],
+    "analysis_timestamp": "2025-11-24T09:48:01.349828"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 38,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Vinted blocks 'sickening' sexually explicit ads",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cn515p22nxno?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 18:10:50 GMT",
+      "summary": "The online marketplace removed adverts which included a video a user said depicted a pornographic scene."
+    },
+    {
+      "title": "Teens plead not guilty over TfL cyber-attack",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvgjxlgyx87o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 14:09:56 GMT",
+      "summary": "Thalha Jubair, 19, and Owen Flowers, 18,  are charged with conspiring to commit unauthorised acts."
+    },
+    {
+      "title": "Graduate jobs under threat from AI, PwC boss says",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cm272510e6jo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 02:34:57 GMT",
+      "summary": "The accountancy giant says artificial intelligence will eventually lead to fewer entry-level positions at the firm."
+    },
+    {
+      "title": "What can nervous businesses expect from the Budget?",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c1dz7gr042no?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 24 Nov 2025 12:35:53 GMT",
+      "summary": "It is going to be a nail-biting final few days for business leaders, says the BBC's Business Editor, Simon Jack."
+    },
+    {
+      "title": "Covid inquiry hears impact on firms and staff",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cwyp4g95re4o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 24 Nov 2025 12:50:37 GMT",
+      "summary": "Business owners describe breaking into tears as they were forced to lay off staff, while workers feared for their jobs"
+    },
+    {
+      "title": "UK most expensive place to develop nuclear power, report says",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c5yq8jneqpdo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 24 Nov 2025 10:18:35 GMT",
+      "summary": "Experts criticise “overly complex” rules and call for an overhaul of Britain's nuclear strategy."
+    },
+    {
+      "title": "US and Ukraine signal peace plan progress after Geneva talks",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ce3zwy808dpo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 24 Nov 2025 13:20:08 GMT",
+      "summary": "Both sides say \"intensive work\" will take place on outstanding issues following talks on a US-backed plan to end the war."
+    },
+    {
+      "title": "Daughter of South Africa's ex-president accuses sister of Russia recruitment plot",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cqlkve4qz0ro?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 24 Nov 2025 13:49:56 GMT",
+      "summary": "Police are investigating allegations that Jacob Zuma's daughter, Duduzile, lured men into fighting in Ukraine."
+    },
+    {
+      "title": "US banks scramble to assess data theft after hackers breach financial tech firm",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/24/us-banks-scramble-to-assess-data-theft-after-hackers-breach-financial-tech-firm/",
+      "published": "Mon, 24 Nov 2025 14:18:55 +0000",
+      "summary": "U.S. banking giants including JPMorgan Chase, Citi, and Morgan Stanley are working to identify what data was stolen in a recent cyberattack on a New York financial firm."
+    },
+    {
+      "title": "Malaysia may ban users under 16 from social media starting next year",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/24/malaysia-may-ban-users-under-16-from-social-media-starting-next-year/",
+      "published": "Mon, 24 Nov 2025 14:03:32 +0000",
+      "summary": "The country's communications minister Fahmi Fadzil said the administration is considering systems for implementing age restrictions on social media sites."
+    },
+    {
+      "title": "Momentic raises $15M to automate software testing",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/24/momentic-raises-15m-to-automate-software-testing/",
+      "published": "Mon, 24 Nov 2025 14:00:27 +0000",
+      "summary": "AI testing startup Momentic has raised $15 million in a Series A round led by Standard Capital, with participation from Dropbox Ventures. Existing investors at Y Combinator, FCVC, Transpose Platform and Karman Ventures also participated."
+    },
+    {
+      "title": "“Go generate a bridge and jump off it”: How video pros are navigating AI",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/features/2025/11/go-generate-a-bridge-and-jump-off-it-how-video-pros-are-navigating-ai/",
+      "published": "Mon, 24 Nov 2025 12:00:00 +0000",
+      "summary": "I talked with nine creators about economic pressures and fan backlash."
+    },
+    {
+      "title": "This hacker conference installed a literal antivirus monitoring system",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/11/this-hacker-conference-installed-a-literal-antivirus-monitoring-system/",
+      "published": "Sat, 22 Nov 2025 12:00:20 +0000",
+      "summary": "Organizers had a way for attendees to track CO<sub>2</sub> levels throughout the venue—even before they arrived."
+    },
+    {
+      "title": "Oops. Cryptographers cancel election results after losing decryption key.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/",
+      "published": "Sat, 22 Nov 2025 00:16:25 +0000",
+      "summary": "Voting system required three keys. One of them has been \"irretrievably lost.\""
+    },
+    {
+      "title": "OnePlus 15R will get a late launch next month",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/827430/oneplus-15r-will-get-a-late-launch-next-month",
+      "published": "2025-11-24T08:00:00-05:00",
+      "summary": "This month’s OnePlus 15 arrived to much fanfare about its enormous battery life, but no sign of the cheaper 15R that was expected alongside it. Now we finally know that phone will be revealed on December 17th, alongside the OnePlus Pad Go 2 and Watch Lite. Both the phone and tablet will release in t"
+    },
+    {
+      "title": "Why college students prefer News Daddy over The New York Times",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/cs/features/818380/college-students-news-sources-tiktok-instagram-newsdaddy",
+      "published": "2025-11-24T07:00:03-05:00",
+      "summary": "Ankit Khanal gets his news from News Daddy. More than 20 times a day, Khanal, a sophomore at George Mason University, opens TikTok to have the biggest stories of the day delivered to him by a bleach-blonde 26-year-old named Dylan Page, one of the leading faces in a growing community of news influenc"
+    },
+    {
+      "title": "Microsoft is speeding up and decluttering File Explorer in Windows 11",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/827414/microsoft-file-explorer-windows-11-preload-context-menu-declutter",
+      "published": "2025-11-24T06:20:06-05:00",
+      "summary": "Microsoft is making some changes to the File Explorer in Windows 11 that will make it less cluttered and launch faster. The latest Dev preview builds of Windows 11 include File Explorer preloading “to help improve File Explorer launch performance,” and changes to the context menu to reduce the amoun"
+    },
+    {
+      "title": "The Google TV Streamer 4K is on sale for $75 this Black Friday",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/the-google-tv-streamer-4k-is-on-sale-for-75-this-black-friday-173858745.html?src=rss",
+      "published": "Mon, 24 Nov 2025 14:30:37 +0000",
+      "summary": "<p>If you'd rather not spend the money on a brand new TV this year, you can make an old set feel new again with a streaming device. Our favorite streaming device is on sale right now for Black Friday: you can grab the <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66e"
+    },
+    {
+      "title": "Malaysia takes steps to ban social media for children under 16",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/social-media/malaysia-takes-steps-to-ban-social-media-for-children-under-16-142643494.html?src=rss",
+      "published": "Mon, 24 Nov 2025 14:26:44 +0000",
+      "summary": "<p>Malaysia is the latest country with plans to limit social media use by age. On Sunday, the country's cabinet approved a ban on social media accounts for anyone under the age of 16, <a href=\"https://apnews.com/article/malaysia-social-media-ban-under-16-1e9e20321c8c83c470ff7489139f10b8\"><em>The Ass"
+    },
+    {
+      "title": "Black Friday Apple deals include $120 off the Mac mini M4",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/black-friday-apple-deals-include-120-off-the-mac-mini-m4-150749332.html?src=rss",
+      "published": "Mon, 24 Nov 2025 14:16:26 +0000",
+      "summary": "<p>While there are lots of great <a href=\"https://www.engadget.com/black-friday/\">Black Friday sales</a> on cheaper devices, it's the big ticket items that really make a world of difference. Take <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-0"
+    },
+    {
+      "title": "Show HN: Cynthia – Reliably play MIDI music files – MIT / Portable / Windows",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.blaizenterprises.com/cynthia.html",
+      "published": "Mon, 24 Nov 2025 13:58:05 +0000",
+      "summary": "<p>Easy to use, portable app to play midi music files on all flavours of Microsoft Windows.<p>Brief Background - Used midi playback way back in the days of Windows 95 for some fun and entertaining apps, but as Windows progressed, it seemed their midi support (for Win32 anyway) regressed in both star"
+    },
+    {
+      "title": "Fast Lua runtime written in Rust",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://astra.arkforge.net/",
+      "published": "Mon, 24 Nov 2025 13:57:53 +0000",
+      "summary": "<p>Article URL: <a href=\"https://astra.arkforge.net/\">https://astra.arkforge.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46034142\">https://news.ycombinator.com/item?id=46034142</a></p>\n<p>Points: 5</p>\n<p># Comments: 4</p>"
+    },
+    {
+      "title": "Bureau of Meteorology's new boss asked to examine $96M bill for website redesign",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202",
+      "published": "Mon, 24 Nov 2025 12:35:15 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202\">https://www.abc.net.au/news/2025-11-23/bureau-of-meteorology-new-website-cost-blowout-to-96-million/106042202</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin"
+    },
+    {
+      "title": "Ubisoft Shows Off New AI-Powered FPS And Hopes You've Forgotten About Its Failed NFTs",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://games.slashdot.org/story/25/11/24/1431236/ubisoft-shows-off-new-ai-powered-fps-and-hopes-youve-forgotten-about-its-failed-nfts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Ubisoft has revealed Teammates, a first-person shooter built around AI-powered squadmates that the company is calling its \"first playable generative AI research project\" -- not long after the publisher went all-in on NFTs and the metaverse only to largely move on from both. Built in the Snowdrop Eng"
+    },
+    {
+      "title": "How Google Finally Leapfrogged Rivals With New Gemini Rollout",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/11/24/141259/how-google-finally-leapfrogged-rivals-with-new-gemini-rollout?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shares a report: With the release of its third version last week, Google's Gemini large language model surged past ChatGPT and other competitors to become the most capable AI chatbot, as determined by consensus industry-benchmark tests. [...] Aaron Levie, chief executive of the c"
+    },
+    {
+      "title": "New Mars Orbiter Manuever Challenges Theory: That May Not Be an Underground Lake on Mars",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/11/24/0623250/new-mars-orbiter-manuever-challenges-theory-that-may-not-be-an-underground-lake-on-mars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "In 2018 researchers claimed evidence of a lake beneath the surface of Mars, detected by the Mars Advanced Radar for Subsurface and Ionosphere Sounding instrument (or Marsis for short). \n\nBut new Mars observations \"are not consistent with the presence of liquid water in this location and an alternati"
+    },
+    {
+      "title": "The 10 Best Home Arcade Machines (2025), Tested and Reviewed",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-home-arcade-machines/",
+      "published": "Mon, 24 Nov 2025 14:00:00 +0000",
+      "summary": "Rewind to the classic games of the ’70s and ’80s with a WIRED-tested home arcade machine."
+    },
+    {
+      "title": "Amazon Is Using Specialized AI Agents for Deep Bug Hunting",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/amazon-autonomous-threat-analysis/",
+      "published": "Mon, 24 Nov 2025 14:00:00 +0000",
+      "summary": "Born out of an internal hackathon, Amazon’s Autonomous Threat Analysis system uses a variety of specialized AI agents to detect weaknesses and propose fixes to the company’s platforms."
+    },
+    {
+      "title": "Best Apple Watch (2025): Buyer’s Guide to the Series 11, SE 3, and Ultra 3",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-apple-watch/",
+      "published": "Mon, 24 Nov 2025 12:30:00 +0000",
+      "summary": "Should you splurge on the new Series 11? Or will the Watch SE 3 do? Let us help you figure out which version to get (and which to avoid)."
+    },
+    {
+      "title": "Thanksgiving travel 2025: Want to avoid traffic? Here are the best and worst times to hit the road this week",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448027/thanksgiving-travel-2025-best-and-worst-driving-times-this-week",
+      "published": "2025-11-24T14:10:00",
+      "summary": "<p>The Thanksgiving holiday is nearly upon us, which means tens of millions of Americans will be traveling nationwide this week to visit their loved ones and celebrate around the dinner table with them on Thursday.&nbsp;</p>\n\n\n\n<p>The majority of that travel both to and from Turkey Day destinations "
+    },
+    {
+      "title": "Value City and American Signature Furniture are closing stores in bankruptcy: See list of locations",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448023/value-city-american-signature-furniture-closing-stores-full-list-locations",
+      "published": "2025-11-24T13:49:00",
+      "summary": "<p>Another home furnishings retail chain has sought Chapter 11 bankruptcy protection as it deals with higher costs, reduced sales, a downturn in the housing market, and President Trump&#8217;s tariffs. </p>\n\n\n\n<p>American Signature Inc (ASI), parent company of American Signature Furniture and Value "
+    },
+    {
+      "title": "Markets worldwide are mixed as traders place hopes on a rate cut by the Fed",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448037/markets-worldwide-mixed-traders-place-hopes-rate-cut-fed",
+      "published": "2025-11-24T13:28:23",
+      "summary": "<p><a href=\"https://www.fastcompany.com/91436475/global-shares-mixed-after-earnings-reports-boost-wall-street\">World shares</a> and U.S. futures were mixed on Monday after Wall Street was buoyed by revived hopes for an <a href=\"https://www.fastcompany.com/91405821/how-deeply-will-the-fed-cut-rates-i"
+    },
+    {
+      "title": "Lean4: How the theorem prover works and why it's the new competitive edge in AI",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
+      "published": "Sun, 23 Nov 2025 00:30:00 GMT",
+      "summary": "<p>Large language models (LLMs) have astounded the world with their capabilities, yet they remain plagued by unpredictability and hallucinations – confidently outputting incorrect information. In high-stakes domains like finance, medicine or autonomous systems, such unreliability is unacceptable. </"
+    },
+    {
+      "title": "OpenAI is ending API access to fan-favorite GPT-4o model in February 2026",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/openai-is-ending-api-access-to-fan-favorite-gpt-4o-model-in-february-2026",
+      "published": "Fri, 21 Nov 2025 23:01:00 GMT",
+      "summary": "<p>OpenAI has sent out emails notifying API customers that its chatgpt-4o-latest model will be retired from the developer platform in mid-February 2026,. </p><p>Access to the model is scheduled to end on February 16, 2026, creating a roughly three-month transition period for remaining applications s"
+    },
+    {
+      "title": "AI agent evaluation replaces data labeling as the critical path to production deployment",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/data-infrastructure/ai-agent-evaluation-replaces-data-labeling-as-the-critical-path-to",
+      "published": "Fri, 21 Nov 2025 14:00:00 GMT",
+      "summary": "<p>As LLMs have continued to improve, there has been some discussion in the industry about the continued need for standalone data labeling tools, as LLMs are increasingly able to work with all types of data.<a href=\"https://venturebeat.com/ai/humansignal-launches-adala-open-source-framework-for-auto"
+    },
+    {
+      "title": "The Download: how to fix a tractor, and living among conspiracy theorists",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/24/1128306/the-download-how-to-fix-a-tractor-and-living-among-conspiracy-theorists/",
+      "published": "Mon, 24 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet the man building a starter kit for civilization You live in a house you designed and built yourself. You rely on the sun for power, heat your hom"
+    },
+    {
+      "title": "The Download: the secrets of vitamin D, and an AI party in Africa",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/21/1128232/the-download-the-secrets-of-vitamin-d-and-an-ai-party-in-africa/",
+      "published": "Fri, 21 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We’re learning more about what vitamin D does to our bodies At a checkup a few years ago, a doctor told me I was deficient in vitamin D. But he wouldn"
+    },
+    {
+      "title": "We’re learning more about what vitamin D does to our bodies",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
+      "published": "Fri, 21 Nov 2025 10:00:00 +0000",
+      "summary": "It has started to get really wintry here in London over the last few days. The mornings are frosty, the wind is biting, and it’s already dark by the time I pick my kids up from school. The darkness in particular has got me thinking about vitamin D, a.k.a. the sunshine vitamin. At a checkup&#8230;"
+    }
+  ]
+}

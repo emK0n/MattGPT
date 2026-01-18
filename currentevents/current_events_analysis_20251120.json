@@ -1,0 +1,366 @@
+{
+  "analysis": {
+    "summary": "Today's tech headlines highlight a mix of regulatory issues, AI advancements, and business news. Notable stories include Vinted blocking sexually explicit ads, the Deepfake 'nudify' site being fined for lack of age checks, and an AI 'godfather' leaving Meta after 12 years. In business, US stocks slid due to Wall Street's AI concerns, while Channel Tunnel halted projects citing UK investment as non-viable. Other significant events include Zelensky discussing a proposed peace plan with Trump and COP30 climate talks being evacuated following a fire. In the tech world, Google stepped up protection against AI scams in India, WhatsApp introduced an Instagram Notes-like feature, and Microsoft open-sourced Zork I, II, and III.",
+    "keywords": [
+      "vinted",
+      "deepfake",
+      "meta",
+      "ai",
+      "zelensky",
+      "trump",
+      "fire",
+      "google",
+      "whatsapp",
+      "microsoft"
+    ],
+    "trending_topics": [
+      "Regulatory issues in tech (Vinted blocking explicit ads, Deepfake site fined)",
+      "AI advancements and concerns (Meta AI godfather leaving, Google's scam protection, WhatsApp feature)",
+      "Business news (US stocks slide, Channel Tunnel halts projects)"
+    ],
+    "search_keywords": [
+      "vinted",
+      "deepfake",
+      "meta",
+      "ai",
+      "zelensky",
+      "trump",
+      "fire",
+      "google",
+      "whatsapp",
+      "microsoft"
+    ],
+    "analysis_timestamp": "2025-11-20T18:22:27.548301"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Vinted blocks 'sickening' sexually explicit ads",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cn515p22nxno?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 18:10:50 GMT",
+      "summary": "The online marketplace removed adverts which included a video a user said depicted a pornographic scene."
+    },
+    {
+      "title": "Deepfake 'nudify' site fined £55,000 over lack of age checks",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c0qpq5q9712o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 13:19:23 GMT",
+      "summary": "The regulator said it had also opened new investigations into 20 porn sites over suspected online safety breaches."
+    },
+    {
+      "title": "Why an AI 'godfather' is quitting Meta after 12 years",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cdx4x47w8p1o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 11:35:57 GMT",
+      "summary": "One of the pioneers in the current AI boom, he has had disagreements with fellow engineers over the future of the technology."
+    },
+    {
+      "title": "Vinted blocks 'sickening' sexually explicit ads",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cn515p22nxno?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 18:10:50 GMT",
+      "summary": "The online marketplace removed adverts which included a video a user said depicted a pornographic scene."
+    },
+    {
+      "title": "US stocks slide as Wall Street's AI jitters persist",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cwy1yl1202yo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 23:08:00 GMT",
+      "summary": "Strong sales at AI giant Nvidia have done little to quell investor worries."
+    },
+    {
+      "title": "Channel Tunnel says UK investment 'non-viable' as it halts projects",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cx2n215nqvyo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 20:01:12 GMT",
+      "summary": "The company claims \"unsustainable\" levels of taxation has made any future investments \"non-viable\"."
+    },
+    {
+      "title": "Zelensky to speak to Trump after US proposes Russia-Ukraine peace plan",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cly1ypqlle0o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 19:47:32 GMT",
+      "summary": "The plan was reportedly drafted by US and Russian officials, without Ukraine's involvement."
+    },
+    {
+      "title": "COP30 climate talks evacuated after fire breaks out",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ce9d9p5jrjgo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 19:13:21 GMT",
+      "summary": "Thousands of people are attending the UN climate talks in Brazil."
+    },
+    {
+      "title": "Spain's attorney general convicted in controversial leak case",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cly4ypj92j9o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 17:27:58 GMT",
+      "summary": "Álvaro García Ortiz is barred from the post for two years and must pay €10,000 in compensation."
+    },
+    {
+      "title": "Google steps up AI scam protection in India, but gaps remain",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/20/google-steps-up-ai-scam-protection-in-india-but-gaps-remain/",
+      "published": "Thu, 20 Nov 2025 22:28:52 +0000",
+      "summary": "Google is expanding its real-time scam-detection and screen-sharing fraud warnings in India."
+    },
+    {
+      "title": "Joby Aviation makes ‘corporate espionage’ claims in lawsuit against rival Archer",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/20/joby-aviation-makes-corporate-espionage-claims-in-lawsuit-against-rival-archer/",
+      "published": "Thu, 20 Nov 2025 22:03:33 +0000",
+      "summary": "Joby alleges one of its former employees shared stolen trade secrets when he was hired by Archer."
+    },
+    {
+      "title": "WhatsApp gets its own Instagram Notes-like feature",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/20/whatsapp-gets-its-own-instagram-notes-like-feature/",
+      "published": "Thu, 20 Nov 2025 21:15:20 +0000",
+      "summary": "WhatsApp users can now share their status with others through a new \"About\" feature."
+    },
+    {
+      "title": "From defiant to contrite: Formula maker confirms bacteria amid botulism outbreak",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/11/from-defiant-to-contrite-formula-maker-confirms-bacteria-amid-botulism-outbreak/",
+      "published": "Thu, 20 Nov 2025 22:33:27 +0000",
+      "summary": "ByHeart said \"there's no reason to believe\" until its own testing found a reason."
+    },
+    {
+      "title": "Microsoft makes Zork I, II, and III open source under MIT License",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gaming/2025/11/microsoft-makes-zork-i-ii-and-iii-open-source-under-mit-license/",
+      "published": "Thu, 20 Nov 2025 20:33:50 +0000",
+      "summary": "Microsoft's Open Source Programs Office worked with Jason Scott to do it."
+    },
+    {
+      "title": "Scientists found the key to accurate Maya eclipse tables",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/11/study-how-the-maya-created-such-accurate-eclipse-tables/",
+      "published": "Thu, 20 Nov 2025 20:23:49 +0000",
+      "summary": "Eclipse tables in the Dresden Codex were based on lunar tables and adjusted for slippage over time."
+    },
+    {
+      "title": "Grok’s Elon Musk worship is getting weird",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/825675/groks-elon-musk-worship-is-getting-weird",
+      "published": "2025-11-20T17:14:15-05:00",
+      "summary": "It’s no secret that Elon Musk shapes the X social platform and X’s “maximally truth-seeking” Grok AI chatbot to his preferences. But it’s possible Musk may have needed a bit of an extra ego boost this week, because Grok’s worship of its creator seems, shall we say, more noticeable than usual. As a n"
+    },
+    {
+      "title": "The best early Black Friday deals we’ve found so far on laptops, TVs, and more",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/814345/black-friday-best-early-deals-2025",
+      "published": "2025-11-20T17:10:02-05:00",
+      "summary": "Black Friday is the most anticipated day of the year for bargain hunters. While there’s still some time to go before November 28th, we’ve already found a healthy selection of early discounts, allosignwing you to get a jump on your holiday shopping. Right now, for instance, the new AirPods Pro 3 are "
+    },
+    {
+      "title": "Google&#8217;s new AI image creator took my shirt off",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/825667/google-nano-banana-pro-test",
+      "published": "2025-11-20T17:09:06-05:00",
+      "summary": "I gave Google's new Nano Banana Pro a try, and it immediately took my clothes off. I didn't ask it to, but the AI model evidently decided my greetings card would look better with more skin. Nano Banana Pro is, as the name suggests, aimed at professionals. Powered by Gemini 3, it's effectively an upg"
+    },
+    {
+      "title": "Meta now lets you invite people for virtual hangouts in Hyperscape Capture spaces",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ar-vr/meta-now-lets-you-invite-people-for-virtual-hangouts-in-hyperscape-capture-spaces-231152311.html?src=rss",
+      "published": "Thu, 20 Nov 2025 23:11:52 +0000",
+      "summary": "<p>Meta is rolling out a way for people to interact together in its virtual spaces. Users will now be able to <a class=\"link rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=e160a5dc-fb38-4e8b-ae1d-1ad5eb060fbd&amp;siteId=us-engadget&amp;pageId=1p-autolink&amp;contentUuid=b291be0"
+    },
+    {
+      "title": "You can now play Command & Conquer: Red Alert 2 in your browser",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/you-can-now-play-command--conquer-red-alert-2-in-your-browser-213815557.html?src=rss",
+      "published": "Thu, 20 Nov 2025 21:38:15 +0000",
+      "summary": "<p><em>Command &amp; Conquer: Red Alert 2</em> knew how to lay on the camp. But it wasn’t only known for having some of the most delightfully cheesy cutscenes this side of <em>The 7th Guest</em>. <em>Red Alert 2</em> was also an acclaimed real-time strategy game for its time, and it’s still perfectl"
+    },
+    {
+      "title": "Microsoft has open sourced the Zork trilogy of text games",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/microsoft-has-open-sourced-the-zork-trilogy-of-text-games-213519368.html?src=rss",
+      "published": "Thu, 20 Nov 2025 21:35:19 +0000",
+      "summary": "<p>Preservation has become a pressing topic for games in this era of <a class=\"link\" href=\"https://www.engadget.com/gaming/the-stop-killing-games-movement-is-nearing-an-official-meeting-with-eu-lawmakers-191535413.html\" target=\"_blank\">digital-only releases</a> and games-as-a-service. So it's wonder"
+    },
+    {
+      "title": "France is taking state actions against GrapheneOS",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://grapheneos.social/@GrapheneOS/115584160910016309",
+      "published": "Thu, 20 Nov 2025 22:56:40 +0000",
+      "summary": "<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/115584160910016309\">https://grapheneos.social/@GrapheneOS/115584160910016309</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45999024\">https://news.ycombinator.com/item?id=45999024</a></p>\n<p>Points: 43</p>\n<p># Co"
+    },
+    {
+      "title": "GitHut – Programming Languages and GitHub (2014)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://githut.info/",
+      "published": "Thu, 20 Nov 2025 21:33:37 +0000",
+      "summary": "<p>Article URL: <a href=\"https://githut.info/\">https://githut.info/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45998047\">https://news.ycombinator.com/item?id=45998047</a></p>\n<p>Points: 30</p>\n<p># Comments: 15</p>"
+    },
+    {
+      "title": "ArkA – A minimal open video protocol (first MVP demo)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://baconpantsuppercut.github.io/arkA/",
+      "published": "Thu, 20 Nov 2025 21:30:02 +0000",
+      "summary": "<p>Article URL: <a href=\"https://baconpantsuppercut.github.io/arkA/\">https://baconpantsuppercut.github.io/arkA/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45998013\">https://news.ycombinator.com/item?id=45998013</a></p>\n<p>Points: 7</p>\n<p># Comments: 3</p>"
+    },
+    {
+      "title": "US Employee Well-Being Hit New Low In 2024, Survey Reveals",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/11/20/2222218/us-employee-well-being-hit-new-low-in-2024-survey-reveals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "alternative_right shares a report from Phys.org: New research from the Human Capital Development Lab at the Johns Hopkins Carey Business School analyzes the state of the American workforce in 2024 and shows an overall decline in employee well-being compared to years prior. [...] The latest research "
+    },
+    {
+      "title": "Google's New Nano Banana Pro Uses Gemini 3 Power To Generate More Realistic AI Images",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/11/20/2215205/googles-new-nano-banana-pro-uses-gemini-3-power-to-generate-more-realistic-ai-images?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from Ars Technica: Google's meme-friendly Nano Banana image-generation model is getting an upgrade. The new Nano Banana Pro is rolling out with improved reasoning and instruction following, giving users the ability to create more accurate images with legible text "
+    },
+    {
+      "title": "Future Google TV Devices Might Come With a Solar-powered Remote",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/11/20/1951234/future-google-tv-devices-might-come-with-a-solar-powered-remote?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shares a report: Epishine, a company that makes solar cells optimized for indoor lighting, has announced its technology is being used in a new remote control for Google TV devices, as spotted by 9to5Google. The remote will rely on rechargeable batteries instead of disposable ones"
+    },
+    {
+      "title": "4 People Indicted in Alleged Conspiracy to Smuggle Supercomputers and Nvidia Chips to China",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/smuggling-supercomputers-china-nvidia-indictment/",
+      "published": "Thu, 20 Nov 2025 22:26:17 +0000",
+      "summary": "A federal prosecutor alleged that one defendant boasted that his father “had engaged in similar business for the Chinese Communist Party.”"
+    },
+    {
+      "title": "Got a Pixel 10? Google’s Android Phone Can Now Share Files With Apple’s AirDrop",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/pixel-10-can-now-share-files-with-apples-airdrop/",
+      "published": "Thu, 20 Nov 2025 20:03:29 +0000",
+      "summary": "You can now share deets (and other digital treats) across the mobile divide."
+    },
+    {
+      "title": "The 27 Best Movies on Apple TV, WIRED’s Picks (November 2025)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/best-apple-tv-plus-movies/",
+      "published": "Thu, 20 Nov 2025 20:00:00 +0000",
+      "summary": "Come See Me in the Good Light, Highest 2 Lowest, and The Lost Bus are just a few of the movies you should be watching on Apple TV this month."
+    },
+    {
+      "title": "The Nvidia market rally couldn’t save Bitcoin’s price: BTC sinks to new low today. What’s up with this crypto crash?",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91446273/bitcoin-btc-price-down-today-despite-nvidia-rally-whats-up-with-this-crypto-market-crash",
+      "published": "2025-11-20T21:00:00",
+      "summary": "<p>Is this the beginning of the end for Bitcoin?</p>\n\n\n\n<p>A Bitcoin (<a href=\"https://finance.yahoo.com/quote/BTC-USD/\">BTC</a>)&nbsp;sell-off on Thursday is sending the cryptocurrency&nbsp;down again today by 3% to $86,410.50 in midday afternoon trading, after a rally had it <a href=\"https://www.c"
+    },
+    {
+      "title": "NBC’s ‘Stumble’: Why does Hollywood insist on treating narcolepsy as a punchline?",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91446176/stumble-nbc-why-does-hollywood-insist-on-treating-narcolepsy-as-a-punchline",
+      "published": "2025-11-20T20:30:00",
+      "summary": "<p>NBC recently debuted a new show: <em>Stumble</em>, a comedy about a <a href=\"https://www.youtube.com/watch?v=GZ13R-e4i_Q\">former cheer coach</a> leading a team of misfits.</p>\n\n\n\n<p>Some earlier reviews of the show, which premiered on November 7, called it &#8220;hilarious&#8221; and &#8220;full "
+    },
+    {
+      "title": "Verizon begins laying off more than 13,000 employees in a bid to ‘reorient’ the entire company",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91446439/verizon-layoffs-reorient-company",
+      "published": "2025-11-20T20:30:00",
+      "summary": "<p><a href=\"https://www.fastcompany.com/91441513/verizon-job-cuts-15000-restructuring\">Verizon is laying off</a> more than 13,000 employees in mass job reductions that arrive as the telecommunications giant says it must “reorient” its entire company.</p>\n\n\n\n<p>The job cuts began on Thursday, per to "
+    },
+    {
+      "title": "Google's upgraded Nano Banana Pro AI image model hailed as 'absolutely bonkers' for enterprises and users",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/googles-upgraded-nano-banana-pro-ai-image-model-hailed-as-absolutely-bonkers",
+      "published": "Thu, 20 Nov 2025 20:20:00 GMT",
+      "summary": "<p>Infographics rendered without a single spelling error. Complex diagrams one-shotted from paragraph prompts. Logos restored from fragments. And visual outputs so sharp with so much text density and accuracy, one developer simply called it “absolutely bonkers.”</p><p>Google DeepMind’s <a href=\"http"
+    },
+    {
+      "title": "ScaleOps' new AI Infra Product slashes GPU costs for self-hosted enterprise LLMs by 50% for early adopters",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/scaleops-new-ai-infra-product-slashes-gpu-costs-for-self-hosted-enterprise",
+      "published": "Thu, 20 Nov 2025 17:35:00 GMT",
+      "summary": "<p><a href=\"https://scaleops.com/\">ScaleOps</a> has expanded its cloud resource management platform with a new product aimed at enterprises operating self-hosted large language models (LLMs) and GPU-based AI applications. </p><p>The <a href=\"https://www.prnewswire.com/il/news-releases/scaleops-launc"
+    },
+    {
+      "title": "Tome's founders ditch viral presentation app with 20M users to build AI-native CRM Lightfield",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/tomes-founders-ditch-viral-presentation-app-with-20m-users-to-build-ai",
+      "published": "Thu, 20 Nov 2025 14:00:00 GMT",
+      "summary": "<p><a href=\"https://lightfield.app/\"><u>Lightfield</u></a>, a customer relationship management platform built entirely around artificial intelligence, officially launched to the public this week after a year of quiet development — a bold pivot by a startup that once had <a href=\"https://www.forbes.c"
+    },
+    {
+      "title": "Roundtables: Surviving the New Age of Conspiracies",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/20/1127749/roundtables-surviving-the-new-age-of-conspiracies/",
+      "published": "Thu, 20 Nov 2025 18:03:17 +0000",
+      "summary": "Everything is a conspiracy theory now. MIT Technology Review’s series, “The New Conspiracy Age,” explores how this moment is changing science and technology. Watch a discussion with our editors and Mike Rothschild, journalist and conspiracy theory expert, about how we can make sense of them all. Spe"
+    },
+    {
+      "title": "Designing digital resilience in the agentic AI era",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/20/1127941/designing-digital-resilience-in-the-agentic-ai-era/",
+      "published": "Thu, 20 Nov 2025 14:30:00 +0000",
+      "summary": "Digital resilience—the ability to prevent, withstand, and recover from digital disruptions—has long been a strategic priority for enterprises. With the rise of agentic AI, the urgency for robust resilience is greater than ever. Agentic AI represents a new generation of autonomous systems capable of "
+    },
+    {
+      "title": "The Download: what’s next for electricity, and living in the conspiracy age",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/20/1128183/the-download-whats-next-for-electricity-and-living-in-the-conspiracy-age/",
+      "published": "Thu, 20 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three things to know about the future of electricity The International Energy Agency recently released the latest version of the World Energy Outlook,"
+    }
+  ]
+}

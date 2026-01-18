@@ -1,0 +1,350 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business headlines highlight several key trends. In telecommunications, Vodafone experienced a significant outage affecting over 130,000 users (BBC Technology). Microsoft is phasing out support for Windows 10, urging users to prepare (BBC Technology). Meanwhile, the Dutch government has taken control of a China-owned chip firm amid geopolitical tensions (BBC Technology). In business news, carmakers face trial over emissions cheating allegations ('dieselgate') (BBC Business), and Lloyds Bank warns that a car finance scandal could cost it £2bn (BBC Business). On the international front, former US President Donald Trump addressed Israel's parliament, marking the end of a 'long and painful nightmare' for some (BBC World), while Palestinians celebrated the return of freed prisoners (BBC World). Disasters struck Mexico as rescuers searched for missing people in flooded towns (BBC World). Tech-wise, Slate Auto unveiled an electric truck at TechCrunch Disrupt 2025 (TechCrunch), and California became the first state to regulate AI companion chatbots (TechCrunch). Other notable stories include Ford's new 'Truckle' solution for key fob loss problems (Ars Technica) and software updates causing issues with Jeep 4xe hybrids (Ars Technica). In AI, OpenAI partnered with Broadcom to produce its own chips (The Verge), and Palmer Luckey's Anduril launched a military helmet with Facebook founder Mark Zuckerberg's assistance (The Verge).",
+    "keywords": [],
+    "trending_topics": [
+      "Telecommunication outages",
+      "Automaker emissions trials",
+      "Financial institution scandals",
+      "Political speeches",
+      "Disaster relief efforts",
+      "Electric vehicle unveilings",
+      "AI regulation",
+      "Tech partnerships",
+      "Military technology advancements"
+    ],
+    "search_keywords": [],
+    "analysis_timestamp": "2025-10-13T11:30:45.626108"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Vodafone admits 'major outage' as more than 130,000 report problems",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c5yldldx659o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 15:16:38 GMT",
+      "summary": "Vodafone claims to have more than 18 million customers in the UK, including nearly 700,000 home broadband customers."
+    },
+    {
+      "title": "Windows 10 users urged to prepare for Microsoft pulling support",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cy0vzegkqweo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 11 Oct 2025 23:04:50 GMT",
+      "summary": "Microsoft is ending support for Windows 10, which could make users vulnerable - here's how to get Windows 11."
+    },
+    {
+      "title": "Dutch government takes control of China-owned chip firm",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/ckgk21nng0vo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 09:25:50 GMT",
+      "summary": "The move, which is aimed to protect supplies of technology, could raise tensions between the EU and China."
+    },
+    {
+      "title": "Vodafone admits 'major outage' as more than 130,000 report problems",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c5yldldx659o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 15:16:38 GMT",
+      "summary": "Vodafone claims to have more than 18 million customers in the UK, including nearly 700,000 home broadband customers."
+    },
+    {
+      "title": "Carmakers go on trial over 'dieselgate' emissions cheat claims",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cjr5epw8dweo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 14:31:36 GMT",
+      "summary": "The trial is the latest chapter of what has become known as the \"dieselgate\" scandal."
+    },
+    {
+      "title": "Lloyds warns car finance scandal could cost it £2bn",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cq6zr733917o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 11:52:11 GMT",
+      "summary": "The bank has set aside an additional £800m, saying the number of eligible claims is expected to be higher than previously thought."
+    },
+    {
+      "title": "'Long and painful nightmare finally over,' Trump tells Israel's parliament",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c709jxxrrvlo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 12:32:49 GMT",
+      "summary": "The US president was applauded by Israeli lawmakers for his role in brokering an Israel-Hamas ceasefire."
+    },
+    {
+      "title": "Palestinians celebrate return of prisoners freed by Israel",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cr430epq45go?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 13:18:43 GMT",
+      "summary": "Thousands of people gather in Gaza and the West Bank to welcome Palestinian prisoners and detainees freed by Israel."
+    },
+    {
+      "title": "Rescuers search for missing in Mexico's flooded towns",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c1e3pjl5492o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 11:47:06 GMT",
+      "summary": "At least 64 people are dead and scores are missing after tropical storms triggered torrential rains."
+    },
+    {
+      "title": "Slate Auto’s electric truck: See it here first at TechCrunch Disrupt 2025",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/13/slate-autos-electric-truck-see-it-here-first-at-techcrunch-disrupt-2025/",
+      "published": "Mon, 13 Oct 2025 15:00:00 +0000",
+      "summary": "Slate Auto CEO Chris Barman drives her new electric truck — literally — onto the Disrupt Stage at TechCrunch Disrupt 2025. Don’t miss this world-first EV reveal and conversation about the future of mobility. Register now to save up to $624 and extra 15-30% on group passes before rates increase after"
+    },
+    {
+      "title": "California becomes first state to regulate AI companion chatbots",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/13/california-becomes-first-state-to-regulate-ai-companion-chatbots/",
+      "published": "Mon, 13 Oct 2025 14:50:53 +0000",
+      "summary": "SB 243 is designed to protect children and vulnerable users from harms associated with use of AI companion chatbots."
+    },
+    {
+      "title": "The time is now: Only 5 days remain to book your exhibit table at TechCrunch Disrupt 2025",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/13/the-time-is-now-only-5-days-remain-to-book-your-exhibit-table-at-techcrunch-disrupt-2025/",
+      "published": "Mon, 13 Oct 2025 14:30:00 +0000",
+      "summary": "If you’ve been thinking about joining 10,000+ startup and VC leaders at TechCrunch Disrupt 2025 in San Francisco on October 27–29, the time to act is now. Lock in your place on the Expo floor, where ideas, capital, and connections collide. Deadline is October 17 or until all 7 tables are gone."
+    },
+    {
+      "title": "Layoffs, a “coding error,” chaos: Trump admin ravages the health dept.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/10/mass-firings-at-us-health-dept-partially-reversed-but-still-devastating/",
+      "published": "Mon, 13 Oct 2025 15:14:44 +0000",
+      "summary": "Reports suggest the hardest hit is the CDC, which is already struggling to function."
+    },
+    {
+      "title": "Keep losing your key fob? Ford’s new “Truckle” is the answer.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/cars/2025/10/keep-losing-your-key-fob-fords-new-truckle-is-the-answer/",
+      "published": "Mon, 13 Oct 2025 14:57:01 +0000",
+      "summary": "Keep your pants up and your F-150 unlocked at the same time."
+    },
+    {
+      "title": "Software update bricks some Jeep 4xe hybrids over the weekend",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/cars/2025/10/software-update-bricks-some-jeep-4xe-hybrids-over-the-weekend/",
+      "published": "Mon, 13 Oct 2025 14:10:25 +0000",
+      "summary": "Jeep has pulled the update; owners are advised to ignore it if it already downloaded."
+    },
+    {
+      "title": "EcoFlow’s Delta Pro Ultra X can power a home for weeks",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/798772/ecoflow-delta-pro-ultra-x-battery-system",
+      "published": "2025-10-13T11:00:00-04:00",
+      "summary": "EcoFlow just announced its latest “most powerful” and “easy-to-install” whole-home battery backup system. It’s called the Delta Pro Ultra X because when you’ve already launched the superlative-laced Delta Pro Ultra in 2024, the only thing left is to add a variable to the name. Perhaps that X stands "
+    },
+    {
+      "title": "OpenAI partners with Broadcom to produce its own AI chips",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/798827/openai-broadcom-custom-ai-chips",
+      "published": "2025-10-13T10:59:44-04:00",
+      "summary": "OpenAI is teaming up with Broadcom to produce its own computer chips to power its AI data centers. The deal is the latest in a series of partnerships designed to reduce the company’s reliance on Nvidia and secure enough computing power to fuel apps like ChatGPT and Sora and realize its mission to de"
+    },
+    {
+      "title": "Palmer Luckey&#8217;s Anduril launches EagleEye military helmet with help from buddy Zuck",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/798821/anduril-eagleeye-palmer-luckey-mark-zuckerberg-meta-military-mr",
+      "published": "2025-10-13T10:44:49-04:00",
+      "summary": "Anduril, the military tech company founded by Oculus creator Palmer Luckey, has announced the first hardware to come out of its recent partnership with Meta: EagleEye, an AI-powered mixed-reality (MR) system designed to be built into soldiers’ helmets. The modular hardware is a “family of systems,” "
+    },
+    {
+      "title": "Windows 10 support ends tomorrow, but here's how to get an extra year for free",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/windows-10-support-ends-tomorrow-but-heres-how-to-get-an-extra-year-for-free-125118505.html?src=rss",
+      "published": "Mon, 13 Oct 2025 14:25:30 +0000",
+      "summary": "<figure><img src=\"https://s.yimg.com/os/creatr-uploaded-images/2025-10/c836b6e0-a60d-11f0-aff0-71a091f199fd\" style=\"height: 3992px; width: 6000px;\" /><figcaption>You'll get access to Windows 10 a little longer by doing this. (Getty Images)</figcaption></figure>\n<p>Are you still running Windows 10 on"
+    },
+    {
+      "title": "OpenAI is making its own AI chips with Broadcom's help",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ai/openai-is-making-its-own-ai-chips-with-broadcoms-help-142242231.html?src=rss",
+      "published": "Mon, 13 Oct 2025 14:22:42 +0000",
+      "summary": "<figure><img alt=\"A Broadcom logo and a computer motherboard appear in this illustration taken August 25, 2025. REUTERS/Dado Ruvic/Illustration\" src=\"https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2025-10/989ed8a0-a837-11f0-b27f-33c4761ae381\" style=\"height: 2001px; width: 3000px;"
+    },
+    {
+      "title": "AirPods 4 earbuds drop to an all-time-low price",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/airpods-4-earbuds-drop-to-an-all-time-low-price-130033554.html?src=rss",
+      "published": "Mon, 13 Oct 2025 12:46:25 +0000",
+      "summary": "<p>Those on a tight budget and those who prefer open-ear AirPods will want to check out the latest discount on the <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-02904efde6ea&amp;itemId=amazon_B0DGHMNQ5Z&amp;siteId=us-engadget&amp;pageId=1p-aut"
+    },
+    {
+      "title": "Supermassive black holes locked in a stable orbit around each other",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.helsinkitimes.fi/themes/themes/science-and-technology/28090-scientists-capture-first-image-of-two-black-holes-in-orbit.html",
+      "published": "Mon, 13 Oct 2025 14:59:14 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.helsinkitimes.fi/themes/themes/science-and-technology/28090-scientists-capture-first-image-of-two-black-holes-in-orbit.html\">https://www.helsinkitimes.fi/themes/themes/science-and-technology/28090-scientists-capture-first-image-of-two-black-holes-in-orbit.html</a"
+    },
+    {
+      "title": "A16Z-backed data firms Fivetran, dbt Labs to merge in all-stock deal",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.reuters.com/business/a16z-backed-data-firms-fivetran-dbt-labs-merge-all-stock-deal-2025-10-13/",
+      "published": "Mon, 13 Oct 2025 14:42:19 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.reuters.com/business/a16z-backed-data-firms-fivetran-dbt-labs-merge-all-stock-deal-2025-10-13/\">https://www.reuters.com/business/a16z-backed-data-firms-fivetran-dbt-labs-merge-all-stock-deal-2025-10-13/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.c"
+    },
+    {
+      "title": "Ofcom fines 4chan £20K and counting for violating UK's Online Safety Act",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.theregister.com/2025/10/13/4chan_ofcom_fine/",
+      "published": "Mon, 13 Oct 2025 14:34:40 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.theregister.com/2025/10/13/4chan_ofcom_fine/\">https://www.theregister.com/2025/10/13/4chan_ofcom_fine/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45568767\">https://news.ycombinator.com/item?id=45568767</a></p>\n<p>Points: 16</p>\n<p># Co"
+    },
+    {
+      "title": "Earth's Climate Has Passed Its First Irreversible Tipping Point and Entered a 'New Reality'",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/10/13/1340224/earths-climate-has-passed-its-first-irreversible-tipping-point-and-entered-a-new-reality?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Climate change has pushed warm-water coral reefs past a point of no return, marking the first time a major climate tipping point has been crossed, according to a report released on Sunday by an international team in advance of the United Nations Climate Change Conference COP30 in Brazil this Novembe"
+    },
+    {
+      "title": "The Pope Urges Vigilance About Who Controls AI",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/10/13/1316200/the-pope-urges-vigilance-about-who-controls-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shares a report: Last week, sounding like a digital media consultant, Pope Leo XIV urged reporters to avoid \"the degrading practice of so-called clickbait.\" He was addressing global news agencies at a gathering in Vatican City about the risks of a post-truth world, with a speech "
+    },
+    {
+      "title": "OpenAI, Broadcom Forge Multibillion-Dollar Chip-Development Deal",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/10/13/1334226/openai-broadcom-forge-multibillion-dollar-chip-development-deal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "OpenAI and Broadcom are working together to develop and deploy 10 gigawatts of custom AI chips and computing systems over the next four years, a high-profile partnership aimed at satisfying some of the startup's immense computing needs. From a report: OpenAI plans to design its own graphics processi"
+    },
+    {
+      "title": "3 Best Smart Displays (2025): Tested By a Smart Home Addict",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-smart-displays/",
+      "published": "Mon, 13 Oct 2025 13:06:00 +0000",
+      "summary": "Looking for a smart speaker that can do more than just talk back to you? These smart displays can stream your favorite shows, join a video call, and even double as a digital photo frame."
+    },
+    {
+      "title": "Best Windows Laptops (2025): WIRED-Tested Laptops to Buy",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-windows-laptops/",
+      "published": "Mon, 13 Oct 2025 12:00:00 +0000",
+      "summary": "If you can’t upgrade to Windows 11 with a simple software update, these are the best Windows 11 laptops to buy right now."
+    },
+    {
+      "title": "Programming in Assembly Is Brutal, Beautiful, and Maybe Even a Path to Better AI",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/programming-assembly-artificial-intelligence/",
+      "published": "Mon, 13 Oct 2025 11:00:00 +0000",
+      "summary": "Whether your chip is running a vintage computer game or the latest DeepSeek model, it’ll reward you for speaking its native language."
+    },
+    {
+      "title": "‘WTF with Marc Maron’ ends with final guest Barack Obama",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91420891/wtf-marc-maron-ends-final-guest-barack-obama",
+      "published": "2025-10-13T15:06:25",
+      "summary": "<p><a href=\"https://www.fastcompany.com/3047717/beyond-the-n-word-the-best-of-president-obamas-interview-on-marc-marons-wtf\">Barack Obama</a> helped <a href=\"https://www.fastcompany.com/3029642/marc-maron-brings-his-confessional-comedy-back-to-tv\">Marc Maron</a> lock the gates on his podcast Monday,"
+    },
+    {
+      "title": "Neuroscientists are suing Apple over its Apple Intelligence AI. Here’s why",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91420932/neuroscientists-suing-apple-over-apple-intelligence-ai-heres-why",
+      "published": "2025-10-13T14:24:04",
+      "summary": "<p>Apple was <a href=\"https://www.fastcompany.com/91331733/apple-siri-privacy-lawsuit-settlement-payout-claim-dates-to-know\">hit with a lawsuit</a> in California federal court by a pair of neuroscientists who say that the tech company misused thousands of <a href=\"https://www.fastcompany.com/9139971"
+    },
+    {
+      "title": "Less than 1% of people beat this CAPTCHA game that proves you’re human",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91417204/im-not-a-robot",
+      "published": "2025-10-13T14:00:00",
+      "summary": "<p>Are you human? A new game wants you to prove it.</p>\n\n\n\n<p><em>I&#8217;m Not a Robot</em> is a fun spin on the popular CAPTCHA game synonymous with using the internet. Except it&#8217;s not just one game, but 48 increasingly absurd puzzles designed to help you prove you have a soul—and the patien"
+    },
+    {
+      "title": "This new AI technique creates ‘digital twin’ consumers, and it could kill the traditional survey industry",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/this-new-ai-technique-creates-digital-twin-consumers-and-it-could-kill-the",
+      "published": "Mon, 13 Oct 2025 13:00:00 GMT",
+      "summary": "<p>A new <a href=\"https://arxiv.org/pdf/2510.08338\"><u>research paper</u></a> quietly published last week outlines a breakthrough method that allows large language models (LLMs) to simulate human consumer behavior with startling accuracy, a development that could reshape the multi-billion-dollar <a "
+    },
+    {
+      "title": "Salesforce bets on AI 'agents' to fix what it calls a $7 billion problem in enterprise software",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/salesforce-bets-on-ai-agents-to-fix-what-it-calls-a-usd7-billion-problem-in",
+      "published": "Mon, 13 Oct 2025 12:00:00 GMT",
+      "summary": "<p>As 50,000 attendees descend on Salesforce&#x27;s <a href=\"https://www.salesforce.com/dreamforce/\"><u>Dreamforce conference</u></a> this week, the enterprise software giant is making its most aggressive bet yet on artificial intelligence agents, positioning itself as the antidote to what it calls "
+    },
+    {
+      "title": "Breaking the bottleneck: Why AI demands an SSD-first future",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/breaking-the-bottleneck-why-ai-demands-an-ssd-first-future",
+      "published": "Mon, 13 Oct 2025 04:00:00 GMT",
+      "summary": "<p><i>Presented by Solidigm</i></p><hr /><p>As AI adoption surges, data centers face a critical bottleneck in storage — and traditional HDDs are at the center of it. Data that once sat idle as cold archives is now being pulled into frequent use to build more accurate models and deliver better infere"
+    },
+    {
+      "title": "Transforming commercial pharma with agentic AI",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/13/1124829/transforming-commercial-pharma-with-agentic-ai/",
+      "published": "Mon, 13 Oct 2025 13:00:00 +0000",
+      "summary": "Amid the turbulence of the wider global economy in recent years, the pharmaceuticals industry is weathering its own storms. The rising cost of raw materials and supply chain disruptions are squeezing&#160;margins as pharma companies face intense pressure—including from countries like the US—to contr"
+    },
+    {
+      "title": "The Download: planet hunting, and India’s e-scooters",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/13/1125657/the-download-planet-hunting-and-indias-e-scooters/",
+      "published": "Mon, 13 Oct 2025 12:11:53 +0000",
+      "summary": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An Earthling’s guide to planet hunting The pendant on Rebecca Jensen-Clem’s necklace is composed of 36 silver hexagons entwined in a honeyco"
+    },
+    {
+      "title": "An Earthling’s guide to planet hunting",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/13/1124970/astronomy-planet-hunting-atmosphere/",
+      "published": "Mon, 13 Oct 2025 10:00:00 +0000",
+      "summary": "The pendant on Rebecca Jensen-Clem’s necklace is only about an inch wide, composed of 36 silver hexagons entwined in a honeycomb mosaic. At the Keck Observatory, in Hawaii, just as many segments make up a mirror that spans 33 feet, reflecting images of uncharted worlds for her to study.&#160; Jensen"
+    }
+  ]
+}

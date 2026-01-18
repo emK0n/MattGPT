@@ -1,0 +1,355 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business headlines revolve around cryptocurrency, supply chain disruptions in the auto industry, cybercrime, unemployment rates, AI developments, and space exploration. A 'Cryptoqueen' is set to be sentenced for a £5bn Bitcoin scam, causing turmoil in the crypto world. The global car industry faces challenges due to a battle over Chinese chip maker SMIC, potentially impacting production. Meanwhile, AI advancements are making headlines with topics like real-time audio translation and isolating memorization from reasoning in neural networks. In space exploration news, Intuitive Machines will become a military contractor and researchers have isolated memorization from reasoning in AI neural networks.",
+    "keywords": [
+      "cryptocurrency",
+      "bitcoin",
+      "smic",
+      "cybercrime"
+    ],
+    "trending_topics": [
+      "Cryptoqueen Bitcoin scandal",
+      "Auto industry supply chain disruptions",
+      "AI advancements in real-time translation and neural networks",
+      "Space exploration developments"
+    ],
+    "search_keywords": [
+      "cryptocurrency",
+      "bitcoin",
+      "smic",
+      "cybercrime"
+    ],
+    "analysis_timestamp": "2025-11-11T04:49:09.737132"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Cryptoqueen who fled China for London mansion to be sentenced over £5bn Bitcoin stash",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvg4w1g9ezko?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 00:31:56 GMT",
+      "summary": "Qian Zhimin bought cryptocurrency using funds stolen from thousands of Chinese pensioners, say police."
+    },
+    {
+      "title": "Battle over Chinese chip maker rocks global car industry",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cr43kyn9d6po?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 00:01:10 GMT",
+      "summary": "In an extraordinary move, the Dutch government seized control of Nexperia, triggering anger in Beijing."
+    },
+    {
+      "title": "A jailed hacking kingpin reveals all about the gang that left a trail of destruction",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cm2w0pvg4wko?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 10 Nov 2025 06:01:04 GMT",
+      "summary": "One of the world's most prominent cyber-criminals speaks to the BBC in an exclusive interview."
+    },
+    {
+      "title": "UK unemployment rate rises to 5% as jobs market weakens",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cdxrp7znkdlo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 09:33:45 GMT",
+      "summary": "Latest official data ahead of the Budget later this month shows it is the highest rate since 2021."
+    },
+    {
+      "title": "Reeves suggests benefit limits on larger families to be lifted",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c70j7dxjp5wo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 10 Nov 2025 17:26:40 GMT",
+      "summary": "The chancellor tells the BBC children in bigger families should not be \"penalised\" by the welfare system."
+    },
+    {
+      "title": "Cryptoqueen who fled China for London mansion to be sentenced over £5bn Bitcoin stash",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cvg4w1g9ezko?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 00:31:56 GMT",
+      "summary": "Qian Zhimin bought cryptocurrency using funds stolen from thousands of Chinese pensioners, say police."
+    },
+    {
+      "title": "US Senate passes funding bill as historic shutdown nears likely end",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cj41pgpk0wgo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 03:52:05 GMT",
+      "summary": "It will need to be approved by the House and then signed into law by the president before the government can reopen."
+    },
+    {
+      "title": "The night an explosion shook Delhi",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/clyl7n4q3qyo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 07:49:17 GMT",
+      "summary": "BBC journalists describe what they saw after an explosion took place in India's capital Delhi on Monday."
+    },
+    {
+      "title": "Cryptoqueen who fled China for London mansion to be sentenced over £5bn Bitcoin stash",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cvg4w1g9ezko?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 11 Nov 2025 00:31:56 GMT",
+      "summary": "Qian Zhimin bought cryptocurrency using funds stolen from thousands of Chinese pensioners, say police."
+    },
+    {
+      "title": "Lovable says it’s nearing 8 million users as the year-old AI coding startup eyes more corporate employees",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/10/lovable-says-its-nearing-8-million-users-as-the-year-old-ai-coding-startup-eyes-more-corporate-employees/",
+      "published": "Mon, 10 Nov 2025 23:53:01 +0000",
+      "summary": "The platform has attracted an eclectic user base. More than half of Fortune 500 companies are using Lovable to \"supercharge creativity,\" according to Osika, who insisted retention remains strong."
+    },
+    {
+      "title": "The circular money problem at the heart of AI’s biggest deals",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/video/the-circular-money-problem-at-the-heart-of-ais-biggest-deals/",
+      "published": "Mon, 10 Nov 2025 23:32:36 +0000",
+      "summary": "SoftBank and OpenAI announced&#160;a new 50-50 joint venture&#160;this week to sell enterprise AI tools in Japan under the brand &#8220;Crystal Intelligence.&#8221; On paper,&#160;it&#8217;s&#160;a straightforward international expansion deal. But SoftBank’s role as a major investor in OpenAI is rai"
+    },
+    {
+      "title": "VC Jennifer Neundorfer explains how founders can stand out in a crowded AI market",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/10/vc-jennifer-neundorfer-explains-how-founders-can-stand-out-in-a-crowded-ai-market/",
+      "published": "Mon, 10 Nov 2025 23:30:00 +0000",
+      "summary": "January Ventures co-founder Jennifer Neundorfer discussed this AI-driven funding market on the Equity podcast during TechCrunch Disrupt."
+    },
+    {
+      "title": "Neutron rocket’s debut slips into mid-2026 as company seeks success from the start",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/11/neutron-rockets-debut-slips-into-mid-2026-as-company-seeks-success-from-the-start/",
+      "published": "Tue, 11 Nov 2025 00:39:13 +0000",
+      "summary": "\"Those who have failed to deliver are numerous.\""
+    },
+    {
+      "title": "Intuitive Machines—known for its Moon landers—will become a military contractor",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/11/intuitive-machines-known-for-its-moon-landers-will-become-a-military-contractor/",
+      "published": "Mon, 10 Nov 2025 23:34:09 +0000",
+      "summary": "\"They've been Ford Aerospace, Space Systems/Loral, Maxar, Lanteris, and now it'll be Intuitive Machines.\""
+    },
+    {
+      "title": "Researchers isolate memorization from reasoning in AI neural networks",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/",
+      "published": "Mon, 10 Nov 2025 23:06:42 +0000",
+      "summary": "Basic arithmetic ability lives in the memorization pathways, not logic circuits."
+    },
+    {
+      "title": "Siri Shortcuts now works with Samsung SmartThings routines",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/818054/samsung-smartthings-routines-siri-ios-support",
+      "published": "2025-11-10T17:49:43-05:00",
+      "summary": "Samsung’s latest SmartThings update adds support for Siri Shortcuts. In a press release, Samsung announced that you can now use Siri to run SmartThings routines, allowing you to use Apple’s voice assistant to control your smart home. Siri Shortcuts is a feature in iOS that lets you run automations b"
+    },
+    {
+      "title": "The best early Black Friday deals we’ve found so far on laptops, TVs, and more",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/814345/black-friday-best-early-deals-2025",
+      "published": "2025-11-10T17:32:29-05:00",
+      "summary": "Black Friday is the most anticipated day of the year for bargain hunters. While there’s still some time to go before November 28th, we’re already starting to see a selection of early discounts, allowing you to get a jump on your holiday shopping. Right now, for instance, you can get nearly 50 percen"
+    },
+    {
+      "title": "Paramount Plus is getting a price hike in early 2026",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/818019/paramount-plus-price-increase-us-2026",
+      "published": "2025-11-10T17:09:14-05:00",
+      "summary": "Paramount Plus is going up in price again. As part of its earnings report released on Monday, Paramount announced that it will raise prices for subscribers in the US on January 15th, 2026, bringing the ad-supported Essential plan from $7.99 to $8.99 per month, while the ad-free Premium plan will go "
+    },
+    {
+      "title": "Broadcom just announced an AI chipset that translates audio in real time directly on the device",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ai/broadcom-just-announced-an-ai-chipset-that-translates-audio-in-real-time-directly-on-the-device-050036717.html?src=rss",
+      "published": "Tue, 11 Nov 2025 05:00:36 +0000",
+      "summary": "<p>Broadcom and a company called <a href=\"http://camb.ai/\">CAMB.AI</a> are teaming up to bring on-device audio translation to a chipset. This would allow devices that use the SoC to complete translation, dubbing and audio description tasks without having to dip into the cloud. In other words, it cou"
+    },
+    {
+      "title": "Rodecaster Video S review: Compact and comprehensive video production",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/general/rodecaster-video-s-review-compact-and-comprehensive-video-production-230000221.html?src=rss",
+      "published": "Mon, 10 Nov 2025 23:41:42 +0000",
+      "summary": "<p>The Rodecaster series of podcast mixers have become a mainstay among audio creatives. Last year, the company expanded the line with its first multimedia model — the <a class=\"link\" href=\"https://www.engadget.com/entertainment/streaming/the-rodecaster-video-packs-audio-and-video-production-feature"
+    },
+    {
+      "title": "Paramount+ is getting a price hike and ending free trials",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/entertainment/streaming/paramount-is-getting-a-price-hike-and-ending-free-trials-231146302.html?src=rss",
+      "published": "Mon, 10 Nov 2025 23:11:46 +0000",
+      "summary": "<p>Paramount+ is making some changes that will make its streaming service get more to watch. During Paramount's earnings <a class=\"link\" href=\"https://ir.paramount.com/static-files/53c82d68-0e50-45cf-a8b9-3023c5ce9cc7\" target=\"_blank\">report</a> today, the company announced that it will increase the"
+    },
+    {
+      "title": "Show HN: PhantomCollect – Open-Source Web Data Collection Framework in Python",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://github.com/xsser01/phantomcollect",
+      "published": "Tue, 11 Nov 2025 07:45:41 +0000",
+      "summary": "<p>Article URL: <a href=\"https://github.com/xsser01/phantomcollect\">https://github.com/xsser01/phantomcollect</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45885013\">https://news.ycombinator.com/item?id=45885013</a></p>\n<p>Points: 6</p>\n<p># Comments: 3</p>"
+    },
+    {
+      "title": "SoftBank sells its entire stake in Nvidia for $5.83B",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html",
+      "published": "Tue, 11 Nov 2025 07:32:06 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html\">https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=458"
+    },
+    {
+      "title": "The Write Last, Read First Rule",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/",
+      "published": "Tue, 11 Nov 2025 06:30:22 +0000",
+      "summary": "<p>Article URL: <a href=\"https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/\">https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45884658\">https://news.ycombinator.com/item?id=45884658</a>"
+    },
+    {
+      "title": "China's CO2 Emissions Have Been Flat Or Falling For Past 18 Months, Analysis Finds",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/11/11/0119210/chinas-co2-emissions-have-been-flat-or-falling-for-past-18-months-analysis-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "China's CO2 emissions have been flat or falling for 18 months, \"adding evidence to the hope that the world's biggest polluter has managed to hit its target of peak CO2 emissions well ahead of schedule,\" reports the Guardian. From the report: Rapid increases in the deployment of solar and wind power "
+    },
+    {
+      "title": "Saudi Arabia's Dystopian Futuristic City Project Is Crashing and Burning",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/11/10/238215/saudi-arabias-dystopian-futuristic-city-project-is-crashing-and-burning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from Gizmodo: It appears that Neom -- Saudi Arabia's hugely expensive, architecturally bizarre urban development project -- is floundering and close to collapse. A new report from the Financial Times cites high-level sources within the project to paint a picture o"
+    },
+    {
+      "title": "A Jailed Hacking Kingpin Reveals All About Cybercrime Gang",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://it.slashdot.org/story/25/11/10/2320251/a-jailed-hacking-kingpin-reveals-all-about-cybercrime-gang?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Slashdot reader alternative_right shares an exclusive BBC interview with Vyacheslav \"Tank\" Penchukov, once a top-tier cyber-crime boss behind Jabber Zeus, IcedID, and major ransomware campaigns. His story traces the evolution of modern cybercrime from early bank-theft malware to today's lucrative ra"
+    },
+    {
+      "title": "$50 Target Coupon & Promo Codes | November 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/target-promo-code/",
+      "published": "Tue, 11 Nov 2025 07:30:00 +0000",
+      "summary": "Get $50 off your next order, 20% off sitewide, and up to 50% off with Target coupon codes and deals."
+    },
+    {
+      "title": "1Password Coupon: Score a Free Trial in November",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/1password-coupon/",
+      "published": "Tue, 11 Nov 2025 06:40:00 +0000",
+      "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals."
+    },
+    {
+      "title": "B&H Photo Promo Codes and Deals for November 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "published": "Tue, 11 Nov 2025 06:30:00 +0000",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&amp;H Photo."
+    },
+    {
+      "title": "5 insights to help you untangle fear knots that hold you back",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91435304/fear-knots-untangle-insights",
+      "published": "2025-11-11T09:00:00",
+      "summary": "<p>Below, co-authors Ruth DeFoster and Natashia Swalve share five key insights from their new book,&nbsp;<em>The Fear Knot: How Science, History, and Culture Shape Our Fears – and How to Get Unstuck</em>.</p>\n\n\n\n<p>Ruth is a journalism professor and media scholar who teaches at the University of Min"
+    },
+    {
+      "title": "This TikTok trend captures the delight of intergenerational work friends",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91437982/this-tiktok-trend-captures-the-joy-of-intergenerational-work-friendships",
+      "published": "2025-11-11T08:00:00",
+      "summary": "<p>For the first time in history, five generations are sharing the workplace. But grouping different generations under one roof doesn’t have to cause friction. Sometimes it means unlikely friendships blossom.&nbsp;</p>\n\n\n\n<p>“Me &amp; someone’s dad 8 hours a day,” <a href=\"https://www.fastcompany.co"
+    },
+    {
+      "title": "Stop saying ‘how are you?’ and try these greetings instead",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91433612/stop-saying-how-are-you-and-try-these-greetings-instead",
+      "published": "2025-11-11T07:00:00",
+      "summary": "<p>Every encounter with another person is an opportunity to shape that relationship. The first words out of your mouth are key in establishing the goodwill we all crave. Unfortunately, too often our opening lines damage that rapport.</p>\n\n\n\n<p>I once had a client who was at a conference and saw a bo"
+    },
+    {
+      "title": "Meta returns to open source AI with Omnilingual ASR models that can transcribe 1,600+ languages natively",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/meta-returns-to-open-source-ai-with-omnilingual-asr-models-that-can",
+      "published": "Mon, 10 Nov 2025 20:27:00 GMT",
+      "summary": "<p>Meta has just released a new <a href=\"https://ai.meta.com/blog/omnilingual-asr\">multilingual automatic speech recognition (ASR) system</a> supporting 1,600+ languages — dwarfing OpenAI’s open source Whisper model, which supports just 99. </p><p>Is architecture also allows developers to extend tha"
+    },
+    {
+      "title": "Chronosphere takes on Datadog with AI that explains itself, not just outages",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/chronosphere-takes-on-datadog-with-ai-that-explains-itself-not-just-outages",
+      "published": "Mon, 10 Nov 2025 19:00:00 GMT",
+      "summary": "<p><a href=\"https://chronosphere.io/\"><u>Chronosphere</u></a>, a New York-based observability startup <a href=\"https://chronosphere.io/news/chronosphere-marks-a-year-of-new-capabilities/\"><u>valued at $1.6 billion</u></a>, announced Monday it will launch <a href=\"https://chronosphere.io/ai-guided-tr"
+    },
+    {
+      "title": "How context engineering can save your company from AI vibe code overload: lessons from Qodo and Monday.com",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/how-context-engineering-can-save-your-company-from-ai-vibe-code-overload",
+      "published": "Mon, 10 Nov 2025 15:00:00 GMT",
+      "summary": "<p>As cloud project tracking software <a href=\"https://monday.com/\">monday.com</a>’s engineering organization scaled past 500 developers, the team began to feel the strain of its own success. Product lines were multiplying, microservices proliferating, and code was flowing faster than human reviewer"
+    },
+    {
+      "title": "The State of AI: Energy is king, and the US is falling behind",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/10/1126805/the-state-of-ai-energy-is-king-and-the-us-is-falling-behind/",
+      "published": "Mon, 10 Nov 2025 16:45:00 +0000",
+      "summary": "Welcome back to The State of AI, a new collaboration between the Financial Times and MIT Technology Review. Every Monday, writers from both publications debate one aspect of the generative AI revolution and how it is reshaping global power. This week, Casey Crownhart, senior reporter for energy at M"
+    },
+    {
+      "title": "Reimagining cybersecurity in the era of AI and quantum",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/10/1127774/reimagining-cybersecurity-in-the-era-of-ai-and-quantum/",
+      "published": "Mon, 10 Nov 2025 14:19:28 +0000",
+      "summary": "AI and quantum technologies are dramatically reconfiguring how cybersecurity functions, redefining the speed and scale with which digital defenders and their adversaries can operate. The weaponization of AI tools for cyberattacks is already proving a worthy opponent to current defenses. From reconna"
+    },
+    {
+      "title": "The Download: busting weather myths, and AI heart attack prediction",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/10/1127798/the-download-busting-weather-myths-and-ai-heart-attack-prediction/",
+      "published": "Mon, 10 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why it’s so hard to bust the weather control conspiracy theory It was October 2024, and Hurricane Helene had just devastated the US Southeast. Represe"
+    }
+  ]
+}

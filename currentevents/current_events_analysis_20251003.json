@@ -1,0 +1,325 @@
+{
+  "analysis": {
+    "summary": "Cybersecurity threats are prominent in today's headlines, impacting both businesses and consumers. TikTok is under scrutiny for reportedly recommending pornographic content to children, while a Japanese brewery faces a beer shortage due to a cyber-attack. In technology news, Replit finds success after years of development, Amazon resumes drone delivery post-crash, and Apple removes ICEBlock from the App Store following a Trump administration request.",
+    "keywords": [
+      "tiktok",
+      "replit"
+    ],
+    "trending_topics": [
+      "TikTok controversy",
+      "Cyber-attack impacts on businesses",
+      "Tech company success stories"
+    ],
+    "search_keywords": [
+      "tiktok",
+      "replit"
+    ],
+    "analysis_timestamp": "2025-10-03T04:59:47.845051"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 36,
+  "sources_analyzed": [
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "TikTok recommends porn to children, says report",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c708v7qkeg1o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 00:45:54 GMT",
+      "summary": "Researchers find TikTok's algorithm recommends sexual content to newly-created child accounts."
+    },
+    {
+      "title": "Japan faces Asahi beer shortage after cyber-attack",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c0r0y14ly5ro?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 06:46:01 GMT",
+      "summary": "The drinks giant said this week that the attack had a major impact on its domestic operations."
+    },
+    {
+      "title": "Hackers say they have deleted children's pictures and data after nursery attack backlash",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c8rv83mrlyyo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 01 Oct 2025 23:01:12 GMT",
+      "summary": "The hackers tell the BBC they are sorry for their actions - but experts say it's a practical rather than moral move."
+    },
+    {
+      "title": "Japan faces Asahi beer shortage after cyber-attack",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c0r0y14ly5ro?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 06:46:01 GMT",
+      "summary": "The drinks giant said this week that the attack had a major impact on its domestic operations."
+    },
+    {
+      "title": "TikTok recommends porn to children, says report",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c708v7qkeg1o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 00:45:54 GMT",
+      "summary": "Researchers find TikTok's algorithm recommends sexual content to newly-created child accounts."
+    },
+    {
+      "title": "Munich airport reopens after drone sightings force closure",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cpw1e7j5ew9o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 08:26:10 GMT",
+      "summary": "Dozens of flights were cancelled or redirected at Munich International Airport after drone sightings."
+    },
+    {
+      "title": "Trump wields axe over 'Democrat Agencies' as shutdown blame game rages",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ckg201rnw2zo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 02 Oct 2025 23:41:59 GMT",
+      "summary": "He said the shutdown could be an opportunity to \"clear out dead wood\", giving no hint of concessions to Democrats."
+    },
+    {
+      "title": "Japan faces Asahi beer shortage after cyber-attack",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c0r0y14ly5ro?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 06:46:01 GMT",
+      "summary": "The drinks giant said this week that the attack had a major impact on its domestic operations."
+    },
+    {
+      "title": "'I lost my way' - Diddy begs judge for leniency on eve of sentencing",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c5y8zgey6lgo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 03 Oct 2025 01:07:50 GMT",
+      "summary": "In a letter to the judge, Combs apologised and said he had been reformed after 13 months in jail."
+    },
+    {
+      "title": "After nine years of grinding, Replit finally found its market. Can it keep it?",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/02/after-nine-years-of-grinding-replit-finally-found-its-market-can-it-keep-it/",
+      "published": "Fri, 03 Oct 2025 04:58:16 +0000",
+      "summary": "While AI coding startups like Cursor raise brow-raising rounds on barely three years of existence, Replit's path to a $3 billion valuation has been anything but swift."
+    },
+    {
+      "title": "Amazon to resume drone delivery following crash in Arizona",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/02/amazon-to-resume-drone-delivery-following-crash-in-arizona/",
+      "published": "Thu, 02 Oct 2025 23:30:23 +0000",
+      "summary": "Investigations by the National Transportation Safety Board and Federal Aviation Administration are underway."
+    },
+    {
+      "title": "Department of Energy cancels $7.5B of clean energy projects in mostly blue states",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/02/department-of-energy-cancels-7-5b-of-clean-energy-projects-in-mostly-blue-states/",
+      "published": "Thu, 02 Oct 2025 19:53:46 +0000",
+      "summary": "The Trump administration canceled over 300 awards related to clean energy on October 1. The states most affected by the cuts voted for Democrat presidential candidate Kamala Harris."
+    },
+    {
+      "title": "Trump admin defiles even the “out of office” email auto-reply",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/culture/2025/10/trump-admin-defiles-even-the-out-of-office-email-auto-reply/",
+      "published": "Thu, 02 Oct 2025 23:29:08 +0000",
+      "summary": "\"Radical Left\" and \"Democrat Senators\" come in for attack."
+    },
+    {
+      "title": "Blue Origin aims to land next New Glenn booster, then reuse it for Moon mission",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/10/blue-origin-aims-to-land-next-new-glenn-booster-then-reuse-it-for-moon-mission/",
+      "published": "Thu, 02 Oct 2025 22:17:34 +0000",
+      "summary": "\"We fully intend to recover the New Glenn first stage on this next launch.\""
+    },
+    {
+      "title": "Why iRobot’s founder won’t go within 10 feet of today’s walking robots",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2025/10/why-irobots-founder-wont-go-within-10-feet-of-todays-walking-robots/",
+      "published": "Thu, 02 Oct 2025 21:10:23 +0000",
+      "summary": "Rodney Brooks says humanoid robots pose hidden safety challenges and won't learn dexterity from video alone."
+    },
+    {
+      "title": "Apple pulls ICEBlock from the App Store",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/791170/iceblock-app-store-removed-by-apple",
+      "published": "2025-10-02T21:57:40-04:00",
+      "summary": "Apple has removed the “Waze but for ICE sightings” app ICEBlock from its App Store, as reported previously by Business Insider. A post from its developer relayed Apple’s App Review message about the ban, saying, “We just received a message from Apple&#8217;s App Review that #ICEBlock has been remove"
+    },
+    {
+      "title": "NBCUniversal’s new YouTube TV deal covers YouTube, Peacock, and a new sports network",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/791124/youtube-tv-nbc-universal-peacock-nbcsn",
+      "published": "2025-10-02T19:20:53-04:00",
+      "summary": "On Thursday afternoon, after agreeing to a short extension while they continued negotiations, NBCUniversal and YouTube announced a new carriage deal to keep the network’s channels live on the streaming TV service. If the process sounds familiar, it’s because the same thing happened the last time the"
+    },
+    {
+      "title": "Redbox’s next product may be piracy lawsuits",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/791013/redbox-chicken-soup-piracy-lawsuits-ip-sale-grove-street",
+      "published": "2025-10-02T17:53:07-04:00",
+      "summary": "There's a new twist in the long and winding saga of Redbox's demise: Assets originally belonging to the company's corporate parent, Chicken Soup for the Soul Entertainment, may have finally found a buyer. But don't expect a resurrection of Redbox's red kiosks, or Chicken Soup's Crackle streaming ser"
+    },
+    {
+      "title": "The 16 best portable Bluetooth speakers for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/audio/speakers/best-portable-bluetooth-speakers-133004551.html?src=rss",
+      "published": "Fri, 03 Oct 2025 07:00:36 +0000",
+      "summary": "<p>Portable Bluetooth speakers have become a must-have for music, podcasts and even calls when you’re on the move. Whether you’re heading to the beach, planning a camping trip or just want something more flexible to use around the house, the best portable speakers give you big sound in a compact des"
+    },
+    {
+      "title": "Apple removes ICEBlock from the App Store after Trump administration's demand",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/apps/apple-removes-iceblock-from-the-app-store-after-trump-administrations-demand-031659651.html?src=rss",
+      "published": "Fri, 03 Oct 2025 03:16:59 +0000",
+      "summary": "<p>Apple has removed <a href=\"https://www.engadget.com/social-media/iceblock-climbs-to-the-top-of-the-app-store-charts-after-officials-slam-it-004319963.html\">ICEBlock</a>, the app which allowed users to put a pin on a map to show where ICE agents have recently been spotted, from the App Store. It h"
+    },
+    {
+      "title": "Game Pass Ultimate is still $20 a month if you buy pre-paid codes",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/xbox/game-pass-ultimate-is-still-20-a-month-if-you-buy-pre-paid-codes-222333258.html?src=rss",
+      "published": "Thu, 02 Oct 2025 22:23:33 +0000",
+      "summary": "<p>Microsoft may have made the unfortunate decision to <a class=\"no-affiliate-link\" href=\"https://www.engadget.com/microsoft-jacks-the-price-of-game-pass-ultimate-up-to-30-a-month-142441307.html\">raise the price</a> of a Xbox Game Pass Ultimate subscription to $30 a month, but you don't have to live"
+    },
+    {
+      "title": "Talent Is Alignment",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://xlii.space/thoughts/talent-is-alignment/",
+      "published": "Fri, 03 Oct 2025 08:09:49 +0000",
+      "summary": "<p>Article URL: <a href=\"https://xlii.space/thoughts/talent-is-alignment/\">https://xlii.space/thoughts/talent-is-alignment/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45460329\">https://news.ycombinator.com/item?id=45460329</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>"
+    },
+    {
+      "title": "In Praise of RSS and Controlled Feeds of Information",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://blog.burkert.me/posts/in_praise_of_syndication/",
+      "published": "Fri, 03 Oct 2025 05:13:47 +0000",
+      "summary": "<p>Article URL: <a href=\"https://blog.burkert.me/posts/in_praise_of_syndication/\">https://blog.burkert.me/posts/in_praise_of_syndication/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45459233\">https://news.ycombinator.com/item?id=45459233</a></p>\n<p>Points: 82</p>\n<p># Comm"
+    },
+    {
+      "title": "Fp8 runs ~100 tflops faster when the kernel name has \"cutlass\" in it",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://github.com/triton-lang/triton/pull/7298",
+      "published": "Fri, 03 Oct 2025 04:21:23 +0000",
+      "summary": "<p>Article URL: <a href=\"https://github.com/triton-lang/triton/pull/7298\">https://github.com/triton-lang/triton/pull/7298</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45458948\">https://news.ycombinator.com/item?id=45458948</a></p>\n<p>Points: 148</p>\n<p># Comments: 44</p>"
+    },
+    {
+      "title": "Microsoft Says AI Can Create 'Zero Day' Threats In Biology",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/10/02/2335217/microsoft-says-ai-can-create-zero-day-threats-in-biology?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from MIT Technology Review: A team at Microsoft says it used artificial intelligence to discover a \"zero day\" vulnerability in the biosecurity systems used to prevent the misuse of DNA. These screening systems are designed to stop people from purchasing genetic se"
+    },
+    {
+      "title": "Cops: Accused Vandal Confessed To ChatGPT",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/10/02/238239/cops-accused-vandal-confessed-to-chatgpt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "alternative_right shares a report from the Smoking Gun: Minutes after vandalizing 17 cars in a Missouri college parking lot, a 19-year-old sophomore had a lengthy ChatGPT conversation during which he confessed to the crime, asked about the possibility of getting caught, and wondered, \"is there any w"
+    },
+    {
+      "title": "Autism Should Not Be Seen As Single Condition With One Cause, Say Scientists",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/10/02/2217211/autism-should-not-be-seen-as-single-condition-with-one-cause-say-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Bruce66423 shares a report from The Guardian: Those diagnosed as small children typically have distinct genetic profile from those diagnosed later, [finds an international study based on genetic data from more than 45,000 autistic people in Europe and the U.S]. So, there's more than one condition ou"
+    },
+    {
+      "title": "At a Conspiracy Conference in Rural Ireland, Charlie Kirk Was the Star",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/conspiracy-conference-rural-ireland-charlie-kirk-quantum-clones/",
+      "published": "Fri, 03 Oct 2025 06:00:00 +0000",
+      "summary": "The increasingly tight links between far-right groups in the US and Europe were on full display at the Rebels Across the Pond conference in Ireland."
+    },
+    {
+      "title": "$25 Off DoorDash Promo Code | October 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/doordash-promo-code/",
+      "published": "Fri, 03 Oct 2025 05:30:00 +0000",
+      "summary": "Explore today’s top DoorDash promo codes for $25 off, free delivery, and up to 30% off with our latest coupons for new and existing customers."
+    },
+    {
+      "title": "10% Off Dell Coupon Codes | October 2025",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/dell-coupon-code/",
+      "published": "Fri, 03 Oct 2025 05:00:00 +0000",
+      "summary": "Get 10% off with a Dell promo code for new customers, plus today’s coupons for up to $600 off laptops, monitors, and all things tech."
+    },
+    {
+      "title": "Stop being funny at work. Learn to think like a comedian instead",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91410904/stop-being-funny-at-work-think-like-a-comedian",
+      "published": "2025-10-03T08:00:00",
+      "summary": "<p>How can you get ahead in your career and still enjoy the ride?</p>\n\n\n\n<p>One <a href=\"https://www.humorseriously.com/\">solution offered in business books</a>, <a href=\"https://www.linkedin.com/pulse/humor-work-more-than-laugh-backed-science-liz-laber-nngsc/\">LinkedIn posts</a>, and <a href=\"https"
+    },
+    {
+      "title": "How to survive the ‘jobpocalypse’ after graduation",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91413510/how-new-grads-can-navigate-the-jobpocalypse",
+      "published": "2025-10-03T08:00:00",
+      "summary": "<p>From on-again-off-again tariffs, economic uncertainty, and layoffs, fresh graduates are in one of the toughest job markets in recent history. More than half do not have a job lined up by the time they graduate, and the unemployment rate for young degree holders is the highest it’s been in 12 year"
+    },
+    {
+      "title": "New York inflation refund checks in October: Here’s who’s eligible for how much—and how to make sure you get yours",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91415192/new-york-ny-inflation-refund-checks-timeline-amount-eligibility-how-to-make-sure-you-receive-yours-this-month-october-november",
+      "published": "2025-10-03T08:00:00",
+      "summary": "<p>Taxpayers in the Empire State will soon receive a refund to help offset rising living costs.</p>\n\n\n\n<p>Part of the 2025-2026 New York State budget <a href=\"https://www.tax.ny.gov/pit/inflation-refund-checks.htm\">allocates funds for inflation refund checks</a>. The onetime payments offer relief to"
+    },
+    {
+      "title": "Microsoft says AI can create “zero day” threats in biology",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/02/1124767/microsoft-says-ai-can-create-zero-day-threats-in-biology/",
+      "published": "Thu, 02 Oct 2025 18:00:00 +0000",
+      "summary": "A team at Microsoft says it used artificial intelligence to discover a &#8220;zero day&#8221; vulnerability in the biosecurity systems used to prevent the misuse of DNA. These screening systems are designed to stop people from purchasing genetic sequences that could be used to create deadly toxins o"
+    },
+    {
+      "title": "The Download: RIP EV tax credits, and OpenAI’s new valuation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/02/1124684/the-download-rip-ev-tax-credits-and-openais-new-valuation/",
+      "published": "Thu, 02 Oct 2025 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. EV tax credits are dead in the US. Now what? Federal EV tax credits in the US officially came to an end yesterday. Those credits, expanded and extende"
+    },
+    {
+      "title": "EV tax credits are dead in the US. Now what?",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/02/1124603/ev-tax-credits-end-us/",
+      "published": "Thu, 02 Oct 2025 10:00:00 +0000",
+      "summary": "On Wednesday, federal EV tax credits in the US officially came to an end. Those credits, expanded and extended in the 2022 Inflation Reduction Act, gave drivers up to $7,500 in credits toward the purchase of a new electric vehicle. They’ve been a major force in cutting the up-front costs of EVs, pus"
+    }
+  ]
+}
