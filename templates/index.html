@@ -45,6 +45,10 @@
                     <span class="btn-icon">🎙️</span>
                     Daily Podcast
                 </button>
+                <button class="action-btn daily-podcast" onclick="startLinkedInNewsletter()">
+                    <span class="btn-icon">📝</span>
+                    LinkedIn Post
+                </button>
             </div>
 
             <div class="search-controls" id="searchControls">
@@ -2805,6 +2809,48 @@ No customers found. You can add customers to organize your business relationship
             } catch (error) {
                 console.error('Error checking today\'s podcast:', error);
                 return false;
+            }
+        }
+
+        // =================================================================
+        // LINKEDIN NEWSLETTER FUNCTIONS
+        // =================================================================
+        async function startLinkedInNewsletter() {
+            const today = new Date().toLocaleDateString('en-CA').replace(/-/g, '');
+            const filename = `linkedin_newsletter_${today}.txt`;
+
+            addMessage('user', '📝 LinkedIn Post');
+            addMessage('assistant', '📝 **Checking for today\'s LinkedIn post...**');
+
+            try {
+                const response = await fetch('/api/linkedin-newsletter/generate', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'}
+                });
+                const data = await response.json();
+
+                if (data.success) {
+                    // Show status message
+                    if (data.exists) {
+                        addMessage('assistant', '✅ **LinkedIn Post Found**\n\nToday\'s post already exists. Downloading...');
+                    } else {
+                        addMessage('assistant', '✅ **LinkedIn Post Generated**\n\nDownloading...');
+                    }
+
+                    // Trigger download
+                    const link = document.createElement('a');
+                    link.href = `/api/download/${filename}?source=topics`;
+                    link.download = filename;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+
+                } else {
+                    addMessage('assistant', `❌ **Error - Unable to Generate**\n\n${data.error || data.message}`);
+                }
+            } catch (error) {
+                console.error('LinkedIn newsletter error:', error);
+                addMessage('assistant', '❌ **Error**\n\nFailed to generate LinkedIn post. Ensure daily chain has run.');
             }
         }
 

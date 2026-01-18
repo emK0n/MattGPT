@@ -400,6 +400,33 @@ def download_file(filename):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+# =============================================================================
+# LINKEDIN NEWSLETTER ENDPOINT
+# =============================================================================
+@app.route('/api/linkedin-newsletter/generate', methods=['POST'])
+def generate_linkedin_newsletter():
+    """Generate LinkedIn newsletter - checks for existing first"""
+    try:
+        today = datetime.now().strftime("%Y%m%d")
+        filename = f"linkedin_newsletter_{today}.txt"
+        filepath = os.path.join(TOPICS_DIR, filename)
+
+        # Check if already exists
+        if os.path.exists(filepath):
+            return jsonify({'success': True, 'exists': True, 'filename': filename})
+
+        # Import and run generator
+        from linkedin_newsletter import generate_newsletter
+        success, message = generate_newsletter()
+
+        return jsonify({
+            'success': success,
+            'exists': False,
+            'filename': filename if success else None,
+            'message': message
+        })
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)}), 500
 
 @app.route('/api/upload', methods=['POST'])
 def upload_file():
