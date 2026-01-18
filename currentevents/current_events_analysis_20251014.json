@@ -1,0 +1,350 @@
+{
+  "analysis": {
+    "summary": "Businesses are being advised to document their cyber attack contingency plans, as Vodafone resolves a major outage. Microsoft is preparing to end support for Windows 10, while wage growth slows in the business sector. Meanwhile, homes insulated under government schemes face repair issues and US-China trade tensions resurface due to new port fees. In tech news, India's Airbound secures funding for drone delivery service, SpaceX achieves a milestone with Starship SN8, and Nvidia launches a personal AI supercomputer. Android phones are found vulnerable to hackers stealing 2FA codes and private messages. Facebook is reintroducing job listings, and the UK regulator fines 4chan for ignoring online safety laws.",
+    "keywords": [],
+    "trending_topics": [
+      "cybersecurity preparedness",
+      "telecom outages and resolutions",
+      "wage growth trends",
+      "government-funded home repairs",
+      "US-China trade tensions",
+      "drone technology advancements",
+      "AI and machine learning",
+      "social media job listings",
+      "regulatory actions against online platforms"
+    ],
+    "search_keywords": [],
+    "analysis_timestamp": "2025-10-14T06:09:54.650389"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Cyber attack contingency plans should be put on paper, firms told",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/ced61xv967lo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 23:04:57 GMT",
+      "summary": "Prepare to switch to offline systems in the event of a cyber-attack, firms are being advised."
+    },
+    {
+      "title": "Vodafone says outage affecting thousands of customers resolved",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c5yldldx659o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Oct 2025 09:09:51 GMT",
+      "summary": "Vodafone said its Monday outage, which knocked broadband and mobile data users offline for several hours, was caused by a \"non-malicious software issue\"."
+    },
+    {
+      "title": "Windows 10 users urged to prepare for Microsoft pulling support",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cy0vzegkqweo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 11 Oct 2025 23:04:50 GMT",
+      "summary": "Microsoft is ending support for Windows 10, which could make users vulnerable - here's how to get Windows 11."
+    },
+    {
+      "title": "Wage growth slows slightly over summer",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cjek274q99xo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Oct 2025 09:34:17 GMT",
+      "summary": "Annual growth in employees' average earnings was 4.7% in the three months to August."
+    },
+    {
+      "title": "Tens of thousands of homes insulated under government schemes need repairs",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c3w965gz8zgo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Oct 2025 07:04:00 GMT",
+      "summary": "Insulation programmes costing billions of pounds have led to widespread problems with damp and mould."
+    },
+    {
+      "title": "US-China trade tensions back as port fees take effect",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/ce3x1elkxvvo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Oct 2025 06:18:58 GMT",
+      "summary": "New US tariffs on imported timber, kitchen cabinets and upholstered furniture also came into effect on Tuesday."
+    },
+    {
+      "title": "Israeli hostages and Palestinian detainees freed as Trump hails 'historic dawn' in Middle East",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c740jx07vz0o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 20:57:45 GMT",
+      "summary": "A major hostage and prisoner exchange marks a significant step towards ending two years of war in Gaza."
+    },
+    {
+      "title": "Palestinians celebrate return of detainees freed by Israel",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cr430epq45go?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 13 Oct 2025 13:18:43 GMT",
+      "summary": "Thousands of people gather in Gaza and the West Bank to welcome Palestinian prisoners and detainees freed by Israel."
+    },
+    {
+      "title": "Madagascar president hiding in 'safe place' as he warns of coup attempt",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cgkzyek0jxro?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 14 Oct 2025 07:47:44 GMT",
+      "summary": "Andry Rajoelina is said to have fled the country by French military jet but his whereabouts are unknown."
+    },
+    {
+      "title": "India’s Airbound bags $8.65M to build rocket-like drones for one-cent deliveries",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/14/indias-airbound-led-by-20-year-old-bags-8-65m-to-work-toward-one-cent-drone-deliveries-at-scale/",
+      "published": "Tue, 14 Oct 2025 08:20:00 +0000",
+      "summary": "Lachy Groom backs Airbound in $8.65M seed round as it launches pilot in Bengaluru."
+    },
+    {
+      "title": "Goldman Sachs is acquiring Industry Ventures for up to $965M as alternative VC exits surge",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/13/goldman-sachs-is-acquiring-industry-ventures-for-up-to-965m-as-alternative-vc-exits-surge/",
+      "published": "Mon, 13 Oct 2025 22:28:12 +0000",
+      "summary": "Goldman Sachs has agreed to acquire Industry Ventures, a 25-year-old, San Francisco-based investment firm with $7 billion in assets under management, CNBC was first to report on Monday. The deal underscores the growing importance of secondary markets and buyouts as traditional venture exits remain s"
+    },
+    {
+      "title": "Grindr’s owners may take it private after a financial squeeze",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/10/13/grindrs-owners-may-take-it-private-after-a-financial-squeeze/",
+      "published": "Mon, 13 Oct 2025 21:24:13 +0000",
+      "summary": "Grindr's majority owners are scrambling to take the LGBTQ+ dating app private after a stock decline triggered a personal financial crisis, according to a report from Semafor."
+    },
+    {
+      "title": "SpaceX finally got exactly what it needed from Starship V2",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/10/after-year-of-hardships-spacexs-starship-finally-flirts-with-perfection/",
+      "published": "Tue, 14 Oct 2025 07:05:16 +0000",
+      "summary": "This was the last flight of SpaceX's second-gen Starship design. Version 3 arrives next year."
+    },
+    {
+      "title": "Hackers can steal 2FA codes and private messages from Android phones",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/",
+      "published": "Mon, 13 Oct 2025 21:36:35 +0000",
+      "summary": "Malicious app required to make \"Pixnapping\" attack work requires no permissions."
+    },
+    {
+      "title": "Measles outbreak in SC sends 150 unvaccinated kids into 21-day quarantine",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/10/over-150-unvaccinated-kids-quarantined-for-21-days-in-sc-measles-outbreak/",
+      "published": "Mon, 13 Oct 2025 20:48:21 +0000",
+      "summary": "The outbreak includes at least seven confirmed cases, but some are clearly being missed."
+    },
+    {
+      "title": "TiVo no longer makes DVRs",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/798997/tivo-stops-dvr-hardware-production-sales",
+      "published": "2025-10-14T05:45:49-04:00",
+      "summary": "It&#8217;s the end of an era for TiVo. Cord Cutters flagged that the company has removed every digital video recorder product from its website, with TiVo confirming to the publication last week that it has officially ceased making DVR hardware after 26 years in the industry. Its last DVR release was"
+    },
+    {
+      "title": "Nvidia’s ‘personal AI supercomputer’ goes on sale October 15th",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/798775/nvidia-spark-personal-ai-supercomputer",
+      "published": "2025-10-13T20:04:01-04:00",
+      "summary": "Nvidia will start selling its DGX Spark “personal AI supercomputer&#8221; this week. The machine is powerful enough to let users work on sophisticated AI models but small enough to fit on a desktop.   Nvidia said Spark can be ordered online at nvidia.com starting Wednesday, October 15th, as well as "
+    },
+    {
+      "title": "Facebook is adding job listings, again",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/798921/facebook-local-jobs-us",
+      "published": "2025-10-13T17:50:21-04:00",
+      "summary": "Meta, a company that is not shy about bolting new features onto its platforms, is bolting another new feature onto Facebook: jobs. This one is actually a throwback — Facebook initially introduced job postings in 2017, only to retire it less than five years later. But jobs are back now, with an empha"
+    },
+    {
+      "title": "The best MacBook for 2025: Which Apple laptop should you buy?",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/laptops/best-macbook-140032524.html?src=rss",
+      "published": "Tue, 14 Oct 2025 09:01:26 +0000",
+      "summary": "<p>There wasn’t much Mac-related news at <a href=\"https://www.engadget.com/mobile/smartphones/everything-apple-revealed-at-the-iphone-17-launch-event-iphone-air-iphone-17-pro-airpods-pro-3-and-more-171028663.html\">Apple’s latest to-do</a> (to be expected at an iPhone event), aside from the announcem"
+    },
+    {
+      "title": "UK regulator fines 4chan for ignoring Online Safety Act demands",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/cybersecurity/uk-regulator-fines-4chan-for-ignoring-online-safety-act-demands-045026169.html?src=rss",
+      "published": "Tue, 14 Oct 2025 04:50:26 +0000",
+      "summary": "<p>Ofcom has slapped 4chan <a href=\"https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/investigation-into-4chan-and-its-compliance-with-duties-to-protect-its-users-from-illegal-content?utm_medium=email&amp;utm_campaign=Ofcom%20issues%20update%20on%20Online%20Safety%20Act%20investigat"
+    },
+    {
+      "title": "Microsoft debuts its first in-house AI image generator",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/microsoft-debuts-its-first-in-house-ai-image-generator-224153867.html?src=rss",
+      "published": "Mon, 13 Oct 2025 22:41:53 +0000",
+      "summary": "<p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0); font-family: Arial, sans-serif;\">Microsoft is continuing to roll out in-house AI models, further decreasing its reliance on long-standing partnership with OpenAI. Today, the company introduced MAI-Image-1, its first internally-developed "
+    },
+    {
+      "title": "Why the push for Agentic when models can barely follow a simple instruction?",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://forum.cursor.com/t/why-the-push-for-agentic-when-models-can-barely-follow-a-single-simple-instruction/137154",
+      "published": "Tue, 14 Oct 2025 07:08:02 +0000",
+      "summary": "<p>Article URL: <a href=\"https://forum.cursor.com/t/why-the-push-for-agentic-when-models-can-barely-follow-a-single-simple-instruction/137154\">https://forum.cursor.com/t/why-the-push-for-agentic-when-models-can-barely-follow-a-single-simple-instruction/137154</a></p>\n<p>Comments URL: <a href=\"https:"
+    },
+    {
+      "title": "Why Study Programming Languages",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://people.csail.mit.edu/rachit/post/why-study-programming-languages/",
+      "published": "Tue, 14 Oct 2025 05:36:57 +0000",
+      "summary": "<p>Article URL: <a href=\"https://people.csail.mit.edu/rachit/post/why-study-programming-languages/\">https://people.csail.mit.edu/rachit/post/why-study-programming-languages/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45576623\">https://news.ycombinator.com/item?id=45576623"
+    },
+    {
+      "title": "Copy-and-Patch: A Copy-and-Patch Tutorial",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://transactional.blog/copy-and-patch/tutorial",
+      "published": "Tue, 14 Oct 2025 05:14:26 +0000",
+      "summary": "<p>Article URL: <a href=\"https://transactional.blog/copy-and-patch/tutorial\">https://transactional.blog/copy-and-patch/tutorial</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45576502\">https://news.ycombinator.com/item?id=45576502</a></p>\n<p>Points: 43</p>\n<p># Comments: 6</p"
+    },
+    {
+      "title": "ShinyHunters Leak Alleged Data From Qantas, Vietnam Airlines and Other Major Firms",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/10/14/0113254/shinyhunters-leak-alleged-data-from-qantas-vietnam-airlines-and-other-major-firms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "schwit1 shares a report from Hackread: On October 3, 2025, Hackread.com published an in-depth report in which hackers claimed to have stolen 989 million records from 39 major companies worldwide by exploiting a Salesforce vulnerability. The group demanded that Salesforce and the affected firms enter"
+    },
+    {
+      "title": "NASA Unit JPL To Lay Off About 550 Workers, Citing Restructure",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/10/14/0133211/nasa-unit-jpl-to-lay-off-about-550-workers-citing-restructure?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "NASA's Jet Propulsion Laboratory is laying off around 550 employees, or roughly 11% of its workforce, as part of an effort to \"restructure and establish an appropriate size to ensure future success.\" According to JPL Director Dave Gallagher, the job cuts \"are not related to the current government sh"
+    },
+    {
+      "title": "Android 'Pixnapping' Attack Can Capture App Data Like 2FA Codes",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://yro.slashdot.org/story/25/10/14/019242/android-pixnapping-attack-can-capture-app-data-like-2fa-codes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from The Register: Security researchers have resurrected a 12-year-old data-stealing attack on web browsers to pilfer sensitive info from Android devices. The attack, dubbed Pixnapping, has yet to be mitigated. Conceptually, it's the equivalent of a malicious Andr"
+    },
+    {
+      "title": "Satellites Are Leaking the World’s Secrets: Calls, Texts, Military and Corporate Data",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/satellites-are-leaking-the-worlds-secrets-calls-texts-military-and-corporate-data/",
+      "published": "Tue, 14 Oct 2025 01:00:00 +0000",
+      "summary": "With just $800 in basic equipment, researchers found a stunning variety of data—including thousands of T-Mobile users’ calls and texts and even US military communications—sent by satellites unencrypted."
+    },
+    {
+      "title": "The Best PC Monitor for Most People Is $75 Off",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/dell-27-plus-deal-1025/",
+      "published": "Mon, 13 Oct 2025 20:35:08 +0000",
+      "summary": "Dell's excellent 4K monitor is a perfect second screen for working from home."
+    },
+    {
+      "title": "4 Best Website Builders (2025), Tested and Reviewed",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/best-website-builders/",
+      "published": "Mon, 13 Oct 2025 18:10:06 +0000",
+      "summary": "Don't fuss around with files and servers. Just use one of these WIRED-tested website builders."
+    },
+    {
+      "title": "Should you be a leader? A simple checklist",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91414451/should-you-be-a-leader-leadership",
+      "published": "2025-10-14T09:14:00",
+      "summary": "<p>We live in a culture that <a href=\"https://www.hks.harvard.edu/publications/followership-how-followers-are-creating-change-and-changing-leaders\">glorifies leadership</a>. Titles like <em>manager</em>, <em>director</em>, or <em>CEO </em>are treated not just as jobs, but as glamorous career destina"
+    },
+    {
+      "title": "I got a PIP. Here’s what it taught me",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91419782/pip-what-it-taught-me",
+      "published": "2025-10-14T08:30:00",
+      "summary": "<p>’Tis the season for carved pumpkins, <a href=\"https://www.levelman.com/the-7-real-candy-corn-flavors-that-await-you-in-hell-ranked-dce91dad2cd8/\">god-awful candy corn</a>, and an inevitable workplace costume that lands someone <a href=\"https://www.levelman.com/why-people-celebrate-halloween-weari"
+    },
+    {
+      "title": "OpenAI’s true ambition isn’t about chabots. It’s about a ‘super app’",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91417700/openai-true-ambition-super-app",
+      "published": "2025-10-14T08:00:00",
+      "summary": "<p><a href=\"https://www.fastcompany.com/section/openai\" rel=\"noreferrer noopener\" target=\"_blank\">OpenAI</a> never wanted to build a chatbot.&nbsp;</p>\n\n\n\n<p>As an early beta tester for OpenAI’s GPT-3 model, I can vouch for the fact that the company was caught totally off guard by ChatGPT’s runaway "
+    },
+    {
+      "title": "Visa just launched a protocol to secure the AI shopping boom — here’s what it means for merchants",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/visa-just-launched-a-protocol-to-secure-the-ai-shopping-boom-heres-what-it",
+      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "summary": "<p><a href=\"https://usa.visa.com/\"><u>Visa</u></a> is introducing a new security framework designed to solve one of the thorniest problems emerging in artificial intelligence-powered commerce: how retailers can tell the difference between legitimate AI shopping assistants and the malicious bots that"
+    },
+    {
+      "title": "Self-improving language models are becoming reality with MIT's updated SEAL technique",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/self-improving-language-models-are-becoming-reality-with-mits-updated-seal",
+      "published": "Mon, 13 Oct 2025 22:51:00 GMT",
+      "summary": "<p>Researchers at the Massachusetts Institute of Technology (MIT) are gaining renewed attention for developing and <a href=\"https://github.com/Continual-Intelligence/SEAL/blob/main/LICENSE\">open sourcing</a> a technique that allows large language models (LLMs) — like those underpinning ChatGPT and m"
+    },
+    {
+      "title": "Researchers find that retraining only small parts of AI models can cut costs and prevent forgetting",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/researchers-find-that-retraining-only-small-parts-of-ai-models-can-cut-costs",
+      "published": "Mon, 13 Oct 2025 22:39:00 GMT",
+      "summary": "<p>Enterprises often find that when <a href=\"https://venturebeat.com/ai/fine-tuning-vs-in-context-learning-new-research-guides-better-llm-customization-for-real-world-tasks\"><u>they fine-tune models</u></a>, one effective approach to making a large language model (LLM) fit for purpose and grounded i"
+    },
+    {
+      "title": "How aging clocks can help us understand why we age—and if we can reverse it",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/14/1124977/aging-clocks-biology-mortality-longevity/",
+      "published": "Tue, 14 Oct 2025 10:00:00 +0000",
+      "summary": "Be honest: Have you ever looked up someone from your childhood on social media with the sole intention of seeing how they’ve aged?&#160; One of my colleagues, who shall remain nameless, certainly has. He recently shared a photo of a former classmate. “Can you believe we’re the same age?” he asked, w"
+    },
+    {
+      "title": "Can we repair the internet?",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/14/1125104/internet-improvement-book-review-regulation-user-responsibility/",
+      "published": "Tue, 14 Oct 2025 10:00:00 +0000",
+      "summary": "From addictive algorithms to exploitative apps, data mining to misinformation, the internet today can be a hazardous place. Books by three influential figures—the intellect behind “net neutrality,” a former Meta executive, and the web’s own inventor—propose radical approaches to fixing it. But are t"
+    },
+    {
+      "title": "Transforming commercial pharma with agentic AI",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/10/13/1124829/transforming-commercial-pharma-with-agentic-ai/",
+      "published": "Mon, 13 Oct 2025 13:00:00 +0000",
+      "summary": "Amid the turbulence of the wider global economy in recent years, the pharmaceuticals industry is weathering its own storms. The rising cost of raw materials and supply chain disruptions are squeezing&#160;margins as pharma companies face intense pressure—including from countries like the US—to contr"
+    }
+  ]
+}

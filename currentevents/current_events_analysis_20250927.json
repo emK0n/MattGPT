@@ -1,0 +1,323 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business news highlight cybersecurity threats, including a hack of children's profiles on the internet and data breach at Harrods. Facebook and Instagram are introducing UK subscription fees to avoid ads. Microsoft has cut off services used by an Israeli military unit amidst conflict. In business, there are calls for reform in pension schemes and a new EU youth migration scheme proposal. Meanwhile, drones have caused disruptions at Danish military bases and AI is both creating opportunities (like holographic Stan Lees) and raising concerns (over 'workslop' in workplaces). The Israeli-Palestinian conflict has resulted in numerous civilian deaths. Lastly, deals and promotions include affordable AI-powered tech and discounted cameras.",
+    "keywords": [
+      "hack"
+    ],
+    "trending_topics": [
+      "Cybersecurity threats and breaches",
+      "Facebook subscription model",
+      "Israeli-Palestinian conflict"
+    ],
+    "search_keywords": [
+      "hack"
+    ],
+    "analysis_timestamp": "2025-09-27T16:10:36.407522"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 36,
+  "sources_analyzed": [
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Nursery hackers threaten to publish more children's profiles online",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c07vxv8v89lo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 26 Sep 2025 20:27:32 GMT",
+      "summary": "The criminals say they will share 30 more profiles along with 100 employees' data if a ransom is not paid."
+    },
+    {
+      "title": "Facebook and Instagram to get £2.99 UK subscription fee to stop ads",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c5y4xl5x8q7o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 26 Sep 2025 10:54:12 GMT",
+      "summary": "Subscriptions for user opting not to see personalised ads on its platforms will start from £2.99 a month for UK users."
+    },
+    {
+      "title": "Microsoft cuts off some services used by Israeli military unit",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cvgjx0zve2no?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 25 Sep 2025 22:01:15 GMT",
+      "summary": "The tech giant said its products were not intended to be used for mass surveillance of civilians."
+    },
+    {
+      "title": "Reeves pushes for EU youth migration scheme ahead of Budget",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c179z10vy28o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 27 Sep 2025 10:07:09 GMT",
+      "summary": "The chancellor calls for an 'ambitious' deal as she looks to boost growth ahead of the 26 November Budget."
+    },
+    {
+      "title": "Teaching union demands action over 'failing' pension scheme",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cm2zvj2ex70o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 27 Sep 2025 07:41:28 GMT",
+      "summary": "The union says payment delays from the Teachers' Pension Scheme have left many in financial disarray."
+    },
+    {
+      "title": "Harrods says customers' data stolen in IT breach",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c8d70d912e6o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 27 Sep 2025 07:43:40 GMT",
+      "summary": "The luxury department store says stolen information includes names and contact details."
+    },
+    {
+      "title": "Drones seen over Danish military bases in latest air disruption",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c3rvzdq93yro?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 27 Sep 2025 12:51:55 GMT",
+      "summary": "Drones were detected near its largest military facility, with possible sightings also reported in Germany, Norway and Lithuania."
+    },
+    {
+      "title": "Israeli strikes kill dozens in Gaza including civilians seeking aid, health workers say",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c87y58jgn5lo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 27 Sep 2025 18:06:21 GMT",
+      "summary": "Israel is continuing its offensive against Hamas, after PM Benjamin Netanyahu told the UN ​​Israel “must finish the job” in Gaza."
+    },
+    {
+      "title": "Dozens dead in crush at political rally in India",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c98dqyj5dpjo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 27 Sep 2025 20:04:05 GMT",
+      "summary": "Tens of thousands had gathered at a campaign event for actor-turned-politician Vijay in India's southern state of Tamil Nadu."
+    },
+    {
+      "title": "Beware coworkers who produce AI-generated ‘workslop’",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/09/27/beware-coworkers-who-produce-ai-generated-workslop/",
+      "published": "Sat, 27 Sep 2025 19:36:04 +0000",
+      "summary": "Researchers at consulting firm BetterUp Labs, in collaboration with Stanford Social Media Lab, have coined a new term to describe low-quality, AI-generated work"
+    },
+    {
+      "title": "AI startup Friend spent more than $1M on all those subway ads",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/09/27/ai-startup-friend-spent-more-than-1m-on-all-those-subway-ads/",
+      "published": "Sat, 27 Sep 2025 17:22:24 +0000",
+      "summary": "If you’ve been on the New York subway recently, you’ve probably seen stark white ads promoting a wearable AI device called Friend."
+    },
+    {
+      "title": "Trump demands Microsoft fire global affairs head Lisa Monaco",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/09/27/trump-demands-microsoft-fire-global-affairs-head-lisa-monaco/",
+      "published": "Sat, 27 Sep 2025 15:24:11 +0000",
+      "summary": "“It is my opinion that Microsoft should immediately terminate the employment of Lisa Monaco,” Trump said of a former Biden administration official."
+    },
+    {
+      "title": "The current war on science, and who’s behind it",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2025/09/who-should-we-blame-for-the-current-war-on-science/",
+      "published": "Sat, 27 Sep 2025 11:30:01 +0000",
+      "summary": "A vaccine developer and a climate scientist <strike>walk into a bar</strike> write a book."
+    },
+    {
+      "title": "Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good idea",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/",
+      "published": "Sat, 27 Sep 2025 11:00:07 +0000",
+      "summary": "“I suppose if we do it and thousands of fans… don't like it, we'll stop doing it.”"
+    },
+    {
+      "title": "Can AI detect hedgehogs from space? Maybe if you find brambles first.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2025/09/can-ai-detect-hedgehogs-from-space-maybe-if-you-find-brambles-first/",
+      "published": "Fri, 26 Sep 2025 22:22:13 +0000",
+      "summary": "Cambridge researchers use satellite-based bramble detection as a proxy for mapping hedgehog habitats."
+    },
+    {
+      "title": "Switch 2 controllers and the OnePlus Watch 3 top our list of the best deals this week",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/786564/nintendo-switch-2-easysmx-controller-oneplus-watch-3-deal-sale",
+      "published": "2025-09-27T12:09:15-04:00",
+      "summary": "Nintendo’s first-party Switch 2 Pro Controller can’t be beaten when it comes to its breadth of features and comfort. But at $89.99, let’s be real, it’s way too expensive for most people. Thankfully, a controller I’ve been testing recently, which is nearly as good despite lacking a 3.5mm audio jack, "
+    },
+    {
+      "title": "The strangest game of the year is a channel-surfing simulator",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/games/785848/blippo-plus-review-switch-steam",
+      "published": "2025-09-27T09:00:00-04:00",
+      "summary": "It's not quite October yet, and there are still plenty of video games set to be released before the end of the year. Even still, I'm pretty convinced that Blippo Plus will go down as the strangest release of 2025. Calling it a game might be a bit of a misnomer; it's more of an [&#8230;]"
+    },
+    {
+      "title": "Can Google be trusted without a break up?",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/policy/786930/google-doj-ad-tech-remedies-break-up-trust",
+      "published": "2025-09-27T09:00:00-04:00",
+      "summary": "On day three of the two-week remedies trial in the Justice Department's ad tech case against Google, Judge Leonie Brinkema boiled down the argument to one key issue: trust. Brinkema interrupted testimony from a DOJ expert with a hypothetical: should she issue a strict order modifying Google's behavi"
+    },
+    {
+      "title": "What to read this weekend: Moonflow and Everything Dead & Dying",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/entertainment/what-to-read-this-weekend-moonflow-and-everything-dead--dying-191722871.html?src=rss",
+      "published": "Sat, 27 Sep 2025 19:17:22 +0000",
+      "summary": "<p><em>These are some recently released titles we think are worth adding to your reading list. Get lost in Bitter Karella's splatterpunk, cosmic fever dream, </em>Moonflow<em>, and the new zombie apocalypse comic, </em>Everything Dead &amp; Dying<em>.</em></p> \n<p> </p> \n<p> </p> \n<p></p>This articl"
+    },
+    {
+      "title": "Get two Blink Mini 2 cameras for only $35 with this Prime Day deal",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/get-two-blink-mini-2-cameras-for-only-35-with-this-prime-day-deal-201049776.html?src=rss",
+      "published": "Sat, 27 Sep 2025 19:00:38 +0000",
+      "summary": "<p>Amazon's <a href=\"https://www.engadget.com/deals/the-best-october-prime-day-deals-to-get-today-early-sales-on-tech-from-apple-roku-shark-anker-and-more-050801467.html\">Prime Big Deal Days are coming up</a>, and you can get a jump on things today. A mainstay of Prime Day sales, a pair of Blink Min"
+    },
+    {
+      "title": "Only 'two percent' of Escape from Tarkov players may get to see its best ending",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/pc/only-two-percent-of-escape-from-tarkov-players-may-get-to-see-its-best-ending-174416980.html?src=rss",
+      "published": "Sat, 27 Sep 2025 17:44:16 +0000",
+      "summary": "<p><a class=\"no-affiliate-link\" href=\"https://www.engadget.com/gaming/escape-from-tarkov-is-finally-coming-to-steam-soon-developer-says-181356635.html\"><em>Escape from Tarkov</em></a> players may finally get the chance to escape from the fictional war-torn city in northwest Russia, but it won't be e"
+    },
+    {
+      "title": "Used EVs have never been cheaper. But are they a good deal?",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://grist.org/economics/used-evs-have-never-been-cheaper-but-are-they-a-good-deal/",
+      "published": "Sat, 27 Sep 2025 19:18:26 +0000",
+      "summary": "<p>Article URL: <a href=\"https://grist.org/economics/used-evs-have-never-been-cheaper-but-are-they-a-good-deal/\">https://grist.org/economics/used-evs-have-never-been-cheaper-but-are-they-a-good-deal/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45398612\">https://news.ycombi"
+    },
+    {
+      "title": "Docker Was Too Slow, So We Replaced It: Nix in Production [video]",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.youtube.com/watch?v=iPoL03tFBtU",
+      "published": "Sat, 27 Sep 2025 18:56:18 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=iPoL03tFBtU\">https://www.youtube.com/watch?v=iPoL03tFBtU</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45398468\">https://news.ycombinator.com/item?id=45398468</a></p>\n<p>Points: 15</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "LLM Observability in the Wild – Why OpenTelemetry Should Be the Standard",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://signoz.io/blog/llm-observability-opentelemetry/",
+      "published": "Sat, 27 Sep 2025 18:56:18 +0000",
+      "summary": "<p>Article URL: <a href=\"https://signoz.io/blog/llm-observability-opentelemetry/\">https://signoz.io/blog/llm-observability-opentelemetry/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45398467\">https://news.ycombinator.com/item?id=45398467</a></p>\n<p>Points: 14</p>\n<p># Comm"
+    },
+    {
+      "title": "Bundler's Lead Maintainer Asserts Trademark in Ongoing Struggle with Ruby Central",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://developers.slashdot.org/story/25/09/27/1910211/bundlers-lead-maintainer-asserts-trademark-in-ongoing-struggle-with-ruby-central?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "After the nonprofit Ruby Central removed all RubyGems' maintainers from its GitHub repository, Andr&eacute; Arko &mdash; who helped build Bundler &mdash; wrote a new blog post on Thursday \"detailing Bundler's relationship with Ruby Central,\" according to this update from The New Stack.\n\n\n\"In the las"
+    },
+    {
+      "title": "Did Microsoft Hide Key Data Flow Information In Plain Sight?",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/09/27/1819239/did-microsoft-hide-key-data-flow-information-in-plain-sight?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shared this report from Computer Weekly:\n\n\nPolicing data hosted in Microsoft's hyperscale cloud infrastructure could be processed in more than 100 countries, but the tech giant is obfuscating this information from its customers, Computer Weekly can reveal. According to documents "
+    },
+    {
+      "title": "Hugging Face Researchers Warn AI-Generated Video Consumes Much More Power Than Expected",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://hardware.slashdot.org/story/25/09/27/0249201/hugging-face-researchers-warn-ai-generated-video-consumes-much-more-power-than-expected?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Researchers have found that the carbon footprint of generative AI-based tools that can turn text prompts into images and videos is far worse than we previously thought,\" writes Futurism:\n\n\nAs detailed in a new paper, researchers from the open-source AI platform Hugging Face found that the energy de"
+    },
+    {
+      "title": "The Best Body Pillow, Tested and Reviewed (2025)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-body-pillow/",
+      "published": "Sat, 27 Sep 2025 14:32:00 +0000",
+      "summary": "From the classic body pillow to unique shapes for optimal limb support, we tested a wide range of body pillows designed for side sleepers."
+    },
+    {
+      "title": "An App Used to Dox Charlie Kirk Critics Doxed Its Own Users Instead",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/app-used-to-dox-charlie-kirk-critics-doxed-its-own-users-instead/",
+      "published": "Sat, 27 Sep 2025 14:25:49 +0000",
+      "summary": "Plus: A ransomeware gang steals data on 8,000 preschoolers, Microsoft blocks Israel’s military from using its cloud for surveillance, call-recording app Neon hits pause over security holes, and more."
+    },
+    {
+      "title": "Ultrahuman Home Review: Overpriced and Underbaked",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/ultrahuman-home/",
+      "published": "Sat, 27 Sep 2025 14:00:00 +0000",
+      "summary": "Ultrahuman, known for its smart ring, is stepping into home environment monitoring, but the experience is far from polished."
+    },
+    {
+      "title": "More women than ever are freezing their eggs, but many aren’t returning to use them, study finds",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91412291/more-women-are-freezing-their-eggs-than-ever-but-many-arent-returning-to-use-them-study-finds",
+      "published": "2025-09-27T17:33:23",
+      "summary": "<p>More women are freezing their eggs, but few appear to be returning to use them, a new study found.&nbsp;</p>\n\n\n\n<p>The study was led by researchers at the University of California, Los Angeles, and published last month in the <a href=\"https://www.sciencedirect.com/science/article/pii/S00029378250"
+    },
+    {
+      "title": "FDA detects radioactive contamination in spices as massive shrimp recall expands",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91412289/fda-detects-radioactive-contamination-spices-massive-shrimp-recall-expands",
+      "published": "2025-09-27T16:30:00",
+      "summary": "<p>The U.S. Food and Drug Administration blocked imports of spices this week from an Indonesian company amid widespread worries of radioactive contamination.&nbsp;</p>\n\n\n\n<p>The agency said it found cesium 137 in spices—specifically cloves—from Indonesian company PT Natural Java Spice that were ship"
+    },
+    {
+      "title": "U.S. breaks with UN on global AI oversight",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91412285/u-s-breaks-with-un-on-global-ai-oversight",
+      "published": "2025-09-27T15:25:17",
+      "summary": "<p>U.S. officials rejected a push to establish a <a href=\"https://www.fastcompany.com/91399146/why-ai-governance-is-the-key-to-unlocking-new-opportunities\">global AI governance</a> framework at this week’s United Nations General Assembly, despite the plan enjoying broad support from many world natio"
+    },
+    {
+      "title": "US investigators are using AI to detect child abuse images made by AI",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/09/26/1124343/us-investigators-are-using-ai-to-detect-child-abuse-images-made-by-ai/",
+      "published": "Fri, 26 Sep 2025 19:03:34 +0000",
+      "summary": "Generative AI has enabled the production of child sexual abuse images to skyrocket. Now the leading investigator of child exploitation in the US is experimenting with using AI to distinguish AI-generated images from material depicting real victims, according to a new government filing. The Departmen"
+    },
+    {
+      "title": "The Download: shoplifter-chasing drones, and Trump’s TikTok deal",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/09/26/1124253/the-download-shoplifter-chasing-drones-and-trumps-tiktok-deal/",
+      "published": "Fri, 26 Sep 2025 12:12:00 +0000",
+      "summary": "Shoplifters in the US could soon be chased down by drones The news: Flock Safety, whose drones were once reserved for police departments, is now offering them for private-sector security, the company has announced. Potential customers include businesses trying to curb shoplifting.&#160; How it works"
+    },
+    {
+      "title": "Shoplifters could soon be chased down by drones",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/09/25/1124088/shoplifters-could-soon-be-chased-down-by-drones/",
+      "published": "Thu, 25 Sep 2025 17:34:26 +0000",
+      "summary": "Flock Safety, whose drones were once reserved for police departments, is now offering them for private-sector security, the company announced today, with potential customers including businesses intent on curbing shoplifting.  Companies in the US can now place Flock’s drone docking stations on their"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "analysis": {
+    "summary": "The headlines highlight a mix of tech and business stories. Regarding technology, there's an emphasis on cybersecurity issues (like losing encryption keys), online harassment (Ofcom's plan to name platforms over sexism), and advancements in AI (Warner's joint venture with an AI music firm). Other tech topics include Uber's driverless robotaxi services, YouTube's home feed changes, and GPU price trends. In business news, budget announcements and student benefits (like free bus travel) are discussed. There's also a mention of a legal challenge against Australia's social media ban by teens.",
+    "keywords": [
+      "cybersecurity",
+      "robotaxis"
+    ],
+    "trending_topics": [
+      "Cybersecurity concerns",
+      "AI in music and business",
+      "Driverless technology",
+      "Social media regulation"
+    ],
+    "search_keywords": [
+      "cybersecurity",
+      "robotaxis"
+    ],
+    "analysis_timestamp": "2025-11-26T06:08:07.162383"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Ofcom vows to name and shame platforms over online sexism",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cly52dd9lnmo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 25 Nov 2025 11:51:18 GMT",
+      "summary": "But critics say the regulator's new measures need to be the law rather than guidelines to make the internet safer for women and girls."
+    },
+    {
+      "title": "Cryptology firm cancels elections after losing encryption key",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c62vl05rz0ko?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 25 Nov 2025 12:26:43 GMT",
+      "summary": "The International Association for Cryptologic Research - created to study secure communication - said it was an \"honest human mistake.\""
+    },
+    {
+      "title": "Scammers hacked her phone and stole thousands - so how did they get her details?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/czrk7gxk2l6o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 25 Nov 2025 04:58:08 GMT",
+      "summary": "Sue Shore told the BBC how scammers targeted her - and we found her information had been leaked online."
+    },
+    {
+      "title": "Everything you need to know about the Budget",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cj4w44w42j5o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 06:47:03 GMT",
+      "summary": "Chancellor Rachel Reeves is considering both tax rises and spending cuts in the 26 November Budget."
+    },
+    {
+      "title": "'I'm on £22,000 and want free bus travel for all students'",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c9d6zwppjvjo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 00:01:46 GMT",
+      "summary": "BBC News hears from people with a range of incomes about what they want to see in the Budget."
+    },
+    {
+      "title": "Warner settles lawsuit with AI music firm and launches joint venture",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cjdrl7lr039o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 07:21:31 GMT",
+      "summary": "The label is going into business with tech start-up Suno after settling a lawsuit against the company."
+    },
+    {
+      "title": "Trump defends Witkoff after leak appears to show envoy coaching Russia",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c3r7xr94ln8o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 10:25:06 GMT",
+      "summary": "The US president said he had not heard the audio, but that it sounded like \"standard\" negotiations."
+    },
+    {
+      "title": "Teens launch High Court challenge to Australia's social media ban",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c9d9l7w1g8yo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 06:37:56 GMT",
+      "summary": "They argue the law - which will block users under 16 from having social media accounts - is unconstitutional."
+    },
+    {
+      "title": "'Once in 300 years' rain hits Thai city as floods ravage South East Asia",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ckg97wx144jo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 09:29:52 GMT",
+      "summary": "The deadly floods have affected 2 million people, the majority of whom are still cut off from help."
+    },
+    {
+      "title": "Uber and WeRide’s robotaxi service in Abu Dhabi is officially driverless",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/25/uber-and-werides-robotaxi-service-in-abu-dhabi-is-officially-driverless/",
+      "published": "Wed, 26 Nov 2025 07:00:00 +0000",
+      "summary": "The commercial robotaxi service launched last year. Now, the human safety operator is gone."
+    },
+    {
+      "title": "Why ‘hold forever’ investors are snapping up venture capital ‘zombies’",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/25/why-hold-forever-investors-are-snapping-up-venture-capital-zombies/",
+      "published": "Tue, 25 Nov 2025 22:52:22 +0000",
+      "summary": "An investor explains the \"buy, fix, and hold\" model employed by Bending Spoons and similar companies that buy distressed startups."
+    },
+    {
+      "title": "YouTube is working on a feature that will fix the messy home feed",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/25/youtube-is-working-on-a-feature-that-will-fix-the-messy-home-feed/",
+      "published": "Tue, 25 Nov 2025 22:31:48 +0000",
+      "summary": "YouTube is experimenting with a new feature that allows users to customize their home feed."
+    },
+    {
+      "title": "There may not be a safe off-ramp for some taking GLP-1 drugs, study suggests",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/11/glp-1-drugs-improve-heart-health-but-only-if-you-keep-taking-them/",
+      "published": "Tue, 25 Nov 2025 22:44:35 +0000",
+      "summary": "In trial, 82% saw weight rebound and cardiovascular health reverse after withdrawal."
+    },
+    {
+      "title": "Plex’s crackdown on free remote streaming access starts this week",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/11/plexs-crackdown-on-free-remote-streaming-access-starts-this-week/",
+      "published": "Tue, 25 Nov 2025 21:22:17 +0000",
+      "summary": "Roku users will be hit first."
+    },
+    {
+      "title": "GPU prices are coming to earth just as RAM costs shoot into the stratosphere",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/11/spiking-memory-prices-mean-that-it-is-once-again-a-horrible-time-to-build-a-pc/",
+      "published": "Tue, 25 Nov 2025 20:15:37 +0000",
+      "summary": "Some RAM kits are over three times as expensive as they were three months ago."
+    },
+    {
+      "title": "Poco partners with Bose to put a subwoofer in its latest phone",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/829419/poco-f8-ultra-bose-speakers-stereo-subwoofer",
+      "published": "2025-11-26T04:15:00-05:00",
+      "summary": "Xiaomi spin-off brand Poco has partnered with Bose to help its new F8 phones stand out in an increasingly crowded market. Both the F8 Pro and F8 Ultra feature stereo speakers designed collaboratively with the audio company, and the Ultra goes one step further by including a subwoofer too. Both new F"
+    },
+    {
+      "title": "Uber’s robotaxi service in UAE now includes fully driverless vehicles",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/828685/uber-weride-robotaxi-fully-driverless-uae",
+      "published": "2025-11-26T02:00:00-05:00",
+      "summary": "Uber and WeRide are now deploying fully driverless vehicles as part of its robotaxi service in the United Arab Emarites. Customers in Abu Dhabi who request an UberX or Uber Comfort may be matched with a fully autonomous WeRide vehicle if the route is part of the company’s service area. Uber and Chin"
+    },
+    {
+      "title": "Qualcomm reveals its not-so-elite Snapdragon 8 Gen 5",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/828959/qualcomm-snapdragon-8-gen-5",
+      "published": "2025-11-26T01:30:00-05:00",
+      "summary": "When Qualcomm announced its high-end Snapdragon 8 Elite Gen 5 chipset in November, it mentioned that a non-Elite version was on the way, designed to power a more affordable tier of flagship phones. Now, that chip has finally arrived, with some drops in performance but the same core feature set. Qual"
+    },
+    {
+      "title": "Amazon Black Friday deals: The Fire TV Stick 4K Max drops to $35",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/amazon-black-friday-deals-the-fire-tv-stick-4k-max-drops-to-35-132100017.html?src=rss",
+      "published": "Mon, 24 Nov 2025 16:05:35 +0000",
+      "summary": "<p>Amazon <a href=\"https://www.engadget.com/black-friday/\">Black Friday</a> deals almost always include discounts on Fire TV devices and Fire TV sets. This year is no different, and some of the best discounts bring Fire TV streaming dongles down to near record-low prices. Case in point: the <a class"
+    },
+    {
+      "title": "The best ergonomic keyboards for 2025",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/computing/accessories/best-ergonomic-keyboard-130047982.html?src=rss",
+      "published": "Wed, 26 Nov 2025 10:01:26 +0000",
+      "summary": "<p>I’ve dealt with neck pain since my early 20s. Becoming a full-time writer in my late 30s did not help matters. I discovered the concept of a split ergonomic keyboard and wondered whether one could stop my shoulders from bunching up around my ears. It did. <br /><br />Of course, my case is not you"
+    },
+    {
+      "title": "Amazon's Kindle Colorsoft drops to a record-low price for Black Friday",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/amazons-kindle-colorsoft-drops-to-a-record-low-price-for-black-friday-110037313.html?src=rss",
+      "published": "Wed, 26 Nov 2025 10:00:36 +0000",
+      "summary": "<p>Amazon Black Friday deals have brought a slew of discounts to the company's own devices. Aside from Prime Day, Black Friday is the best time to pick up things like Fire TV Sticks, Echo speakers and Kindles. In the latter category, one of the best deals is on the <a class=\"rapid-with-clickid\" href"
+    },
+    {
+      "title": "Statistical Process Control in Python",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://timothyfraser.com/sigma/statistical-process-control-in-python.html",
+      "published": "Wed, 26 Nov 2025 08:40:29 +0000",
+      "summary": "<p>Article URL: <a href=\"https://timothyfraser.com/sigma/statistical-process-control-in-python.html\">https://timothyfraser.com/sigma/statistical-process-control-in-python.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46055421\">https://news.ycombinator.com/item?id=460554"
+    },
+    {
+      "title": "Image Diffusion Models Exhibit Emergent Temporal Propagation in Videos",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://arxiv.org/abs/2511.19936",
+      "published": "Wed, 26 Nov 2025 07:55:49 +0000",
+      "summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2511.19936\">https://arxiv.org/abs/2511.19936</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46055177\">https://news.ycombinator.com/item?id=46055177</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>"
+    },
+    {
+      "title": "Space Truckin' – The Nostromo (2012)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/",
+      "published": "Wed, 26 Nov 2025 02:31:41 +0000",
+      "summary": "<p>Article URL: <a href=\"https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/\">https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46053566\">https://news.ycombinator.com/item?id=46053566</"
+    },
+    {
+      "title": "Study Claims To Provide First Direct Evidence of Dark Matter",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/11/26/0018227/study-claims-to-provide-first-direct-evidence-of-dark-matter?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from the Guardian: Nearly a century ago, scientists proposed that a mysterious invisible substance they named dark matter clumped around galaxies and formed a cosmic web across the universe. What dark matter is made from, and whether it is even real, are still ope"
+    },
+    {
+      "title": "China Launches An Emergency Lifeboat To Bring Three Astronauts Back To Earth",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/11/26/005203/china-launches-an-emergency-lifeboat-to-bring-three-astronauts-back-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "China launched an uncrewed Shenzhou 22 spacecraft to serve as an emergency lifeboat for three astronauts aboard the Tiangong space station after a docked return craft was found to have a cracked window likely caused by space debris. \"A Long March 2F rocket fired its engines and lifted off with the S"
+    },
+    {
+      "title": "Britain Plots Atomic Reboot As Datacenter Demand Surges",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/11/25/231251/britain-plots-atomic-reboot-as-datacenter-demand-surges?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "The UK is seeking to fast-track new atomic development to meet soaring energy demands driven by AI and electrification. According to a new report published by the government's Nuclear Regulatory Taskforce, excessive regulation has made Britain the most expensive place in the world to build nuclear p"
+    },
+    {
+      "title": "10 Best Pillows: Tested For Side, Back, and Stomach Sleepers (2025)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/gallery/best-pillows/",
+      "published": "Wed, 26 Nov 2025 10:36:00 +0000",
+      "summary": "We’ve spent over a year testing the best pillows to support your noggin, whether you snooze on your side, back, or in a tangle of blankets."
+    },
+    {
+      "title": "Boeing's Next Starliner Flight Will Only Be Allowed to Carry Cargo",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/boeings-next-starliner-flight-will-only-be-allowed-to-carry-cargo/",
+      "published": "Wed, 26 Nov 2025 10:00:00 +0000",
+      "summary": "After a high-profile malfunction left two astronauts stranded on the International Space Station, NASA is requiring rigorous testing before humans get back on board."
+    },
+    {
+      "title": "Kohler Black Friday Promo Code (2025): 10 Percent Off Bathroom and Kitchen",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/kohler-black-friday-2025-promo-code/",
+      "published": "Wed, 26 Nov 2025 09:32:00 +0000",
+      "summary": "Fixtures giant Kohler has a holiday promo code for 10 percent off big orders for Black Friday 2025."
+    },
+    {
+      "title": "Jeffrey Epstein’s emails, now in searchable, Gmail-style interface",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448944/jeffrey-epstein-emails-trump-sex-offedner-gmail",
+      "published": "2025-11-26T10:30:00",
+      "summary": "<p>Earlier this month, the House Oversight Committee made public more than 20,000 pages of documents from the late convicted sex offender Jeffrey Epstein’s estate.&nbsp;</p>\n\n\n\n<p>The documents were released as thousands of individual text files, images, and scanned PDFs, a monumental trove most wou"
+    },
+    {
+      "title": "This project is using AI and satellite data to create the first definitive map of the entire continent of Africa",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91446202/this-project-is-using-ai-and-satellite-data-to-create-the-first-definitive-map-of-the-entire-continent-of-africa",
+      "published": "2025-11-26T10:00:00",
+      "summary": "<p>Africa’s official maps are stuck in the past, often either outdated, incomplete—or both. But governments don’t have the budgets to fix them, making it difficult to complete projects as complex as deciding where to put new solar plants to as simple as delivering a package. Now a new plan is underw"
+    },
+    {
+      "title": "Your Polestar EV can now power your house—and save you money",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448945/your-polestar-ev-can-now-power-your-house-and-save-you-money",
+      "published": "2025-11-26T10:00:00",
+      "summary": "<p>When it’s parked in your garage, the <a href=\"https://www.fastcompany.com/91296295/i-tried-driving-a-new-polestar-suv-and-liked-it-better-than-a-tesla\" rel=\"noreferrer noopener\" target=\"_blank\">Polestar 3</a> can now help you save on your electric bill.</p>\n\n\n\n<p>The automaker is the <a href=\"htt"
+    },
+    {
+      "title": "Black Forest Labs launches Flux.2 AI image models to challenge Nano Banana Pro and Midjourney",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/black-forest-labs-launches-flux-2-ai-image-models-to-challenge-nano-banana",
+      "published": "Wed, 26 Nov 2025 03:46:00 GMT",
+      "summary": "<p>It&#x27;s not just <a href=\"https://venturebeat.com/ai/google-unveils-gemini-3-claiming-the-lead-in-math-science-multimodal-and\">Google&#x27;s Gemini 3</a>, <a href=\"https://venturebeat.com/ai/googles-upgraded-nano-banana-pro-ai-image-model-hailed-as-absolutely-bonkers\">Nano Banana Pro</a>, and <"
+    },
+    {
+      "title": "What enterprises should know about The White House's new AI 'Manhattan Project' the Genesis Mission",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/what-enterprises-should-know-about-the-white-houses-new-ai-manhattan-project",
+      "published": "Tue, 25 Nov 2025 15:52:00 GMT",
+      "summary": "<p>President Donald Trump’s new “<a href=\"https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/\">Genesis Mission</a>” unveiled Monday, November 24, 2025, is billed as a generational leap in how the United States does science akin to the Manhattan Project that created"
+    },
+    {
+      "title": "OpenAI now lets enterprises choose where to host their data",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/openai-now-lets-enterprises-choose-where-to-host-their-data",
+      "published": "Tue, 25 Nov 2025 05:00:00 GMT",
+      "summary": "<p>OpenAI expanded its <a href=\"https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide/\"><u>data residency regions</u></a> for ChatGPT and its API, giving enterprise users the option to store and process their data closest to their business operations and better com"
+    },
+    {
+      "title": "The AI Hype Index: The people can’t get enough of AI slop",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/26/1128353/the-ai-hype-index-the-people-cant-get-enough-of-ai-slop/",
+      "published": "Wed, 26 Nov 2025 10:00:00 +0000",
+      "summary": "Separating AI reality from hyped-up fiction isn’t always easy. That’s why we’ve created the AI Hype Index—a simple, at-a-glance summary of everything you need to know about the state of the industry. Last year, the fantasy author Joanna Maciejewska went viral (if such a thing is still possible on X)"
+    },
+    {
+      "title": "The Download: the future of AlphaFold, and chatbot privacy concerns",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/25/1128346/the-download-the-future-of-alphafold-and-chatbot-privacy-concerns/",
+      "published": "Tue, 25 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s next for AlphaFold: A conversation with a Google DeepMind Nobel laureate In 2017, fresh off a PhD on theoretical chemistry, John Jumper heard r"
+    },
+    {
+      "title": "Aligning VMware migration with business continuity",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/25/1128173/aligning-vmware-migration-with-business-continuity/",
+      "published": "Tue, 25 Nov 2025 10:28:29 +0000",
+      "summary": "For decades, business continuity planning meant preparing for anomalous events like hurricanes, floods, tornadoes, or regional power outages. In anticipation of these rare disasters, IT teams built playbooks, ran annual tests, crossed their fingers, and hoped they’d never have to use them. In recent"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "analysis": {
+    "summary": "The tech and business headlines today highlight a mix of technology, finance, and international news. In technology, there are stories about cybersecurity issues (OBR calls in cyber expert), AI startups raising significant funds (49 US AI startups raised $100M or more), and peculiar tech developments (four-inch worm hatches in woman’s forehead). In business, there are articles discussing the UK's economic outlook (OBR calls in cyber expert, Households face 'dismal' rise in spending power) and the impact of the recent Budget on younger individuals (Nine ways the Budget could affect you if you're under 25). International news includes a major fire in Hong Kong (Firefighters search for hundreds still missing) and geopolitical tensions (Putin doubles down on demands for Ukrainian territory ahead of talks with US in Moscow).",
+    "keywords": [],
+    "trending_topics": [
+      "Economic Outlook Amidst Cybersecurity Concerns",
+      "Rise of AI Startups and Fundraising",
+      "Unusual Tech Developments"
+    ],
+    "search_keywords": [],
+    "analysis_timestamp": "2025-11-27T11:58:50.161987"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 38,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "OBR calls in cyber expert over botched release of Budget analysis",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cgmn991pz9jo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Nov 2025 13:19:51 GMT",
+      "summary": "Rachel Reeves's statement was thrown into chaos after journalists were able to access the document early."
+    },
+    {
+      "title": "Nvidia plays down Google chip threat concerns",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c7vme6rrqz5o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 26 Nov 2025 12:36:24 GMT",
+      "summary": "The world's most valuable company said it was still \"a generation ahead of the industry\"."
+    },
+    {
+      "title": "Ofcom vows to name and shame platforms over online sexism",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cly52dd9lnmo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 25 Nov 2025 11:51:18 GMT",
+      "summary": "But critics say the regulator's new measures need to be the law rather than guidelines to make the internet safer for women and girls."
+    },
+    {
+      "title": "Simon Jack: Businesses left asking -  what happened to growth?",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cwyg3w9vexzo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Nov 2025 15:27:37 GMT",
+      "summary": "Significant pro-business measures were thin on the ground in this year's Budget."
+    },
+    {
+      "title": "Nine ways the Budget could affect you if you're under 25",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cn4dxmg7jyjo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Nov 2025 12:10:34 GMT",
+      "summary": "The chancellor's Budget contained a slew of measures which will impact young people specifically."
+    },
+    {
+      "title": "Households face 'dismal' rise in spending power, says IFS",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c75vwevr652o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Nov 2025 16:35:50 GMT",
+      "summary": "Average disposable income is set to grow by \"only\" 0.5% annually over the next five years, the think tank says."
+    },
+    {
+      "title": "Firefighters search for hundreds still missing in devastating Hong Kong tower blocks fire",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c62n3enz9klo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Nov 2025 16:36:03 GMT",
+      "summary": "Dozens of people have died and hundreds remain unaccounted for after Wednesday's blaze."
+    },
+    {
+      "title": "Putin doubles down on demands for Ukrainian territory ahead of talks with US in Moscow",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cp84nl57v0lo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 27 Nov 2025 16:35:33 GMT",
+      "summary": "The Russian president confirmed a US delegation is expected for talks in Moscow next week."
+    },
+    {
+      "title": "The future will be explained to you in Palo Alto",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/26/the-future-will-be-explained-to-you-in-palo-alto/",
+      "published": "Thu, 27 Nov 2025 06:08:40 +0000",
+      "summary": "On Wednesday evening at PlayGround Global in Palo Alto, some very smart people who are building things you don&#8217;t understand yet will explain what&#8217;s coming. This is the final StrictlyVC event of 2025, and truly, the lineup is ridiculous. The series has traveled around the globe under the "
+    },
+    {
+      "title": "Nordic founders are taking bigger swings, and it’s paying off",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/video/nordic-founders-are-taking-bigger-swings-and-its-paying-off/",
+      "published": "Wed, 26 Nov 2025 21:00:00 +0000",
+      "summary": "Ten years ago, raising €1 million in Copenhagen was enough to make waves in the region’s tech scene. Today, the Nordics are turning out billion-dollar companies like Lovable — which hit $200 million in revenue just 12 months after launching.  Dennis Green-Lieber, founder of AI-powered customer intel"
+    },
+    {
+      "title": "Here are the 49 US AI startups that have raised $100M or more in 2025",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/26/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/",
+      "published": "Wed, 26 Nov 2025 20:48:58 +0000",
+      "summary": "Last year was monumental for the AI industry in the U.S. and beyond. How will 2025 compare?"
+    },
+    {
+      "title": "Blast from the past: 15 movie gems of 1985",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/culture/2025/11/blast-from-the-past-15-movie-gems-of-1985/",
+      "published": "Thu, 27 Nov 2025 12:15:18 +0000",
+      "summary": "Beyond the blockbusters: This watch list has something for everyone over the long holiday weekend."
+    },
+    {
+      "title": "Four-inch worm hatches in woman’s forehead, wriggles to her eyelid",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2025/11/doctors-pull-4-inch-worm-out-of-womans-eyelid-after-monthlong-incubation/",
+      "published": "Thu, 27 Nov 2025 12:00:04 +0000",
+      "summary": "The parasite, typically found in dogs, was visibly moving under her skin."
+    },
+    {
+      "title": "ULA aimed to launch up to 10 Vulcan rockets this year—it will fly just once",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/11/ula-aimed-to-launch-up-to-10-vulcan-rockets-this-year-it-will-fly-just-once/",
+      "published": "Wed, 26 Nov 2025 23:13:32 +0000",
+      "summary": "The company is closer to increasing its Vulcan launch cadence, but it won't happen this year."
+    },
+    {
+      "title": "Watch how Apple made its new puppet-packed holiday ad",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/831431/apple-a-critter-carol-holiday-ad-puppets-practical-effects",
+      "published": "2025-11-27T11:18:17-05:00",
+      "summary": "While companies like Coca-Cola turned to generative AI to create “visually jarring” holiday ads this year, Apple continues to embrace practical effects with its new festive short film called A Critter Carol featuring a forest full of tech-savvy woodland creatures. In the ad a hiker drops their iPhon"
+    },
+    {
+      "title": "A humanoid robot-shaped bubble is forming, China warns",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/831451/china-humanoid-robotics-bubble",
+      "published": "2025-11-27T10:57:49-05:00",
+      "summary": "A humanoid robot bubble could be brewing, warned China’s leading economic planning agency on Thursday. The alert comes amid growing fears that a bubble in a related industry — AI — is about to burst.&#160; Speaking at a press briefing, National Development and Reform Commission spokesperson Li Chao "
+    },
+    {
+      "title": "Kuxiu’s solid-state power bank now has more capacity and faster wireless charging",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/831365/kuxiu-magsafe-semi-solid-state-wireless-power-bank-s3",
+      "published": "2025-11-27T10:06:53-05:00",
+      "summary": "Seven months after launching its first semi-solid state battery that used a safer and longer-lasting solid-liquid mixed electrolyte, Kuxiu is introducing a new version with some welcome upgrades. The S3 has twice the capacity of the S2 at 10,000mAh – 5,000mAh at 7.7V (38.5Wh) – that the company says"
+    },
+    {
+      "title": "This Apple TV+ Black Friday deal gives you six months of access for only $6 per month",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/this-apple-tv-black-friday-deal-gives-you-six-months-of-access-for-only-6-per-month-203322217.html?src=rss",
+      "published": "Thu, 27 Nov 2025 16:50:09 +0000",
+      "summary": "<p>If you’ve been waiting to try <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?siteId=us-engadget&amp;pageId=1p-autolink&amp;contentUuid=c968d430-c13a-4d79-a245-d3f10ce2e000&amp;featureId=text-link&amp;linkText=Apple+TV%2B&amp;custData=eyJzb3VyY2VOYW1lIjoiV2ViLURlc2t0b3AtVmVyaX"
+    },
+    {
+      "title": "Black Friday deals include Switch 2-compatible microSD Express cards for record-low prices",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/black-friday-deals-include-switch-2-compatible-microsd-express-cards-for-record-low-prices-151331548.html?src=rss",
+      "published": "Thu, 27 Nov 2025 16:30:37 +0000",
+      "summary": "<p>The SanDisk 256GB microSD Express Card for the Switch 2 <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=66ea567a-c987-4c2e-a2ff-02904efde6ea&amp;itemId=amazon_B0DFQGVLYF&amp;siteId=us-engadget&amp;pageId=1p-autolink&amp;contentUuid=9760e8af-50c8-4708-a96e-6d3ded5615"
+    },
+    {
+      "title": "Plex starts paywalling remote streaming to TVs, beginning with its Roku app",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/entertainment/streaming/plex-starts-paywalling-remote-streaming-to-tvs-beginning-with-its-roku-app-160535590.html?src=rss",
+      "published": "Thu, 27 Nov 2025 16:05:35 +0000",
+      "summary": "<p>Here's some bad news for folks who've been using Plex to stream stuff from a buddy's personal media server to their TV for free for years. As it pledged to do earlier this year when it <a class=\"link\" href=\"https://www.engadget.com/entertainment/streaming/plex-raises-subscription-prices-for-the-f"
+    },
+    {
+      "title": "Same-day upstream Linux support for Snapdragon 8 Elite Gen 5",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support",
+      "published": "Thu, 27 Nov 2025 16:19:03 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support\">https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i"
+    },
+    {
+      "title": "We're Losing Our Voice to LLMs",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/",
+      "published": "Thu, 27 Nov 2025 14:51:01 +0000",
+      "summary": "<p>Article URL: <a href=\"https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/\">https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46069771\">https://news.ycombinator.com/item?id=46069771</a></p>\n<p>Points: 144</p>\n<p"
+    },
+    {
+      "title": "Show HN: SyncKit – Offline-first sync engine (Rust/WASM and TypeScript)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://github.com/Dancode-188/synckit",
+      "published": "Thu, 27 Nov 2025 14:31:44 +0000",
+      "summary": "<p>Article URL: <a href=\"https://github.com/Dancode-188/synckit\">https://github.com/Dancode-188/synckit</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46069598\">https://news.ycombinator.com/item?id=46069598</a></p>\n<p>Points: 10</p>\n<p># Comments: 2</p>"
+    },
+    {
+      "title": "Defense Contractors Lobby To Kill Military Right-to-Repair, Push Pay-Per-Use Data Model",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/25/11/27/095202/defense-contractors-lobby-to-kill-military-right-to-repair-push-pay-per-use-data-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "A bipartisan right-to-repair provision that would let the U.S. military fix its own equipment faces a serious threat from defense industry lobbyists who want to replace it with a pay-per-use model for accessing repair information. A source familiar with negotiations told The Verge that there are sig"
+    },
+    {
+      "title": "NASA Reduces Flights on Boeing's Starliner After Botched Astronaut Mission",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/11/27/0856219/nasa-reduces-flights-on-boeings-starliner-after-botched-astronaut-mission?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader shares a report: NASA has slashed the number of astronaut missions on Boeing's Starliner contract and said the spacecraft's next mission to the International Space Station will fly without a crew, reducing the scope of a program hobbled by engineering woes and outpaced by SpaceX."
+    },
+    {
+      "title": "AI Can Technically Perform 12% of US Labor Market's Wage Value, MIT Simulation Finds",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://news.slashdot.org/story/25/11/27/0752210/ai-can-technically-perform-12-of-us-labor-markets-wage-value-mit-simulation-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Researchers at MIT and Oak Ridge National Laboratory have built a simulation that models all 151 million American workers and their skills, then maps those skills against the capabilities of over 13,000 AI tools currently in production to see where the two overlap. The answer, according to their ana"
+    },
+    {
+      "title": "Amazon Is Having a Huge Black Friday Sale on Birdfy Smart Bird Feeders (2025)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/best-smart-bird-feeder-deals-black-friday-2025/",
+      "published": "Thu, 27 Nov 2025 16:30:00 +0000",
+      "summary": "Someone you know wants a smart feeder for Christmas. These are the best deals we've found on a brand we recommend."
+    },
+    {
+      "title": "Best Black Friday Deals 2025: We've Tested Every Item and Tracked Every Price",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/black-friday-deals-2025/",
+      "published": "Thu, 27 Nov 2025 15:00:01 +0000",
+      "summary": "It's peak purchase season, and our Reviews team has scoured the entire internet to find the best Black Friday deals on gear we've tested and approved."
+    },
+    {
+      "title": "6 Best Smart Speakers (2025): Alexa, Google Assistant, Siri",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/best-smart-speakers/",
+      "published": "Thu, 27 Nov 2025 14:03:00 +0000",
+      "summary": "Looking to add a smart speaker to your house so Alexa, Google, or Siri can help you out? Here are the best ones to get."
+    },
+    {
+      "title": "Goldfish joins Macy’s Thanksgiving Day Parade with the tiniest float ever",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448928/goldfish-thanksgiving-day-parade",
+      "published": "2025-11-27T12:00:00",
+      "summary": "<p>For the past 99 years at Macy’s annual <a href=\"https://www.fastcompany.com/91448214/for-caregivers-thanksgiving-is-no-break-at-all\" rel=\"noreferrer noopener\" target=\"_blank\">Thanksgiving</a> Day Parade, spectators have craned their necks to watch giant balloons and larger-than-life floats pass t"
+    },
+    {
+      "title": "What stores are open on Thanksgiving Day 2025? Holiday hours for Walmart, Whole Foods, Costco, and more",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91448098/are-stores-open-on-thanksgiving-day-2025-walmart-whole-foods-kroger-trader-joes-holiday-hours",
+      "published": "2025-11-27T11:01:00",
+      "summary": "<p>Thanksgiving is a beautiful day filled with family, loved ones, and good food. All that merriment takes copious amounts of labor and planning ahead. </p>\n\n\n\n<p>It is almost inevitable that something will fall between the cracks and a last-minute store run will be necessary. But is that even possi"
+    },
+    {
+      "title": "Less Phone. More Focus",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91447377/phone-focus-tools",
+      "published": "2025-11-27T11:00:00",
+      "summary": "<p><em>This article is republished with permission from </em>Wonder Tools<em>, a newsletter that helps you discover the most useful sites and apps.</em></p>\n\n\n<p>We sleep with our phones. 😴 📱 We’re tied to these devices for work, at home—even on vacation. 🏖️🤳<br /></p>\n\n\n\n<h2 class=\"wp-block-heading"
+    },
+    {
+      "title": "Prompt Security's Itamar Golan on why generative AI security requires building a category, not a feature",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/prompt-securitys-itamar-golan-on-why-generative-ai-security-requires",
+      "published": "Thu, 27 Nov 2025 08:00:00 GMT",
+      "summary": "<p>VentureBeat recently sat down (virtually) with Itamar Golan, co-founder and CEO of <a href=\"https://prompt.security/\">Prompt Security</a>, to chat through the GenAI security challenges organizations of all sizes face. </p><p>We talked about shadow AI sprawl, the strategic decisions that led Golan"
+    },
+    {
+      "title": "A weekend ‘vibe code’ hack by Andrej Karpathy quietly sketches the missing layer of enterprise AI orchestration",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/a-weekend-vibe-code-hack-by-andrej-karpathy-quietly-sketches-the-missing",
+      "published": "Wed, 26 Nov 2025 14:00:00 GMT",
+      "summary": "<p>This weekend, <a href=\"https://x.com/karpathy/\">Andrej Karpathy</a>, the former director of AI at Tesla and a founding member of OpenAI, decided he wanted to read a book. But he did not want to read it alone. He wanted to read it accompanied by a committee of artificial intelligences, each offeri"
+    },
+    {
+      "title": "Black Forest Labs launches Flux.2 AI image models to challenge Nano Banana Pro and Midjourney",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/black-forest-labs-launches-flux-2-ai-image-models-to-challenge-nano-banana",
+      "published": "Wed, 26 Nov 2025 03:46:00 GMT",
+      "summary": "<p>It&#x27;s not just <a href=\"https://venturebeat.com/ai/google-unveils-gemini-3-claiming-the-lead-in-math-science-multimodal-and\">Google&#x27;s Gemini 3</a>, <a href=\"https://venturebeat.com/ai/googles-upgraded-nano-banana-pro-ai-image-model-hailed-as-absolutely-bonkers\">Nano Banana Pro</a>, and <"
+    },
+    {
+      "title": "The Download: the fossil fuel elephant in the room, and better tests for endometriosis",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/27/1128505/the-download-the-fossil-fuel-elephant-in-the-room-and-better-tests-for-endometriosis/",
+      "published": "Thu, 27 Nov 2025 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This year’s UN climate talks avoided fossil fuels, again Over the past few weeks in Belem, Brazil, attendees of this year’s UN climate talks dealt wit"
+    },
+    {
+      "title": "This year’s UN climate talks avoided fossil fuels, again",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/27/1128443/climate-talks-fossil-fuels/",
+      "published": "Thu, 27 Nov 2025 11:00:00 +0000",
+      "summary": "If we didn’t have pictures and videos, I almost wouldn’t believe the imagery that came out of this year’s UN climate talks. Over the past few weeks in Belem, Brazil, attendees dealt with oppressive heat and flooding, and at one point a literal fire broke out, delaying negotiations. The symbolism was"
+    },
+    {
+      "title": "Moving toward LessOps with VMware-to-cloud migrations",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/27/1128465/moving-toward-lessops-with-vmware-to-cloud-migrations/",
+      "published": "Thu, 27 Nov 2025 10:47:24 +0000",
+      "summary": "Today’s IT leaders face competing mandates to do more (“make us an ‘AI-first’ enterprise—yesterday”) with less (“no new hires for at least the next six months”). VMware has become a focal point of these dueling directives. It remains central to enterprise IT, with 80% of organizations using VMware i"
+    }
+  ]
+}

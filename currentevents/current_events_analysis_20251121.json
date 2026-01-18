@@ -1,0 +1,369 @@
+{
+  "analysis": {
+    "summary": "Tech news highlights include Vinted banning sexually explicit ads, concerns over AI replacing graduate jobs, Twitch being added to Australia's teen social media ban, rising energy prices in the UK, increased government borrowing, and Poundland struggling during a cost-of-living crisis. In world news, updates on Ukraine war discussions between Zelensky and US, Trump's impatience regarding the conflict, and peace plan developments for Gaza. Startup market in Europe is booming, with specific mentions of Grok's Elon Musk admiration and Stoke Space's innovative launch solutions. Other tech news includes Google enhancing AI scam protection in India and Pornhub advocating for device-based age verification.",
+    "keywords": [
+      "vinted",
+      "ai",
+      "twitch",
+      "poundland",
+      "zelensky",
+      "trump",
+      "google",
+      "pornhub"
+    ],
+    "trending_topics": [
+      "online safety regulations",
+      "AI job displacement concerns",
+      "social media restrictions for minors",
+      "energy price hikes",
+      "government debt",
+      "cost-of-living crisis",
+      "Ukraine conflict discussions",
+      "Gaza peace process",
+      "European tech boom",
+      "Elon Musk admiration"
+    ],
+    "search_keywords": [
+      "vinted",
+      "ai",
+      "twitch",
+      "poundland",
+      "zelensky",
+      "trump",
+      "google",
+      "pornhub"
+    ],
+    "analysis_timestamp": "2025-11-21T07:30:22.851226"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "VentureBeat",
+    "BBC Technology",
+    "TechCrunch",
+    "The Verge",
+    "Hacker News",
+    "MIT Technology Review",
+    "BBC World",
+    "Wired",
+    "Engadget",
+    "Ars Technica",
+    "BBC Business",
+    "Slashdot",
+    "Fast Company"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Vinted blocks 'sickening' sexually explicit ads",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cn515p22nxno?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 20 Nov 2025 18:10:50 GMT",
+      "summary": "The online marketplace removed adverts which included a video a user said depicted a pornographic scene."
+    },
+    {
+      "title": "Graduate jobs under threat from AI, PwC boss says",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cm272510e6jo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 02:34:57 GMT",
+      "summary": "The accountancy giant says artificial intelligence will eventually lead to fewer entry-level positions at the firm."
+    },
+    {
+      "title": "Streaming platform Twitch added to Australia's teen social media ban",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cx2n2955g10o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 02:33:49 GMT",
+      "summary": "It joins other platforms including Facebook, Instagram, TikTok and Snapchat in the ban that starts next month."
+    },
+    {
+      "title": "Households face unexpected rise in energy prices in new year",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c2lplg7d9ewo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 08:51:57 GMT",
+      "summary": "Regulator Ofgem says a change in the price cap in January means a 0.2% increase in gas and electricity prices."
+    },
+    {
+      "title": "Government borrowing for October higher than expected",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c20508068jno?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 10:27:12 GMT",
+      "summary": "Borrowing was more than £2bn higher than expected in October, latest official figures show."
+    },
+    {
+      "title": "The curious case of why Poundland is struggling during a cost-of-living crisis",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c4gkgxeeyzno?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 08:03:37 GMT",
+      "summary": "Why - in an age where so many of us are feeling the financial pinch - are some budget shops on UK high streets having such a tough time?"
+    },
+    {
+      "title": "Zelensky ready to work with US on 'their vision' for ending Ukraine war",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cly1ypqlle0o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 08:06:21 GMT",
+      "summary": "Kyiv says it is willing to engage with a US-backed draft peace plan aimed at ending the war with Russia."
+    },
+    {
+      "title": "Trump's growing impatience to end Ukraine war is a concern for Kyiv",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/ce3w1zeerywo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 10:19:25 GMT",
+      "summary": "The US is working to a quick timetable to push through the deal, which appears to heavily reflect many of Moscow's demands."
+    },
+    {
+      "title": "Anti-Hamas armed groups seek future role under Gaza peace plan",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cvgmgjx1jego?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 21 Nov 2025 10:24:27 GMT",
+      "summary": "Several groups - some of them backed by Israel - are ranged against Hamas in Gaza, with complex and overlapping ties."
+    },
+    {
+      "title": "The European startup market is ready for the limelight",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/21/the-european-startup-market-is-ready-for-the-limelight/",
+      "published": "Fri, 21 Nov 2025 11:39:43 +0000",
+      "summary": "The region's startup market is hungry for its first trillion-dollar startup, and in many ways has set itself up to reach that goal."
+    },
+    {
+      "title": "Grok says Elon Musk is better than basically everyone, except Shohei Ohtani",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/20/grok-says-elon-musk-is-better-than-basically-everyone-except-shohei-ohtani/",
+      "published": "Thu, 20 Nov 2025 23:44:19 +0000",
+      "summary": "According to Grok, Elon Musk can out-slug the MLB's greatest power hitters... except Ohtani."
+    },
+    {
+      "title": "Google steps up AI scam protection in India, but gaps remain",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2025/11/20/google-steps-up-ai-scam-protection-in-india-but-gaps-remain/",
+      "published": "Thu, 20 Nov 2025 22:28:52 +0000",
+      "summary": "Google is expanding its real-time scam-detection and screen-sharing fraud warnings in India."
+    },
+    {
+      "title": "Pornhub is urging tech giants to enact device-based age verification",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/tech-policy/2025/11/pornhub-is-urging-tech-giants-to-enact-device-based-age-verification/",
+      "published": "Fri, 21 Nov 2025 12:15:37 +0000",
+      "summary": "The company is pushing for an alternative way to keep minors from viewing porn."
+    },
+    {
+      "title": "Newest Starship booster is significantly damaged during testing early Friday",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/11/newest-starship-booster-is-significantly-damaged-during-testing-early-friday/",
+      "published": "Fri, 21 Nov 2025 12:12:16 +0000",
+      "summary": "SpaceX had big plans for the upgraded Starship vehicle that failed on Friday morning."
+    },
+    {
+      "title": "Stoke Space goes for broke to solve the only launch problem that “moves the needle”",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/space/2025/11/for-stoke-space-nothing-else-matters-but-full-and-rapid-rocket-reuse/",
+      "published": "Fri, 21 Nov 2025 12:00:55 +0000",
+      "summary": "\"Does the world really need a 151st rocket company?\""
+    },
+    {
+      "title": "The new silicon valley (literally)",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/features/825207/semiconductor-chip-manufacturing-new-silicon-valley",
+      "published": "2025-11-21T07:00:00-05:00",
+      "summary": "Arizona's economy was once dominated by the \"five C's\": cotton, cattle, citrus, copper, and climate. But a new C has emerged that could grow to overshadow the rest: chips. New semiconductor manufacturing facilities are springing up across the greater Phoenix area, stretching across blocks of new roa"
+    },
+    {
+      "title": "Google’s Nano Banana Pro generates excellent conspiracy fuel",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/report/826003/googles-nano-banana-pro-generates-excellent-conspiracy-fuel",
+      "published": "2025-11-21T05:45:32-05:00",
+      "summary": "It was really easy getting Google's Gemini app to make an image of a second shooter at Dealey Plaza, the White House ablaze, and Mickey Mouse flying a plane into the Twin Towers. We asked and it complied. There were few filters or guardrails, another sign that the battle over generative AI content m"
+    },
+    {
+      "title": "Grok’s Elon Musk worship is getting weird",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/825675/groks-elon-musk-worship-is-getting-weird",
+      "published": "2025-11-20T17:14:15-05:00",
+      "summary": "It’s no secret that Elon Musk shapes the X social platform and X’s “maximally truth-seeking” Grok AI chatbot to his preferences. But it’s possible Musk may have needed a bit of an extra ego boost this week, because Grok’s worship of its creator seems, shall we say, more noticeable than usual. As a n"
+    },
+    {
+      "title": "The Morning After: European policymakers scale back AI and privacy laws",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/general/the-morning-after-engadget-newsletter-121535805.html?src=rss",
+      "published": "Fri, 21 Nov 2025 12:15:35 +0000",
+      "summary": "<p>Happy Friday! As the annual tech discount chaos of Black Friday approaches (good deal <a href=\"https://www.engadget.com/deals/our-favorite-action-camera-is-on-sale-for-a-record-low-for-black-friday-160154064.html\"><ins>here</ins></a> and <a href=\"https://www.engadget.com/deals/playstation-2025-bl"
+    },
+    {
+      "title": "Black Friday deal: Our favorite budgeting app has 50 percent off subscriptions right now",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/deals/black-friday-deal-our-favorite-budgeting-app-has-50-percent-off-subscriptions-right-now-160025772.html?src=rss",
+      "published": "Fri, 21 Nov 2025 11:30:38 +0000",
+      "summary": "<p>Budgeting can be a stressful, challenging and uncomfortable experience. While it's completely possible to do it on your own, we've become fans of a few great budgeting apps. Take <a href=\"https://www.engadget.com/apps/best-budgeting-apps-120036303.html\">our favorite budgeting app Quicken</a>, whi"
+    },
+    {
+      "title": "Our favorite 2025 advent calendars you can still get now: Top picks from Lego, Pokémon, Funko Pop and more",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/our-favorite-2025-advent-calendars-you-can-still-get-now-top-picks-from-lego-pokemon-funko-pop-and-more-120042964.html?src=rss",
+      "published": "Fri, 21 Nov 2025 11:00:36 +0000",
+      "summary": "<p>Why settle for tiny pieces of chocolate when you could unwrap a Pokémon card, a Funko Pop or a Star Wars LEGO ship instead? Advent calendars have gone full geek mode, with options for fans of movies, comics, games and even science. They’re the perfect way to add some holiday cheer to your desk, g"
+    },
+    {
+      "title": "Roundtable (YC S23) Is Hiring Two Sales Development Representatives (SDRs)",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative",
+      "published": "Fri, 21 Nov 2025 12:00:02 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative\">https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46003686\">htt"
+    },
+    {
+      "title": "FAWK: LLMs can write a language interpreter",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html",
+      "published": "Fri, 21 Nov 2025 10:28:49 +0000",
+      "summary": "<p>Article URL: <a href=\"https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html\">https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46003144\">https://news.ycombina"
+    },
+    {
+      "title": "HP and Dell disable HEVC support built into their laptops' CPUs",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/",
+      "published": "Fri, 21 Nov 2025 10:01:37 +0000",
+      "summary": "<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/\">https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/ite"
+    },
+    {
+      "title": "CERN Can Now Produce Antihydrogen Atoms Eight Times Faster Than Before",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/11/21/066251/cern-can-now-produce-antihydrogen-atoms-eight-times-faster-than-before?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "fahrbot-bot shares a report from Phys.org: Physicists from Swansea University have played the leading role in a scientific breakthrough at CERN, developing an innovative technique that increases the antihydrogen trapping rate by a factor of ten. The advancement, achieved as part of the international"
+    },
+    {
+      "title": "Moss Spores Survive 9 Months Outside ISS",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://science.slashdot.org/story/25/11/20/2316230/moss-spores-survive-9-months-outside-iss?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "alternative_right shares a report from Phys.org: Inspired by moss's resilience, researchers sent moss sporophytes -- reproductive structures that encase spores -- to the most extreme environment yet: space. Their results, published in the journal iScience on November 20, show that more than 80% of t"
+    },
+    {
+      "title": "Advocacy Groups Urge Parents To Avoid AI Toys This Holiday Season",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/25/11/20/2311203/advocacy-groups-urge-parents-to-avoid-ai-toys-this-holiday-season?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "An anonymous reader quotes a report from the Associated Press: They're cute, even cuddly, and promise learning and companionship -- but artificial intelligence toys are not safe for kids, according to children's and consumer advocacy groups urging parents not to buy them during the holiday season. T"
+    },
+    {
+      "title": "A Computer Science Professor Invented the Emoticon After a Joke Went Wrong",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/a-computer-scientist-invented-the-emoticon-after-his-colleagues-misunderstood-sarcasm/",
+      "published": "Fri, 21 Nov 2025 12:00:00 +0000",
+      "summary": "In 1982, Carnegie Mellon University professor Scott Fahlman suggested using :-) for humorous comments after his colleagues took a joke about mercury seriously."
+    },
+    {
+      "title": "NordPass Review: An Almost Flawless Password Manager",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/nordpass-2025/",
+      "published": "Fri, 21 Nov 2025 12:00:00 +0000",
+      "summary": "NordPass is swift and packed with features, but the lack of support for TOTP code storage puts it slightly behind the competition."
+    },
+    {
+      "title": "Apple’s Most Overlooked App Just Got a Lot Better",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/apple-shortcuts-just-got-a-lot-better/",
+      "published": "Fri, 21 Nov 2025 11:45:00 +0000",
+      "summary": "Apple Shortcuts, which lets users write custom automations, recently earned some new capabilities thanks to Apple Intelligence. Here,s how to make the most of this upgrade."
+    },
+    {
+      "title": "Jon M. Chu wants to ‘entertain the hell’ out of people",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91446178/wicked-for-good-jon-chu-wants-to-entertain-the-hell-out-of-people",
+      "published": "2025-11-21T12:00:00",
+      "summary": "<p>Before <em>Wicked</em> opened on Broadway in October 2003, the musical’s production team took the show to the Curran Theatre in San Francisco for what’s called an “out of town tryout.” The five-week run allowed the producers, writers, and director to work out the kinks ahead of the show’s Broadwa"
+    },
+    {
+      "title": "We’ve taught AI to sound human, but we all need to remind ourselves to be better ones",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91443966/weve-taught-ai-to-sound-human-but-we-all-need-to-remind-ourselves-to-be-better-ones",
+      "published": "2025-11-21T11:00:00",
+      "summary": "<p><a href=\"https://www.fastcompany.com/section/artificial-intelligence\" title=\"AI\">AI</a> has made us faster and more <a href=\"https://www.fastcompany.com/section/productivity\" title=\"Productivity\">productive</a> at work. It drafts our emails, summarizes our meetings, and even reminds us to take br"
+    },
+    {
+      "title": "How to transform burnout to breakthrough",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91445120/how-to-transform-burnout-to-breakthrough",
+      "published": "2025-11-21T11:00:00",
+      "summary": "<p>The modern workplace runs on a dangerous myth: that constant motion equals maximum <a href=\"https://www.fastcompany.com/section/productivity\" title=\"Productivity\">productivity</a>. We&#8217;ve built entire corporate cultures around this fallacy, glorifying the &#8220;always on&#8221; mentality wh"
+    },
+    {
+      "title": "Grok 4.1 Fast's compelling dev access and Agent Tools API overshadowed by Musk glazing",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/grok-4-1-fasts-compelling-dev-access-and-agent-tools-api-overshadowed-by",
+      "published": "Thu, 20 Nov 2025 23:57:00 GMT",
+      "summary": "<p>Elon Musk&#x27;s frontier generative AI startup xAI<a href=\"https://x.ai/news/grok-4-1-fast\"> formally opened developer access to its Grok 4.1 Fast models</a> last night and introduced a new Agent Tools API—but the technical milestones were immediately subverted by a wave of public ridicule about"
+    },
+    {
+      "title": "Google's upgraded Nano Banana Pro AI image model hailed as 'absolutely bonkers' for enterprises and users",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/googles-upgraded-nano-banana-pro-ai-image-model-hailed-as-absolutely-bonkers",
+      "published": "Thu, 20 Nov 2025 20:20:00 GMT",
+      "summary": "<p>Infographics rendered without a single spelling error. Complex diagrams one-shotted from paragraph prompts. Logos restored from fragments. And visual outputs so sharp with so much text density and accuracy, one developer simply called it “absolutely bonkers.”</p><p>Google DeepMind’s <a href=\"http"
+    },
+    {
+      "title": "ScaleOps' new AI Infra Product slashes GPU costs for self-hosted enterprise LLMs by 50% for early adopters",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/ai/scaleops-new-ai-infra-product-slashes-gpu-costs-for-self-hosted-enterprise",
+      "published": "Thu, 20 Nov 2025 17:35:00 GMT",
+      "summary": "<p><a href=\"https://scaleops.com/\">ScaleOps</a> has expanded its cloud resource management platform with a new product aimed at enterprises operating self-hosted large language models (LLMs) and GPU-based AI applications. </p><p>The <a href=\"https://www.prnewswire.com/il/news-releases/scaleops-launc"
+    },
+    {
+      "title": "We’re learning more about what vitamin D does to our bodies",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
+      "published": "Fri, 21 Nov 2025 10:00:00 +0000",
+      "summary": "It has started to get really wintry here in London over the last few days. The mornings are frosty, the wind is biting, and it’s already dark by the time I pick my kids up from school. The darkness in particular has got me thinking about vitamin D, a.k.a. the sunshine vitamin. At a checkup&#8230;"
+    },
+    {
+      "title": "Roundtables: Surviving the New Age of Conspiracies",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/20/1127749/roundtables-surviving-the-new-age-of-conspiracies/",
+      "published": "Thu, 20 Nov 2025 18:03:17 +0000",
+      "summary": "Everything is a conspiracy theory now. MIT Technology Review’s series, “The New Conspiracy Age,” explores how this moment is changing science and technology. Watch a discussion with our editors and Mike Rothschild, journalist and conspiracy theory expert, about how we can make sense of them all. Spe"
+    },
+    {
+      "title": "Designing digital resilience in the agentic AI era",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2025/11/20/1127941/designing-digital-resilience-in-the-agentic-ai-era/",
+      "published": "Thu, 20 Nov 2025 14:30:00 +0000",
+      "summary": "Digital resilience—the ability to prevent, withstand, and recover from digital disruptions—has long been a strategic priority for enterprises. With the rise of agentic AI, the urgency for robust resilience is greater than ever. Agentic AI represents a new generation of autonomous systems capable of "
+    }
+  ]
+}
