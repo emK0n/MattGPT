@@ -141,8 +141,12 @@ def parse_article_date(date_str: str) -> Optional[datetime]:
     try:
         # Try ISO format first (2026-01-17T14:16:51+00:00)
         if 'T' in date_str and date_str[0].isdigit():
-            clean = date_str.replace('Z', '+00:00')
-            return datetime.fromisoformat(clean.split('+')[0])
+            clean = date_str.replace('Z', '')
+            if '+' in clean:
+                clean = clean.split('+')[0]
+            elif clean.count('-') > 2:  # Negative offset like -08:00
+                clean = clean.rsplit('-', 1)[0]
+            return datetime.fromisoformat(clean)
         # Try RFC 2822 format (Mon, 05 Jan 2026 11:00:00 +0000)
         return parsedate_to_datetime(date_str).replace(tzinfo=None)
     except:
@@ -428,7 +432,8 @@ def generate_newsletter() -> Tuple[bool, str]:
     Main newsletter generation function.
     Returns: (success: bool, message: str)
     """
-    print("Starting LinkedIn Post Generation")
+
+    print(f"Starting LinkedIn Post Generation")
     
     # Preflight checks
     passed, message, ce_data = run_preflight_checks()
