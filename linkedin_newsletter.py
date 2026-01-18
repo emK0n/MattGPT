@@ -42,16 +42,16 @@ def to_bold_unicode(text: str) -> str:
     """Convert text to Unicode bold characters for LinkedIn compatibility."""
     # Mapping for bold Unicode characters (Mathematical Bold)
     bold_map = {
-        'A': '𝗔', 'B': '𝗕', 'C': '𝗖', 'D': '𝗗', 'E': '𝗘', 'F': '𝗙', 'G': '𝗚',
-        'H': '𝗛', 'I': '𝗜', 'J': '𝗝', 'K': '𝗞', 'L': '𝗟', 'M': '𝗠', 'N': '𝗡',
-        'O': '𝗢', 'P': '𝗣', 'Q': '𝗤', 'R': '𝗥', 'S': '𝗦', 'T': '𝗧', 'U': '𝗨',
-        'V': '𝗩', 'W': '𝗪', 'X': '𝗫', 'Y': '𝗬', 'Z': '𝗭',
-        'a': '𝗮', 'b': '𝗯', 'c': '𝗰', 'd': '𝗱', 'e': '𝗲', 'f': '𝗳', 'g': '𝗴',
-        'h': '𝗵', 'i': '𝗶', 'j': '𝗷', 'k': '𝗸', 'l': '𝗹', 'm': '𝗺', 'n': '𝗻',
-        'o': '𝗼', 'p': '𝗽', 'q': '𝗾', 'r': '𝗿', 's': '𝘀', 't': '𝘁', 'u': '𝘂',
-        'v': '𝘃', 'w': '𝘄', 'x': '𝘅', 'y': '𝘆', 'z': '𝘇',
-        '0': '𝟬', '1': '𝟭', '2': '𝟮', '3': '𝟯', '4': '𝟰',
-        '5': '𝟱', '6': '𝟲', '7': '𝟳', '8': '𝟴', '9': '𝟵',
+        'A': 'ð—”', 'B': 'ð—•', 'C': 'ð—–', 'D': 'ð——', 'E': 'ð—˜', 'F': 'ð—™', 'G': 'ð—š',
+        'H': 'ð—›', 'I': 'ð—œ', 'J': 'ð—', 'K': 'ð—ž', 'L': 'ð—Ÿ', 'M': 'ð— ', 'N': 'ð—¡',
+        'O': 'ð—¢', 'P': 'ð—£', 'Q': 'ð—¤', 'R': 'ð—¥', 'S': 'ð—¦', 'T': 'ð—§', 'U': 'ð—¨',
+        'V': 'ð—©', 'W': 'ð—ª', 'X': 'ð—«', 'Y': 'ð—¬', 'Z': 'ð—­',
+        'a': 'ð—®', 'b': 'ð—¯', 'c': 'ð—°', 'd': 'ð—±', 'e': 'ð—²', 'f': 'ð—³', 'g': 'ð—´',
+        'h': 'ð—µ', 'i': 'ð—¶', 'j': 'ð—·', 'k': 'ð—¸', 'l': 'ð—¹', 'm': 'ð—º', 'n': 'ð—»',
+        'o': 'ð—¼', 'p': 'ð—½', 'q': 'ð—¾', 'r': 'ð—¿', 's': 'ð˜€', 't': 'ð˜', 'u': 'ð˜‚',
+        'v': 'ð˜ƒ', 'w': 'ð˜„', 'x': 'ð˜…', 'y': 'ð˜†', 'z': 'ð˜‡',
+        '0': 'ðŸ¬', '1': 'ðŸ­', '2': 'ðŸ®', '3': 'ðŸ¯', '4': 'ðŸ°',
+        '5': 'ðŸ±', '6': 'ðŸ²', '7': 'ðŸ³', '8': 'ðŸ´', '9': 'ðŸµ',
     }
     return ''.join(bold_map.get(c, c) for c in text)
 
@@ -154,10 +154,10 @@ def get_top_articles(limit: int = 5, hours: int = 24) -> List[Dict]:
             (relevance_score + COALESCE(relevance_boost, 0)) as total_relevance,
             published_date
         FROM content 
-        WHERE added_date > ? OR published_date > ?
+        WHERE published_date > ?
         ORDER BY total_relevance DESC, published_date DESC
         LIMIT ?
-    ''', (since_date, since_date, limit))
+    ''', (since_date, limit))
     
     articles = [dict(row) for row in cursor.fetchall()]
     conn.close()
@@ -240,6 +240,68 @@ Theme:"""
         return "Technology and Business Developments"
 
 
+def generate_hook(articles: List[Dict], current_events_data: Dict) -> str:
+    """
+    Generate an attention-grabbing opening hook based on the top story.
+    Returns a bold but substantiated claim (1-2 sentences).
+    """
+    if not articles:
+        return ""
+    
+    # Focus on the top article for the hook
+    top_article = articles[0]
+    top_title = top_article['title']
+    top_summary = condense_summary(top_article.get('summary', ''), 2)
+    
+    # Context from other articles
+    other_titles = [a['title'] for a in articles[1:4]]
+    other_context = "\n".join([f"- {t}" for t in other_titles]) if other_titles else "N/A"
+    
+    prompt = f"""Write a single attention-grabbing opening sentence for a LinkedIn newsletter about today's tech news.
+
+TOP STORY:
+Title: {top_title}
+Summary: {top_summary}
+
+OTHER STORIES TODAY:
+{other_context}
+
+Requirements:
+- ONE sentence only (two maximum if needed for clarity)
+- Make a bold but substantiated claim grounded in the actual story
+- Do NOT be sensationalist or clickbait
+- Do NOT start with "Breaking:" or similar
+- Do NOT use questions
+- Professional tone suitable for LinkedIn
+- The claim must be directly supportable by the top story content
+
+Good examples:
+- "Major AI labs are now publicly admitting they may not understand their own models."
+- "A 125-year-old mathematics problem just got solved using particle physics."
+- "The enterprise cloud market shifted dramatically this week as pricing wars escalate."
+
+Bad examples (avoid):
+- "You won't believe what happened in AI today!"
+- "Is AI taking over? Here's what you need to know."
+- "Big news in tech this week."
+
+Hook:"""
+
+    try:
+        response = ollama.chat(model=OLLAMA_MODEL, messages=[
+            {'role': 'user', 'content': prompt}
+        ])
+        hook = response['message']['content'].strip()
+        # Clean up quotes if present
+        hook = hook.strip('"\'')
+        # Ensure it ends with punctuation
+        if hook and hook[-1] not in '.!?':
+            hook += '.'
+        return hook
+    except Exception as e:
+        return ""
+
+
 def generate_daily_summary(articles: List[Dict], current_events_data: Dict) -> str:
     """
     Generate a paragraph summarizing the last 24 hours.
@@ -268,7 +330,7 @@ Requirements:
 - 3-4 sentences only
 - Focus on implications and significance, not just facts
 - Do not use bullet points
-- Do not start with "Over the past 24 hours" or similar clichés
+- Do not start with "Over the past 24 hours" or similar clichÃ©s
 
 Summary:"""
 
@@ -287,6 +349,7 @@ Summary:"""
 
 def format_linkedin_newsletter(
     theme: str,
+    hook: str,
     articles: List[Dict],
     summary: str,
     generated_date: str
@@ -295,7 +358,7 @@ def format_linkedin_newsletter(
     Format the complete LinkedIn newsletter with professional styling.
     """
     # Number emojis for article list
-    number_emojis = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣']
+    number_emojis = ['1ï¸âƒ£', '2ï¸âƒ£', '3ï¸âƒ£', '4ï¸âƒ£', '5ï¸âƒ£']
     
     # Build article list
     article_lines = []
@@ -307,28 +370,31 @@ def format_linkedin_newsletter(
         
         article_lines.append(f"{emoji} {title}")
         if abstract:
-            article_lines.append(f"   → {abstract}")
-        article_lines.append(f"   🔗 {url}")
+            article_lines.append(f"   â†’ {abstract}")
+        article_lines.append(f"   ðŸ”— {url}")
         article_lines.append("")  # Blank line between articles
     
     articles_text = "\n".join(article_lines).rstrip()
     
+    # Build hook section (only if hook exists)
+    hook_section = f"{hook}\n\n" if hook else ""
+    
     # Assemble newsletter
-    newsletter = f"""🎯 {to_bold_unicode('Theme of the Day')}: {theme}
+    newsletter = f"""{hook_section}ðŸŽ¯ {to_bold_unicode("Today's Big News")}: {theme}
 
-━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-📰 {to_bold_unicode("Today's Top Stories")}
+ðŸ“° {to_bold_unicode("Today's Top Stories")}
 
 {articles_text}
 
-━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
-📊 {to_bold_unicode('24-Hour Summary')}
+ðŸ“Š {to_bold_unicode('24-Hour Summary')}
 
 {summary}
 
-━━━━━━━━━━━━━━━━━━━━━━
+â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
 
 #Technology #Business #AI #Innovation #TechNews
 
@@ -359,12 +425,14 @@ def generate_newsletter() -> Tuple[bool, str]:
         return False, "No articles retrieved from database"
     
     # Generate content
+    hook = generate_hook(articles, ce_data)
     theme = generate_theme_of_the_day(articles, ce_data)
     summary = generate_daily_summary(articles, ce_data)
     
     # Format newsletter
     today_str = datetime.now().strftime("%Y%m%d")
     newsletter = format_linkedin_newsletter(
+        hook=hook,
         theme=theme,
         articles=articles,
         summary=summary,
