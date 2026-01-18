@@ -21,6 +21,7 @@ import sqlite3
 import glob
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional, Tuple
+from email.utils import parsedate_to_datetime
 import ollama
 
 
@@ -42,16 +43,16 @@ def to_bold_unicode(text: str) -> str:
     """Convert text to Unicode bold characters for LinkedIn compatibility."""
     # Mapping for bold Unicode characters (Mathematical Bold)
     bold_map = {
-        'A': 'ð—”', 'B': 'ð—•', 'C': 'ð—–', 'D': 'ð——', 'E': 'ð—˜', 'F': 'ð—™', 'G': 'ð—š',
-        'H': 'ð—›', 'I': 'ð—œ', 'J': 'ð—', 'K': 'ð—ž', 'L': 'ð—Ÿ', 'M': 'ð— ', 'N': 'ð—¡',
-        'O': 'ð—¢', 'P': 'ð—£', 'Q': 'ð—¤', 'R': 'ð—¥', 'S': 'ð—¦', 'T': 'ð—§', 'U': 'ð—¨',
-        'V': 'ð—©', 'W': 'ð—ª', 'X': 'ð—«', 'Y': 'ð—¬', 'Z': 'ð—­',
-        'a': 'ð—®', 'b': 'ð—¯', 'c': 'ð—°', 'd': 'ð—±', 'e': 'ð—²', 'f': 'ð—³', 'g': 'ð—´',
-        'h': 'ð—µ', 'i': 'ð—¶', 'j': 'ð—·', 'k': 'ð—¸', 'l': 'ð—¹', 'm': 'ð—º', 'n': 'ð—»',
-        'o': 'ð—¼', 'p': 'ð—½', 'q': 'ð—¾', 'r': 'ð—¿', 's': 'ð˜€', 't': 'ð˜', 'u': 'ð˜‚',
-        'v': 'ð˜ƒ', 'w': 'ð˜„', 'x': 'ð˜…', 'y': 'ð˜†', 'z': 'ð˜‡',
-        '0': 'ðŸ¬', '1': 'ðŸ­', '2': 'ðŸ®', '3': 'ðŸ¯', '4': 'ðŸ°',
-        '5': 'ðŸ±', '6': 'ðŸ²', '7': 'ðŸ³', '8': 'ðŸ´', '9': 'ðŸµ',
+        'A': '𝗔', 'B': '𝗕', 'C': '𝗖', 'D': '𝗗', 'E': '𝗘', 'F': '𝗙', 'G': '𝗚',
+        'H': '𝗛', 'I': '𝗜', 'J': '𝗝', 'K': '𝗞', 'L': '𝗟', 'M': '𝗠', 'N': '𝗡',
+        'O': '𝗢', 'P': '𝗣', 'Q': '𝗤', 'R': '𝗥', 'S': '𝗦', 'T': '𝗧', 'U': '𝗨',
+        'V': '𝗩', 'W': '𝗪', 'X': '𝗫', 'Y': '𝗬', 'Z': '𝗭',
+        'a': '𝗮', 'b': '𝗯', 'c': '𝗰', 'd': '𝗱', 'e': '𝗲', 'f': '𝗳', 'g': '𝗴',
+        'h': '𝗵', 'i': '𝗶', 'j': '𝗷', 'k': '𝗸', 'l': '𝗹', 'm': '𝗺', 'n': '𝗻',
+        'o': '𝗼', 'p': '𝗽', 'q': '𝗾', 'r': '𝗿', 's': '𝘀', 't': '𝘁', 'u': '𝘂',
+        'v': '𝘃', 'w': '𝘄', 'x': '𝘅', 'y': '𝘆', 'z': '𝘇',
+        '0': '𝟬', '1': '𝟭', '2': '𝟮', '3': '𝟯', '4': '𝟰',
+        '5': '𝟱', '6': '𝟲', '7': '𝟳', '8': '𝟴', '9': '𝟵',
     }
     return ''.join(bold_map.get(c, c) for c in text)
 
@@ -133,35 +134,50 @@ def run_preflight_checks() -> Tuple[bool, str, Optional[Dict]]:
 # DATA RETRIEVAL
 # =============================================================================
 
+def parse_article_date(date_str: str) -> Optional[datetime]:
+    """Parse dates in ISO or RFC 2822 format."""
+    if not date_str:
+        return None
+    try:
+        # Try ISO format first (2026-01-17T14:16:51+00:00)
+        if 'T' in date_str and date_str[0].isdigit():
+            clean = date_str.replace('Z', '+00:00')
+            return datetime.fromisoformat(clean.split('+')[0])
+        # Try RFC 2822 format (Mon, 05 Jan 2026 11:00:00 +0000)
+        return parsedate_to_datetime(date_str).replace(tzinfo=None)
+    except:
+        return None
+
+
 def get_top_articles(limit: int = 5, hours: int = 24) -> List[Dict]:
-    """
-    Retrieve top articles from database sorted by total relevance.
-    """
+    """Retrieve top articles from database sorted by total relevance."""
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
-    
-    since_date = (datetime.now() - timedelta(hours=hours)).isoformat()
-    
+
+    # Fetch more than needed, filter by date in Python
     cursor.execute('''
         SELECT 
-            title,
-            url,
-            source,
-            summary,
-            relevance_score,
+            title, url, source, summary, relevance_score,
             COALESCE(relevance_boost, 0) as boost_score,
             (relevance_score + COALESCE(relevance_boost, 0)) as total_relevance,
             published_date
         FROM content 
-        WHERE published_date > ?
-        ORDER BY total_relevance DESC, published_date DESC
+        ORDER BY total_relevance DESC
         LIMIT ?
-    ''', (since_date, limit))
-    
-    articles = [dict(row) for row in cursor.fetchall()]
+    ''', (limit * 10,))
+
+    cutoff = datetime.now() - timedelta(hours=hours)
+    articles = []
+
+    for row in cursor.fetchall():
+        pub_date = parse_article_date(row['published_date'])
+        if pub_date and pub_date >= cutoff:
+            articles.append(dict(row))
+            if len(articles) >= limit:
+                break
+
     conn.close()
-    
     return articles
 
 
@@ -348,8 +364,8 @@ Summary:"""
 # =============================================================================
 
 def format_linkedin_newsletter(
-    theme: str,
     hook: str,
+    theme: str,
     articles: List[Dict],
     summary: str,
     generated_date: str
@@ -358,7 +374,7 @@ def format_linkedin_newsletter(
     Format the complete LinkedIn newsletter with professional styling.
     """
     # Number emojis for article list
-    number_emojis = ['1ï¸âƒ£', '2ï¸âƒ£', '3ï¸âƒ£', '4ï¸âƒ£', '5ï¸âƒ£']
+    number_emojis = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣']
     
     # Build article list
     article_lines = []
@@ -370,8 +386,8 @@ def format_linkedin_newsletter(
         
         article_lines.append(f"{emoji} {title}")
         if abstract:
-            article_lines.append(f"   â†’ {abstract}")
-        article_lines.append(f"   ðŸ”— {url}")
+            article_lines.append(f"   → {abstract}")
+        article_lines.append(f"   🔗 {url}")
         article_lines.append("")  # Blank line between articles
     
     articles_text = "\n".join(article_lines).rstrip()
@@ -380,21 +396,21 @@ def format_linkedin_newsletter(
     hook_section = f"{hook}\n\n" if hook else ""
     
     # Assemble newsletter
-    newsletter = f"""{hook_section}ðŸŽ¯ {to_bold_unicode("Today's Big News")}: {theme}
+    newsletter = f"""{hook_section}🎯 {to_bold_unicode('Theme of the Day')}: {theme}
 
-â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+━━━━━━━━━━━━━━━━━━━━━━
 
-ðŸ“° {to_bold_unicode("Today's Top Stories")}
+📰 {to_bold_unicode("Today's Top Stories")}
 
 {articles_text}
 
-â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+━━━━━━━━━━━━━━━━━━━━━━
 
-ðŸ“Š {to_bold_unicode('24-Hour Summary')}
+📊 {to_bold_unicode('24-Hour Summary')}
 
 {summary}
 
-â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+━━━━━━━━━━━━━━━━━━━━━━
 
 #Technology #Business #AI #Innovation #TechNews
 
