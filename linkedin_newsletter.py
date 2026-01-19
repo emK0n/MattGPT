@@ -277,8 +277,8 @@ def generate_hook(articles: List[Dict], current_events_data: Dict) -> str:
     other_titles = [a['title'] for a in articles[1:4]]
     other_context = "\n".join([f"- {t}" for t in other_titles]) if other_titles else "N/A"
     
-    prompt = f"""Write a single attention-grabbing opening sentence for a LinkedIn newsletter about today's tech news.
-
+    prompt = f"""Write a single attention-grabbing opening sentence for a newsletter about today's tech news.
+    
 TOP STORY:
 Title: {top_title}
 Summary: {top_summary}
@@ -287,6 +287,7 @@ OTHER STORIES TODAY:
 {other_context}
 
 Requirements:
+- Audience is decision makers and thought leaders in the technology space
 - ONE sentence only (two maximum if needed for clarity)
 - Make a bold but substantiated claim grounded in the actual story
 - Do NOT be sensationalist or clickbait
@@ -337,7 +338,7 @@ def generate_daily_summary(articles: List[Dict], current_events_data: Dict) -> s
     ce_summary = analysis.get('summary', '')
     trending = analysis.get('trending_topics', [])
     
-    prompt = f"""Write a professional 3-4 sentence paragraph summarizing the past 24 hours in technology and business news. This is for a LinkedIn newsletter.
+    prompt = f"""Write a professional 3-4 sentence paragraph summarizing the past 24 hours in technology and business news. This is for a newsletter.
 
 Top Stories and Their Key Points:
 {article_context}
@@ -346,11 +347,20 @@ Broader News Context: {ce_summary}
 Trending Topics: {', '.join(trending[:5]) if trending else 'N/A'}
 
 Requirements:
+- Audience is decision makers and thought leaders in the technology space
 - Professional tone suitable for LinkedIn
 - 3-4 sentences only
 - Focus on implications and significance, not just facts
 - Do not use bullet points
-- Do not start with "Over the past 24 hours" or similar clichÃ©s
+- Do not start with "Over the past 24 hours" or similar cliches
+- Create a paragraph that reads naturally as a conversational summary
+- Do *NOT* simply create a summary of each article pieced together into sentences
+
+Bad Example:
+In technology news, Google DeepMind unveiled TranslateGemma, a specialized language model for translation tasks, signaling advancements in offline web services. 
+
+Good Example:
+Innovations from Google in local model capabilities are paving the way for greater offline services including translation services with their newly released TranslateGemma.
 
 Summary:"""
 
@@ -368,8 +378,8 @@ Summary:"""
 # =============================================================================
 
 def format_linkedin_newsletter(
-    hook: str,
     theme: str,
+    hook: str,
     articles: List[Dict],
     summary: str,
     generated_date: str
@@ -400,7 +410,7 @@ def format_linkedin_newsletter(
     hook_section = f"{hook}\n\n" if hook else ""
     
     # Assemble newsletter
-    newsletter = f"""{hook_section}🎯 {to_bold_unicode('Theme of the Day')}: {theme}
+    newsletter = f"""{hook_section}🎯 {to_bold_unicode('What we need to research today')}: {theme}
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
