@@ -41,7 +41,6 @@ OLLAMA_MODEL = os.environ.get('OLLAMA_MODEL', 'granite3.2:8b')
 
 def to_bold_unicode(text: str) -> str:
     """Convert text to Unicode bold characters for LinkedIn compatibility."""
-    # Mapping for bold Unicode characters (Mathematical Bold)
     bold_map = {
         'A': '𝗔', 'B': '𝗕', 'C': '𝗖', 'D': '𝗗', 'E': '𝗘', 'F': '𝗙', 'G': '𝗚',
         'H': '𝗛', 'I': '𝗜', 'J': '𝗝', 'K': '𝗞', 'L': '𝗟', 'M': '𝗠', 'N': '𝗡',
@@ -114,7 +113,6 @@ def run_preflight_checks() -> Tuple[bool, str, Optional[Dict]]:
     Run all preflight checks.
     Returns: (passed: bool, message: str, current_events_data: dict|None)
     """
-    # Check current events analysis
     ce_exists, ce_path, ce_data = check_current_events_analysis()
     if not ce_exists:
         return False, "Today's current_events analysis not found. Run the daily chain first.", None
@@ -122,7 +120,6 @@ def run_preflight_checks() -> Tuple[bool, str, Optional[Dict]]:
     if ce_data is None:
         return False, f"Could not parse current_events file: {ce_path}", None
     
-    # Check database content
     has_content, article_count = check_database_content()
     if not has_content:
         return False, "No recent articles found in database. Run content collection first.", None
@@ -139,15 +136,13 @@ def parse_article_date(date_str: str) -> Optional[datetime]:
     if not date_str:
         return None
     try:
-        # Try ISO format first (2026-01-17T14:16:51+00:00)
         if 'T' in date_str and date_str[0].isdigit():
             clean = date_str.replace('Z', '')
             if '+' in clean:
                 clean = clean.split('+')[0]
-            elif clean.count('-') > 2:  # Negative offset like -08:00
+            elif clean.count('-') > 2:
                 clean = clean.rsplit('-', 1)[0]
             return datetime.fromisoformat(clean)
-        # Try RFC 2822 format (Mon, 05 Jan 2026 11:00:00 +0000)
         return parsedate_to_datetime(date_str).replace(tzinfo=None)
     except:
         return None
@@ -159,7 +154,6 @@ def get_top_articles(limit: int = 5, hours: int = 24) -> List[Dict]:
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
-    # Fetch more than needed, filter by date in Python
     cursor.execute('''
         SELECT 
             title, url, source, summary, relevance_score,
@@ -186,13 +180,10 @@ def get_top_articles(limit: int = 5, hours: int = 24) -> List[Dict]:
 
 
 def condense_summary(summary: str, max_sentences: int = 1) -> str:
-    """
-    Condense a multi-sentence summary to specified number of sentences.
-    """
+    """Condense a multi-sentence summary to specified number of sentences."""
     if not summary:
         return ""
     
-    # Split on sentence endings
     sentences = []
     current = ""
     for char in summary:
@@ -204,10 +195,8 @@ def condense_summary(summary: str, max_sentences: int = 1) -> str:
     if current.strip():
         sentences.append(current.strip())
     
-    # Return first N sentences
     result = ' '.join(sentences[:max_sentences])
     
-    # Ensure it ends with punctuation
     if result and result[-1] not in '.!?':
         result += '.'
     
@@ -219,32 +208,39 @@ def condense_summary(summary: str, max_sentences: int = 1) -> str:
 # =============================================================================
 
 def generate_theme_of_the_day(articles: List[Dict], current_events_data: Dict) -> str:
-    """
-    Generate a concise theme of the day from top articles.
-    """
-    # Build context from articles
+    """Generate a broad, unifying theme from all top articles."""
     article_context = "\n".join([
         f"- {a['title']} ({a['source']})"
         for a in articles
     ])
     
-    # Get trending topics from current events if available
     analysis = current_events_data.get('analysis', {})
     trending = analysis.get('trending_topics', [])
     trending_text = ", ".join(trending[:5]) if trending else "N/A"
     
-    prompt = f"""Based on these top technology and business articles from today, identify the single most prominent theme.
+    prompt = f"""Based on these top technology and business articles from today, identify a BROAD unifying theme that connects multiple stories.
 
 Today's Top Articles:
 {article_context}
 
 Trending Topics from News: {trending_text}
 
-Respond with ONLY a short theme phrase (3-7 words). No explanation, no punctuation at the end.
-Examples of good responses:
-- AI Regulation Takes Center Stage
-- Cloud Giants Battle for Enterprise
-- Cybersecurity Threats Escalate Globally
+Requirements:
+- Find a theme that applies to AT LEAST 2-3 of the articles, not just the top one
+- The theme should be broad enough to encompass different stories
+- Respond with ONLY a short theme phrase (3-7 words)
+- No explanation, no punctuation at the end
+
+Examples of good broad themes:
+- AI Infrastructure Matures for Production
+- Open Source Drives Innovation Forward
+- Enterprise Tech Faces New Challenges
+- Machine Learning Enters Mainstream Workflows
+
+Examples of bad narrow themes (avoid):
+- Google Releases New Translation Model
+- MLOps Pipeline Tutorial Published
+- New GraphRAG Tool Released
 
 Theme:"""
 
@@ -253,87 +249,19 @@ Theme:"""
             {'role': 'user', 'content': prompt}
         ])
         theme = response['message']['content'].strip()
-        # Clean up any quotes or extra punctuation
         theme = theme.strip('"\'.')
         return theme
     except Exception as e:
         return "Technology and Business Developments"
 
 
-def generate_hook(articles: List[Dict], current_events_data: Dict) -> str:
-    """
-    Generate an attention-grabbing opening hook based on the top story.
-    Returns a bold but substantiated claim (1-2 sentences).
-    """
-    if not articles:
-        return ""
-    
-    # Focus on the top article for the hook
-    top_article = articles[0]
-    top_title = top_article['title']
-    top_summary = condense_summary(top_article.get('summary', ''), 2)
-    
-    # Context from other articles
-    other_titles = [a['title'] for a in articles[1:4]]
-    other_context = "\n".join([f"- {t}" for t in other_titles]) if other_titles else "N/A"
-    
-    prompt = f"""Write a single attention-grabbing opening sentence for a newsletter about today's tech news.
-    
-TOP STORY:
-Title: {top_title}
-Summary: {top_summary}
-
-OTHER STORIES TODAY:
-{other_context}
-
-Requirements:
-- Audience is decision makers and thought leaders in the technology space
-- ONE sentence only (two maximum if needed for clarity)
-- Make a bold but substantiated claim grounded in the actual story
-- Do NOT be sensationalist or clickbait
-- Do NOT start with "Breaking:" or similar
-- Do NOT use questions
-- Professional tone suitable for LinkedIn
-- The claim must be directly supportable by the top story content
-
-Good examples:
-- "Major AI labs are now publicly admitting they may not understand their own models."
-- "A 125-year-old mathematics problem just got solved using particle physics."
-- "The enterprise cloud market shifted dramatically this week as pricing wars escalate."
-
-Bad examples (avoid):
-- "You won't believe what happened in AI today!"
-- "Is AI taking over? Here's what you need to know."
-- "Big news in tech this week."
-
-Hook:"""
-
-    try:
-        response = ollama.chat(model=OLLAMA_MODEL, messages=[
-            {'role': 'user', 'content': prompt}
-        ])
-        hook = response['message']['content'].strip()
-        # Clean up quotes if present
-        hook = hook.strip('"\'')
-        # Ensure it ends with punctuation
-        if hook and hook[-1] not in '.!?':
-            hook += '.'
-        return hook
-    except Exception as e:
-        return ""
-
-
 def generate_daily_summary(articles: List[Dict], current_events_data: Dict) -> str:
-    """
-    Generate a paragraph summarizing the last 24 hours.
-    """
-    # Article summaries
+    """Generate a paragraph summarizing the last 24 hours."""
     article_context = "\n".join([
         f"- {a['title']}: {condense_summary(a.get('summary', ''), 1)}"
         for a in articles
     ])
     
-    # Current events context
     analysis = current_events_data.get('analysis', {})
     ce_summary = analysis.get('summary', '')
     trending = analysis.get('trending_topics', [])
@@ -373,24 +301,57 @@ Summary:"""
         return "Today's developments reflect ongoing shifts in the technology and business landscape."
 
 
+def generate_hashtags(articles: List[Dict]) -> str:
+    """Generate 2 topic-specific hashtags based on article content."""
+    article_context = "\n".join([
+        f"- {a['title']}"
+        for a in articles
+    ])
+    
+    prompt = f"""Based on these technology articles, generate exactly 2 relevant hashtags.
+
+Articles:
+{article_context}
+
+Requirements:
+- Return EXACTLY 2 hashtags, separated by a space
+- Each hashtag must start with #
+- Use CamelCase for multi-word hashtags (e.g., #MachineLearning not #machinelearning)
+- Choose specific, relevant topics (e.g., #MLOps, #OpenSource, #LLMs, #CloudComputing)
+- Do NOT use generic tags like #Tech, #News, #Innovation, #Business, #AI, #TechNews
+- No explanation, just the 2 hashtags
+
+Hashtags:"""
+
+    try:
+        response = ollama.chat(model=OLLAMA_MODEL, messages=[
+            {'role': 'user', 'content': prompt}
+        ])
+        hashtags = response['message']['content'].strip()
+        tags = [t.strip() for t in hashtags.split() if t.strip().startswith('#')]
+        if len(tags) >= 2:
+            return f"{tags[0]} {tags[1]}"
+        elif len(tags) == 1:
+            return tags[0]
+        return "#MachineLearning #OpenSource"
+    except Exception as e:
+        return "#MachineLearning #OpenSource"
+
+
 # =============================================================================
 # NEWSLETTER FORMATTING
 # =============================================================================
 
 def format_linkedin_newsletter(
     theme: str,
-    hook: str,
-    articles: List[Dict],
     summary: str,
-    generated_date: str
+    articles: List[Dict],
+    generated_date: str,
+    dynamic_hashtags: str
 ) -> str:
-    """
-    Format the complete LinkedIn newsletter with professional styling.
-    """
-    # Number emojis for article list
+    """Format the complete LinkedIn newsletter with professional styling."""
     number_emojis = ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣']
     
-    # Build article list
     article_lines = []
     for i, article in enumerate(articles[:5]):
         emoji = number_emojis[i] if i < len(number_emojis) else f"{i+1}."
@@ -402,31 +363,25 @@ def format_linkedin_newsletter(
         if abstract:
             article_lines.append(f"   → {abstract}")
         article_lines.append(f"   🔗 {url}")
-        article_lines.append("")  # Blank line between articles
+        article_lines.append("")
     
     articles_text = "\n".join(article_lines).rstrip()
     
-    # Build hook section (only if hook exists)
-    hook_section = f"{hook}\n\n" if hook else ""
-    
-    # Assemble newsletter
-    newsletter = f"""{hook_section}🎯 {to_bold_unicode('What we need to research today')}: {theme}
+    newsletter = f"""🎯 {to_bold_unicode(f'What we need to research today, {generated_date}')}: {theme}
 
-━━━━━━━━━━━━━━━━━━━━━━
-
-📰 {to_bold_unicode("Today's Top Stories")}
-
-{articles_text}
-
-━━━━━━━━━━━━━━━━━━━━━━
-
-📊 {to_bold_unicode('24-Hour Summary')}
+📊 {to_bold_unicode('Developments from the past 24 hours')}
 
 {summary}
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
-#Technology #Business #AI #Innovation #TechNews
+📰 {to_bold_unicode("Top Stories")}
+
+{articles_text}
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+#TechNews #Business #AI {dynamic_hashtags}
 
 """
     
@@ -442,36 +397,30 @@ def generate_newsletter() -> Tuple[bool, str]:
     Main newsletter generation function.
     Returns: (success: bool, message: str)
     """
-
-    print(f"Starting LinkedIn Post Generation")
+    print("Starting LinkedIn Post Generation")
     
-    # Preflight checks
     passed, message, ce_data = run_preflight_checks()
     if not passed:
         return False, message
     
-    # Get top articles
     articles = get_top_articles(limit=5, hours=24)
     if not articles:
         return False, "No articles retrieved from database"
     
-    # Generate content
-    hook = generate_hook(articles, ce_data)
     theme = generate_theme_of_the_day(articles, ce_data)
     summary = generate_daily_summary(articles, ce_data)
+    dynamic_hashtags = generate_hashtags(articles)
     
-    # Format newsletter
-    today_str = datetime.now().strftime("%Y%m%d")
+    today_str = datetime.now().strftime("%B %d, %Y")
     newsletter = format_linkedin_newsletter(
-        hook=hook,
         theme=theme,
-        articles=articles,
         summary=summary,
-        generated_date=today_str
+        articles=articles,
+        generated_date=today_str,
+        dynamic_hashtags=dynamic_hashtags
     )
     
-    # Save to file
-    output_filename = f"linkedin_newsletter_{today_str}.txt"
+    output_filename = f"linkedin_newsletter_{datetime.now().strftime('%Y%m%d')}.txt"
     output_path = os.path.join(TOPICS_DIR, output_filename)
     
     os.makedirs(TOPICS_DIR, exist_ok=True)
