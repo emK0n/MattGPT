@@ -2820,37 +2820,88 @@ No customers found. You can add customers to organize your business relationship
             const filename = `linkedin_newsletter_${today}.txt`;
 
             addMessage('user', '📝 LinkedIn Post');
-            addMessage('assistant', '📝 **Checking for today\'s LinkedIn post...**');
 
             try {
                 const response = await fetch('/api/linkedin-newsletter/generate', {
                     method: 'POST',
-                    headers: {'Content-Type': 'application/json'}
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ force_new: false })
                 });
                 const data = await response.json();
 
                 if (data.success) {
-                    // Show status message
                     if (data.exists) {
-                        addMessage('assistant', '✅ **LinkedIn Post Found**\n\nToday\'s post already exists. Downloading...');
+                        // Post exists - show options
+                        showLinkedInOptions(filename);
                     } else {
+                        // Newly generated - download immediately
                         addMessage('assistant', '✅ **LinkedIn Post Generated**\n\nDownloading...');
+                        downloadLinkedInPost(filename);
                     }
-
-                    // Trigger download
-                    const link = document.createElement('a');
-                    link.href = `/api/download/${filename}?source=topics`;
-                    link.download = filename;
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-
                 } else {
                     addMessage('assistant', `❌ **Error - Unable to Generate**\n\n${data.error || data.message}`);
                 }
             } catch (error) {
                 console.error('LinkedIn newsletter error:', error);
                 addMessage('assistant', '❌ **Error**\n\nFailed to generate LinkedIn post. Ensure daily chain has run.');
+            }
+        }
+
+        function showLinkedInOptions(filename) {
+            const message = '✅ **Today\'s LinkedIn Post Already Exists**';
+            const messageElement = addMessage('assistant', message);
+
+            const buttonsHTML = `
+            <div style="display: flex; gap: 10px; margin-top: 15px;">
+                <button onclick="downloadLinkedInPost('${filename}')"
+                        class="podcast-listen-btn"
+                        style="background: linear-gradient(135deg, #4CAF50, #388E3C);">
+                    📥 Download
+                </button>
+                <button onclick="refreshLinkedInPost()"
+                        class="podcast-listen-btn"
+                        style="background: linear-gradient(135deg, #a855f7, #9333ea);">
+                    🔄 Refresh
+                </button>
+            </div>
+            `;
+
+            const messageContent = messageElement.querySelector('.message-content');
+            messageContent.insertAdjacentHTML('beforeend', buttonsHTML);
+        }
+
+        function downloadLinkedInPost(filename) {
+            const link = document.createElement('a');
+            link.href = `/api/download/${filename}?source=topics`;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        async function refreshLinkedInPost() {
+            const today = new Date().toLocaleDateString('en-CA').replace(/-/g, '');
+            const filename = `linkedin_newsletter_${today}.txt`;
+
+            addMessage('assistant', '🔄 **Regenerating LinkedIn post...**');
+
+            try {
+                const response = await fetch('/api/linkedin-newsletter/generate', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ force_new: true })
+                });
+                const data = await response.json();
+
+                if (data.success) {
+                    addMessage('assistant', '✅ **New LinkedIn Post Generated**\n\nDownloading...');
+                    downloadLinkedInPost(filename);
+                } else {
+                    addMessage('assistant', `❌ **Error**\n\n${data.error || data.message}`);
+                }
+            } catch (error) {
+                console.error('LinkedIn refresh error:', error);
+                addMessage('assistant', '❌ **Error**\n\nFailed to regenerate LinkedIn post.');
             }
         }
 

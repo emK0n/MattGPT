@@ -405,14 +405,17 @@ def download_file(filename):
 # =============================================================================
 @app.route('/api/linkedin-newsletter/generate', methods=['POST'])
 def generate_linkedin_newsletter():
-    """Generate LinkedIn newsletter - checks for existing first"""
+    """Generate LinkedIn newsletter - checks for existing first, supports force_new"""
     try:
+        data = request.json or {}
+        force_new = data.get('force_new', False)
+
         today = datetime.now().strftime("%Y%m%d")
         filename = f"linkedin_newsletter_{today}.txt"
         filepath = os.path.join(TOPICS_DIR, filename)
 
-        # Check if already exists
-        if os.path.exists(filepath):
+        # Check if already exists (unless force_new)
+        if os.path.exists(filepath) and not force_new:
             return jsonify({'success': True, 'exists': True, 'filename': filename})
 
         # Import and run generator

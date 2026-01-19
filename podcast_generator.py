@@ -93,6 +93,28 @@ class PodcastGenerator:
         except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
             return False
 
+    def _cleanup_old_audio_files(self) -> int:
+        """Delete podcast audio files older than 14 days. Returns count of deleted files."""
+        deleted = 0
+        cutoff = datetime.now() - timedelta(days=14)
+
+        for ext in ['.mp3', '.wav', '.aiff']:
+            for filepath in glob.glob(os.path.join(self.pcast_directory, f"podcast_*{ext}")):
+                filename = os.path.basename(filepath)
+                try:
+                    date_str = filename.split('_')[1].split('.')[0][:8]
+                    file_date = datetime.strptime(date_str, "%Y%m%d")
+                    if file_date < cutoff:
+                        os.remove(filepath)
+                        print(f"🗑️ Deleted old audio: {filename}")
+                        deleted += 1
+                except (ValueError, IndexError):
+                    continue
+
+        if deleted:
+            print(f"🧹 Cleaned up {deleted} audio file(s) older than 14 days")
+        return deleted
+
     def start_podcast_generation(self, session_id, chain_context: bool = False,
                                  progress_callback: Optional[Callable] = None):
         """Start the self-contained podcast generation workflow"""
@@ -162,6 +184,10 @@ class PodcastGenerator:
         try:
             session.status = 'running'
             print(f"🎙️ Starting podcast generation for session {session.session_id}")
+
+            # Cleanup old audio files
+            self._cleanup_old_audio_files()
+
             self._update_progress(session, 'Starting daily podcast generation...', 0, progress_callback)
 
             # Step 1: Load current events data (10%)
