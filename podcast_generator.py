@@ -1419,15 +1419,18 @@ Script:
                     '-o', audio_path.replace('.mp3', '.aiff'),
                     '--data-format=LEF32@22050'
                 ], capture_output=True, text=True, timeout=120)
-                
-                if result.returncode == 0:
-                    aiff_path = audio_path.replace('.mp3', '.aiff')
+
+                aiff_path = audio_path.replace('.mp3', '.aiff')
+
+                # Check if file was created (say can return non-zero but still produce output)
+                if result.returncode != 0:
+                    print(f"⚠️ say returned code {result.returncode}: {result.stderr}")
+
+                if os.path.exists(aiff_path) and os.path.getsize(aiff_path) > 0:
                     if shutil.which('ffmpeg'):
-                        subprocess.run(['ffmpeg', '-i', aiff_path, audio_path], check=True)
+                        subprocess.run(['ffmpeg', '-y', '-i', aiff_path, audio_path], check=True)
                         os.remove(aiff_path)
                     else:
-                        # Just rename if ffmpeg not available
-                        os.rename(aiff_path, audio_path.replace('.mp3', '.aiff'))
                         audio_filename = f"podcast_{date_str}.aiff"
 
                     if legacy_temp_dir:

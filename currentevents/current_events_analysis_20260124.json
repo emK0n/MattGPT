@@ -1,0 +1,347 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business headlines highlight a variety of significant developments. In the realm of technology, there are discussions about a new US TikTok deal potentially impacting users, China's progress in AI possibly surpassing other nations, and issues with Gmail's spam filters. Other notable mentions include advancements in weight-loss treatments, a major shift in airport security measures at Heathrow, and cybersecurity threats targeting Poland's energy grid. The business sector sees Ubisoft canceling several games and closing studios, as well as legal disputes between the Post Office and Fujitsu. Meanwhile, geopolitical events such as the end of Russia-Ukraine peace talks and US-China trade tensions are making headlines.",
+    "keywords": [],
+    "trending_topics": [
+      "US TikTok deal implications",
+      "China's AI advancements",
+      "Gmail spam issues",
+      "Weight loss treatment innovations",
+      "Airport security changes",
+      "Cybersecurity threats"
+    ],
+    "search_keywords": [],
+    "analysis_timestamp": "2026-01-24T22:45:30.702069"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "BBC World",
+    "BBC Technology",
+    "Engadget",
+    "VentureBeat",
+    "The Verge",
+    "Ars Technica",
+    "Wired",
+    "Fast Company",
+    "TechCrunch",
+    "MIT Technology Review",
+    "Hacker News",
+    "Slashdot",
+    "BBC Business"
+  ],
+  "raw_headlines": [
+    {
+      "title": "What does a new US TikTok deal mean for users?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 23 Jan 2026 18:15:10 GMT",
+      "summary": "While TikTok's future in the US has been secured, questions remain about exactly what changes US users will see."
+    },
+    {
+      "title": "Is China quietly winning the AI race?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c86v52gv726o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 23 Jan 2026 22:31:33 GMT",
+      "summary": "The BBC's Lily Jamali looks into why big US firms and start-ups alike are turning to Chinese tech."
+    },
+    {
+      "title": "Ubisoft cancels six games including Prince of Persia and closes studios",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c6200g826d2o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 22 Jan 2026 12:20:32 GMT",
+      "summary": "The studio, known for Assassin's Creed and Just Dance, is also delaying seven titles in a restructure."
+    },
+    {
+      "title": "Heathrow scraps 100ml liquid container limit",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c1evvx89559o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 23 Jan 2026 15:53:25 GMT",
+      "summary": "Heathrow says it has become the biggest airport to drop the limit after rolling out new high-tech scanners."
+    },
+    {
+      "title": "Five ways weight-loss jabs are changing spending habits",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cj6wy85l3x5o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Jan 2026 01:11:19 GMT",
+      "summary": "With GLP-1 drugs rising in popularity, how are businesses adapting to a new type of consumer?"
+    },
+    {
+      "title": "Post Office and Fujitsu accused of delaying £4m legal claim",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cgk82743gz1o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 23 Jan 2026 22:14:21 GMT",
+      "summary": "Lee Castleton is taking legal action against his former employer over the Horizon IT scandal."
+    },
+    {
+      "title": "Trump threatens Canada with 100% tariffs if it 'makes a deal with China'",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cy4qww3w72lo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Jan 2026 22:10:33 GMT",
+      "summary": "It comes as tensions appear to have escalated between Trump and Canadian Prime Minister Mark Carney."
+    },
+    {
+      "title": "Trump says UK soldiers in Afghanistan 'among greatest of all warriors'",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c3edwx37pd9o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Jan 2026 20:48:34 GMT",
+      "summary": "The US president's praise follows his claim that allied forces avoided the front lines during the Afghanistan conflict."
+    },
+    {
+      "title": "Peace talks on Russia-Ukraine war end as fighting rages",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cwyr6p30054o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Jan 2026 23:37:38 GMT",
+      "summary": "No breakthrough is reported at the first three-way talks but reports suggest they will resume next month."
+    },
+    {
+      "title": "Gmail is having issues with spam and misclassification",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/24/gmail-is-having-issues-with-spam-and-misclassification/",
+      "published": "Sat, 24 Jan 2026 22:58:00 +0000",
+      "summary": "If your Gmail account doesn’t seem to be working properly today, you’re not alone."
+    },
+    {
+      "title": "Tech CEOs boast and bicker about AI at Davos",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/24/tech-ceos-boast-and-bicker-about-ai-at-davos/",
+      "published": "Sat, 24 Jan 2026 20:00:46 +0000",
+      "summary": "There were times at this week’s meeting of the World Economic Forum when Davos seemed transformed into a high-powered tech conference."
+    },
+    {
+      "title": "Former Googlers seek to captivate kids with an AI-powered learning app",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/24/former-google-trio-is-building-an-interactive-ai-powered-learning-app-for-kids/",
+      "published": "Sat, 24 Jan 2026 18:21:21 +0000",
+      "summary": "Sparkli said that education systems often fall behind in teaching modern concepts. The company wants to teach kids about topics like skills design, financial literacy, and entrepreneurship by creating an AI-powered learning \"expedition.\""
+    },
+    {
+      "title": "Poland's energy grid was targeted by never-before-seen wiper malware",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/",
+      "published": "Sat, 24 Jan 2026 19:08:06 +0000",
+      "summary": "Destructive payload unleashed on 10-year anniversary of Russia's attack on Ukraine's grid."
+    },
+    {
+      "title": "Did Edison accidentally make graphene in 1879?",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2026/01/did-edison-accidentally-make-graphene-in-1879/",
+      "published": "Sat, 24 Jan 2026 18:36:11 +0000",
+      "summary": "Rice University chemists replicated Thomas Edison's seminal experiment and found a surprising byproduct."
+    },
+    {
+      "title": "A weird, itchy rash is linked to the keto diet—but no one knows why",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/health/2026/01/a-weird-itchy-rash-is-linked-to-the-keto-diet-but-no-one-knows-why/",
+      "published": "Sat, 24 Jan 2026 12:00:57 +0000",
+      "summary": "While the rash has a clear link to ketones, the underlying mechanism remains elusive."
+    },
+    {
+      "title": "The day of the second killing",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/policy/867410/minneapolis-ice-protest-alex-pretti-killing",
+      "published": "2026-01-24T21:00:00-05:00",
+      "summary": "Steven Garcia, as told to Gaby Del Valle: I was in the middle of a frozen lake when I got the notification from the Minnesota Star Tribune that there had been a shooting. I was on assignment at a pond hockey event, and someone who was supposed to play later that evening said he probably [&#8230;]"
+    },
+    {
+      "title": "Microsoft handed the government encryption keys for customer data",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/867244/microsoft-bitlocker-privacy-fbi",
+      "published": "2026-01-24T17:39:57-05:00",
+      "summary": "The FBI went to Microsoft last year with a warrant, asking them to hand over keys to unlock encrypted data stored on three laptops as part of an investigation into potential fraud involving the COVID unemployment assistance program in Guam - and Microsoft complied. Typically, companies resist handin"
+    },
+    {
+      "title": "MicroSD Express cards and Anker’s travel adapter rule the deal roost this week",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/gadgets/866788/anker-nano-travel-adapter-samsung-p9-microsd-express-card-deal-sale",
+      "published": "2026-01-24T13:21:02-05:00",
+      "summary": "Welcome to the weekend, friends! We’re still in a bit of a deals lull before the Presidents Day and V-Day sales begin, the bulk of which we anticipate kicking off the first week of February. However, for now, we’re still seeing some solid discounts on a few newer gadgets and some old, Verge-approved"
+    },
+    {
+      "title": "Report reveals that OpenAI's GPT-5.2 model cites Grokipedia",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ai/report-reveals-that-openais-gpt-52-model-cites-grokipedia-192532977.html?src=rss",
+      "published": "Sat, 24 Jan 2026 19:25:32 +0000",
+      "summary": "<p>OpenAI may have called GPT-5.2 its &quot;most advanced frontier model for professional work,&quot; but tests conducted by the <a class=\"no-affiliate-link\" href=\"https://www.theguardian.com/technology/2026/jan/24/latest-chatgpt-model-uses-elon-musks-grokipedia-as-source-tests-reveal\"><em>Guardian<"
+    },
+    {
+      "title": "Google says it's working to fix Gmail issue that's led to flooded inboxes and increased spam warnings",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/apps/google-says-its-working-to-fix-gmail-issue-thats-led-to-flooded-inboxes-and-increased-spam-warnings-183358654.html?src=rss",
+      "published": "Sat, 24 Jan 2026 18:33:58 +0000",
+      "summary": "<p>If your Gmail inbox is all out of whack today, you're not alone. Gmail users have been encountering issues with the automatic filters that keep their main inbox free from the clutter of promotional emails and non-urgent updates, and some have reported seeing notices that emails have not been scan"
+    },
+    {
+      "title": "US Congress members call for 'thorough review' of EA's $55 billion sale",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/gaming/us-congress-members-call-for-thorough-review-of-eas-55-billion-sale-175851429.html?src=rss",
+      "published": "Sat, 24 Jan 2026 17:58:51 +0000",
+      "summary": "<p>Before <a class=\"no-affiliate-link\" href=\"https://www.engadget.com/gaming/ea-delays-battlefield-6-season-2-to-february-17-180306743.html\">Electronic Arts</a> goes private in a groundbreaking sale, some US lawmakers are pleading for some federal oversight. Democratic members of the US Congress, as"
+    },
+    {
+      "title": "Two Weeks Until Tapeout",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://essenceia.github.io/projects/two_weeks_until_tapeout/",
+      "published": "Sun, 25 Jan 2026 01:25:37 +0000",
+      "summary": "<p>Article URL: <a href=\"https://essenceia.github.io/projects/two_weeks_until_tapeout/\">https://essenceia.github.io/projects/two_weeks_until_tapeout/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46749671\">https://news.ycombinator.com/item?id=46749671</a></p>\n<p>Points: 29</"
+    },
+    {
+      "title": "Adoption of EVs tied to real-world reductions in air pollution: study",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/",
+      "published": "Sun, 25 Jan 2026 00:14:40 +0000",
+      "summary": "<p>Article URL: <a href=\"https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/\">https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/</a></p>\n<p>Comments URL: <a href=\"https://"
+    },
+    {
+      "title": "We X-Rayed a Suspicious FTDI USB Cable",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://eclypsium.com/blog/xray-counterfeit-usb-cable/",
+      "published": "Sat, 24 Jan 2026 23:55:10 +0000",
+      "summary": "<p>Article URL: <a href=\"https://eclypsium.com/blog/xray-counterfeit-usb-cable/\">https://eclypsium.com/blog/xray-counterfeit-usb-cable/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46749053\">https://news.ycombinator.com/item?id=46749053</a></p>\n<p>Points: 85</p>\n<p># Commen"
+    },
+    {
+      "title": "Infotainment, EV Charger Exploits Earn $1M at Pwn2Own Automotive 2026",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://it.slashdot.org/story/26/01/25/0131222/infotainment-ev-charger-exploits-earn-1m-at-pwn2own-automotive-2026?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Trend Micro's Zero Day Initiative sponsored its third annual Pwn2Own Automotive competition in Tokyo this week, receiving 73 entries, the most ever for a Pwn2Own event. \n\n\"Under Pwn2Own rules, all disclosed vulnerabilities are reported to affected vendors through ZDI,\" reports Help Net Security, \"wi"
+    },
+    {
+      "title": "Work-From-Office Mandate? Expect Top Talent Turnover, Culture Rot",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://it.slashdot.org/story/26/01/24/2146216/work-from-office-mandate-expect-top-talent-turnover-culture-rot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "CIO magazine reports that \"the push toward in-person work environments will make it more difficult for IT leaders to retain and recruit staff, some experts say.\"\n\n\"In addition to resistance, there would also be the risk of talent turnover,\" [says Lawrence Wolfe, CTO at marketing firm Converge]... \"T"
+    },
+    {
+      "title": "Airlines Cancel Over 10,000 US Flights Due To Massive Winter Storm",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/26/01/24/2223200/airlines-cancel-over-10000-us-flights-due-to-massive-winter-storm?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "\"Airlines canceled more than 10,000 U.S. flights scheduled for this weekend,\" reports CNBC, \"as a massive winter storm sweeps across the country, with heavy snow and sleet forecast, followed by bitter cold... set to snarl travel for hundreds of thousands of people for days.\"\n\nMore than 3,500 flights"
+    },
+    {
+      "title": "The Instant Smear Campaign Against Border Patrol Shooting Victim Alex Pretti",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/the-instant-smear-campaign-against-border-patrol-shooting-victim-alex-pretti/",
+      "published": "Sun, 25 Jan 2026 00:37:56 +0000",
+      "summary": "Within minutes of the shooting, the Trump administration and right-wing influencers began disparaged the man shot by a federal immigration officer on Saturday in Minneapolis."
+    },
+    {
+      "title": "ICE Asks Companies About ‘Ad Tech and Big Data’ Tools It Could Use in Investigations",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/ice-asks-companies-about-ad-tech-and-big-data-tools/",
+      "published": "Sat, 24 Jan 2026 22:14:57 +0000",
+      "summary": "A new federal filing from ICE demonstrates how commercial tools are increasingly being considered by the government for law enforcement and surveillance."
+    },
+    {
+      "title": "Best Kitchen Composters and Food Recyclers (2026)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/home-composters-buying-guide/",
+      "published": "Sat, 24 Jan 2026 13:00:00 +0000",
+      "summary": "Responsibly dispose of your food scraps with one of these indoor, (mostly) odor-free, WIRED-tested devices."
+    },
+    {
+      "title": "How to report crypto on your taxes",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91479540/how-to-report-crypto-on-your-taxes",
+      "published": "2026-01-24T11:30:00",
+      "summary": "<p>When crypto first gained prominence <a href=\"https://www.bankrate.com/investing/bitcoin-price-history/\" rel=\"noreferrer noopener\" target=\"_blank\">more than 15 years ago</a>, one of the big selling points of the currency was its lack of ties to any specific government. Unlike <a href=\"https://en.w"
+    },
+    {
+      "title": "How the Australian Open became a tech incubator",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91478738/how-the-australian-open-became-a-tech-incubator",
+      "published": "2026-01-24T11:00:00",
+      "summary": "<p>Every year, <a href=\"https://www.tennis.com.au/?page=1\" rel=\"noreferrer noopener\" target=\"_blank\">Tennis Australia</a> CEO Craig Tiley issues a challenge to his team that would make most executives—and their teams—break into a cold sweat: Reinvent 50% of the Australian Open. Not subtle changes or"
+    },
+    {
+      "title": "Elon Musk fails to deliver on his Cybercab and Optimus promises—again",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91479579/elon-musk-fails-to-deliver-on-his-cybercab-and-optimus-promises-again",
+      "published": "2026-01-24T11:00:00",
+      "summary": "<p><a href=\"https://x.com/elonmusk/status/2013751504847433803?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2013751504847433803%7Ctwgr%5E87089d254d1ef50fc00a3df39d54df49407f7d62%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Finsideevs.com%2Fnews%2F785106%2Ftesla-production-hell-robotaxi-optimus%2F\" "
+    },
+    {
+      "title": "Claude Cowork turns Claude from a chat tool into shared AI infrastructure",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/orchestration/claude-cowork-turns-claude-from-a-chat-tool-into-shared-ai-infrastructure",
+      "published": "Fri, 23 Jan 2026 23:00:00 GMT",
+      "summary": "<p>Claude Cowork is now available to more Claude users, alongside new updates aimed at team workflows.</p><p>Anthropic made Claude Cowork accessible to users on Team and Enterprise plans, and it brings the platform closer to being a collaborative AI infrastructure. For enterprise teams, the change m"
+    },
+    {
+      "title": "How OpenAI is scaling the PostgreSQL database to 800 million users",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/data/how-openai-is-scaling-the-postgresql-database-to-800-million-users",
+      "published": "Fri, 23 Jan 2026 20:00:00 GMT",
+      "summary": "<p>While vector databases still have many valid use cases, organizations including OpenAI are leaning on PostgreSQL to get things done.</p><p>In a <a href=\"https://openai.com/index/scaling-postgresql/\">blog post on Thursday</a>, OpenAI disclosed how it is using the open-source PostgreSQL database.</"
+    },
+    {
+      "title": "Researchers broke every AI defense they tested. Here are 7 questions to ask vendors.",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/12-ai-defenses-claimed-near-zero-attack-success-researchers-broke-all-of-them",
+      "published": "Fri, 23 Jan 2026 20:00:00 GMT",
+      "summary": "<p>Security teams are buying AI defenses that don&#x27;t work. Researchers from OpenAI, Anthropic, and Google DeepMind published findings in October 2025 that should stop every CISO mid-procurement. Their paper, &quot;<a href=\"https://arxiv.org/abs/2510.09023\">The Attacker Moves Second: Stronger Ada"
+    },
+    {
+      "title": "The Download: chatbots for health, and US fights over AI regulation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/23/1131708/the-download-chatbots-for-health-and-us-fights-over-ai-regulation/",
+      "published": "Fri, 23 Jan 2026 13:07:00 +0000",
+      "summary": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “Dr. Google” had its issues. Can ChatGPT Health do better?   For the past two decades, there’s been a clear first step for anyone who starts"
+    },
+    {
+      "title": "America’s coming war over AI regulation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/",
+      "published": "Fri, 23 Jan 2026 10:00:00 +0000",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. In the final weeks of 2025, the battle over regulating artificial intelligence in the US reached a boiling point. On December 11, a"
+    },
+    {
+      "title": "Measles is surging in the US. Wastewater tracking could help.",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/",
+      "published": "Fri, 23 Jan 2026 10:00:00 +0000",
+      "summary": "This week marked a rather unpleasant anniversary: It’s a year since Texas reported a case of measles—the start of a significant outbreak that ended up spreading across multiple states. Since the start of January 2025, there have been over 2,500 confirmed cases of measles in the US. Three people have"
+    }
+  ]
+}

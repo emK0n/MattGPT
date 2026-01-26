@@ -1,0 +1,34 @@
+🎯 𝗪𝗵𝗮𝘁 𝘄𝗲 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 𝘁𝗼𝗱𝗮𝘆, 𝗝𝗮𝗻𝘂𝗮𝗿𝘆 𝟮𝟭, 𝟮𝟬𝟮𝟲: AI and Business Transformation
+
+📊 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗽𝗮𝘀𝘁 𝟮𝟰 𝗵𝗼𝘂𝗿𝘀
+
+This week's AI landscape is marked by geopolitical tensions, with discussions intensifying around advanced compute exports and regulations. China unveiled stringent AI content safety guidelines targeting suicide and violence prevention, signaling a proactive stance against harmful online material. Meanwhile, Elon Musk's X platform open-sourced its transformer-based recommendation algorithm, potentially revolutionizing business strategies through AI-driven insights. In the realm of enterprise software, MIT Technology Review explores how ERP systems are evolving to accommodate agentic AI. OpenAI launched Edu for Countries, underscoring the potential of AI in transforming education and workforce development. Conversely, Zillow's controversial removal of climate risk scores from real estate listings sparked debates about the integration of environmental data into consumer platforms. These developments underscore the broader trends of technological advancement, regulatory scrutiny, and AI's expanding role in various sectors, all of which have significant implications for decision-makers navigating this dynamic landscape.
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+📰 𝗧𝗼𝗽 𝗦𝘁𝗼𝗿𝗶𝗲𝘀
+
+1️⃣ [D] This week in AI/ML: geopolitics, reasoning models, long-context breakthroughs, and safety shifts
+   → This week's AI/ML developments include geopolitical debates around advanced compute exports, China drafting strict AI content safety regulations focusing on suicide and violence prevention, the UK considering stronger age restrictions for social platforms.
+   🔗 https://www.reddit.com/r/MachineLearning/comments/1qip6ld/d_this_week_in_aiml_geopolitics_reasoning_models/
+
+2️⃣ X open sources its algorithm: 5 ways businesses can benefit
+   → Elon Musk's social network X has open sourced its new transformer-based recommendation algorithm, replacing previous manual heuristics with an AI-driven system.
+   🔗 https://venturebeat.com/data/x-open-sources-its-algorithm-5-ways-businesses-can-benefit
+
+3️⃣ Reimagining ERP for the agentic AI era
+   → This MIT Technology Review article explores the evolution of enterprise resource planning (ERP) systems, from mainframes to centralized digital systems.
+   🔗 https://www.technologyreview.com/2026/01/20/1129965/reimagining-erp-for-the-agentic-ai-era/
+
+4️⃣ Introducing Edu for Countries
+   → OpenAI launches Edu for Countries, an initiative aimed at assisting governments in leveraging AI technology to modernize education systems and prepare workforces for the future.
+   🔗 https://openai.com/index/edu-for-countries
+
+5️⃣ Zillow removed climate risk scores. This climate expert is restoring them.
+   → Zillow removed climate risk scores from its real estate listings after the California Regional Multiple Listing Service questioned their accuracy.
+   🔗 https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+#TechNews #Business #AI #AIBreakthroughs #OpenSourceAlgorithms
+

@@ -1,0 +1,381 @@
+{
+  "analysis": {
+    "summary": "Today's headlines highlight several tech and business trends including legal actions related to social media use, cryptocurrency theft methods, inflation changes, trade deal updates, retail acquisitions with potential store closures, geopolitical issues affecting infrastructure, new features in digital platforms like Threads and YouTube TV, advancements and controversies in AI technology, global environmental concerns, gaming industry reorganizations, music generation tools, deep-sea mining disputes, space company public listing speculations, winter tech product recommendations.",
+    "keywords": [
+      "snap",
+      "uk",
+      "eu",
+      "next",
+      "israel",
+      "threads",
+      "ads",
+      "gemini",
+      "chatgpt",
+      "zillow",
+      "plugin",
+      "ubisoft",
+      "trump"
+    ],
+    "trending_topics": [
+      "Legal actions related to social media use",
+      "Cryptocurrency theft methods and consequences",
+      "Inflation changes",
+      "Trade deal updates",
+      "Retail acquisitions with potential store closures",
+      "Geopolitical issues affecting infrastructure",
+      "AI technology advancements and controversies",
+      "Environmental concerns (climate risk scores, deep-sea mining)",
+      "Gaming industry reorganizations",
+      "Music generation tools",
+      "Space company public listing speculations",
+      "Winter tech product recommendations"
+    ],
+    "search_keywords": [
+      "snap",
+      "uk",
+      "eu",
+      "next",
+      "israel",
+      "threads",
+      "ads",
+      "gemini",
+      "chatgpt",
+      "zillow",
+      "plugin",
+      "ubisoft",
+      "trump"
+    ],
+    "analysis_timestamp": "2026-01-21T12:29:52.930248"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "BBC World",
+    "BBC Technology",
+    "Engadget",
+    "VentureBeat",
+    "The Verge",
+    "Ars Technica",
+    "Wired",
+    "Fast Company",
+    "TechCrunch",
+    "MIT Technology Review",
+    "Hacker News",
+    "Slashdot",
+    "BBC Business"
+  ],
+  "raw_headlines": [
+    {
+      "title": "Snap settles social media addiction lawsuit ahead of trial",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c62ndl2ydzxo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 00:17:01 GMT",
+      "summary": "TikTok, YouTube and Meta remain defendants in the case, which is due to kick off next week."
+    },
+    {
+      "title": "UK consulting on bringing in social media ban for under 16s",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 20 Jan 2026 13:28:09 GMT",
+      "summary": "The government said it expected schools to be \"phone-free by default\" as a result of the announcement."
+    },
+    {
+      "title": "How crypto criminals stole $700 million from people - often using age-old tricks",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c93w30gl5jno?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Jan 2026 00:48:24 GMT",
+      "summary": "As crypto wealth continues to grow, criminals are mixing sophisticated hacks with deception, and in some cases, real life violence."
+    },
+    {
+      "title": "UK inflation rises for first time in five months - but one-off factors blamed",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cnvg251g25yo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 10:51:01 GMT",
+      "summary": "It is the last set of monthly inflation figures before the next interest rate decision on 5 February."
+    },
+    {
+      "title": "EU suspends approval of US trade deal",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/c4gwp2me3gzo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 16:55:22 GMT",
+      "summary": "The move follows renewed tensions between the US and EU, as Donald Trump pushes to acquire Greenland."
+    },
+    {
+      "title": "Next buys shoe chain Russell & Bromley but 33 shops at risk",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cy7mv35p8ppo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 12:45:36 GMT",
+      "summary": "The ailing shoe seller has found a saviour in Next's £2.5m pound offer."
+    },
+    {
+      "title": "Israel postpones demolition of Palestinian children's football pitch",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/cly3dm37m7no?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 15:34:10 GMT",
+      "summary": "An international campaign to save the pitch in the occupied West Bank city of Bethlehem appears to have forced the authorities to reconsider."
+    },
+    {
+      "title": "Oldest cave painting of red claw hand  could rewrite human creativity timeline",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/czx1pnlzer5o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 16:00:07 GMT",
+      "summary": "A stencilled outline of a hand found on the Indonesian island of Sulawesi is the world's oldest known cave painting, researchers say."
+    },
+    {
+      "title": "Train driver killed in second deadly Spain rail crash in days",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c1m78xl0gmpo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 21 Jan 2026 09:55:53 GMT",
+      "summary": "At least 37 people have been injured, five seriously, in a second crash, after Sunday's two-train collision in Andalusia."
+    },
+    {
+      "title": "Threads rolls out ads to all users worldwide",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/21/threads-rolls-out-ads-to-all-users-worldwide/",
+      "published": "Wed, 21 Jan 2026 16:44:11 +0000",
+      "summary": "Ads on Threads will roll out gradually to users over the coming months, Meta says."
+    },
+    {
+      "title": "YouTube TV’s multiview is getting a huge upgrade, letting viewers mix and match channels",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/21/youtube-tvs-multiview-is-getting-a-huge-upgrade-letting-viewers-mix-and-match-channels/",
+      "published": "Wed, 21 Jan 2026 16:26:04 +0000",
+      "summary": "Soon, YouTube TV will allow viewers  to customize the multiview feature to watch any four channels they want side by side."
+    },
+    {
+      "title": "We’re not nostalgic for 2016 — we’re nostalgic for the internet before all the slop",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/21/were-not-nostalgic-for-2016-were-nostalgic-for-the-internet-before-all-the-slop/",
+      "published": "Wed, 21 Jan 2026 16:23:38 +0000",
+      "summary": "At the time, people felt like 2016 was cursed -- but at least we did not yet have a word for \"doomscrolling.\""
+    },
+    {
+      "title": "Has Gemini surpassed ChatGPT? We put the AI models to the test.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/",
+      "published": "Wed, 21 Jan 2026 15:03:39 +0000",
+      "summary": "Did Apple make the right choice in partnering with Google for Siri's AI features?"
+    },
+    {
+      "title": "Zillow removed climate risk scores. This climate expert is restoring them.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/",
+      "published": "Wed, 21 Jan 2026 14:33:00 +0000",
+      "summary": "Real estate website scrubbed data under pressure from California real estate brokers."
+    },
+    {
+      "title": "Wikipedia volunteers spent years cataloging AI tells. Now there's a plugin to avoid them.",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/",
+      "published": "Wed, 21 Jan 2026 12:15:23 +0000",
+      "summary": "The web's best guide to spotting AI writing has become a manual for hiding it."
+    },
+    {
+      "title": "Ubisoft cancels Prince of Persia remake as part of major reorganization",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/865060/ubisoft-prince-of-persia-sands-of-time-remake-canceled-reorganization",
+      "published": "2026-01-21T12:23:29-05:00",
+      "summary": "Ubisoft is announcing a major reorganization, and with the changes, it's refocusing its portfolio and canceling some games, including the beleaguered remake of Prince of Persia: The Sands of Time. With the reorganization, Ubisoft will focus its efforts on big open worlds and live service games. In t"
+    },
+    {
+      "title": "ElevenLabs made an AI album to plug its music generator",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/864843/elevenlabs-ai-music-eleven-album-release",
+      "published": "2026-01-21T12:00:00-05:00",
+      "summary": "ElevenLabs has released an album of AI-generated songs in its latest attempt to separate itself from the ethical concerns surrounding AI music. The Eleven Album aims to showcase \"how artists can use AI to expand their creative range while maintaining full authorship and commercial rights,\" according"
+    },
+    {
+      "title": "Trump is steamrolling global calls for a moratorium on deep-sea mining",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/news/864916/deep-sea-mining-trump-fast-track-permits-battery-minerals",
+      "published": "2026-01-21T11:53:29-05:00",
+      "summary": "The Trump administration took the next step toward unilaterally jumpstarting deep-sea mining this week, announcing a \"consolidated\" permitting process for both searching for and commercially extracting minerals that have so far remained relatively untouched. These minerals are found so deep in the s"
+    },
+    {
+      "title": "Elon Musk is reportedly trying to take SpaceX public",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/science/space/elon-musk-is-reportedly-trying-to-take-spacex-public-170337053.html?src=rss",
+      "published": "Wed, 21 Jan 2026 17:03:37 +0000",
+      "summary": "<p>Elon Musk is reportedly looking to finally take SpaceX public after years of resistance, according to sources who spoke to <a class=\"rapid-with-clickid\" href=\"https://shopping.yahoo.com/rdlw?merchantId=2f007401-3eaa-4237-b69b-54ccbe125502&amp;siteId=us-engadget&amp;pageId=1p-autolink&amp;contentU"
+    },
+    {
+      "title": "The best winter tech for 2026 to help get you through the coldest months",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/home/smart-home/the-best-winter-tech-for-2026-to-help-get-you-through-the-coldest-months-130009890.html?src=rss",
+      "published": "Wed, 21 Jan 2026 16:31:25 +0000",
+      "summary": "<p>The festive lights, time off and cute scarfs can only conceal the truth for so long: Winter can be pretty bleak. I don't mean to be a downer, but it's cold all of the time, dark most of the time and this lasts far beyond the most wonderful time of the year. Here at Engadget, we've tried so many t"
+    },
+    {
+      "title": "YouTube CEO promises more AI features in 2026",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/entertainment/youtube/youtube-ceo-promises-more-ai-features-in-2026-162409452.html?src=rss",
+      "published": "Wed, 21 Jan 2026 16:24:09 +0000",
+      "summary": "<p>YouTube is just as wary of the rise of AI slop as you, and that’s why more AI-generated content is coming to the platform in the near future. In a lengthy <a href=\"https://blog.youtube/inside-youtube/the-future-of-youtube-2026/\"><ins>blog post</ins></a> outlining YouTube’s 2026 plans, CEO Neal Mo"
+    },
+    {
+      "title": "Autonomous (YC F25, AI-native financial advisor at 0% advisory fees) is hiring",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://atg.science/",
+      "published": "Wed, 21 Jan 2026 17:00:54 +0000",
+      "summary": "<p>Article URL: <a href=\"https://atg.science/\">https://atg.science/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46708315\">https://news.ycombinator.com/item?id=46708315</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "PicoPCMCIA – a PCMCIA development board for retro-computing enthusiasts",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.yyzkevin.com/picopcmcia/",
+      "published": "Wed, 21 Jan 2026 16:43:57 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.yyzkevin.com/picopcmcia/\">https://www.yyzkevin.com/picopcmcia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46708096\">https://news.ycombinator.com/item?id=46708096</a></p>\n<p>Points: 26</p>\n<p># Comments: 7</p>"
+    },
+    {
+      "title": "European lawmakers suspend U.S. trade deal",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.cnbc.com/2026/01/21/european-lawmakers-suspend-us-trade-deal-amid-greenland-tariff-tensions.html",
+      "published": "Wed, 21 Jan 2026 16:40:17 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.cnbc.com/2026/01/21/european-lawmakers-suspend-us-trade-deal-amid-greenland-tariff-tensions.html\">https://www.cnbc.com/2026/01/21/european-lawmakers-suspend-us-trade-deal-amid-greenland-tariff-tensions.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+    },
+    {
+      "title": "Google Temporarily Disabled YouTube's Advanced Captions Without Warning",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/26/01/21/1622227/google-temporarily-disabled-youtubes-advanced-captions-without-warning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Google has temporarily disabled YouTube's advanced SRV3 caption format after discovering the feature was causing playback errors for some users, according to a statement the company posted. SRV3, also known as YouTube Timed Text, is a custom subtitle system Google introduced around 2018 that allows "
+    },
+    {
+      "title": "Japan Restarts World's Largest Nuclear Plant as Fukushima Memories Loom Large",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/26/01/21/1532240/japan-restarts-worlds-largest-nuclear-plant-as-fukushima-memories-loom-large?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "New submitter BeaverCleaver shares a report: Japan has restarted operations at the world's largest nuclear power plant for the first time since the 2011 Fukushima disaster forced the country to shut all of its reactors. The decision to restart reactor number 6 at Kashiwazaki-Kariwa north-west of Tok"
+    },
+    {
+      "title": "Comic-Con Bans AI Art After Artist Pushback",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://slashdot.org/story/26/01/21/1528206/comic-con-bans-ai-art-after-artist-pushback?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "San Diego Comic-Con changed an AI art friendly policy following an artist-led backlash last week. From a report: It was a small victory for working artists in an industry where jobs are slipping away as movie and video game studios adopt generative AI tools to save time and money. Every year, tens o"
+    },
+    {
+      "title": "MAGA’s ‘Manifest Destiny’ Coalition Has Arrived",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/maga-manifest-destiny-coalition/",
+      "published": "Wed, 21 Jan 2026 16:00:00 +0000",
+      "summary": "Warring factions of right-wing influencers and MAGA pundits can finally agree on something: American imperialism."
+    },
+    {
+      "title": "Micron Megafab Project Faces a New Hurdle as Activists Seek a Benefits Deal",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/micron-chip-fab-community-benefits-agreement/",
+      "published": "Wed, 21 Jan 2026 16:00:00 +0000",
+      "summary": "Activists are demanding a way to hold the memory-chip maker accountable to its promises to protect the environment and embrace communities of color in central New York."
+    },
+    {
+      "title": "Level Lock Pro Review (2026): Smart but Stylish",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/level-lock-pro/",
+      "published": "Wed, 21 Jan 2026 12:06:00 +0000",
+      "summary": "You’d never guess Level’s Lock Pro is smart by looking at it, and that’s my favorite part."
+    },
+    {
+      "title": "The Federal Trade Commission says it will appeal the Meta antitrust ruling",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91478426/federal-trade-commission-says-will-appeal-meta-antitrust-ruling",
+      "published": "2026-01-21T16:53:36",
+      "summary": "<p>The Federal Trade Commission said Tuesday it will appeal <a href=\"https://www.fastcompany.com/91444325/meta-wins-ftc-antitrust-case-whatsapp-instagram\">the November ruling</a> in favor of Meta in its <a href=\"https://www.fastcompany.com/91315583/5-things-to-know-about-metas-upcoming-ftc-trial\">an"
+    },
+    {
+      "title": "The line in Trump’s Davos speech that stock markets cared most about",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91478566/stock-market-dow-jones-nasdaq-sp-500-up-today-because-of-trump-davos-speech-world-economic-forum-greenland-tariffs",
+      "published": "2026-01-21T16:45:00",
+      "summary": "<p>After a brief sell-off in the run-up to Donald Trump&#8217;s speech to global leaders at the World Economic Forum in Davos, Switzerland, on Wednesday, markets are up, after the president backed off earlier claims and ruled out <a href=\"https://www.cnbc.com/2026/01/21/trump-greenland-davos-force-d"
+    },
+    {
+      "title": "With 1 word, Taylor Swift just explained how to be successful in work and life",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91478439/with-1-word-taylor-swift-just-explained-how-successful-work-life",
+      "published": "2026-01-21T15:58:25",
+      "summary": "<p>How can you win&nbsp;<a href=\"https://www.inc.com/minda-zetlin/want-to-be-happy-and-successful-choose-love-over-fear.html\">love</a>&nbsp;and loyalty from your customers, your employees, your fans—and even the people in your life?&nbsp;<a href=\"https://www.inc.com/minda-zetlin/in-less-than-3-minut"
+    },
+    {
+      "title": "TrueFoundry launches TrueFailover to automatically reroute enterprise AI traffic during model outages",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/infrastructure/truefoundry-launches-truefailover-to-automatically-reroute-enterprise-ai",
+      "published": "Wed, 21 Jan 2026 14:00:00 GMT",
+      "summary": "<p>When OpenAI went down in December, one of <a href=\"https://www.truefoundry.com/\">TrueFoundry</a>’s customers faced a crisis that had nothing to do with chatbots or content generation. The company uses large language models to help refill prescriptions. Every second of downtime meant thousands of "
+    },
+    {
+      "title": "MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/orchestration/mits-new-recursive-framework-lets-llms-process-10-million-tokens-without",
+      "published": "Tue, 20 Jan 2026 20:30:00 GMT",
+      "summary": "<p><a href=\"https://arxiv.org/abs/2512.24601\"><u>Recursive language models</u></a> (RLMs) are an inference technique developed by researchers at MIT CSAIL that treat long prompts as an external environment to the model. Instead of forcing the entire prompt into the model&#x27;s context window, the f"
+    },
+    {
+      "title": "X open sources its algorithm: 5 ways businesses can benefit",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/data/x-open-sources-its-algorithm-5-ways-businesses-can-benefit",
+      "published": "Tue, 20 Jan 2026 18:33:00 GMT",
+      "summary": "<p>Elon Musk&#x27;s social network X (formerly known as Twitter) last night <a href=\"https://x.com/XEng/status/2013471689087086804\">released some of the code</a> and architecture of its overhauled social recommendation algorithm under a permissive, enterprise-friendly open source license (Apache 2.0"
+    },
+    {
+      "title": "Rethinking AI’s future in an augmented workplace",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
+      "published": "Wed, 21 Jan 2026 15:00:00 +0000",
+      "summary": "There are many paths AI evolution could take. On one end of the spectrum, AI is dismissed as a marginal fad, another bubble fueled by notoriety and misallocated capital. On the other end, it’s cast as a dystopian force, destined to eliminate jobs on a large scale and destabilize economies. Markets o"
+    },
+    {
+      "title": "Everyone wants AI sovereignty. No one can truly have it.",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/",
+      "published": "Wed, 21 Jan 2026 14:00:00 +0000",
+      "summary": "Governments plan to pour $1.3 trillion into AI infrastructure by 2030 to invest in “sovereign AI,” with the premise being that countries should be in control of their own AI capabilities. The funds include financing for domestic data centers, locally trained models, independent supply chains, and na"
+    },
+    {
+      "title": "The Download: Trump at Davos, and AI scientists",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/21/1131548/the-download-trump-at-davos-and-ai-scientists/",
+      "published": "Wed, 21 Jan 2026 13:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. All anyone wants to talk about at Davos is AI and Donald Trump —Mat Honan, MIT Technology Review’s editor in chief&#160; At Davos this year Trump is d"
+    }
+  ]
+}

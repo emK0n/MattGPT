@@ -1,0 +1,350 @@
+{
+  "analysis": {
+    "summary": "Today's tech and business headlines highlight several significant stories. In technology, there's speculation about the implications of a new US TikTok deal for users (BBC Technology), concerns over China potentially overtaking the AI race (BBC Technology), Ubisoft's decision to cancel six games and close studios (BBC Technology), and investigations into Tesla Autopilot and Waymo (TechCrunch). Apple is reportedly set to unveil a Gemini-powered Siri assistant in February (TechCrunch). In business, smartphone usage restrictions at events and schools are being debated (BBC Business), UK defence spending could be accelerated through war bonds (BBC Business), and weight-loss jabs are influencing consumer behavior (BBC Business). Other notable stories include the shooting of an intensive care nurse in Minneapolis (BBC World) and the capture of a suspected Russian tanker captain by French authorities (BBC World). Former US President Trump praised UK soldiers in Afghanistan, calling them 'among greatest of all warriors' (BBC World).",
+    "keywords": [
+      "waymo"
+    ],
+    "trending_topics": [
+      "Technology regulatory concerns",
+      "AI advancements",
+      "Gaming industry changes",
+      "Health and technology intersection",
+      "Defence spending strategies"
+    ],
+    "search_keywords": [
+      "waymo"
+    ],
+    "analysis_timestamp": "2026-01-25T13:00:07.376155"
+  },
+  "focus": "technology_and_business",
+  "headline_count": 39,
+  "sources_analyzed": [
+    "BBC World",
+    "BBC Technology",
+    "Engadget",
+    "VentureBeat",
+    "The Verge",
+    "Ars Technica",
+    "Wired",
+    "Fast Company",
+    "TechCrunch",
+    "MIT Technology Review",
+    "Hacker News",
+    "Slashdot",
+    "BBC Business"
+  ],
+  "raw_headlines": [
+    {
+      "title": "What does a new US TikTok deal mean for users?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 23 Jan 2026 18:15:10 GMT",
+      "summary": "While TikTok's future in the US has been secured, questions remain about exactly what changes US users will see."
+    },
+    {
+      "title": "Is China quietly winning the AI race?",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c86v52gv726o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 23 Jan 2026 22:31:33 GMT",
+      "summary": "The BBC's Lily Jamali looks into why big US firms and start-ups alike are turning to Chinese tech."
+    },
+    {
+      "title": "Ubisoft cancels six games including Prince of Persia and closes studios",
+      "source": "BBC Technology",
+      "category": "technology",
+      "url": "https://www.bbc.com/news/articles/c6200g826d2o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 22 Jan 2026 12:20:32 GMT",
+      "summary": "The studio, known for Assassin's Creed and Just Dance, is also delaying seven titles in a restructure."
+    },
+    {
+      "title": "Five ways weight-loss jabs are changing spending habits",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cj6wy85l3x5o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Jan 2026 01:11:19 GMT",
+      "summary": "With GLP-1 drugs rising in popularity, how are businesses adapting to a new type of consumer?"
+    },
+    {
+      "title": "Should smartphones be locked away at gigs and in schools?",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cvgqxljxndeo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Jan 2026 02:32:25 GMT",
+      "summary": "Some artists already ban phones at their gigs while some headteachers say locking them away helps children learn."
+    },
+    {
+      "title": "Davey says war bonds would help to speed up UK defence spending",
+      "source": "BBC Business",
+      "category": "business",
+      "url": "https://www.bbc.com/news/articles/cq5y7edg169o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Jan 2026 15:17:19 GMT",
+      "summary": "Liberal Democrat leader Sir Ed Davey says the bonds would give the public an opportunity to \"support patriotically our defence\"."
+    },
+    {
+      "title": "Who was Alex Pretti, the intensive care nurse shot dead in Minneapolis?",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c62r4g590wqo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Jan 2026 12:24:31 GMT",
+      "summary": "He has been described as an avid outdoorsman who loved mountain biking."
+    },
+    {
+      "title": "Captain of suspected Russian shadow tanker in French custody",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c62vke5dly2o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Jan 2026 15:25:52 GMT",
+      "summary": "French officials seized the tanker, named the Grinch, in the Mediterranean Sea on Thursday."
+    },
+    {
+      "title": "Trump says UK soldiers in Afghanistan 'among greatest of all warriors'",
+      "source": "BBC World",
+      "category": "world",
+      "url": "https://www.bbc.com/news/articles/c3edwx37pd9o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Jan 2026 20:48:34 GMT",
+      "summary": "The US president's praise follows his claim that allied forces avoided the front lines during the Afghanistan conflict."
+    },
+    {
+      "title": "TechCrunch Mobility: RIP, Tesla Autopilot, and the NTSB investigates Waymo",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/25/techcrunch-mobility-rip-tesla-autopilot-and-the-ntsb-investigates-waymo/",
+      "published": "Sun, 25 Jan 2026 17:06:00 +0000",
+      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+    },
+    {
+      "title": "Apple will reportedly unveil its Gemini-powered Siri assistant in February",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/25/apple-will-reportedly-unveil-its-gemini-powered-siri-assistant-in-february/",
+      "published": "Sun, 25 Jan 2026 16:56:31 +0000",
+      "summary": "We’re about to get our first real look at the results of the recently announced AI partnership between Apple and Google."
+    },
+    {
+      "title": "What is Bending Spoons? Everything to know about Eventbrite’s acquirer",
+      "source": "TechCrunch",
+      "category": "technology",
+      "url": "https://techcrunch.com/2026/01/25/what-is-bending-spoons-everything-to-know-about-aols-acquirer/",
+      "published": "Sun, 25 Jan 2026 16:25:19 +0000",
+      "summary": "Bending Spoons remains largely unknown, even as its portfolio of products has served more than a billion people."
+    },
+    {
+      "title": "A decade of Star Trek-themed fart jokes: The Greatest Generation podcast turns 10",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/culture/2026/01/a-decade-of-star-trek-themed-fart-jokes-the-greatest-generation-podcast-turns-10/",
+      "published": "Sun, 25 Jan 2026 12:00:25 +0000",
+      "summary": "How two podcasters turned a <em>Star Trek</em> side project into a full-time career."
+    },
+    {
+      "title": "Poland's energy grid was targeted by never-before-seen wiper malware",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/",
+      "published": "Sat, 24 Jan 2026 19:08:06 +0000",
+      "summary": "Destructive payload unleashed on 10-year anniversary of Russia's attack on Ukraine's grid."
+    },
+    {
+      "title": "Did Edison accidentally make graphene in 1879?",
+      "source": "Ars Technica",
+      "category": "technology",
+      "url": "https://arstechnica.com/science/2026/01/did-edison-accidentally-make-graphene-in-1879/",
+      "published": "Sat, 24 Jan 2026 18:36:11 +0000",
+      "summary": "Rice University chemists replicated Thomas Edison's seminal experiment and found a surprising byproduct."
+    },
+    {
+      "title": "Creators and communities everywhere take a stand against ICE",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/policy/867451/creators-and-communities-take-a-stand-against-ice",
+      "published": "2026-01-25T12:21:43-05:00",
+      "summary": "It's not surprising when the guy who's been yelling about the horrors of late-stage capitalism on Instagram for the last five years turns his ire towards ICE. But something different has been happening over the week or so, following the most recent shootings of civilians by federal agents - even acc"
+    },
+    {
+      "title": "It doesn’t matter if Alex Pretti had a gun",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/policy/867455/dhs-ice-border-patrol-minneapolis-alex-pretti",
+      "published": "2026-01-25T12:01:38-05:00",
+      "summary": "Shortly after federal agents killed Alex Pretti Saturday morning, DHS began to run with the story that the dead man had been armed and dangerous. He had a gun, DHS said. (A Bellingcat analysis of the video concludes that Pretti was unarmed when he was shot.) He had approached the agents holding the "
+    },
+    {
+      "title": "Trusting your phone to Abxylute’s mobile controller requires a big leap of faith",
+      "source": "The Verge",
+      "category": "technology",
+      "url": "https://www.theverge.com/tech/864821/abxylute-m4-snap-on-mobile-controller-magsafe-magnetic-bluetooth",
+      "published": "2026-01-25T11:00:00-05:00",
+      "summary": "As a retro gaming fan, I was thrilled when Apple opened its App Store to emulators in 2024, but I've yet to find a controller that makes me want to fully embrace retro gaming on my phone. Clamp-on controllers like the Backbone Pro are a bit too bulky, and I don't want to prop my [&#8230;]"
+    },
+    {
+      "title": "Yoshi and Birdo arrive in new trailer for The Super Mario Galaxy Movie, along with an earlier release date",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/entertainment/tv-movies/yoshi-and-birdo-arrive-in-new-trailer-for-the-super-mario-galaxy-movie-along-with-an-earlier-release-date-154455021.html?src=rss",
+      "published": "Sun, 25 Jan 2026 15:44:55 +0000",
+      "summary": "<div><div style=\"width: 100%; height: 0; padding-bottom: 56.25%;\"></div></div><p>There's a new trailer for the upcoming Super Mario movie, <em>The Super Mario Galaxy Movie</em>, and it confirms some beloved characters are joining the crew for its latest adventure. The trailer provides our first offi"
+    },
+    {
+      "title": "Google says it's fixed the Gmail issue that led to flooded inboxes and increased spam warnings",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/apps/google-says-its-working-to-fix-gmail-issue-thats-led-to-flooded-inboxes-and-increased-spam-warnings-183358654.html?src=rss",
+      "published": "Sun, 25 Jan 2026 14:53:52 +0000",
+      "summary": "<p>Your Gmail inbox should now be back to normal after Saturday’s  hiccups. Google said in an update on X on Saturday night that the issue, which affected the automatic filters that keep Gmail users’ inboxes free from the clutter of promotional emails, non-urgent updates and spam, “is now fully reso"
+    },
+    {
+      "title": "Report reveals that OpenAI's GPT-5.2 model cites Grokipedia",
+      "source": "Engadget",
+      "category": "technology",
+      "url": "https://www.engadget.com/ai/report-reveals-that-openais-gpt-52-model-cites-grokipedia-192532977.html?src=rss",
+      "published": "Sat, 24 Jan 2026 19:25:32 +0000",
+      "summary": "<p>OpenAI may have called GPT-5.2 its &quot;most advanced frontier model for professional work,&quot; but tests conducted by the <a class=\"no-affiliate-link\" href=\"https://www.theguardian.com/technology/2026/jan/24/latest-chatgpt-model-uses-elon-musks-grokipedia-as-source-tests-reveal\"><em>Guardian<"
+    },
+    {
+      "title": "FAA institutes nationwide drone no-fly zones around ICE operations",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs",
+      "published": "Sun, 25 Jan 2026 17:24:42 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs\">https://www.aerotime.aero/articles/faa-drone-no-fly-zone-ice-dhs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46755999\">https://news.ycombinator.com/item?id=46755999</a></p>\n<p>Points"
+    },
+    {
+      "title": "Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://www.diljitpr.net/blog-post-postgresql-dlq",
+      "published": "Sun, 25 Jan 2026 15:51:03 +0000",
+      "summary": "<p>Article URL: <a href=\"https://www.diljitpr.net/blog-post-postgresql-dlq\">https://www.diljitpr.net/blog-post-postgresql-dlq</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46755115\">https://news.ycombinator.com/item?id=46755115</a></p>\n<p>Points: 44</p>\n<p># Comments: 11</p>"
+    },
+    {
+      "title": "A macOS app that blurs your screen when you slouch",
+      "source": "Hacker News",
+      "category": "technology",
+      "url": "https://github.com/tldev/posturr",
+      "published": "Sun, 25 Jan 2026 15:34:51 +0000",
+      "summary": "<p>Article URL: <a href=\"https://github.com/tldev/posturr\">https://github.com/tldev/posturr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46754944\">https://news.ycombinator.com/item?id=46754944</a></p>\n<p>Points: 187</p>\n<p># Comments: 69</p>"
+    },
+    {
+      "title": "US Congress Fails to Repeal 'Kill Switch' for Cars Mandate",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://tech.slashdot.org/story/26/01/24/1845236/us-congress-fails-to-repeal-kill-switch-for-cars-mandate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Newsweek reports on how the U.S. Congress is debating \"kill switch\" technology for vehicles, \"which would be able to monitor diver behavior, detect impairment such as intoxication and intervene...\" \n\n\n\"While the technology is not yet a legal requirement in cars, Congress passed a law with the Infras"
+    },
+    {
+      "title": "The Android 'NexPhone': Linux on Demand, Dual-Boots Into Windows 11 - and Transforms Into a Workstation",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://mobile.slashdot.org/story/26/01/25/060240/the-android-nexphone-linux-on-demand-dual-boots-into-windows-11---and-transforms-into-a-workstation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "The \"NexDock\" (from Nex Computer) already turns your phone into a laptop workstation. Purism chose it as the docking station for their Librem 5 phones. \n\nBut now Nex is offering its own smartphone \"that runs Android 16, launches Debian, and dual-boots into Windows 11,\" according to the blog It's FOS"
+    },
+    {
+      "title": "The Case Against Small Modular Nuclear Reactors",
+      "source": "Slashdot",
+      "category": "technology",
+      "url": "https://hardware.slashdot.org/story/26/01/24/0452209/the-case-against-small-modular-nuclear-reactors?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "published": "",
+      "summary": "Small modular nuclear reactors (or SMRs) are touted as \"cheaper, safer, faster to build and easier to finance\" than conventional nuclear reactors, reports CNN. Amazon has invested in X-Energy, and earlier this month, Meta announced a deal with Oklo, and in Michigan last month, Holtec began the long "
+    },
+    {
+      "title": "Phonak Audeo Infinio Ultra Sphere Review: Premium Hearing Aids",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/review/phonak-audeo-infinio-ultra-sphere/",
+      "published": "Sun, 25 Jan 2026 12:00:00 +0000",
+      "summary": "This new prescription hearing aid has a special chip designed to improve hearing in noisy conditions."
+    },
+    {
+      "title": "No One Is Quite Sure Why Ice Is Slippery",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/no-one-is-quite-sure-why-ice-is-slippery/",
+      "published": "Sun, 25 Jan 2026 12:00:00 +0000",
+      "summary": "A thin, watery layer coating the surface of ice is what makes it slick. Despite a great deal of theorizing over the centuries, though, it isn't entirely clear why that layer forms."
+    },
+    {
+      "title": "How Long Should You Cold Plunge? We Asked Experts (2026)",
+      "source": "Wired",
+      "category": "technology",
+      "url": "https://www.wired.com/story/how-long-do-you-cold-plunge/",
+      "published": "Sun, 25 Jan 2026 11:30:00 +0000",
+      "summary": "You don't need to Ernest Shackleton yourself to reap the benefits of cold plunging. A calm, controlled ice bath is key."
+    },
+    {
+      "title": "Fix Your Shit: Blue Diamond almonds",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91479749/fix-your-shit-blue-diamond-almonds",
+      "published": "2026-01-25T13:00:00",
+      "summary": "<p>It’s 9:30 p.m. Snack time. A sacred fourth meal, when I pull out my handwash-only kobachi and drop in a small handful of Blue Diamond Smokehouse almonds. I’ve been eating them for more years than I care to admit, appreciating the mix of natural (high protein and fiber) almonds with a splash of ad"
+    },
+    {
+      "title": "How coal mine waste could power America’s next clean energy movement",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91478607/how-coal-mine-waste-could-power-americas-next-clean-energy-movement",
+      "published": "2026-01-25T10:00:00",
+      "summary": "<p>Across Appalachia, rust-colored water seeps from <a href=\"https://www.epa.gov/nps/abandoned-mine-drainage\">abandoned coal mines</a>, staining rocks orange and coating stream beds with metals. These acidic discharges, known as <a href=\"https://www.usgs.gov/faqs/how-does-mine-drainage-occur\">acid m"
+    },
+    {
+      "title": "Why some adults thrive after childhood adversity",
+      "source": "Fast Company",
+      "category": "business",
+      "url": "https://www.fastcompany.com/91479858/why-some-adults-thrive-after-childhood-adversity",
+      "published": "2026-01-25T10:00:00",
+      "summary": "<p>Below, Jay Belsky shares five key insights from his new book, <em>The Nature of Nurture: Rethinking Why and How Childhood Adversity Shapes Development</em>.</p>\n\n\n\n<p>Belsky is emeritus professor of human development at the University of California, Davis.</p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\""
+    },
+    {
+      "title": "Claude Cowork turns Claude from a chat tool into shared AI infrastructure",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/orchestration/claude-cowork-turns-claude-from-a-chat-tool-into-shared-ai-infrastructure",
+      "published": "Fri, 23 Jan 2026 23:00:00 GMT",
+      "summary": "<p>Claude Cowork is now available to more Claude users, alongside new updates aimed at team workflows.</p><p>Anthropic made Claude Cowork accessible to users on Team and Enterprise plans, and it brings the platform closer to being a collaborative AI infrastructure. For enterprise teams, the change m"
+    },
+    {
+      "title": "How OpenAI is scaling the PostgreSQL database to 800 million users",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/data/how-openai-is-scaling-the-postgresql-database-to-800-million-users",
+      "published": "Fri, 23 Jan 2026 20:00:00 GMT",
+      "summary": "<p>While vector databases still have many valid use cases, organizations including OpenAI are leaning on PostgreSQL to get things done.</p><p>In a <a href=\"https://openai.com/index/scaling-postgresql/\">blog post on Thursday</a>, OpenAI disclosed how it is using the open-source PostgreSQL database.</"
+    },
+    {
+      "title": "Researchers broke every AI defense they tested. Here are 7 questions to ask vendors.",
+      "source": "VentureBeat",
+      "category": "technology",
+      "url": "https://venturebeat.com/security/12-ai-defenses-claimed-near-zero-attack-success-researchers-broke-all-of-them",
+      "published": "Fri, 23 Jan 2026 20:00:00 GMT",
+      "summary": "<p>Security teams are buying AI defenses that don&#x27;t work. Researchers from OpenAI, Anthropic, and Google DeepMind published findings in October 2025 that should stop every CISO mid-procurement. Their paper, &quot;<a href=\"https://arxiv.org/abs/2510.09023\">The Attacker Moves Second: Stronger Ada"
+    },
+    {
+      "title": "The Download: chatbots for health, and US fights over AI regulation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/23/1131708/the-download-chatbots-for-health-and-us-fights-over-ai-regulation/",
+      "published": "Fri, 23 Jan 2026 13:07:00 +0000",
+      "summary": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “Dr. Google” had its issues. Can ChatGPT Health do better?   For the past two decades, there’s been a clear first step for anyone who starts"
+    },
+    {
+      "title": "America’s coming war over AI regulation",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/",
+      "published": "Fri, 23 Jan 2026 10:00:00 +0000",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. In the final weeks of 2025, the battle over regulating artificial intelligence in the US reached a boiling point. On December 11, a"
+    },
+    {
+      "title": "Measles is surging in the US. Wastewater tracking could help.",
+      "source": "MIT Technology Review",
+      "category": "technology",
+      "url": "https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/",
+      "published": "Fri, 23 Jan 2026 10:00:00 +0000",
+      "summary": "This week marked a rather unpleasant anniversary: It’s a year since Texas reported a case of measles—the start of a significant outbreak that ended up spreading across multiple states. Since the start of January 2025, there have been over 2,500 confirmed cases of measles in the US. Three people have"
+    }
+  ]
+}
